@@ -1,0 +1,12 @@
+{
+  "_meta": {
+    "beschreibung": "IDs bekannter Fehltreffer (keine echten oeffentlichen Flohmaerkte/Basare/Veranstaltungen). Werden beim Scraper-Merge dauerhaft ausgeblendet.",
+    "gepflegt": "2026-07-23"
+  },
+  "excludedIds": {
+    "c603412d42c7": "Nuernberg 2025-10-09 Benefizkonzert-Rueckblick (vergangen, kein kuenftiger Termin)",
+    "65b659275e65": "Nuernberg Vorstandsliste (kein Event)",
+    "9eb667cfc66c": "Nuernberg Telepraesenzroboter-Vortrag (interner Vortrag, kein oeffentliches Event)",
+    "77e7ddb21210": "Nuernberg Vorstandsliste (Dublette, kein Event)"
+  }
+}

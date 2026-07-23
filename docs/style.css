@@ -1,0 +1,245 @@
+/* ============================================================
+   Lions-Club-Flohmaerkte  -  Stylesheet
+   Seniorenfreundlich: grosse Schrift, hoher Kontrast, klare Flaechen.
+   ============================================================ */
+
+:root {
+  --primary: #1a4971;          /* kraeftiges Blau (Lions-nah) */
+  --primary-dunkel: #123655;
+  --akzent: #d97706;           /* warmes Orange fuer Hervorhebung */
+  --buecher: #6b21a8;          /* Lila fuer Buecherbasare */
+  --buecher-hell: #f3e8ff;
+  --erfolg: #15803d;
+  --bg: #f4f6f9;
+  --karte: #ffffff;
+  --text: #14213d;             /* sehr dunkel = hoher Kontrast */
+  --text-schwach: #4b5563;
+  --rand: #cbd5e1;
+  --rand-fokus: #1a4971;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+html { font-size: 20px; }       /* grosse Grundschrift */
+
+body {
+  font-family: "Segoe UI", Tahoma, Verdana, system-ui, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.6;
+}
+
+.inhalt {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 1.25rem;
+}
+
+/* ---------- Kopfbereich ---------- */
+.kopf {
+  background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dunkel) 100%);
+  color: #fff;
+  padding: 2rem 0;
+  text-align: center;
+}
+.kopf h1 { font-size: 2.2rem; letter-spacing: 0.5px; }
+.kopf .untertitel { font-size: 1.15rem; margin-top: 0.4rem; opacity: 0.95; }
+
+/* ---------- Steuerung (Suche + Filter) ---------- */
+.steuerung {
+  background: var(--karte);
+  border: 2px solid var(--rand);
+  border-radius: 12px;
+  padding: 1.5rem;
+  margin: 1.75rem 0;
+}
+
+.suchfeld label,
+.filter-select label {
+  display: block;
+  font-weight: 700;
+  font-size: 1.05rem;
+  margin-bottom: 0.4rem;
+}
+
+#suche,
+#bundesland {
+  width: 100%;
+  font-size: 1.15rem;
+  padding: 0.75rem 0.9rem;
+  border: 2px solid var(--rand);
+  border-radius: 8px;
+  background: #fff;
+  color: var(--text);
+}
+
+#suche:focus,
+#bundesland:focus,
+.filter-knopf:focus,
+#nur-buecher:focus {
+  outline: 3px solid var(--rand-fokus);
+  outline-offset: 2px;
+}
+
+.filtergruppe {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.6rem;
+  margin-top: 1.5rem;
+}
+.filter-label { font-weight: 700; margin-right: 0.3rem; }
+
+.filter-knopf {
+  font-size: 1.05rem;
+  font-family: inherit;
+  padding: 0.65rem 1.1rem;
+  border: 2px solid var(--primary);
+  background: #fff;
+  color: var(--primary);
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+}
+.filter-knopf:hover { background: var(--primary); color: #fff; }
+.filter-knopf.aktiv { background: var(--primary); color: #fff; }
+
+.filterzeile {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+  align-items: flex-end;
+}
+.filter-select { flex: 1; min-width: 220px; }
+
+.filter-checkbox {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+.filter-checkbox input {
+  width: 1.4rem;
+  height: 1.4rem;
+  cursor: pointer;
+}
+.filter-checkbox label {
+  font-size: 1.05rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+/* ---------- Zaehler ---------- */
+.zaehler {
+  font-size: 1.05rem;
+  color: var(--text-schwach);
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+/* ---------- Zustaende ---------- */
+.zustand {
+  background: var(--karte);
+  border: 2px solid var(--rand);
+  border-radius: 12px;
+  padding: 2rem;
+  text-align: center;
+  font-size: 1.15rem;
+}
+.zustand.fehler { border-color: #dc2626; }
+.zustand.fehler strong { color: #dc2626; }
+.zustand button { margin-top: 1rem; }
+
+/* ---------- Terminliste ---------- */
+.terminliste { list-style: none; display: grid; gap: 1.25rem; }
+
+.termin {
+  background: var(--karte);
+  border: 2px solid var(--rand);
+  border-left: 8px solid var(--primary);
+  border-radius: 12px;
+  padding: 1.4rem 1.6rem;
+}
+.termin.buecher { border-left-color: var(--buecher); }
+.termin.vergangen { opacity: 0.7; }
+
+.termin-datum {
+  font-size: 1.35rem;
+  font-weight: 700;
+  color: var(--primary);
+}
+.termin.buecher .termin-datum { color: var(--buecher); }
+
+.termin-titel {
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin: 0.3rem 0;
+}
+
+.termin-ort { font-size: 1.1rem; font-weight: 600; }
+.termin-club { font-size: 1.05rem; color: var(--text-schwach); margin-top: 0.15rem; }
+
+.termin-beschreibung {
+  font-size: 1.05rem;
+  margin: 0.8rem 0;
+  color: var(--text);
+}
+
+/* Badges */
+.badge {
+  display: inline-block;
+  font-size: 0.85rem;
+  font-weight: 700;
+  padding: 3px 10px;
+  border-radius: 6px;
+  margin-right: 0.4rem;
+  vertical-align: middle;
+}
+.badge-buecher { background: var(--buecher-hell); color: var(--buecher); }
+.badge-kommend { background: #dcfce7; color: var(--erfolg); }
+.badge-vergangen { background: #f1f5f9; color: var(--text-schwach); }
+.badge-typ { background: #dbeafe; color: var(--primary); }
+
+.termin-fuss {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 0.6rem;
+  align-items: center;
+  margin-top: 1rem;
+  padding-top: 0.9rem;
+  border-top: 1px solid var(--rand);
+}
+
+.quelle-link {
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: var(--primary);
+  text-decoration: underline;
+}
+.quelle-link:hover { color: var(--akzent); }
+
+.geprueft {
+  font-size: 0.95rem;
+  color: var(--text-schwach);
+}
+
+/* ---------- Fussbereich ---------- */
+.fuss {
+  margin-top: 3rem;
+  padding: 1.5rem 0;
+  background: var(--primary-dunkel);
+  color: #e5e7eb;
+  text-align: center;
+  font-size: 0.95rem;
+}
+.fuss .stand { margin-top: 0.4rem; opacity: 0.85; }
+
+/* ---------- Mobil ---------- */
+@media (max-width: 600px) {
+  html { font-size: 18px; }
+  .kopf h1 { font-size: 1.7rem; }
+  .filtergruppe .filter-knopf { flex: 1 1 100%; }
+  .termin-fuss { flex-direction: column; align-items: flex-start; }
+}

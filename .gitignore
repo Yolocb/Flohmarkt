@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Backups / temporaere Dateien
+*.bak
+scripts/clubs_seed.master.bak
+docs/data/flohmaerkte.bestätigt.bak
+
+# Scraper-Zwischenausgaben (nur lokal; flohmaerkte.json wird versioniert)
+scripts/output/
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

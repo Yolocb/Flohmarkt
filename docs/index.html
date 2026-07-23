@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lions-Club-Flohmärkte in Süddeutschland</title>
+  <meta name="description" content="Übersicht der Flohmärkte und Bücherbasare der Lions Clubs in Bayern und Baden-Württemberg.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Kopfbereich -->
+  <header class="kopf">
+    <div class="inhalt">
+      <h1>Lions-Club-Flohmärkte</h1>
+      <p class="untertitel">Flohmärkte &amp; Bücherbasare in Bayern und Baden-Württemberg</p>
+    </div>
+  </header>
+
+  <main class="inhalt">
+
+    <!-- Suche und Filter -->
+    <section class="steuerung" aria-label="Suche und Filter">
+
+      <div class="suchfeld">
+        <label for="suche">Nach Ort oder Club suchen</label>
+        <input type="search" id="suche" placeholder="z. B. Steinheim oder Backnang"
+               autocomplete="off">
+      </div>
+
+      <div class="filtergruppe" role="group" aria-label="Zeitraum filtern">
+        <span class="filter-label">Anzeigen:</span>
+        <button class="filter-knopf aktiv" data-zeit="kommende">Kommende Termine</button>
+        <button class="filter-knopf" data-zeit="alle">Alle Termine</button>
+        <button class="filter-knopf" data-zeit="vergangene">Vergangene Termine</button>
+      </div>
+
+      <div class="filterzeile">
+        <div class="filter-select">
+          <label for="bundesland">Bundesland</label>
+          <select id="bundesland">
+            <option value="alle">Alle Bundesländer</option>
+            <option value="Baden-Wuerttemberg">Baden-Württemberg</option>
+            <option value="Bayern">Bayern</option>
+          </select>
+        </div>
+
+        <div class="filter-checkbox">
+          <input type="checkbox" id="nur-buecher">
+          <label for="nur-buecher">Nur Bücherbasare anzeigen</label>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- Ergebniszähler -->
+    <p id="zaehler" class="zaehler" aria-live="polite"></p>
+
+    <!-- Lade-, Fehler- und Leerzustände -->
+    <div id="ladezustand" class="zustand" hidden>
+      <p>Termine werden geladen …</p>
+    </div>
+
+    <div id="fehlerzustand" class="zustand fehler" hidden>
+      <p><strong>Die Termine konnten nicht geladen werden.</strong></p>
+      <p id="fehlertext"></p>
+      <button id="neu-laden" class="filter-knopf">Erneut versuchen</button>
+    </div>
+
+    <div id="leerzustand" class="zustand" hidden>
+      <p><strong>Keine Termine gefunden.</strong></p>
+      <p id="leer-nachricht">Bitte ändern Sie die Suche oder die Filter.</p>
+    </div>
+
+    <!-- Liste der Termine -->
+    <ul id="liste" class="terminliste" aria-label="Liste der Flohmärkte"></ul>
+
+  </main>
+
+  <footer class="fuss">
+    <div class="inhalt">
+      <p>Angaben ohne Gewähr. Bitte prüfen Sie den Termin über den Quellenlink.</p>
+      <p class="stand">Datenstand: <span id="datenstand">–</span></p>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
