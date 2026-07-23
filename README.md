@@ -138,6 +138,45 @@ Das Skript:
 
 ---
 
+## Automatischer wöchentlicher Scan (GitHub Actions)
+
+Sobald das Projekt auf GitHub liegt, läuft der Termin-Scan **einmal pro Woche
+automatisch** (Montagmorgen) über den Workflow `.github/workflows/weekly-scan.yml`.
+Er führt den Scraper aus und committet eine geänderte `docs/data/flohmaerkte.json`
+selbstständig zurück ins Repo. GitHub Pages aktualisiert die Seite dann automatisch.
+
+**Einmalige Einrichtung:**
+
+1. Repo auf GitHub anlegen und pushen:
+   ```bash
+   git remote add origin https://github.com/<DEIN-KONTO>/lions-club.git
+   git push -u origin main
+   ```
+2. Auf GitHub unter **Settings → Actions → General → Workflow permissions**
+   die Option **„Read and write permissions"** aktivieren (damit der Workflow
+   committen darf).
+3. GitHub Pages aktivieren: **Settings → Pages → Source: `main` / `/docs`**.
+
+**Manuell auslösen** (ohne auf Montag zu warten): Auf GitHub unter **Actions →
+„Woechentlicher Termin-Scan" → „Run workflow"**.
+
+### Wie kuratierte Einträge geschützt werden
+
+Der Auto-Lauf würde ungeprüfte Rohtreffer erzeugen. Damit er die gepflegten
+Einträge nicht verschlechtert, gibt es zwei Mechanismen:
+
+- **`"manuellGeprueft": true`** in einem Event in `docs/data/flohmaerkte.json`
+  → dieser Eintrag bleibt beim Scan **unverändert** erhalten (gepflegte Titel,
+  Adressen, Uhrzeiten gewinnen gegenüber dem Rohtext).
+- **`scripts/excluded_ids.json`** → Sperrliste bekannter Fehltreffer
+  (z. B. Vorstandslisten, interne Vorträge). Diese IDs werden dauerhaft
+  ausgeblendet, auch wenn der Scraper sie erneut findet.
+
+Neu gefundene, echte Termine (nicht geprüft, nicht gesperrt) werden **ergänzt**
+und erscheinen zur Kontrolle in der Liste bzw. in `review_candidates.json`.
+
+---
+
 ## Monatlicher Wartungs- und Update-Prozess
 
 Einmal im Monat (z. B. am Monatsanfang):
