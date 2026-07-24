@@ -65,9 +65,9 @@ USER_AGENT = (
     "LionsFlohmarktBot/1.0 (privates Projekt; nur woechentlicher Scan; "
     "Kontakt: bitte-nicht-blockieren@example.org)"
 )
-REQUEST_TIMEOUT = 15          # Sekunden pro Anfrage
-POLITE_DELAY = 2.0            # Sekunden Pause zwischen Anfragen (hoeflich)
-MAX_RETRIES = 2              # Wiederholungen bei Netzwerkfehlern
+REQUEST_TIMEOUT = 8           # Sekunden pro Anfrage (tote Hosts schneller aufgeben)
+POLITE_DELAY = 0.5            # Sekunden Pause zwischen Anfragen (hoeflich, aber zuegig)
+MAX_RETRIES = 1              # keine Wiederholung bei Netzwerkfehlern (spart Zeit)
 
 # Konfidenz-Schwellwert: >= gilt als "sicher" -> flohmaerkte.json,
 # darunter -> review_candidates.json.
@@ -350,6 +350,7 @@ def make_event(club, quelle_url, context_text, iso_date, uhrzeit,
         "clubUrl": club["clubUrl"],
         "ort": ort,
         "bundesland": club["bundesland"],
+        "districtName": club.get("districtName", ""),
         "titel": titel,
         "eventType": event_type,
         "datumStart": iso_date or "",
@@ -407,7 +408,10 @@ def process_club(session, club, log_entry):
     pfade = club.get("enabledPaths") or ["/"]
     exclude = set(club.get("excludePaths", []))
 
-    for pfad in pfade:
+    # Netzwerkfehler (kein HTTP-Status) auf der Startseite = toter Host:
+    # dann die weiteren Pfade dieses Clubs ueberspringen. Das spart bei
+    # nicht erreichbaren Seiten die vielfachen Timeouts pro Pfad.
+    for idx, pfad in enumerate(pfade):
         if pfad in exclude:
             continue
         url = urljoin(basis_url + "/", pfad.lstrip("/"))
@@ -419,6 +423,10 @@ def process_club(session, club, log_entry):
         if error or not html:
             log.warning("     Fehler: %s", error)
             log_entry["seiten"].append(seiten_log)
+            # Startseite per Netzwerkfehler unerreichbar -> Host tot, abbrechen.
+            if idx == 0 and status is None:
+                log.warning("     Startseite unerreichbar - Club wird uebersprungen.")
+                break
             time.sleep(POLITE_DELAY)
             continue
 
@@ -531,6 +539,33 @@ def write_json(pfad: Path, daten):
     log.info("Geschrieben: %s (%d Bytes)", pfad, pfad.stat().st_size)
 
 
+# Event-Typen, die auf die oeffentliche Seite duerfen (Zweck der Website).
+OEFFENTLICHE_TYPEN = {"flohmarkt", "buecherbasar", "basar"}
+
+
+def qualitaets_filter(events):
+    """Trennt sichere Events in 'seiten-tauglich' und 'zur Pruefung'.
+
+    Auf die oeffentliche flohmaerkte.json kommen automatisch nur Eintraege, die
+    * bereits manuell geprueft sind (manuellGeprueft==True) ODER
+    * KOMMEND und vom passenden Typ (Flohmarkt/Buecherbasar/Basar) sind.
+
+    Alles andere (vergangene Termine, unspezifische "Veranstaltung"-Eintraege)
+    wandert in die Review-Kandidaten und flutet die Seite nicht.
+
+    Gibt (seiten_tauglich, aussortiert) zurueck.
+    """
+    tauglich, aussortiert = [], []
+    for e in events:
+        if e.get("manuellGeprueft"):
+            tauglich.append(e)
+        elif e.get("status") == "kommend" and e.get("eventType") in OEFFENTLICHE_TYPEN:
+            tauglich.append(e)
+        else:
+            aussortiert.append(e)
+    return tauglich, aussortiert
+
+
 # ----------------------------------------------------------------------
 # Hauptprogramm
 # ----------------------------------------------------------------------
@@ -607,6 +642,16 @@ def main():
 
     # Deduplizieren + sortieren.
     alle_events = deduplicate(alle_events)
+
+    # Qualitaets-Filter: nur kommende Flohmaerkte/Buecherbasare/Basare (bzw.
+    # manuell gepruefte) kommen auf die oeffentliche Seite. Der Rest wandert
+    # in die Review-Kandidaten, damit die Seite nicht mit vergangenen oder
+    # unspezifischen Eintraegen geflutet wird.
+    alle_events, aussortiert = qualitaets_filter(alle_events)
+    if aussortiert:
+        log.info("Qualitaets-Filter: %d Events in Review verschoben "
+                 "(vergangen oder kein Floh-/Buechermarkt).", len(aussortiert))
+        alle_kandidaten.extend(aussortiert)
 
     # Handkuratierte, manuell gepruefte Eintraege bewahren (Merge).
     alle_events = merge_manuell(alle_events, DOCS_DATA_DIR / "flohmaerkte.json")

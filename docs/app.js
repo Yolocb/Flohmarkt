@@ -12,7 +12,7 @@ const state = {
   filter: {
     suche: "",
     zeit: "kommende",      // "kommende" | "alle" | "vergangene"
-    bundesland: "alle",
+    distrikt: "alle",
     nurBuecher: false,
   },
 };
@@ -20,7 +20,7 @@ const state = {
 // ---------- DOM-Referenzen ----------
 const el = {
   suche: document.getElementById("suche"),
-  bundesland: document.getElementById("bundesland"),
+  distrikt: document.getElementById("distrikt"),
   nurBuecher: document.getElementById("nur-buecher"),
   zeitKnoepfe: document.querySelectorAll(".filter-knopf[data-zeit]"),
   liste: document.getElementById("liste"),
@@ -105,11 +105,28 @@ async function ladeDaten() {
       throw new Error("Unerwartetes Datenformat.");
     }
     state.alleEvents = daten;
+    fuelleDistriktFilter(daten);
     aktualisiereDatenstand(daten);
     rendern();
   } catch (fehler) {
     console.error("Fehler beim Laden:", fehler);
     zeigeZustand("fehler", fehler.message || "Unbekannter Fehler.");
+  }
+}
+
+/** Baut die Distrikt-Auswahl dynamisch aus den vorhandenen Terminen. */
+function fuelleDistriktFilter(daten) {
+  const distrikte = [...new Set(
+    daten.map((e) => e.districtName).filter(Boolean)
+  )].sort((a, b) => a.localeCompare(b, "de"));
+
+  // Bestehende Optionen (ausser "alle") entfernen, dann neu aufbauen.
+  el.distrikt.length = 1;
+  for (const d of distrikte) {
+    const opt = document.createElement("option");
+    opt.value = d;
+    opt.textContent = d;
+    el.distrikt.appendChild(opt);
   }
 }
 
@@ -135,8 +152,8 @@ function gefilterteEvents() {
     if (f.zeit === "kommende" && !kommend) return false;
     if (f.zeit === "vergangene" && kommend) return false;
 
-    // Bundesland
-    if (f.bundesland !== "alle" && e.bundesland !== f.bundesland) return false;
+    // Distrikt
+    if (f.distrikt !== "alle" && e.districtName !== f.distrikt) return false;
 
     // Nur Buecherbasare
     if (f.nurBuecher && e.eventType !== "buecherbasar") return false;
@@ -172,7 +189,7 @@ function rendern() {
     } else {
       el.leerNachricht.textContent =
         "Für die aktuelle Suche und Filter gibt es keine Termine. " +
-        "Tipp: Stellen Sie oben auf „Alle Termine“ und „Alle Bundesländer“.";
+        "Tipp: Stellen Sie oben auf „Alle Termine“ und „Alle Distrikte“.";
     }
     return;
   }
@@ -207,7 +224,7 @@ function baueTerminHTML(e) {
       <div>${buecherBadge}${zeitBadge}</div>
       <p class="termin-datum">${escape(formatiereDatum(e.datumStart))}${uhrzeit}</p>
       <h2 class="termin-titel">${escape(e.titel)}</h2>
-      <p class="termin-ort">${escape(e.ort)}${e.bundesland ? " (" + escape(kurzBundesland(e.bundesland)) + ")" : ""}</p>
+      <p class="termin-ort">${escape(e.ort)}${e.districtName ? " · Distrikt " + escape(e.districtName) : (e.bundesland ? " (" + escape(kurzBundesland(e.bundesland)) + ")" : "")}</p>
       <p class="termin-club">${escape(e.clubName)}</p>
       ${e.beschreibung ? `<p class="termin-beschreibung">${escape(e.beschreibung)}</p>` : ""}
       <div class="termin-fuss">
@@ -240,8 +257,8 @@ function verdrahteEreignisse() {
     rendern();
   });
 
-  el.bundesland.addEventListener("change", (ev) => {
-    state.filter.bundesland = ev.target.value;
+  el.distrikt.addEventListener("change", (ev) => {
+    state.filter.distrikt = ev.target.value;
     rendern();
   });
 
