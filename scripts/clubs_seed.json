@@ -682,7 +682,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -732,7 +734,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -782,7 +786,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -832,7 +838,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -1182,7 +1190,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -1432,7 +1442,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -1582,7 +1594,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -1782,7 +1796,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -1832,7 +1848,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -2032,7 +2050,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -2182,7 +2202,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -2282,7 +2304,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -2382,7 +2406,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -2432,7 +2458,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -2482,7 +2510,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -3282,7 +3312,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -3682,7 +3714,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -3882,7 +3916,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -4132,7 +4168,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -4182,7 +4220,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -4232,7 +4272,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -4282,7 +4324,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -4532,7 +4576,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -4832,7 +4878,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -4982,7 +5030,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -5082,7 +5132,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -5182,7 +5234,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -5232,7 +5286,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -5282,7 +5338,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -5832,7 +5890,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -6032,7 +6092,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -6082,7 +6144,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -6132,7 +6196,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -6432,7 +6498,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -6532,7 +6600,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -6582,7 +6652,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -6632,7 +6704,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -6732,7 +6806,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -6782,7 +6858,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -6832,7 +6910,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -6882,7 +6962,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -7082,7 +7164,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -7182,7 +7266,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -7332,7 +7418,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -7432,7 +7520,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -7482,7 +7572,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -7632,7 +7724,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -7782,7 +7876,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -7932,7 +8028,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -8232,7 +8330,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -8282,7 +8382,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -9032,7 +9134,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -9532,7 +9636,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -9582,7 +9688,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -9732,7 +9840,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -9832,7 +9942,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -9882,7 +9994,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -9932,7 +10046,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -10132,7 +10248,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -10332,7 +10450,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -10532,7 +10652,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -10832,7 +10954,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -11382,7 +11506,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -11432,7 +11558,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -11732,7 +11860,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -12132,7 +12262,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -12282,7 +12414,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -12682,7 +12816,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -12732,7 +12868,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -12982,7 +13120,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -13432,7 +13572,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -13482,7 +13624,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -13932,7 +14076,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -14082,7 +14228,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -14182,7 +14330,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -14282,7 +14432,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -14432,7 +14584,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -15132,7 +15286,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -15232,7 +15388,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -15382,7 +15540,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -15532,7 +15692,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -15582,7 +15744,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -15632,7 +15796,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -15982,7 +16148,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -16082,7 +16250,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -16282,7 +16452,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -16932,7 +17104,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -16982,7 +17156,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -17032,7 +17208,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -17132,7 +17310,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -17282,7 +17462,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -17332,7 +17514,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -17382,7 +17566,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -17732,7 +17918,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -17782,7 +17970,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -17832,7 +18022,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -18182,7 +18374,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -18282,7 +18476,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -18582,7 +18778,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -18632,7 +18830,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -18932,7 +19132,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -19032,7 +19234,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -19132,7 +19336,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -19882,7 +20088,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -20032,7 +20240,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -20132,7 +20342,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -20232,7 +20444,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -20582,7 +20796,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -20982,7 +21198,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -21032,7 +21250,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -21182,7 +21402,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -21232,7 +21454,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -21332,7 +21556,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -21432,7 +21658,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -21482,7 +21710,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -21732,7 +21962,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -21782,7 +22014,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -21882,7 +22116,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -22032,7 +22268,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -22382,7 +22620,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -22682,7 +22922,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -22782,7 +23024,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -22832,7 +23076,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -22982,7 +23228,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -23032,7 +23280,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -23132,7 +23382,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -23382,7 +23634,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -23782,7 +24036,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -23882,7 +24138,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -23932,7 +24190,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -24282,7 +24542,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -24332,7 +24594,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -24982,7 +25246,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -25082,7 +25348,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -25182,7 +25450,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -25782,7 +26052,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -25832,7 +26104,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -26282,7 +26556,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -26382,7 +26658,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -26732,7 +27010,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -26982,7 +27262,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -27232,7 +27514,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -27332,7 +27616,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -27582,7 +27868,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -27632,7 +27920,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -27832,7 +28122,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -28032,7 +28324,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -28082,7 +28376,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -28132,7 +28428,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -28182,7 +28480,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -28232,7 +28532,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -28782,7 +29084,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -28832,7 +29136,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -29382,7 +29688,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -29482,7 +29790,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -29582,7 +29892,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -29682,7 +29994,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -29732,7 +30046,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -29832,7 +30148,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -30282,7 +30600,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -30332,7 +30652,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -30732,7 +31054,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -30982,7 +31306,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -31032,7 +31358,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -31282,7 +31610,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -31332,7 +31662,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -31482,7 +31814,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -31582,7 +31916,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -32282,7 +32618,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -32332,7 +32670,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -32482,7 +32822,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -32532,7 +32874,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -32582,7 +32926,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -32632,7 +32978,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -32782,7 +33130,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -32932,7 +33282,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -33032,7 +33384,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -33082,7 +33436,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -33332,7 +33688,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -33682,7 +34040,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -33732,7 +34092,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -33832,7 +34194,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -33932,7 +34296,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -33982,7 +34348,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -34082,7 +34450,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -34132,7 +34502,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -34532,7 +34904,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -34582,7 +34956,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -34632,7 +35008,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -34782,7 +35160,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -34832,7 +35212,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -35032,7 +35414,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -35132,7 +35516,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -35182,7 +35568,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -35682,7 +36070,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -35832,7 +36222,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -35982,7 +36374,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -36032,7 +36426,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -36082,7 +36478,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -36532,7 +36930,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -36632,7 +37032,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -36732,7 +37134,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -36932,7 +37336,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -37132,7 +37538,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -37182,7 +37590,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -37532,7 +37942,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -38082,7 +38494,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -38132,7 +38546,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -38282,7 +38698,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -38382,7 +38800,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -38532,7 +38952,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -38582,7 +39004,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -38632,7 +39056,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -38732,7 +39158,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -38782,7 +39210,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -39232,7 +39662,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -39282,7 +39714,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -39932,7 +40366,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -39982,7 +40418,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -40082,7 +40520,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -40232,7 +40672,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -40482,7 +40924,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -40782,7 +41226,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -40832,7 +41278,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -41232,7 +41680,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -41432,7 +41882,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -41532,7 +41984,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -41632,7 +42086,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -41782,7 +42238,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -41832,7 +42290,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -41882,7 +42342,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -42132,7 +42594,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -42382,7 +42846,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -42532,7 +42998,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -42682,7 +43150,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -42732,7 +43202,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -42782,7 +43254,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -43082,7 +43556,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -43182,7 +43658,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -43432,7 +43910,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -43582,7 +44062,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -43932,7 +44414,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -43982,7 +44466,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -44132,7 +44618,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -44282,7 +44770,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -44482,7 +44972,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -44582,7 +45074,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -44682,7 +45176,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -44782,7 +45278,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -44832,7 +45330,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -45032,7 +45532,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -45082,7 +45584,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -45482,7 +45986,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -45832,7 +46338,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -46032,7 +46540,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -46082,7 +46592,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -46232,7 +46744,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -46282,7 +46796,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -46332,7 +46848,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -46432,7 +46950,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -46882,7 +47402,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -47132,7 +47654,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -47482,7 +48006,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -47532,7 +48058,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -47582,7 +48110,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -47682,7 +48212,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -47732,7 +48264,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -47832,7 +48366,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -48082,7 +48618,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -48582,7 +49120,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -48832,7 +49372,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -49132,7 +49674,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -49182,7 +49726,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -49382,7 +49928,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -49432,7 +49980,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -49582,7 +50132,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -49632,7 +50184,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -49682,7 +50236,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -49782,7 +50338,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -49932,7 +50490,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -50032,7 +50592,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -50182,7 +50744,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -50482,7 +51046,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -50632,7 +51198,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -50782,7 +51350,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -50932,7 +51502,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -51382,7 +51954,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -51432,7 +52006,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -51732,7 +52308,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -51832,7 +52410,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -52032,7 +52612,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -52182,7 +52764,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -52232,7 +52816,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -52282,7 +52868,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -52382,7 +52970,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -52882,7 +53472,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -53182,7 +53774,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -53232,7 +53826,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -53282,7 +53878,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -53332,7 +53930,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -53432,7 +54032,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -53682,7 +54284,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -53782,7 +54386,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -53832,7 +54438,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -53932,7 +54540,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -53982,7 +54592,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -54532,7 +55144,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -54582,7 +55196,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -54632,7 +55248,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -54732,7 +55350,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -54882,7 +55502,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",
@@ -55032,7 +55654,9 @@
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/aktuell",
+        "/home"
       ],
       "excludePaths": [
         "/impressum",

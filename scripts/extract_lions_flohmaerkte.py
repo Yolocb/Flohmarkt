@@ -47,6 +47,13 @@ except ImportError:
     print("        pip install -r requirements.txt")
     sys.exit(1)
 
+# Warnung des SSL-Fallbacks (verify=False) unterdruecken - siehe fetch_url().
+try:
+    from urllib3.exceptions import InsecureRequestWarning
+    requests.packages.urllib3.disable_warnings(InsecureRequestWarning)
+except Exception:
+    pass
+
 
 # ----------------------------------------------------------------------
 # Konfiguration
@@ -240,6 +247,11 @@ def fetch_url(session: requests.Session, url: str):
     """
     Ruft eine URL ab. Rueckgabe: (html_text, status_code, error_str).
     Bei Erfolg ist error_str None.
+
+    SSL-Fallback: Viele Vereinsseiten nutzen gueltige, aber dem CA-Store
+    unbekannte Zertifikate. Bei einem SSLError wird EINMAL ohne Verifikation
+    nachgeladen (verify=False). Vertretbar, weil nur oeffentliche Inhalte
+    gelesen werden; die Warnung wird unterdrueckt.
     """
     last_error = None
     for versuch in range(1, MAX_RETRIES + 1):
@@ -254,6 +266,19 @@ def fetch_url(session: requests.Session, url: str):
             # 4xx nicht wiederholen, 5xx schon.
             if 400 <= resp.status_code < 500:
                 break
+        except requests.exceptions.SSLError:
+            # Fallback ohne Zertifikatspruefung (nur Lesen oeffentlicher Seiten).
+            try:
+                resp = session.get(url, timeout=REQUEST_TIMEOUT, verify=False)
+                if resp.status_code == 200:
+                    if not resp.encoding or resp.encoding.lower() == "iso-8859-1":
+                        resp.encoding = resp.apparent_encoding
+                    return resp.text, resp.status_code, None
+                last_error = f"HTTP {resp.status_code}"
+                if 400 <= resp.status_code < 500:
+                    break
+            except requests.exceptions.RequestException as exc:
+                last_error = f"SSL-Fallback: {type(exc).__name__}"
         except requests.exceptions.RequestException as exc:
             last_error = f"{type(exc).__name__}: {exc}"
         if versuch < MAX_RETRIES:
