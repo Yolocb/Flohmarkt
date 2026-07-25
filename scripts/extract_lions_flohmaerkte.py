@@ -116,8 +116,18 @@ EVENT_TYPE_MAP = [
 TRIGGER_KEYWORDS = [
     "flohmarkt", "troedelmarkt", "troedel", "basar",
     "buecherbasar", "buechermarkt", "buecherflohmarkt", "buecherboerse",
+    "buechertroedel", "leseflohmarkt", "buechertroedelmarkt",
     "veranstaltung", "termine", "termin",
 ]
+
+# Keyword-Fragmente zum Erkennen relevanter Unterseiten in Sitemaps und
+# Startseiten-Links (Pfad bzw. Ankertext). Bewusst knapp gehalten, um
+# themenfremde Seiten (Impressum, Vorstand ...) nicht mitzunehmen.
+PFAD_KEYWORDS = [
+    "buch", "buech", "basar", "floh", "troedel", "markt",
+    "termin", "veranstalt", "aktuell", "programm",
+]
+
 
 
 def normalize_text(text: str) -> str:
@@ -426,6 +436,58 @@ def _status_fuer_datum(iso_date):
 # Ein Club verarbeiten
 # ----------------------------------------------------------------------
 
+def entdecke_zusatzpfade(session, basis_url, startseite_html, vorhandene):
+    """Findet weitere relevante Unterseiten eines Clubs.
+
+    Zwei Quellen:
+      1. Links in der Startseite, deren Ankertext ein PFAD_KEYWORD enthaelt
+         (z.B. <a ...>Buechermarkt</a> -> /buechermarkt/).
+      2. sitemap.xml: URLs, deren Pfad ein PFAD_KEYWORD enthaelt.
+
+    Nur URLs derselben Domain, begrenzt auf max. 8 Zusatzpfade (um die
+    Laufzeit pro Club zu deckeln). Rueckgabe: Liste relativer Pfade, die
+    noch nicht in 'vorhandene' stehen.
+    """
+    host = urlparse(basis_url).netloc.lower()
+    gefunden = []
+
+    def passt(pfad_oder_text):
+        norm = normalize_text(pfad_oder_text)
+        return any(kw in norm for kw in PFAD_KEYWORDS)
+
+    def hinzu(url):
+        p = urlparse(url)
+        if p.netloc and p.netloc.lower() != host:
+            return  # fremde Domain ignorieren
+        pfad = p.path or "/"
+        if pfad in vorhandene or pfad in gefunden:
+            return
+        if len(gefunden) < 8:
+            gefunden.append(pfad)
+
+    # Quelle 1: Links der Startseite mit passendem Ankertext.
+    try:
+        soup = BeautifulSoup(startseite_html, "html.parser")
+        for a in soup.find_all("a", href=True):
+            text = a.get_text(separator=" ", strip=True)
+            if text and len(text) < 40 and passt(text):
+                hinzu(urljoin(basis_url + "/", a["href"]))
+    except Exception:
+        pass
+
+    # Quelle 2: sitemap.xml (Pfad-Keywords).
+    try:
+        sm_text, sm_status, _ = fetch_url(session, basis_url + "/sitemap.xml")
+        if sm_status == 200 and sm_text:
+            for loc in re.findall(r"<loc>\s*([^<]+?)\s*</loc>", sm_text, re.I):
+                if passt(urlparse(loc).path):
+                    hinzu(loc)
+    except Exception:
+        pass
+
+    return gefunden
+
+
 def process_club(session, club, log_entry):
     """
     Verarbeitet einen Club. Rueckgabe: (events, kandidaten) als Listen.
@@ -433,14 +495,18 @@ def process_club(session, club, log_entry):
     """
     events, kandidaten = [], []
     basis_url = club["clubUrl"].rstrip("/")
-    pfade = club.get("enabledPaths") or ["/"]
+    pfade = list(club.get("enabledPaths") or ["/"])
     exclude = set(club.get("excludePaths", []))
+    zusatz_ermittelt = False
 
     # Netzwerkfehler (kein HTTP-Status) auf der Startseite = toter Host:
     # dann die weiteren Pfade dieses Clubs ueberspringen. Das spart bei
     # nicht erreichbaren Seiten die vielfachen Timeouts pro Pfad.
-    for idx, pfad in enumerate(pfade):
+    idx = 0
+    while idx < len(pfade):
+        pfad = pfade[idx]
         if pfad in exclude:
+            idx += 1
             continue
         url = urljoin(basis_url + "/", pfad.lstrip("/"))
         log.info("  -> %s", url)
@@ -455,8 +521,22 @@ def process_club(session, club, log_entry):
             if idx == 0 and status is None:
                 log.warning("     Startseite unerreichbar - Club wird uebersprungen.")
                 break
+            idx += 1
             time.sleep(POLITE_DELAY)
             continue
+
+        # Nach erfolgreicher Startseite: relevante Unterseiten aus Links +
+        # Sitemap ermitteln und an die Pfadliste anhaengen.
+        if not zusatz_ermittelt:
+            zusatz_ermittelt = True
+            try:
+                zusatz = entdecke_zusatzpfade(session, basis_url, html, set(pfade))
+                if zusatz:
+                    log.info("     %d Zusatzpfade entdeckt: %s",
+                             len(zusatz), ", ".join(zusatz))
+                    pfade.extend(zusatz)
+            except Exception as exc:
+                log.warning("     Zusatzpfad-Suche fehlgeschlagen: %s", exc)
 
         bloecke = extract_relevant_blocks(html)
         for block in bloecke:
@@ -481,6 +561,7 @@ def process_club(session, club, log_entry):
         log.info("     %d relevante Bloecke, %d Treffer",
                  len(bloecke), seiten_log["treffer"])
         log_entry["seiten"].append(seiten_log)
+        idx += 1
         time.sleep(POLITE_DELAY)
 
     return events, kandidaten
@@ -533,11 +614,22 @@ def merge_manuell(neue_events, ziel_pfad):
 
     geprueft = [e for e in bestehend if e.get("manuellGeprueft")]
     geprueft_ids = {e["id"] for e in geprueft}
+
+    # Inhaltlicher Dublettenschluessel (Domain|Datum|Typ), damit ein neuer
+    # Scan-Treffer, der einen bereits geprueften Termin abbildet, NICHT doppelt
+    # erscheint - auch wenn seine ID (z.B. wegen alter ID-Bildung) abweicht.
+    def dubl_key(e):
+        host = urlparse(e.get("clubUrl", "")).netloc.lower().replace("www.", "")
+        return f"{host}|{e.get('datumStart','')}|{e.get('eventType','')}"
+
+    geprueft_keys = {dubl_key(e) for e in geprueft}
     if geprueft_ids:
         log.info("%d manuell gepruefte Eintraege bleiben erhalten.",
                  len(geprueft_ids))
     ergaenzt = [e for e in neue_events
-                if e["id"] not in geprueft_ids and e["id"] not in gesperrt]
+                if e["id"] not in geprueft_ids
+                and e["id"] not in gesperrt
+                and dubl_key(e) not in geprueft_keys]
     if gesperrt:
         log.info("%d IDs auf der Sperrliste werden ausgeblendet.", len(gesperrt))
     return geprueft + ergaenzt
