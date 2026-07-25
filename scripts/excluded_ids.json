@@ -1,12 +1,14 @@
 {
   "_meta": {
     "beschreibung": "IDs bekannter Fehltreffer (keine echten oeffentlichen Flohmaerkte/Basare/Veranstaltungen). Werden beim Scraper-Merge dauerhaft ausgeblendet.",
-    "gepflegt": "2026-07-23"
+    "gepflegt": "2026-07-25"
   },
   "excludedIds": {
     "c603412d42c7": "Nuernberg 2025-10-09 Benefizkonzert-Rueckblick (vergangen, kein kuenftiger Termin)",
     "65b659275e65": "Nuernberg Vorstandsliste (kein Event)",
     "9eb667cfc66c": "Nuernberg Telepraesenzroboter-Vortrag (interner Vortrag, kein oeffentliches Event)",
-    "77e7ddb21210": "Nuernberg Vorstandsliste (Dublette, kein Event)"
+    "77e7ddb21210": "Nuernberg Vorstandsliste (Dublette, kein Event)",
+    "a49fe523e0a5": "Via Regis 23.08.2026 - Falschtreffer: gehoert zu Golfturnier, nicht Buechermarkt",
+    "39a1d33edab4": "Via Regis 19.09.2026 - Falschtreffer: Kinder-/Jugendbuero-Aktion, nicht Buechermarkt"
   }
 }

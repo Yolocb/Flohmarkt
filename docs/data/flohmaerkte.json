@@ -32,15 +32,15 @@
     "ort": "Remscheid",
     "bundesland": "",
     "districtName": "Westfalen-Ruhr",
-    "titel": "Buecherbasar in Remscheid",
+    "titel": "Bücherbasar Remscheid",
     "eventType": "buecherbasar",
     "datumStart": "2026-07-25",
     "datumEnd": "2026-07-25",
-    "uhrzeit": "12:00",
+    "uhrzeit": "10:00",
     "status": "kommend",
     "veranstaltungsort": "",
     "adresse": "",
-    "beschreibung": "Lions Bücherbasar Lions-Büchermarkt - Wir sammeln Ihre Bücher für den Guten Zweck! Wir sammeln Ihre ausgelesenen Bücher oder Vinyl-Schallplatten. Sie können Ihre ausgelesenen Bücher und auch Vinyl-Schallplatten (LPs) jed...",
+    "beschreibung": "Verkauf ausgelesener Bücher und Vinyl-Schallplatten, jeden vierten Samstag von 10 bis 12 Uhr an der Sammelstelle.",
     "quelleUrl": "https://remscheid.lions.de/aktuell",
     "rawDateText": "jeden vierten Samstag",
     "matchedKeywords": [
@@ -51,7 +51,8 @@
     ],
     "confidenceScore": 1.0,
     "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-07-25T20:15:13"
+    "lastChecked": "2026-07-25T20:15:13",
+    "manuellGeprueft": true
   },
   {
     "id": "cd8a6ea41484",
@@ -167,15 +168,15 @@
     "ort": "Remscheid",
     "bundesland": "",
     "districtName": "Westfalen-Ruhr",
-    "titel": "Buecherbasar in Remscheid",
+    "titel": "Bücherbasar Remscheid",
     "eventType": "buecherbasar",
     "datumStart": "2026-08-22",
     "datumEnd": "2026-08-22",
-    "uhrzeit": "12:00",
+    "uhrzeit": "10:00",
     "status": "kommend",
     "veranstaltungsort": "",
     "adresse": "",
-    "beschreibung": "Lions Bücherbasar Lions-Büchermarkt - Wir sammeln Ihre Bücher für den Guten Zweck! Wir sammeln Ihre ausgelesenen Bücher oder Vinyl-Schallplatten. Sie können Ihre ausgelesenen Bücher und auch Vinyl-Schallplatten (LPs) jed...",
+    "beschreibung": "Verkauf ausgelesener Bücher und Vinyl-Schallplatten, jeden vierten Samstag von 10 bis 12 Uhr an der Sammelstelle.",
     "quelleUrl": "https://remscheid.lions.de/aktuell",
     "rawDateText": "jeden vierten Samstag",
     "matchedKeywords": [
@@ -186,32 +187,8 @@
     ],
     "confidenceScore": 1.0,
     "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-07-25T20:15:13"
-  },
-  {
-    "id": "a49fe523e0a5",
-    "clubName": "Lions Club Unna Via Regis",
-    "clubUrl": "https://www.viaregis.de",
-    "ort": "Unna Via Regis",
-    "bundesland": "",
-    "districtName": "Westfalen-Ruhr",
-    "titel": "Buecherbasar in Unna Via Regis",
-    "eventType": "buecherbasar",
-    "datumStart": "2026-08-23",
-    "datumEnd": "2026-08-23",
-    "uhrzeit": "",
-    "status": "kommend",
-    "veranstaltungsort": "",
-    "adresse": "",
-    "beschreibung": "Am Samstag, 19. September 2026 lädt das Kinder- und Jugendbüro... Weiterlesen Unsere Büchersammelstelle auf dem Breitenbachgelände ist ab sofort geschlossen. Seit... Weiterlesen Die Abkürzung „Kikouba“ steht für „Kinder ...",
-    "quelleUrl": "https://www.viaregis.de/",
-    "rawDateText": "23. August 2026",
-    "matchedKeywords": [
-      "Buechermarkt"
-    ],
-    "confidenceScore": 1.0,
-    "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-07-25T20:24:59"
+    "lastChecked": "2026-07-25T20:15:13",
+    "manuellGeprueft": true
   },
   {
     "id": "578a42a749f3",
@@ -273,7 +250,7 @@
     "ort": "Bad Tölz",
     "bundesland": "Bayern",
     "districtName": "Bayern-Süd",
-    "titel": "Buecherbasar in Bad Tölz",
+    "titel": "Büchermarkt Bad Tölz",
     "eventType": "buecherbasar",
     "datumStart": "2026-09-05",
     "datumEnd": "2026-09-05",
@@ -281,7 +258,7 @@
     "status": "kommend",
     "veranstaltungsort": "",
     "adresse": "",
-    "beschreibung": "Büchermarkt Achtung! Wir können wieder Bücher annehmen. Die Annahmestelle ist weiterhin Haus Rosenhof Ludwigstr. 37 – 39 83646 Bad Tölz Tel. 08041 7664400 Zunächst haben wir folgende Termine: Samstag 1. August 2026 Samst...",
+    "beschreibung": "Büchermarkt des Lions Club Bad Tölz, immer von 10:00-12:00 Uhr.",
     "quelleUrl": "https://www.lc-bad-toelz.de/activities/buechermarkt/",
     "rawDateText": "5. September 2026",
     "matchedKeywords": [
@@ -290,7 +267,8 @@
     ],
     "confidenceScore": 1.0,
     "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-07-25T18:45:07"
+    "lastChecked": "2026-07-25T18:45:07",
+    "manuellGeprueft": true
   },
   {
     "id": "4352758cd80f",
@@ -299,7 +277,7 @@
     "ort": "Sulinger Land",
     "bundesland": "",
     "districtName": "Niedersachsen-Bremen",
-    "titel": "Buecherbasar in Sulinger Land",
+    "titel": "Bücherbasar Sulinger Land",
     "eventType": "buecherbasar",
     "datumStart": "2026-09-05",
     "datumEnd": "2026-09-05",
@@ -307,7 +285,7 @@
     "status": "kommend",
     "veranstaltungsort": "",
     "adresse": "",
-    "beschreibung": "Dennis Durant & Soulband 16. Benefizkonzert am 20.11.2026 mehr erfahren Apfelsaft Nur so lange der Vorrat reicht. mehr erfahren Bücherbasar Jeden 1. Samstag im Monat Wir verkaufen Bücher für einen guten Zweck! DIE NÄCHST...",
+    "beschreibung": "Bücherbasar jeden 1. Samstag im Monat, Bücher für einen guten Zweck.",
     "quelleUrl": "https://www.lcsl.de/",
     "rawDateText": "Jeden 1. Samstag",
     "matchedKeywords": [
@@ -317,32 +295,8 @@
     ],
     "confidenceScore": 1.0,
     "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-07-25T20:23:50"
-  },
-  {
-    "id": "0032e3c552f1",
-    "clubName": "Lions Club Unna Via Regis",
-    "clubUrl": "https://www.viaregis.de",
-    "ort": "Unna Via Regis",
-    "bundesland": "",
-    "districtName": "Westfalen-Ruhr",
-    "titel": "Buecherbasar in Unna Via Regis",
-    "eventType": "buecherbasar",
-    "datumStart": "2026-09-06",
-    "datumEnd": "2026-09-06",
-    "uhrzeit": "",
-    "status": "kommend",
-    "veranstaltungsort": "",
-    "adresse": "",
-    "beschreibung": "Büchermarkt 2026 Büchermarkt 2026 – Wir planen wieder ein großes Bücherfest Auch im Jahr 2026 möchten wir wieder unseren beliebten Büchermarkt veranstalten. Am Stadtfest-Wochenende vom 04. bis 06. September 2026 wird die...",
-    "quelleUrl": "https://www.viaregis.de/buechermarkt/",
-    "rawDateText": "06. September 2026",
-    "matchedKeywords": [
-      "Buechermarkt"
-    ],
-    "confidenceScore": 1.0,
-    "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-07-25T20:25:08"
+    "lastChecked": "2026-07-25T20:23:50",
+    "manuellGeprueft": true
   },
   {
     "id": "c1c54bc2278b",
@@ -371,31 +325,6 @@
     "districtName": "Süd-Mitte"
   },
   {
-    "id": "cfaad6645a6c",
-    "clubName": "Lions Club Leutkirch",
-    "clubUrl": "https://leutkirch.lions.de",
-    "ort": "Leutkirch",
-    "bundesland": "Baden-Wuerttemberg",
-    "districtName": "Süd-Mitte",
-    "titel": "Flohmarkt in Leutkirch",
-    "eventType": "flohmarkt",
-    "datumStart": "2026-09-13",
-    "datumEnd": "2026-09-13",
-    "uhrzeit": "18:00",
-    "status": "kommend",
-    "veranstaltungsort": "",
-    "adresse": "",
-    "beschreibung": "Home - Leutkirch Header Club Beispiel Kurhaus Lions Club Leutkirch im Allgäu Mut zur Tat. Gemeinsam Verantwortung übernehmen. Ankündigung Flohmarkt 2026 Ankündigung Flohmarkt 2026 LIONS-Flohmarkt am Wochenende 12./13. Se...",
-    "quelleUrl": "https://leutkirch.lions.de/",
-    "rawDateText": "13. September 2026",
-    "matchedKeywords": [
-      "Flohmarkt"
-    ],
-    "confidenceScore": 1.0,
-    "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-07-25T18:35:10"
-  },
-  {
     "id": "b292adc875fe",
     "clubName": "Lions Club Flensburg-Alexandra",
     "clubUrl": "https://flensburg-alexandra.lions.de",
@@ -420,31 +349,6 @@
     "extractionMethod": "html_keyword_date_scan_v1",
     "lastChecked": "2026-07-24T21:47:43",
     "manuellGeprueft": true
-  },
-  {
-    "id": "39a1d33edab4",
-    "clubName": "Lions Club Unna Via Regis",
-    "clubUrl": "https://www.viaregis.de",
-    "ort": "Unna Via Regis",
-    "bundesland": "",
-    "districtName": "Westfalen-Ruhr",
-    "titel": "Buecherbasar in Unna Via Regis",
-    "eventType": "buecherbasar",
-    "datumStart": "2026-09-19",
-    "datumEnd": "2026-09-19",
-    "uhrzeit": "",
-    "status": "kommend",
-    "veranstaltungsort": "",
-    "adresse": "",
-    "beschreibung": "Am Samstag, 19. September 2026 lädt das Kinder- und Jugendbüro... Weiterlesen Unsere Büchersammelstelle auf dem Breitenbachgelände ist ab sofort geschlossen. Seit... Weiterlesen Die Abkürzung „Kikouba“ steht für „Kinder ...",
-    "quelleUrl": "https://www.viaregis.de/",
-    "rawDateText": "19. September 2026",
-    "matchedKeywords": [
-      "Buechermarkt"
-    ],
-    "confidenceScore": 1.0,
-    "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-07-25T20:24:59"
   },
   {
     "id": "0139f97a3c34",
@@ -479,15 +383,15 @@
     "ort": "Remscheid",
     "bundesland": "",
     "districtName": "Westfalen-Ruhr",
-    "titel": "Buecherbasar in Remscheid",
+    "titel": "Bücherbasar Remscheid",
     "eventType": "buecherbasar",
     "datumStart": "2026-09-26",
     "datumEnd": "2026-09-26",
-    "uhrzeit": "12:00",
+    "uhrzeit": "10:00",
     "status": "kommend",
     "veranstaltungsort": "",
     "adresse": "",
-    "beschreibung": "Lions Bücherbasar Lions-Büchermarkt - Wir sammeln Ihre Bücher für den Guten Zweck! Wir sammeln Ihre ausgelesenen Bücher oder Vinyl-Schallplatten. Sie können Ihre ausgelesenen Bücher und auch Vinyl-Schallplatten (LPs) jed...",
+    "beschreibung": "Verkauf ausgelesener Bücher und Vinyl-Schallplatten, jeden vierten Samstag von 10 bis 12 Uhr an der Sammelstelle.",
     "quelleUrl": "https://remscheid.lions.de/aktuell",
     "rawDateText": "jeden vierten Samstag",
     "matchedKeywords": [
@@ -498,7 +402,8 @@
     ],
     "confidenceScore": 1.0,
     "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-07-25T20:15:13"
+    "lastChecked": "2026-07-25T20:15:13",
+    "manuellGeprueft": true
   },
   {
     "id": "8206bc67d09b",
@@ -507,7 +412,7 @@
     "ort": "Sulinger Land",
     "bundesland": "",
     "districtName": "Niedersachsen-Bremen",
-    "titel": "Buecherbasar in Sulinger Land",
+    "titel": "Bücherbasar Sulinger Land",
     "eventType": "buecherbasar",
     "datumStart": "2026-10-03",
     "datumEnd": "2026-10-03",
@@ -515,7 +420,7 @@
     "status": "kommend",
     "veranstaltungsort": "",
     "adresse": "",
-    "beschreibung": "Dennis Durant & Soulband 16. Benefizkonzert am 20.11.2026 mehr erfahren Apfelsaft Nur so lange der Vorrat reicht. mehr erfahren Bücherbasar Jeden 1. Samstag im Monat Wir verkaufen Bücher für einen guten Zweck! DIE NÄCHST...",
+    "beschreibung": "Bücherbasar jeden 1. Samstag im Monat, Bücher für einen guten Zweck.",
     "quelleUrl": "https://www.lcsl.de/",
     "rawDateText": "Jeden 1. Samstag",
     "matchedKeywords": [
@@ -525,7 +430,8 @@
     ],
     "confidenceScore": 1.0,
     "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-07-25T20:23:50"
+    "lastChecked": "2026-07-25T20:23:50",
+    "manuellGeprueft": true
   },
   {
     "id": "a8f33c478086",
@@ -534,15 +440,15 @@
     "ort": "Remscheid",
     "bundesland": "",
     "districtName": "Westfalen-Ruhr",
-    "titel": "Buecherbasar in Remscheid",
+    "titel": "Bücherbasar Remscheid",
     "eventType": "buecherbasar",
     "datumStart": "2026-10-24",
     "datumEnd": "2026-10-24",
-    "uhrzeit": "12:00",
+    "uhrzeit": "10:00",
     "status": "kommend",
     "veranstaltungsort": "",
     "adresse": "",
-    "beschreibung": "Lions Bücherbasar Lions-Büchermarkt - Wir sammeln Ihre Bücher für den Guten Zweck! Wir sammeln Ihre ausgelesenen Bücher oder Vinyl-Schallplatten. Sie können Ihre ausgelesenen Bücher und auch Vinyl-Schallplatten (LPs) jed...",
+    "beschreibung": "Verkauf ausgelesener Bücher und Vinyl-Schallplatten, jeden vierten Samstag von 10 bis 12 Uhr an der Sammelstelle.",
     "quelleUrl": "https://remscheid.lions.de/aktuell",
     "rawDateText": "jeden vierten Samstag",
     "matchedKeywords": [
@@ -553,7 +459,8 @@
     ],
     "confidenceScore": 1.0,
     "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-07-25T20:15:13"
+    "lastChecked": "2026-07-25T20:15:13",
+    "manuellGeprueft": true
   },
   {
     "id": "a599080dc692",
@@ -562,7 +469,7 @@
     "ort": "Sulinger Land",
     "bundesland": "",
     "districtName": "Niedersachsen-Bremen",
-    "titel": "Buecherbasar in Sulinger Land",
+    "titel": "Bücherbasar Sulinger Land",
     "eventType": "buecherbasar",
     "datumStart": "2026-11-07",
     "datumEnd": "2026-11-07",
@@ -570,7 +477,7 @@
     "status": "kommend",
     "veranstaltungsort": "",
     "adresse": "",
-    "beschreibung": "Dennis Durant & Soulband 16. Benefizkonzert am 20.11.2026 mehr erfahren Apfelsaft Nur so lange der Vorrat reicht. mehr erfahren Bücherbasar Jeden 1. Samstag im Monat Wir verkaufen Bücher für einen guten Zweck! DIE NÄCHST...",
+    "beschreibung": "Bücherbasar jeden 1. Samstag im Monat, Bücher für einen guten Zweck.",
     "quelleUrl": "https://www.lcsl.de/",
     "rawDateText": "Jeden 1. Samstag",
     "matchedKeywords": [
@@ -580,7 +487,8 @@
     ],
     "confidenceScore": 1.0,
     "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-07-25T20:23:50"
+    "lastChecked": "2026-07-25T20:23:50",
+    "manuellGeprueft": true
   },
   {
     "id": "04465bb7c127",
@@ -669,15 +577,15 @@
     "ort": "Remscheid",
     "bundesland": "",
     "districtName": "Westfalen-Ruhr",
-    "titel": "Buecherbasar in Remscheid",
+    "titel": "Bücherbasar Remscheid",
     "eventType": "buecherbasar",
     "datumStart": "2026-11-28",
     "datumEnd": "2026-11-28",
-    "uhrzeit": "12:00",
+    "uhrzeit": "10:00",
     "status": "kommend",
     "veranstaltungsort": "",
     "adresse": "",
-    "beschreibung": "Lions Bücherbasar Lions-Büchermarkt - Wir sammeln Ihre Bücher für den Guten Zweck! Wir sammeln Ihre ausgelesenen Bücher oder Vinyl-Schallplatten. Sie können Ihre ausgelesenen Bücher und auch Vinyl-Schallplatten (LPs) jed...",
+    "beschreibung": "Verkauf ausgelesener Bücher und Vinyl-Schallplatten, jeden vierten Samstag von 10 bis 12 Uhr an der Sammelstelle.",
     "quelleUrl": "https://remscheid.lions.de/aktuell",
     "rawDateText": "jeden vierten Samstag",
     "matchedKeywords": [
@@ -688,7 +596,8 @@
     ],
     "confidenceScore": 1.0,
     "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-07-25T20:15:13"
+    "lastChecked": "2026-07-25T20:15:13",
+    "manuellGeprueft": true
   },
   {
     "id": "84397ef1cd2f",
@@ -697,7 +606,7 @@
     "ort": "Sulinger Land",
     "bundesland": "",
     "districtName": "Niedersachsen-Bremen",
-    "titel": "Buecherbasar in Sulinger Land",
+    "titel": "Bücherbasar Sulinger Land",
     "eventType": "buecherbasar",
     "datumStart": "2026-12-05",
     "datumEnd": "2026-12-05",
@@ -705,7 +614,7 @@
     "status": "kommend",
     "veranstaltungsort": "",
     "adresse": "",
-    "beschreibung": "Dennis Durant & Soulband 16. Benefizkonzert am 20.11.2026 mehr erfahren Apfelsaft Nur so lange der Vorrat reicht. mehr erfahren Bücherbasar Jeden 1. Samstag im Monat Wir verkaufen Bücher für einen guten Zweck! DIE NÄCHST...",
+    "beschreibung": "Bücherbasar jeden 1. Samstag im Monat, Bücher für einen guten Zweck.",
     "quelleUrl": "https://www.lcsl.de/",
     "rawDateText": "Jeden 1. Samstag",
     "matchedKeywords": [
@@ -715,7 +624,8 @@
     ],
     "confidenceScore": 1.0,
     "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-07-25T20:23:50"
+    "lastChecked": "2026-07-25T20:23:50",
+    "manuellGeprueft": true
   },
   {
     "id": "72df022c8332",
@@ -724,15 +634,15 @@
     "ort": "Remscheid",
     "bundesland": "",
     "districtName": "Westfalen-Ruhr",
-    "titel": "Buecherbasar in Remscheid",
+    "titel": "Bücherbasar Remscheid",
     "eventType": "buecherbasar",
     "datumStart": "2026-12-26",
     "datumEnd": "2026-12-26",
-    "uhrzeit": "12:00",
+    "uhrzeit": "10:00",
     "status": "kommend",
     "veranstaltungsort": "",
     "adresse": "",
-    "beschreibung": "Lions Bücherbasar Lions-Büchermarkt - Wir sammeln Ihre Bücher für den Guten Zweck! Wir sammeln Ihre ausgelesenen Bücher oder Vinyl-Schallplatten. Sie können Ihre ausgelesenen Bücher und auch Vinyl-Schallplatten (LPs) jed...",
+    "beschreibung": "Verkauf ausgelesener Bücher und Vinyl-Schallplatten, jeden vierten Samstag von 10 bis 12 Uhr an der Sammelstelle.",
     "quelleUrl": "https://remscheid.lions.de/aktuell",
     "rawDateText": "jeden vierten Samstag",
     "matchedKeywords": [
@@ -743,7 +653,8 @@
     ],
     "confidenceScore": 1.0,
     "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-07-25T20:15:13"
+    "lastChecked": "2026-07-25T20:15:13",
+    "manuellGeprueft": true
   },
   {
     "id": "b24080d58ee3",
