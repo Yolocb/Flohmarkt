@@ -219,6 +219,101 @@ def parse_german_date(text: str):
     return None, None
 
 
+def parse_alle_daten(text: str):
+    """Findet ALLE plausiblen deutschen Daten im Text (nicht nur das erste).
+
+    Ergaenzt parse_german_date fuer Serien-/Mehrfach-Termine, z.B.
+    "1. August 2026 und 5. September 2026". Rueckgabe: Liste von
+    (iso_date, raw_str), dedupliziert, in Textreihenfolge.
+    """
+    gefunden = []
+    gesehen = set()
+
+    def add(iso, raw):
+        if iso and iso not in gesehen:
+            gesehen.add(iso)
+            gefunden.append((iso, raw.strip()))
+
+    # Numerische Daten (14.03.2026).
+    for m in RE_NUMERIC.finditer(text):
+        tag, monat, jahr = int(m.group(1)), int(m.group(2)), int(m.group(3))
+        add(_safe_iso(_two_digit_year_to_full(jahr), monat, tag), m.group(0))
+
+    # Textmonat-Daten (14. Maerz 2026).
+    for m in RE_TEXT_MONTH.finditer(text):
+        tag = int(m.group(1))
+        monat = MONATE.get(normalize_text(m.group(2)))
+        if monat:
+            add(_safe_iso(int(m.group(3)), monat, tag), m.group(0))
+
+    return gefunden
+
+
+# Wochentage fuer wiederkehrende Termine ("jeden ersten Samstag im Monat").
+WOCHENTAGE = {
+    "montag": 0, "dienstag": 1, "mittwoch": 2, "donnerstag": 3,
+    "freitag": 4, "samstag": 5, "sonnabend": 5, "sonntag": 6,
+}
+ORDINALE = {
+    "ersten": 1, "erster": 1, "1.": 1,
+    "zweiten": 2, "zweiter": 2, "2.": 2,
+    "dritten": 3, "dritter": 3, "3.": 3,
+    "vierten": 4, "vierter": 4, "4.": 4,
+    "letzten": -1, "letzter": -1,
+}
+# "jeden ersten Samstag", "jeden 1. Samstag", "am letzten Sonntag im Monat"
+RE_WIEDERKEHREND = re.compile(
+    r"\b(?:jeden|jeder|am)\s+"
+    r"(ersten|erster|zweiten|zweiter|dritten|dritter|vierten|vierter|letzten|letzter|[1-4]\.)\s+"
+    r"(montag|dienstag|mittwoch|donnerstag|freitag|samstag|sonnabend|sonntag)",
+    re.IGNORECASE,
+)
+
+
+def parse_wiederkehrend(text: str, anzahl_monate: int = 6):
+    """Loest wiederkehrende Muster in konkrete kommende Termine auf.
+
+    Erkennt z.B. "jeden ersten Samstag im Monat" und erzeugt die naechsten
+    'anzahl_monate' passenden Datumsangaben ab heute. Rueckgabe: Liste von
+    (iso_date, raw_str). Leer, wenn kein Muster gefunden.
+    """
+    m = RE_WIEDERKEHREND.search(text)
+    if not m:
+        return []
+    ordinal = ORDINALE.get(normalize_text(m.group(1)))
+    wtag = WOCHENTAGE.get(normalize_text(m.group(2)))
+    if ordinal is None or wtag is None:
+        return []
+
+    heute = date.today()
+    ergebnis = []
+    jahr, monat = heute.year, heute.month
+    for _ in range(anzahl_monate):
+        d = _nter_wochentag(jahr, monat, wtag, ordinal)
+        if d and d >= heute:
+            ergebnis.append((d.isoformat(), m.group(0).strip()))
+        monat += 1
+        if monat > 12:
+            monat = 1
+            jahr += 1
+    return ergebnis
+
+
+def _nter_wochentag(jahr, monat, wtag, ordinal):
+    """Liefert das Datum des n-ten Wochentags in einem Monat (ordinal=-1=letzter)."""
+    import calendar
+    tage_im_monat = calendar.monthrange(jahr, monat)[1]
+    passende = [date(jahr, monat, t) for t in range(1, tage_im_monat + 1)
+                if date(jahr, monat, t).weekday() == wtag]
+    if not passende:
+        return None
+    if ordinal == -1:
+        return passende[-1]
+    if 1 <= ordinal <= len(passende):
+        return passende[ordinal - 1]
+    return None
+
+
 def _safe_iso(jahr: int, monat: int, tag: int):
     """Validiert und formatiert ein Datum als ISO-String (YYYY-MM-DD)."""
     try:
@@ -543,20 +638,32 @@ def process_club(session, club, log_entry):
             primaer, sekundaer, staedte = matched_keywords(block, club)
             if not primaer and not sekundaer:
                 continue
-            iso_date, raw_date = parse_german_date(block)
             uhrzeit = parse_time(block)
-            score = score_candidate(club, primaer, sekundaer, staedte, iso_date)
 
-            event = make_event(club, url, block, iso_date, uhrzeit,
-                               primaer, sekundaer, staedte, score)
-            event["rawDateText"] = raw_date or ""
+            # Alle konkreten Daten im Block + aufgeloeste wiederkehrende Muster.
+            # So werden Serien-Termine ("1. Aug UND 5. Sep", "jeden 1. Samstag")
+            # vollstaendig erfasst statt nur des ersten Datums.
+            daten = parse_alle_daten(block) + parse_wiederkehrend(block)
+            if not daten:
+                daten = [(None, None)]  # datumsloser Kandidat (bisheriges Verhalten)
 
-            if score >= CONFIDENCE_THRESHOLD and iso_date:
-                events.append(event)
-            else:
-                event["_reviewGrund"] = _review_grund(score, iso_date)
-                kandidaten.append(event)
-            seiten_log["treffer"] += 1
+            # Pro (eindeutigem) Datum ein Event erzeugen.
+            gesehen_iso = set()
+            for iso_date, raw_date in daten:
+                if iso_date in gesehen_iso:
+                    continue
+                gesehen_iso.add(iso_date)
+                score = score_candidate(club, primaer, sekundaer, staedte, iso_date)
+                event = make_event(club, url, block, iso_date, uhrzeit,
+                                   primaer, sekundaer, staedte, score)
+                event["rawDateText"] = raw_date or ""
+
+                if score >= CONFIDENCE_THRESHOLD and iso_date:
+                    events.append(event)
+                else:
+                    event["_reviewGrund"] = _review_grund(score, iso_date)
+                    kandidaten.append(event)
+                seiten_log["treffer"] += 1
 
         log.info("     %d relevante Bloecke, %d Treffer",
                  len(bloecke), seiten_log["treffer"])
