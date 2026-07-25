@@ -770,6 +770,73 @@ def write_json(pfad: Path, daten):
 OEFFENTLICHE_TYPEN = {"flohmarkt", "buecherbasar", "basar"}
 
 
+def kompakte_kandidaten(kandidaten, max_anzahl=150):
+    """Erzeugt eine kompakte, priorisierte Pruefliste der aussichtsreichsten
+    Fast-Treffer.
+
+    Von den (oft ueber 1000) Rohkandidaten sind fuer die manuelle Pruefung nur
+    die relevanten Event-Typen (Floh-/Buecher-/Basar) interessant. Diese werden
+    dedupliziert (pro Club+Datum bzw. Club+Beschreibungsanfang) und nach
+    Konfidenz absteigend sortiert. Ergebnis wird versioniert (docs/data), damit
+    echte Termine bequem gesichtet und uebernommen werden koennen.
+    """
+    relevant = [e for e in kandidaten if e.get("eventType") in OEFFENTLICHE_TYPEN]
+
+    # Vergangene Termine helfen bei der Suche nach kuenftigen Basaren nicht.
+    # Nur kommende ODER datumslose Kandidaten (letztere oft "Termin folgt").
+    def brauchbar(e):
+        ds = e.get("datumStart")
+        if not ds:
+            return True  # datumslos -> evtl. echter Basar ohne geparstes Datum
+        try:
+            return datetime.fromisoformat(ds).date() >= date.today()
+        except ValueError:
+            return True
+    relevant = [e for e in relevant if brauchbar(e)]
+
+    # Rausch-Reduktion: datumslose Fragmente nur behalten, wenn sie einen
+    # kuenftigen Bezug erkennen lassen - ein Zukunftsjahr in der Beschreibung
+    # oder ein klarer Termin-Hinweis. Reine Rueckblicke/Dankestexte raus.
+    jahr_kommend = {str(date.today().year), str(date.today().year + 1)}
+
+    def hat_zukunftsbezug(e):
+        if e.get("datumStart"):
+            return True  # bereits als kommend gefiltert
+        besch = normalize_text(e.get("beschreibung", ""))
+        if not any(j in besch for j in jahr_kommend):
+            return False
+        # Rueckblick-Signale ausschliessen.
+        rueckblick = ("verlief", "waren wieder", "herzlichen dank", "erloes",
+                      "erlös", "abgesagt", "vergangen", "letzten jahr", "2022",
+                      "2021", "2020", "rueckblick")
+        return not any(r in besch for r in rueckblick)
+    relevant = [e for e in relevant if hat_zukunftsbezug(e)]
+
+    # Deduplizieren: gleicher Club + (Datum oder Beschreibungsanfang).
+    gesehen, eindeutig = set(), []
+    for e in sorted(relevant, key=lambda x: x.get("confidenceScore", 0), reverse=True):
+        host = urlparse(e.get("clubUrl", "")).netloc.lower().replace("www.", "")
+        kennung = e.get("datumStart") or (e.get("beschreibung", "")[:40])
+        schluessel = f"{host}|{kennung}"
+        if schluessel in gesehen:
+            continue
+        gesehen.add(schluessel)
+        eindeutig.append({
+            "clubName": e.get("clubName"),
+            "ort": e.get("ort"),
+            "districtName": e.get("districtName"),
+            "eventType": e.get("eventType"),
+            "datumStart": e.get("datumStart"),
+            "titel": e.get("titel"),
+            "beschreibung": e.get("beschreibung"),
+            "quelleUrl": e.get("quelleUrl"),
+            "confidenceScore": e.get("confidenceScore"),
+            "reviewGrund": e.get("_reviewGrund"),
+            "id": e.get("id"),
+        })
+    return eindeutig[:max_anzahl]
+
+
 def qualitaets_filter(events):
     """Trennt sichere Events in 'seiten-tauglich' und 'zur Pruefung'.
 
@@ -894,6 +961,14 @@ def main():
     write_json(OUTPUT_DIR / "flohmaerkte.json", alle_events)
     write_json(OUTPUT_DIR / "review_candidates.json", alle_kandidaten)
     write_json(OUTPUT_DIR / "scan_log.json", scan_log)
+
+    # Kompakte, priorisierte Pruefliste der aussichtsreichsten Fast-Treffer
+    # nach docs/data (wird versioniert/committet), damit echte Termine, die
+    # knapp unter der Schwelle liegen oder kein Datum haben, sichtbar werden
+    # und uebernommen werden koennen.
+    kompakt = kompakte_kandidaten(alle_kandidaten)
+    write_json(DOCS_DATA_DIR / "kandidaten.json", kompakt)
+    log.info("Kompakte Pruefliste: %d aussichtsreiche Kandidaten", len(kompakt))
 
     log.info("=" * 50)
     log.info("FERTIG: %d sichere Events, %d zur Pruefung, %d Clubs mit Fehler",
