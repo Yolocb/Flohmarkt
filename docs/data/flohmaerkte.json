@@ -106,6 +106,32 @@
     "manuellGeprueft": true
   },
   {
+    "id": "043ed699a2fd",
+    "clubName": "Lions Club Bad Tölz",
+    "clubUrl": "https://www.lc-bad-toelz.de",
+    "ort": "Bad Tölz",
+    "bundesland": "Bayern",
+    "districtName": "Bayern-Süd",
+    "titel": "Buecherbasar in Bad Tölz",
+    "eventType": "buecherbasar",
+    "datumStart": "2026-08-01",
+    "datumEnd": "2026-08-01",
+    "uhrzeit": "10:00",
+    "status": "kommend",
+    "veranstaltungsort": "",
+    "adresse": "",
+    "beschreibung": "Büchermarkt Achtung! Wir können wieder Bücher annehmen. Die Annahmestelle ist weiterhin Haus Rosenhof Ludwigstr. 37 – 39 83646 Bad Tölz Tel. 08041 7664400 Zunächst haben wir folgende Termine: Samstag 1. August 2026 Samst...",
+    "quelleUrl": "https://www.lc-bad-toelz.de/activities/buechermarkt/",
+    "rawDateText": "1. August 2026",
+    "matchedKeywords": [
+      "Buechermarkt",
+      "Termine"
+    ],
+    "confidenceScore": 1.0,
+    "extractionMethod": "html_keyword_date_scan_v1",
+    "lastChecked": "2026-07-25T16:22:14"
+  },
+  {
     "id": "578a42a749f3",
     "clubName": "Lions Club Unna Via Regis",
     "clubUrl": "https://www.viaregis.de",
@@ -159,6 +185,31 @@
     "manuellGeprueft": true
   },
   {
+    "id": "0032e3c552f1",
+    "clubName": "Lions Club Unna Via Regis",
+    "clubUrl": "https://www.viaregis.de",
+    "ort": "Unna Via Regis",
+    "bundesland": "",
+    "districtName": "Westfalen-Ruhr",
+    "titel": "Buecherbasar in Unna Via Regis",
+    "eventType": "buecherbasar",
+    "datumStart": "2026-09-06",
+    "datumEnd": "2026-09-06",
+    "uhrzeit": "",
+    "status": "kommend",
+    "veranstaltungsort": "",
+    "adresse": "",
+    "beschreibung": "Büchermarkt 2026 Büchermarkt 2026 – Wir planen wieder ein großes Bücherfest Auch im Jahr 2026 möchten wir wieder unseren beliebten Büchermarkt veranstalten. Am Stadtfest-Wochenende vom 04. bis 06. September 2026 wird die...",
+    "quelleUrl": "https://www.viaregis.de/buechermarkt/",
+    "rawDateText": "06. September 2026",
+    "matchedKeywords": [
+      "Buechermarkt"
+    ],
+    "confidenceScore": 1.0,
+    "extractionMethod": "html_keyword_date_scan_v1",
+    "lastChecked": "2026-07-25T18:04:04"
+  },
+  {
     "id": "c1c54bc2278b",
     "clubName": "Lions Club Leutkirch",
     "clubUrl": "https://leutkirch.lions.de",
@@ -183,6 +234,31 @@
     "manuellGeprueft": true,
     "lastChecked": "2026-07-24T13:49:00",
     "districtName": "Süd-Mitte"
+  },
+  {
+    "id": "cfaad6645a6c",
+    "clubName": "Lions Club Leutkirch",
+    "clubUrl": "https://leutkirch.lions.de",
+    "ort": "Leutkirch",
+    "bundesland": "Baden-Wuerttemberg",
+    "districtName": "Süd-Mitte",
+    "titel": "Flohmarkt in Leutkirch",
+    "eventType": "flohmarkt",
+    "datumStart": "2026-09-13",
+    "datumEnd": "2026-09-13",
+    "uhrzeit": "18:00",
+    "status": "kommend",
+    "veranstaltungsort": "",
+    "adresse": "",
+    "beschreibung": "Home - Leutkirch Header Club Beispiel Kurhaus Lions Club Leutkirch im Allgäu Mut zur Tat. Gemeinsam Verantwortung übernehmen. Ankündigung Flohmarkt 2026 Ankündigung Flohmarkt 2026 LIONS-Flohmarkt am Wochenende 12./13. Se...",
+    "quelleUrl": "https://leutkirch.lions.de/",
+    "rawDateText": "13. September 2026",
+    "matchedKeywords": [
+      "Flohmarkt"
+    ],
+    "confidenceScore": 1.0,
+    "extractionMethod": "html_keyword_date_scan_v1",
+    "lastChecked": "2026-07-25T16:12:09"
   },
   {
     "id": "b292adc875fe",
@@ -315,5 +391,57 @@
     "extractionMethod": "html_keyword_date_scan_v1",
     "lastChecked": "2026-07-24T22:02:59",
     "manuellGeprueft": true
+  },
+  {
+    "id": "b24080d58ee3",
+    "clubName": "Lions Club Nürnberg-Franken",
+    "clubUrl": "https://nuernberg-franken.lions.de",
+    "ort": "Nürnberg-Franken",
+    "bundesland": "Bayern",
+    "districtName": "Bayern-Nord",
+    "titel": "Buecherbasar in Nürnberg-Franken",
+    "eventType": "buecherbasar",
+    "datumStart": "2027-01-15",
+    "datumEnd": "2027-01-15",
+    "uhrzeit": "07:15",
+    "status": "kommend",
+    "veranstaltungsort": "",
+    "adresse": "",
+    "beschreibung": "Bücher spenden – Gutes tun Um ein attraktives und vielfältiges Angebot zu ermöglichen, sammelt unser Team „Bücherbasar“ einmal jährlich gut erhaltene deutschsprachige Bücherspenden. Der nächste Abgabetermin ist: 📅 11. Ja...",
+    "quelleUrl": "https://nuernberg-franken.lions.de/b%C3%BCcherbasar",
+    "rawDateText": "15. Januar 2027",
+    "matchedKeywords": [
+      "Buecherbasar",
+      "Basar"
+    ],
+    "confidenceScore": 1.0,
+    "extractionMethod": "html_keyword_date_scan_v1",
+    "lastChecked": "2026-07-25T16:32:58"
+  },
+  {
+    "id": "addfffa4ec05",
+    "clubName": "Lions Club Nürnberg-Franken",
+    "clubUrl": "https://nuernberg-franken.lions.de",
+    "ort": "Nürnberg-Franken",
+    "bundesland": "Bayern",
+    "districtName": "Bayern-Nord",
+    "titel": "Buecherbasar in Nürnberg-Franken",
+    "eventType": "buecherbasar",
+    "datumStart": "2027-03-06",
+    "datumEnd": "2027-03-06",
+    "uhrzeit": "10:00",
+    "status": "kommend",
+    "veranstaltungsort": "",
+    "adresse": "",
+    "beschreibung": "Bücher kaufen – Gutes tun Unser nächster Bücherbasar findet statt: 📅 3. März bis 6. März 2027 📍Franken-Center Nürnberg, Glogauer Str. 30-38, Nürnberg-Langwasser 🕒 Öffnungszeiten: Mi-Sa: 10:00-20:00 Uhr",
+    "quelleUrl": "https://nuernberg-franken.lions.de/b%C3%BCcherbasar",
+    "rawDateText": "6. März 2027",
+    "matchedKeywords": [
+      "Buecherbasar",
+      "Basar"
+    ],
+    "confidenceScore": 1.0,
+    "extractionMethod": "html_keyword_date_scan_v1",
+    "lastChecked": "2026-07-25T16:32:58"
   }
 ]
