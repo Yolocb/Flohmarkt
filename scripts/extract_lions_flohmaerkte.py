@@ -365,8 +365,11 @@ def make_event(club, quelle_url, context_text, iso_date, uhrzeit,
     titel = _make_titel(event_type, ort)
     beschreibung = _kurzbeschreibung(context_text)
 
-    # Stabile ID aus Club + Datum + Quelle + Titel.
-    id_basis = f"{club['slug']}|{iso_date or 'kein-datum'}|{quelle_url}|{titel}"
+    # Stabile, pfadunabhaengige ID aus Club + Datum + Event-Typ.
+    # Bewusst OHNE konkrete Quelle-URL/Titel, damit derselbe Termin, der ueber
+    # mehrere Pfade (z.B. / , /aktuell , /home) gefunden wird, dieselbe ID
+    # bekommt und die Deduplizierung ihn als EINEN Termin erkennt.
+    id_basis = f"{club['slug']}|{iso_date or 'kein-datum'}|{event_type}"
     event_id = hashlib.sha1(id_basis.encode("utf-8")).hexdigest()[:12]
 
     return {
