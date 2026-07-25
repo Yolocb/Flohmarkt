@@ -185,6 +185,31 @@
     "districtName": "Süd-Mitte"
   },
   {
+    "id": "17c0919300a9",
+    "clubName": "Lions Club Leutkirch",
+    "clubUrl": "https://leutkirch.lions.de",
+    "ort": "Leutkirch",
+    "bundesland": "Baden-Wuerttemberg",
+    "districtName": "Süd-Mitte",
+    "titel": "Flohmarkt in Leutkirch",
+    "eventType": "flohmarkt",
+    "datumStart": "2026-09-13",
+    "datumEnd": "2026-09-13",
+    "uhrzeit": "18:00",
+    "status": "kommend",
+    "veranstaltungsort": "",
+    "adresse": "",
+    "beschreibung": "Home - Leutkirch Header Club Beispiel Kurhaus Lions Club Leutkirch im Allgäu Mut zur Tat. Gemeinsam Verantwortung übernehmen. Ankündigung Flohmarkt 2026 Ankündigung Flohmarkt 2026 LIONS-Flohmarkt am Wochenende 12./13. Se...",
+    "quelleUrl": "https://leutkirch.lions.de/home",
+    "rawDateText": "13. September 2026",
+    "matchedKeywords": [
+      "Flohmarkt"
+    ],
+    "confidenceScore": 1.0,
+    "extractionMethod": "html_keyword_date_scan_v1",
+    "lastChecked": "2026-07-25T13:35:45"
+  },
+  {
     "id": "b292adc875fe",
     "clubName": "Lions Club Flensburg-Alexandra",
     "clubUrl": "https://flensburg-alexandra.lions.de",
@@ -209,6 +234,31 @@
     "extractionMethod": "html_keyword_date_scan_v1",
     "lastChecked": "2026-07-24T21:47:43",
     "manuellGeprueft": true
+  },
+  {
+    "id": "e4f0b555d898",
+    "clubName": "Lions Club Flensburg-Alexandra",
+    "clubUrl": "https://flensburg-alexandra.lions.de",
+    "ort": "Flensburg-Alexandra",
+    "bundesland": "",
+    "districtName": "Nord",
+    "titel": "Buecherbasar in Flensburg-Alexandra",
+    "eventType": "buecherbasar",
+    "datumStart": "2026-09-19",
+    "datumEnd": "2026-09-19",
+    "uhrzeit": "18:00",
+    "status": "kommend",
+    "veranstaltungsort": "",
+    "adresse": "",
+    "beschreibung": "Flensburg-Alexandra Schmökern ohne Limit! Anja Holtgreve Unser nächster Lions Büchermarkt findet am Samstag, den 19. September 2026 von 9.00 bis 18.00 Uhr im Citti Park statt. Weiterlesen Veröffentlicht am 19. März 2023",
+    "quelleUrl": "https://flensburg-alexandra.lions.de/home",
+    "rawDateText": "19. September 2026",
+    "matchedKeywords": [
+      "Buechermarkt"
+    ],
+    "confidenceScore": 1.0,
+    "extractionMethod": "html_keyword_date_scan_v1",
+    "lastChecked": "2026-07-25T14:31:00"
   },
   {
     "id": "0139f97a3c34",
