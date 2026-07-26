@@ -759,5 +759,57 @@
     "extractionMethod": "html_keyword_date_scan_v1",
     "lastChecked": "2026-07-25T16:32:58",
     "manuellGeprueft": true
+  },
+  {
+    "id": "a53da81866b0",
+    "clubName": "Lions Club Traunstein",
+    "clubUrl": "https://traunstein.lions.de",
+    "ort": "Traunstein",
+    "bundesland": "",
+    "districtName": "Bayern-Süd",
+    "titel": "Büchermarkt Traunstein 2027",
+    "eventType": "buecherbasar",
+    "datumStart": "",
+    "datumEnd": "",
+    "uhrzeit": "",
+    "status": "termin_folgt",
+    "veranstaltungsort": "",
+    "adresse": "",
+    "beschreibung": "Büchermarkt 2027 angekündigt (SAVE THE DATE). Konkreter Termin und Bücherabgabe folgen auf der Vereinsseite.",
+    "quelleUrl": "https://traunstein.lions.de/",
+    "rawDateText": "Büchermarkt 2027",
+    "matchedKeywords": [
+      "Buechermarkt"
+    ],
+    "confidenceScore": 0.65,
+    "extractionMethod": "kandidat_manuell_geprueft_v1",
+    "manuellGeprueft": true,
+    "lastChecked": "2026-07-26T09:00:00"
+  },
+  {
+    "id": "2150225cfe1e",
+    "clubName": "Lions Club Travemünde",
+    "clubUrl": "https://travemuende.lions.de",
+    "ort": "Travemünde",
+    "bundesland": "",
+    "districtName": "Nord",
+    "titel": "Lions-Flohmarkt Travemünde 2026",
+    "eventType": "flohmarkt",
+    "datumStart": "",
+    "datumEnd": "",
+    "uhrzeit": "",
+    "status": "termin_folgt",
+    "veranstaltungsort": "",
+    "adresse": "",
+    "beschreibung": "Lions-Flohmarkt 2026 in Travemünde. Anmeldung und konkreter Termin über die Vereinsseite.",
+    "quelleUrl": "https://travemuende.lions.de/",
+    "rawDateText": "Lions-Flohmarkt 2026",
+    "matchedKeywords": [
+      "Flohmarkt"
+    ],
+    "confidenceScore": 0.65,
+    "extractionMethod": "kandidat_manuell_geprueft_v1",
+    "manuellGeprueft": true,
+    "lastChecked": "2026-07-26T09:00:00"
   }
 ]

@@ -198,6 +198,7 @@ body {
 }
 .badge-buecher { background: var(--buecher-hell); color: var(--buecher); }
 .badge-kommend { background: #dcfce7; color: var(--erfolg); }
+.badge-offen { background: #fef9c3; color: #854d0e; }
 .badge-vergangen { background: #f1f5f9; color: var(--text-schwach); }
 .badge-typ { background: #dbeafe; color: var(--primary); }
 

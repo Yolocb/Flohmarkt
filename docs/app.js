@@ -45,7 +45,7 @@ const WOCHENTAGE = ["Sonntag", "Montag", "Dienstag", "Mittwoch",
 
 /** Wandelt "2026-03-14" in "Samstag, 14. März 2026" um. */
 function formatiereDatum(iso) {
-  if (!iso) return "Datum unbekannt";
+  if (!iso) return "Termin folgt";
   const d = new Date(iso + "T00:00:00");
   if (isNaN(d)) return iso;
   return `${WOCHENTAGE[d.getDay()]}, ${d.getDate()}. ${MONATE_LANG[d.getMonth()]} ${d.getFullYear()}`;
@@ -147,8 +147,9 @@ function gefilterteEvents() {
   const suchbegriff = f.suche.trim().toLowerCase();
 
   return state.alleEvents.filter((e) => {
-    // Zeitfilter
-    const kommend = istKommend(e.datumStart);
+    // Zeitfilter. Termine ohne Datum ("Termin folgt") gelten als kommend.
+    const offen = !e.datumStart;
+    const kommend = offen || istKommend(e.datumStart);
     if (f.zeit === "kommende" && !kommend) return false;
     if (f.zeit === "vergangene" && kommend) return false;
 
@@ -202,6 +203,7 @@ function rendern() {
 }
 
 function baueTerminHTML(e) {
+  const offen = !e.datumStart;
   const kommend = istKommend(e.datumStart);
   const istBuecher = e.eventType === "buecherbasar";
 
@@ -209,9 +211,11 @@ function baueTerminHTML(e) {
   if (istBuecher) klassen.push("buecher");
   if (!kommend && e.datumStart) klassen.push("vergangen");
 
-  const zeitBadge = kommend
-    ? `<span class="badge badge-kommend">Kommend</span>`
-    : (e.datumStart ? `<span class="badge badge-vergangen">Vergangen</span>` : "");
+  const zeitBadge = offen
+    ? `<span class="badge badge-offen">Termin folgt</span>`
+    : (kommend
+        ? `<span class="badge badge-kommend">Kommend</span>`
+        : `<span class="badge badge-vergangen">Vergangen</span>`);
 
   const buecherBadge = istBuecher
     ? `<span class="badge badge-buecher">Bücherbasar</span>`
