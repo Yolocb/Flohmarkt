@@ -269,6 +269,20 @@ body {
 }
 .quelle-link:hover { color: var(--akzent); }
 
+.kalender-btn {
+  font-family: inherit;
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--primary);
+  background: #fff;
+  border: 2px solid var(--primary);
+  border-radius: 8px;
+  padding: 0.4rem 0.8rem;
+  cursor: pointer;
+}
+.kalender-btn:hover { background: var(--primary); color: #fff; }
+.kalender-btn:focus { outline: 3px solid var(--rand-fokus); outline-offset: 2px; }
+
 .geprueft {
   font-size: 0.95rem;
   color: var(--text-schwach);

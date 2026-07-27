@@ -263,6 +263,11 @@ function baueTerminHTML(e) {
     ? `<span class="ort-region">Distrikt ${escape(e.districtName)}</span>`
     : (e.bundesland ? `<span class="ort-region">${escape(kurzBundesland(e.bundesland))}</span>` : "");
 
+  // "Zum Kalender"-Button nur bei Events mit konkretem Datum.
+  const kalenderBtn = e.datumStart
+    ? `<button type="button" class="kalender-btn" data-id="${escape(e.id)}">📅 Zum Kalender</button>`
+    : "";
+
   return `
     <li class="${klassen.join(" ")}">
       <div>${buecherBadge}${zeitBadge}</div>
@@ -276,6 +281,7 @@ function baueTerminHTML(e) {
       <div class="termin-fuss">
         <a class="quelle-link" href="${escape(e.quelleUrl || e.clubUrl)}"
            target="_blank" rel="noopener noreferrer">Zur Quelle &rarr;</a>
+        ${kalenderBtn}
         <span class="geprueft">Termin geprüft am ${escape(formatiereKurzdatum(e.lastChecked))}</span>
       </div>
     </li>`;
@@ -293,6 +299,66 @@ function typLabel(typ) {
 
 function kurzBundesland(bl) {
   return bl === "Baden-Wuerttemberg" ? "Baden-Württemberg" : bl;
+}
+
+// ---------- Kalender-Export (.ics) ----------
+
+/** Wandelt "2026-08-01" in ICS-Datumsformat "20260801" um. */
+function icsDatum(iso) {
+  return iso.replace(/-/g, "");
+}
+
+/** Escaped Sonderzeichen fuer ICS-Textfelder (RFC 5545). */
+function icsEscape(text) {
+  return String(text == null ? "" : text)
+    .replace(/\\/g, "\\\\")
+    .replace(/;/g, "\\;")
+    .replace(/,/g, "\\,")
+    .replace(/\r?\n/g, "\\n");
+}
+
+/** Baut einen ganztaegigen VEVENT-Kalendereintrag als .ics-Text. */
+function baueICS(e) {
+  const start = icsDatum(e.datumStart);
+  // DTEND ist bei Ganztagsterminen exklusiv -> Tag nach datumEnd.
+  const endeBasis = e.datumEnd || e.datumStart;
+  const endeDate = new Date(endeBasis + "T00:00:00");
+  endeDate.setDate(endeDate.getDate() + 1);
+  const ende = `${endeDate.getFullYear()}${String(endeDate.getMonth() + 1).padStart(2, "0")}${String(endeDate.getDate()).padStart(2, "0")}`;
+
+  const ort = [e.veranstaltungsort, e.adresse, e.ort].filter(Boolean).join(", ");
+  const beschreibung = [e.beschreibung, e.quelleUrl].filter(Boolean).join("\n\n");
+
+  return [
+    "BEGIN:VCALENDAR",
+    "VERSION:2.0",
+    "PRODID:-//Lions-Flohmaerkte//DE",
+    "CALSCALE:GREGORIAN",
+    "BEGIN:VEVENT",
+    `UID:${e.id}@lions-flohmaerkte`,
+    `DTSTART;VALUE=DATE:${start}`,
+    `DTEND;VALUE=DATE:${ende}`,
+    `SUMMARY:${icsEscape(e.titel)}`,
+    `LOCATION:${icsEscape(ort)}`,
+    `DESCRIPTION:${icsEscape(beschreibung)}`,
+    "END:VEVENT",
+    "END:VCALENDAR",
+  ].join("\r\n");
+}
+
+/** Bietet die .ics-Datei eines Events zum Download an. */
+function ladeKalenderHerunter(id) {
+  const e = state.alleEvents.find((x) => x.id === id);
+  if (!e || !e.datumStart) return;
+  const blob = new Blob([baueICS(e)], { type: "text/calendar;charset=utf-8" });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement("a");
+  a.href = url;
+  a.download = `lions-termin-${e.datumStart}.ics`;
+  document.body.appendChild(a);
+  a.click();
+  document.body.removeChild(a);
+  URL.revokeObjectURL(url);
 }
 
 // ---------- Ereignisse verdrahten ----------
@@ -323,6 +389,12 @@ function verdrahteEreignisse() {
   });
 
   el.neuLaden.addEventListener("click", ladeDaten);
+
+  // Kalender-Buttons (per Delegation, da Karten dynamisch erzeugt werden).
+  el.liste.addEventListener("click", (ev) => {
+    const btn = ev.target.closest(".kalender-btn");
+    if (btn) ladeKalenderHerunter(btn.dataset.id);
+  });
 }
 
 // ---------- Start ----------
