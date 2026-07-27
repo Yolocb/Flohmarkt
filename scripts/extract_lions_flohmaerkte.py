@@ -35,7 +35,7 @@ import logging
 import re
 import sys
 import time
-from datetime import datetime, date
+from datetime import datetime, date, timedelta
 from pathlib import Path
 from urllib.parse import urljoin, urlparse
 
@@ -66,6 +66,10 @@ SEED_FILE = SCRIPT_DIR / "clubs_seed.json"
 OUTPUT_DIR = SCRIPT_DIR / "output"
 DOCS_DATA_DIR = PROJECT_DIR / "docs" / "data"
 EXCLUDED_IDS_FILE = SCRIPT_DIR / "excluded_ids.json"
+
+# Vergangene Termine werden nach dieser Frist (Tage nach datumEnd) aus der
+# oeffentlichen Liste entfernt und nach docs/data/archiv.json verschoben.
+ARCHIV_FRIST_TAGE = 90
 
 # HTTP-Verhalten: hoeflich und robust.
 USER_AGENT = (
@@ -837,6 +841,51 @@ def kompakte_kandidaten(kandidaten, max_anzahl=150):
     return eindeutig[:max_anzahl]
 
 
+def aufraeumen_alte_events(events, archiv_pfad):
+    """Verschiebt lang vergangene Termine aus der Liste ins Archiv.
+
+    Events, deren Enddatum mehr als ARCHIV_FRIST_TAGE zurueckliegt, werden aus
+    der oeffentlichen Liste entfernt und an docs/data/archiv.json angehaengt
+    (dedupliziert nach ID). Betrifft ALLE Events - auch manuell gepruefte -,
+    damit die Seite von selbst frisch bleibt. Events ohne Datum ("Termin folgt")
+    bleiben immer erhalten.
+
+    Rueckgabe: (aktuelle_events, anzahl_archiviert).
+    """
+    grenze = date.today() - timedelta(days=ARCHIV_FRIST_TAGE)
+
+    def ist_alt(e):
+        ende = e.get("datumEnd") or e.get("datumStart")
+        if not ende:
+            return False  # "Termin folgt" -> nie archivieren
+        try:
+            return date.fromisoformat(ende) < grenze
+        except ValueError:
+            return False
+
+    aktuelle = [e for e in events if not ist_alt(e)]
+    alte = [e for e in events if ist_alt(e)]
+    if not alte:
+        return events, 0
+
+    # Bestehendes Archiv laden und dedupliziert ergaenzen.
+    archiv = []
+    if archiv_pfad.exists():
+        try:
+            with open(archiv_pfad, encoding="utf-8") as f:
+                archiv = json.load(f)
+        except (json.JSONDecodeError, OSError):
+            archiv = []
+    bekannt = {e.get("id") for e in archiv}
+    for e in alte:
+        if e.get("id") not in bekannt:
+            archiv.append(e)
+            bekannt.add(e.get("id"))
+    archiv.sort(key=lambda e: e.get("datumStart") or "9999")
+    write_json(archiv_pfad, archiv)
+    return aktuelle, len(alte)
+
+
 def qualitaets_filter(events):
     """Trennt sichere Events in 'seiten-tauglich' und 'zur Pruefung'.
 
@@ -951,6 +1000,14 @@ def main():
     alle_events = merge_manuell(alle_events, DOCS_DATA_DIR / "flohmaerkte.json")
 
     alle_events.sort(key=lambda e: e.get("datumStart") or "9999")
+
+    # Lang vergangene Termine (> ARCHIV_FRIST_TAGE) ins Archiv verschieben,
+    # damit die oeffentliche Liste von selbst frisch bleibt.
+    alle_events, archiviert = aufraeumen_alte_events(
+        alle_events, DOCS_DATA_DIR / "archiv.json")
+    if archiviert:
+        log.info("Aufraeumen: %d vergangene Termine ins Archiv verschoben.",
+                 archiviert)
 
     scan_log["endzeit"] = datetime.now().isoformat(timespec="seconds")
     scan_log["eventsSicher"] = len(alle_events)

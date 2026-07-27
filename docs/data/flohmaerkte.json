@@ -1,31 +1,5 @@
 [
   {
-    "id": "5c3c2662fa11",
-    "clubName": "Lions Club Nuernberg",
-    "clubUrl": "https://lionsclub-nuernberg.de",
-    "ort": "Nuernberg",
-    "bundesland": "Bayern",
-    "titel": "Lions-Flohmarkt Nürnberg (Bardentreffen)",
-    "eventType": "flohmarkt",
-    "datumStart": "2025-08-02",
-    "datumEnd": "2025-08-02",
-    "uhrzeit": "",
-    "status": "vergangen",
-    "veranstaltungsort": "Karolinenstraße, vor Breuninger",
-    "adresse": "Karolinenstraße, Nürnberg",
-    "beschreibung": "Samstag, 2. August 2025: Lions-Flohmarkt. Im Rahmen des Bardentreffens in Nürnberg fand der traditionelle Flohmarkt in der Karolinenstraße vor dem Modehaus Breuninger statt.",
-    "quelleUrl": "https://lionsclub-nuernberg.de/veranstaltungen",
-    "rawDateText": "2. August 2025",
-    "matchedKeywords": [
-      "Flohmarkt"
-    ],
-    "confidenceScore": 1.0,
-    "extractionMethod": "html_keyword_date_scan_v1",
-    "manuellGeprueft": true,
-    "lastChecked": "2026-07-22T14:15:22",
-    "districtName": "Bayern-Mitte"
-  },
-  {
     "id": "0672c8d876ff",
     "clubName": "Lions Club Remscheid",
     "clubUrl": "https://remscheid.lions.de",
