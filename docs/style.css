@@ -177,7 +177,25 @@ body {
   margin: 0.3rem 0;
 }
 
-.termin-ort { font-size: 1.1rem; font-weight: 600; }
+.termin-ort {
+  font-size: 1.1rem;
+  font-weight: 600;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.4rem 0.6rem;
+}
+.ort-symbol { font-size: 1rem; }
+.ort-stadt { color: var(--text); }
+.ort-detail { font-weight: 500; color: var(--text-schwach); }
+.ort-region {
+  font-weight: 500;
+  font-size: 0.9rem;
+  color: var(--text-schwach);
+  background: #eef2f7;
+  padding: 1px 8px;
+  border-radius: 6px;
+}
 .termin-club { font-size: 1.05rem; color: var(--text-schwach); margin-top: 0.15rem; }
 
 .termin-beschreibung {

@@ -223,12 +223,23 @@ function baueTerminHTML(e) {
 
   const uhrzeit = e.uhrzeit ? ` &middot; ab ${escape(e.uhrzeit)} Uhr` : "";
 
+  // Ortszeile: Stadt immer, genauer Ort/Adresse als Zusatz wenn vorhanden.
+  const genauerOrt = e.veranstaltungsort || e.adresse || "";
+  const ortDetail = genauerOrt
+    ? `<span class="ort-detail">${escape(genauerOrt)}</span>`
+    : "";
+  const region = e.districtName
+    ? `<span class="ort-region">Distrikt ${escape(e.districtName)}</span>`
+    : (e.bundesland ? `<span class="ort-region">${escape(kurzBundesland(e.bundesland))}</span>` : "");
+
   return `
     <li class="${klassen.join(" ")}">
       <div>${buecherBadge}${zeitBadge}</div>
       <p class="termin-datum">${escape(formatiereDatum(e.datumStart))}${uhrzeit}</p>
       <h2 class="termin-titel">${escape(e.titel)}</h2>
-      <p class="termin-ort">${escape(e.ort)}${e.districtName ? " · Distrikt " + escape(e.districtName) : (e.bundesland ? " (" + escape(kurzBundesland(e.bundesland)) + ")" : "")}</p>
+      <p class="termin-ort"><span class="ort-symbol" aria-hidden="true">📍</span>
+        <span class="ort-stadt">${escape(e.ort || "Ort auf Vereinsseite")}</span>
+        ${ortDetail}${region}</p>
       <p class="termin-club">${escape(e.clubName)}</p>
       ${e.beschreibung ? `<p class="termin-beschreibung">${escape(e.beschreibung)}</p>` : ""}
       <div class="termin-fuss">
