@@ -32,6 +32,11 @@ const el = {
   leerNachricht: document.getElementById("leer-nachricht"),
   neuLaden: document.getElementById("neu-laden"),
   datenstand: document.getElementById("datenstand"),
+  statistik: document.getElementById("statistik"),
+  statTermine: document.getElementById("stat-termine"),
+  statDistrikte: document.getElementById("stat-distrikte"),
+  statNaechster: document.getElementById("stat-naechster"),
+  statNaechsterText: document.getElementById("stat-naechster-text"),
 };
 
 // ---------- Hilfsfunktionen ----------
@@ -106,12 +111,38 @@ async function ladeDaten() {
     }
     state.alleEvents = daten;
     fuelleDistriktFilter(daten);
+    aktualisiereStatistik(daten);
     aktualisiereDatenstand(daten);
     rendern();
   } catch (fehler) {
     console.error("Fehler beim Laden:", fehler);
     zeigeZustand("fehler", fehler.message || "Unbekannter Fehler.");
   }
+}
+
+/** Berechnet die Übersichtskennzahlen (kommende Termine, Distrikte, nächster). */
+function aktualisiereStatistik(daten) {
+  // Kommende Termine: datiert-künftig ODER "Termin folgt".
+  const kommende = daten.filter((e) => !e.datumStart || istKommend(e.datumStart));
+  const distrikte = new Set(kommende.map((e) => e.districtName).filter(Boolean));
+
+  // Nächster datierter Termin (Events ohne Datum zählen hier nicht).
+  const datiert = kommende
+    .filter((e) => e.datumStart && istKommend(e.datumStart))
+    .sort((a, b) => a.datumStart.localeCompare(b.datumStart));
+
+  el.statTermine.textContent = kommende.length;
+  el.statDistrikte.textContent = distrikte.size;
+
+  if (datiert.length > 0) {
+    el.statNaechster.textContent = formatiereKurzdatum(datiert[0].datumStart + "T00:00:00");
+    el.statNaechsterText.textContent = `nächster Termin (${datiert[0].ort || "?"})`;
+  } else {
+    el.statNaechster.textContent = "–";
+    el.statNaechsterText.textContent = "nächster Termin";
+  }
+
+  el.statistik.hidden = kommende.length === 0;
 }
 
 /** Baut die Distrikt-Auswahl dynamisch aus den vorhandenen Terminen. */

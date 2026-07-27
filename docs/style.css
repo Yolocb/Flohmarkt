@@ -45,6 +45,36 @@ body {
 .kopf h1 { font-size: 2.2rem; letter-spacing: 0.5px; }
 .kopf .untertitel { font-size: 1.15rem; margin-top: 0.4rem; opacity: 0.95; }
 
+/* ---------- Übersichts-/Statistikleiste ---------- */
+.statistik {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin: 1.75rem 0 0;
+}
+.stat-kachel {
+  flex: 1;
+  min-width: 160px;
+  background: var(--karte);
+  border: 2px solid var(--rand);
+  border-radius: 12px;
+  padding: 1.1rem 1.25rem;
+  text-align: center;
+}
+.stat-zahl {
+  display: block;
+  font-size: 1.9rem;
+  font-weight: 700;
+  color: var(--primary);
+  line-height: 1.2;
+}
+.stat-text {
+  display: block;
+  font-size: 1rem;
+  color: var(--text-schwach);
+  margin-top: 0.2rem;
+}
+
 /* ---------- Steuerung (Suche + Filter) ---------- */
 .steuerung {
   background: var(--karte);
