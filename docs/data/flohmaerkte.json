@@ -295,7 +295,7 @@
     ],
     "confidenceScore": 1.0,
     "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-07-27T11:19:25"
+    "lastChecked": "2026-08-03T10:52:46"
   },
   {
     "id": "c1c54bc2278b",
@@ -346,7 +346,7 @@
     ],
     "confidenceScore": 1.0,
     "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-07-27T09:01:58"
+    "lastChecked": "2026-08-03T08:54:52"
   },
   {
     "id": "b292adc875fe",
@@ -399,6 +399,31 @@
     "extractionMethod": "html_keyword_date_scan_v1",
     "lastChecked": "2026-07-24T22:24:52",
     "manuellGeprueft": true
+  },
+  {
+    "id": "c71e7cd85ad1",
+    "clubName": "Lions Club Emsdetten",
+    "clubUrl": "http://www.lions-emsdetten.de",
+    "ort": "Emsdetten",
+    "bundesland": "",
+    "districtName": "Westfalen-Lippe",
+    "titel": "Buecherbasar in Emsdetten",
+    "eventType": "buecherbasar",
+    "datumStart": "2026-09-22",
+    "datumEnd": "2026-09-22",
+    "uhrzeit": "",
+    "status": "kommend",
+    "veranstaltungsort": "",
+    "adresse": "",
+    "beschreibung": "Aktuelles Pubquiz am Di. 22.9.2026 Die Anmeldung zum nächsten Charity-Pubquiz ist ab sofort möglich! Mehr Präsidentschaftsübergabe 2026 Auf Jörg Schmittwilken folgt Jörg Stottrop Mehr Bücherflohmarkt 2025 Ausgelesen? Spe...",
+    "quelleUrl": "http://www.lions-emsdetten.de/",
+    "rawDateText": "22.9.2026",
+    "matchedKeywords": [
+      "Flohmarkt"
+    ],
+    "confidenceScore": 1.0,
+    "extractionMethod": "html_keyword_date_scan_v1",
+    "lastChecked": "2026-08-03T09:49:43"
   },
   {
     "id": "1121f299c823",
@@ -681,6 +706,33 @@
     "manuellGeprueft": true
   },
   {
+    "id": "05c31db74308",
+    "clubName": "Lions Club Sulinger Land",
+    "clubUrl": "https://www.lcsl.de",
+    "ort": "Sulinger Land",
+    "bundesland": "",
+    "districtName": "Niedersachsen-Bremen",
+    "titel": "Buecherbasar in Sulinger Land",
+    "eventType": "buecherbasar",
+    "datumStart": "2027-01-02",
+    "datumEnd": "2027-01-02",
+    "uhrzeit": "12:00",
+    "status": "kommend",
+    "veranstaltungsort": "",
+    "adresse": "",
+    "beschreibung": "Dennis Durant & Soulband 16. Benefizkonzert am 20.11.2026 mehr erfahren Apfelsaft Nur so lange der Vorrat reicht. mehr erfahren Bücherbasar Jeden 1. Samstag im Monat Wir verkaufen Bücher für einen guten Zweck! DIE NÄCHST...",
+    "quelleUrl": "https://www.lcsl.de/",
+    "rawDateText": "Jeden 1. Samstag",
+    "matchedKeywords": [
+      "Buecherbasar",
+      "Basar",
+      "Termine"
+    ],
+    "confidenceScore": 1.0,
+    "extractionMethod": "html_keyword_date_scan_v1",
+    "lastChecked": "2026-08-03T10:51:25"
+  },
+  {
     "id": "b24080d58ee3",
     "clubName": "Lions Club Nürnberg-Franken",
     "clubUrl": "https://nuernberg-franken.lions.de",
@@ -706,6 +758,34 @@
     "extractionMethod": "html_keyword_date_scan_v1",
     "lastChecked": "2026-07-25T16:32:58",
     "manuellGeprueft": true
+  },
+  {
+    "id": "06c19e963939",
+    "clubName": "Lions Club Remscheid",
+    "clubUrl": "https://remscheid.lions.de",
+    "ort": "Remscheid",
+    "bundesland": "",
+    "districtName": "Westfalen-Ruhr",
+    "titel": "Buecherbasar in Remscheid",
+    "eventType": "buecherbasar",
+    "datumStart": "2027-01-23",
+    "datumEnd": "2027-01-23",
+    "uhrzeit": "12:00",
+    "status": "kommend",
+    "veranstaltungsort": "",
+    "adresse": "",
+    "beschreibung": "Lions Bücherbasar Lions-Büchermarkt - Wir sammeln Ihre Bücher für den Guten Zweck! Wir sammeln Ihre ausgelesenen Bücher oder Vinyl-Schallplatten. Sie können Ihre ausgelesenen Bücher und auch Vinyl-Schallplatten (LPs) jed...",
+    "quelleUrl": "https://remscheid.lions.de/aktuell",
+    "rawDateText": "jeden vierten Samstag",
+    "matchedKeywords": [
+      "Buecherbasar",
+      "Buechermarkt",
+      "Basar",
+      "Termine"
+    ],
+    "confidenceScore": 1.0,
+    "extractionMethod": "html_keyword_date_scan_v1",
+    "lastChecked": "2026-08-03T10:43:09"
   },
   {
     "id": "addfffa4ec05",
