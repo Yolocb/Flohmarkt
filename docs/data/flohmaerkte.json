@@ -295,7 +295,7 @@
     ],
     "confidenceScore": 1.0,
     "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-08-03T10:52:46"
+    "lastChecked": "2026-08-10T08:51:48"
   },
   {
     "id": "c1c54bc2278b",
@@ -346,7 +346,58 @@
     ],
     "confidenceScore": 1.0,
     "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-08-03T08:54:52"
+    "lastChecked": "2026-08-10T06:53:16"
+  },
+  {
+    "id": "82a2279e2ae6",
+    "clubName": "Lions Club Attendorn-Hansestadt",
+    "clubUrl": "https://www.lionsclub-attendorn.de",
+    "ort": "Attendorn-Hansestadt",
+    "bundesland": "",
+    "districtName": "Westfalen-Lippe",
+    "titel": "Buecherbasar in Attendorn-Hansestadt",
+    "eventType": "buecherbasar",
+    "datumStart": "2026-09-13",
+    "datumEnd": "2026-09-13",
+    "uhrzeit": "",
+    "status": "kommend",
+    "veranstaltungsort": "",
+    "adresse": "",
+    "beschreibung": "Aktivitäten des Lions Club Hansestadt Attendorn 20. Bücherbasar Buchraritäten zum Stadtfest 2026 Lions Club Hansestadt Attendorn 20. Bücherbasar Buchraritäten der Lions zum Stadtfest Attendorn. Günstige Buchraritäten sic...",
+    "quelleUrl": "https://www.lionsclub-attendorn.de/",
+    "rawDateText": "13. September 2026",
+    "matchedKeywords": [
+      "Buecherbasar",
+      "Basar"
+    ],
+    "confidenceScore": 1.0,
+    "extractionMethod": "html_keyword_date_scan_v1",
+    "lastChecked": "2026-08-10T07:24:18"
+  },
+  {
+    "id": "ec1dc52c878e",
+    "clubName": "Lions Club Emsdetten",
+    "clubUrl": "http://www.lions-emsdetten.de",
+    "ort": "Emsdetten",
+    "bundesland": "",
+    "districtName": "Westfalen-Lippe",
+    "titel": "Buecherbasar in Emsdetten",
+    "eventType": "buecherbasar",
+    "datumStart": "2026-09-13",
+    "datumEnd": "2026-09-13",
+    "uhrzeit": "",
+    "status": "kommend",
+    "veranstaltungsort": "",
+    "adresse": "",
+    "beschreibung": "Aktuelles Pubquiz am Di. 22.9.2026 Die Anmeldung zum nächsten Charity-Pubquiz ist ab sofort möglich! Mehr Kinderkonzert mit Volker Rosin (13.9.2026) Volker Rosin kommt nach Emsdetten – ein fröhlicher Familiennachmittag z...",
+    "quelleUrl": "http://www.lions-emsdetten.de/",
+    "rawDateText": "13.9.2026",
+    "matchedKeywords": [
+      "Flohmarkt"
+    ],
+    "confidenceScore": 1.0,
+    "extractionMethod": "html_keyword_date_scan_v1",
+    "lastChecked": "2026-08-10T07:47:11"
   },
   {
     "id": "b292adc875fe",
@@ -415,7 +466,7 @@
     "status": "kommend",
     "veranstaltungsort": "",
     "adresse": "",
-    "beschreibung": "Aktuelles Pubquiz am Di. 22.9.2026 Die Anmeldung zum nächsten Charity-Pubquiz ist ab sofort möglich! Mehr Präsidentschaftsübergabe 2026 Auf Jörg Schmittwilken folgt Jörg Stottrop Mehr Bücherflohmarkt 2025 Ausgelesen? Spe...",
+    "beschreibung": "Aktuelles Pubquiz am Di. 22.9.2026 Die Anmeldung zum nächsten Charity-Pubquiz ist ab sofort möglich! Mehr Kinderkonzert mit Volker Rosin (13.9.2026) Volker Rosin kommt nach Emsdetten – ein fröhlicher Familiennachmittag z...",
     "quelleUrl": "http://www.lions-emsdetten.de/",
     "rawDateText": "22.9.2026",
     "matchedKeywords": [
@@ -423,7 +474,7 @@
     ],
     "confidenceScore": 1.0,
     "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-08-03T09:49:43"
+    "lastChecked": "2026-08-10T07:47:11"
   },
   {
     "id": "1121f299c823",
@@ -730,7 +781,7 @@
     ],
     "confidenceScore": 1.0,
     "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-08-03T10:51:25"
+    "lastChecked": "2026-08-10T08:50:28"
   },
   {
     "id": "b24080d58ee3",
@@ -785,7 +836,7 @@
     ],
     "confidenceScore": 1.0,
     "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-08-03T10:43:09"
+    "lastChecked": "2026-08-10T08:41:30"
   },
   {
     "id": "addfffa4ec05",

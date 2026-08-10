@@ -91,6 +91,19 @@
     "id": "afba981e1fb7"
   },
   {
+    "clubName": "Lions Club Attendorn-Hansestadt",
+    "ort": "Attendorn-Hansestadt",
+    "districtName": "Westfalen-Lippe",
+    "eventType": "buecherbasar",
+    "datumStart": "",
+    "titel": "Buecherbasar in Attendorn-Hansestadt",
+    "beschreibung": "20. Bücherbasar Buchraritäten zum Stadtfest 2026",
+    "quelleUrl": "https://www.lionsclub-attendorn.de/",
+    "confidenceScore": 0.75,
+    "reviewGrund": "kein Datum erkannt",
+    "id": "b6f8cd88e180"
+  },
+  {
     "clubName": "Lions Club Mayen",
     "ort": "Mayen",
     "districtName": "Mitte-Süd",
@@ -206,19 +219,6 @@
     "confidenceScore": 0.65,
     "reviewGrund": "kein Datum erkannt",
     "id": "a53da81866b0"
-  },
-  {
-    "clubName": "Lions Club Neuwied-Andernach",
-    "ort": "Neuwied-Andernach",
-    "districtName": "Mitte-Süd",
-    "eventType": "buecherbasar",
-    "datumStart": "",
-    "titel": "Buecherbasar in Neuwied-Andernach",
-    "beschreibung": "Ordner Öffentlich Dokumente Aktion 05082026.jpeg Geändert vor 2 Tagen von Jürgen Kloos. bd3045ba-49f4-4880-86d9-b0c04a539e24.jpeg Geändert vor 17 Tagen von Jürgen Kloos. b9abdf58-02a5-47e7-ba3e-1c25b5641563.jpeg Geändert...",
-    "quelleUrl": "https://neuwied-andernach.lions.de/aktuell",
-    "confidenceScore": 0.65,
-    "reviewGrund": "kein Datum erkannt",
-    "id": "07e893c3b78a"
   },
   {
     "clubName": "Lions Club Remscheid - Wilhelm Conrad Röntgen",
