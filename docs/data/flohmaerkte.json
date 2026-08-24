@@ -165,7 +165,7 @@
     "manuellGeprueft": true
   },
   {
-    "id": "8c18ef3f08d2",
+    "id": "dacadfff80c1",
     "clubName": "Lions Club Jena (Johann-Friedrich)",
     "clubUrl": "https://www.lions-jena.de",
     "ort": "Jena (Johann-Friedrich)",
@@ -173,21 +173,21 @@
     "districtName": "Ost-Mitte",
     "titel": "Buecherbasar in Jena (Johann-Friedrich)",
     "eventType": "buecherbasar",
-    "datumStart": "2026-08-22",
-    "datumEnd": "2026-08-22",
+    "datumStart": "2026-09-01",
+    "datumEnd": "2026-09-01",
     "uhrzeit": "",
     "status": "kommend",
     "veranstaltungsort": "",
     "adresse": "",
     "beschreibung": "Der Club wurde feierlich im Jahr 2000 als zweiter Lions Club in Jena gegründet. Wir haben heute über 40 Männer und Frauen. Sie sind freundlich eingeladen, sich über unsere Aktivitäten zu informieren. Vielen Dank für Ihre...",
     "quelleUrl": "https://www.lions-jena.de/",
-    "rawDateText": "22. August 2026",
+    "rawDateText": "1. September 2026",
     "matchedKeywords": [
       "Veranstaltung"
     ],
     "confidenceScore": 0.85,
     "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-08-17T07:29:54"
+    "lastChecked": "2026-08-24T07:27:21"
   },
   {
     "id": "578a42a749f3",
@@ -312,15 +312,15 @@
     "status": "kommend",
     "veranstaltungsort": "",
     "adresse": "",
-    "beschreibung": "Herzliche Einladung! Kommen Sie und spielen Sie mit am 23.08.2026. Vom 04. – 06.09.2026 – Büchermarkt in der Bürgerhalle in Unna. Herzlich Willkommen Seit seiner Gründung 2004 fühlen sich die Mitglieder des Lions Club Un...",
-    "quelleUrl": "https://www.viaregis.de/",
-    "rawDateText": "06.09.2026",
+    "beschreibung": "Büchermarkt 2026 Büchermarkt 2026 – Wir planen wieder ein großes Bücherfest Auch im Jahr 2026 möchten wir wieder unseren beliebten Büchermarkt veranstalten. Am Stadtfest-Wochenende vom 04. bis 06. September 2026 wird die...",
+    "quelleUrl": "https://www.viaregis.de/buechermarkt/",
+    "rawDateText": "06. September 2026",
     "matchedKeywords": [
       "Buechermarkt"
     ],
     "confidenceScore": 1.0,
     "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-08-17T08:15:35"
+    "lastChecked": "2026-08-24T08:10:10"
   },
   {
     "id": "c1c54bc2278b",
@@ -371,7 +371,7 @@
     ],
     "confidenceScore": 1.0,
     "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-08-17T06:03:41"
+    "lastChecked": "2026-08-24T06:05:43"
   },
   {
     "id": "82a2279e2ae6",
@@ -397,7 +397,7 @@
     ],
     "confidenceScore": 1.0,
     "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-08-17T06:37:39"
+    "lastChecked": "2026-08-24T06:38:25"
   },
   {
     "id": "ec1dc52c878e",
@@ -422,7 +422,7 @@
     ],
     "confidenceScore": 1.0,
     "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-08-17T07:03:51"
+    "lastChecked": "2026-08-24T07:03:13"
   },
   {
     "id": "b292adc875fe",
@@ -499,7 +499,7 @@
     ],
     "confidenceScore": 1.0,
     "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-08-17T07:03:51"
+    "lastChecked": "2026-08-24T07:03:13"
   },
   {
     "id": "1121f299c823",
@@ -806,7 +806,7 @@
     ],
     "confidenceScore": 1.0,
     "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-08-17T08:14:09"
+    "lastChecked": "2026-08-24T08:08:40"
   },
   {
     "id": "b24080d58ee3",
@@ -861,7 +861,7 @@
     ],
     "confidenceScore": 1.0,
     "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-08-17T08:03:48"
+    "lastChecked": "2026-08-24T07:58:17"
   },
   {
     "id": "addfffa4ec05",
