@@ -187,7 +187,7 @@
     ],
     "confidenceScore": 0.85,
     "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-08-24T07:27:21"
+    "lastChecked": "2026-08-31T13:03:13"
   },
   {
     "id": "578a42a749f3",
@@ -320,7 +320,7 @@
     ],
     "confidenceScore": 1.0,
     "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-08-24T08:10:10"
+    "lastChecked": "2026-08-31T13:40:26"
   },
   {
     "id": "c1c54bc2278b",
@@ -371,7 +371,32 @@
     ],
     "confidenceScore": 1.0,
     "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-08-24T06:05:43"
+    "lastChecked": "2026-08-31T11:47:36"
+  },
+  {
+    "id": "467e633684d8",
+    "clubName": "Lions Club Illertissen",
+    "clubUrl": "https://www.lions-illertissen.de",
+    "ort": "Illertissen",
+    "bundesland": "Bayern",
+    "districtName": "Bayern-Süd",
+    "titel": "Buecherbasar in Illertissen",
+    "eventType": "buecherbasar",
+    "datumStart": "2026-09-13",
+    "datumEnd": "2026-09-13",
+    "uhrzeit": "17:00",
+    "status": "kommend",
+    "veranstaltungsort": "",
+    "adresse": "",
+    "beschreibung": "Aktuelles aus unserem Club Lions Büchermarkt am Kraut- und Rübenmarkt 12. & 13.9.2026 Auch dieses Jahr verkaufen wir wieder gebrauchte Bücher am Kraut- und Rübenmarkt. An beiden Tagen jeweils von 10.00 bis 17.00 Uhr in d...",
+    "quelleUrl": "https://www.lions-illertissen.de/",
+    "rawDateText": "13.9.2026",
+    "matchedKeywords": [
+      "Buechermarkt"
+    ],
+    "confidenceScore": 1.0,
+    "extractionMethod": "html_keyword_date_scan_v1",
+    "lastChecked": "2026-08-31T12:02:38"
   },
   {
     "id": "82a2279e2ae6",
@@ -397,7 +422,7 @@
     ],
     "confidenceScore": 1.0,
     "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-08-24T06:38:25"
+    "lastChecked": "2026-08-31T12:16:31"
   },
   {
     "id": "ec1dc52c878e",
@@ -422,7 +447,7 @@
     ],
     "confidenceScore": 1.0,
     "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-08-24T07:03:13"
+    "lastChecked": "2026-08-31T12:40:24"
   },
   {
     "id": "b292adc875fe",
@@ -499,7 +524,7 @@
     ],
     "confidenceScore": 1.0,
     "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-08-24T07:03:13"
+    "lastChecked": "2026-08-31T12:40:24"
   },
   {
     "id": "1121f299c823",
@@ -806,7 +831,7 @@
     ],
     "confidenceScore": 1.0,
     "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-08-24T08:08:40"
+    "lastChecked": "2026-08-31T13:39:02"
   },
   {
     "id": "b24080d58ee3",
@@ -861,7 +886,7 @@
     ],
     "confidenceScore": 1.0,
     "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-08-24T07:58:17"
+    "lastChecked": "2026-08-31T13:30:54"
   },
   {
     "id": "addfffa4ec05",

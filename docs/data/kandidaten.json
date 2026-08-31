@@ -78,6 +78,19 @@
     "id": "afba981e1fb7"
   },
   {
+    "clubName": "Lions Club Schwabmünchen-Lechfeld-Buchloe",
+    "ort": "Schwabmünchen-Lechfeld-Buchloe",
+    "districtName": "Bayern-Süd",
+    "eventType": "buecherbasar",
+    "datumStart": "",
+    "titel": "Buecherbasar in Schwabmünchen-Lechfeld-Buchloe",
+    "beschreibung": "In Buchloe startet der Verkauf 2026 beim Bücherbasar am 17. Oktober.",
+    "quelleUrl": "https://schwabmuenchen-lechfeld-buchloe.lions.de/buchloe",
+    "confidenceScore": 0.75,
+    "reviewGrund": "kein Datum erkannt",
+    "id": "fdf576a8d8b1"
+  },
+  {
     "clubName": "Lions Club Attendorn-Hansestadt",
     "ort": "Attendorn-Hansestadt",
     "districtName": "Westfalen-Lippe",
