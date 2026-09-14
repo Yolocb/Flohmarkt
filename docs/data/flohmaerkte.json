@@ -299,81 +299,6 @@
     "districtName": "Süd-Mitte"
   },
   {
-    "id": "cfaad6645a6c",
-    "clubName": "Lions Club Leutkirch",
-    "clubUrl": "https://leutkirch.lions.de",
-    "ort": "Leutkirch",
-    "bundesland": "Baden-Wuerttemberg",
-    "districtName": "Süd-Mitte",
-    "titel": "Flohmarkt in Leutkirch",
-    "eventType": "flohmarkt",
-    "datumStart": "2026-09-13",
-    "datumEnd": "2026-09-13",
-    "uhrzeit": "18:00",
-    "status": "kommend",
-    "veranstaltungsort": "",
-    "adresse": "",
-    "beschreibung": "Home - Leutkirch Header Club Beispiel Kurhaus Lions Club Leutkirch im Allgäu Mut zur Tat. Gemeinsam Verantwortung übernehmen. Ankündigung Flohmarkt 2026 Ankündigung Flohmarkt 2026 LIONS-Flohmarkt am Wochenende 12./13. Se...",
-    "quelleUrl": "https://leutkirch.lions.de/",
-    "rawDateText": "13. September 2026",
-    "matchedKeywords": [
-      "Flohmarkt"
-    ],
-    "confidenceScore": 1.0,
-    "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-09-07T10:31:43"
-  },
-  {
-    "id": "467e633684d8",
-    "clubName": "Lions Club Illertissen",
-    "clubUrl": "https://www.lions-illertissen.de",
-    "ort": "Illertissen",
-    "bundesland": "Bayern",
-    "districtName": "Bayern-Süd",
-    "titel": "Buecherbasar in Illertissen",
-    "eventType": "buecherbasar",
-    "datumStart": "2026-09-13",
-    "datumEnd": "2026-09-13",
-    "uhrzeit": "17:00",
-    "status": "kommend",
-    "veranstaltungsort": "",
-    "adresse": "",
-    "beschreibung": "Aktuelles aus unserem Club Lions Büchermarkt am Kraut- und Rübenmarkt 12. & 13.9.2026 Auch dieses Jahr verkaufen wir wieder gebrauchte Bücher am Kraut- und Rübenmarkt. An beiden Tagen jeweils von 10.00 bis 17.00 Uhr in d...",
-    "quelleUrl": "https://www.lions-illertissen.de/",
-    "rawDateText": "13.9.2026",
-    "matchedKeywords": [
-      "Buechermarkt"
-    ],
-    "confidenceScore": 1.0,
-    "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-09-07T10:46:17"
-  },
-  {
-    "id": "ec1dc52c878e",
-    "clubName": "Lions Club Emsdetten",
-    "clubUrl": "http://www.lions-emsdetten.de",
-    "ort": "Emsdetten",
-    "bundesland": "",
-    "districtName": "Westfalen-Lippe",
-    "titel": "Buecherbasar in Emsdetten",
-    "eventType": "buecherbasar",
-    "datumStart": "2026-09-13",
-    "datumEnd": "2026-09-13",
-    "uhrzeit": "",
-    "status": "kommend",
-    "veranstaltungsort": "",
-    "adresse": "",
-    "beschreibung": "Aktuelles Pubquiz am Di. 22.9.2026 Die Anmeldung zum nächsten Charity-Pubquiz ist ab sofort möglich! Mehr Kinderkonzert mit Volker Rosin (13.9.2026) Volker Rosin kommt nach Emsdetten – ein fröhlicher Familiennachmittag z...",
-    "quelleUrl": "http://www.lions-emsdetten.de/",
-    "rawDateText": "13.9.2026",
-    "matchedKeywords": [
-      "Flohmarkt"
-    ],
-    "confidenceScore": 1.0,
-    "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-09-07T11:24:44"
-  },
-  {
     "id": "b292adc875fe",
     "clubName": "Lions Club Flensburg-Alexandra",
     "clubUrl": "https://flensburg-alexandra.lions.de",
@@ -448,7 +373,7 @@
     ],
     "confidenceScore": 1.0,
     "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-09-07T11:24:44"
+    "lastChecked": "2026-09-14T11:54:58"
   },
   {
     "id": "1121f299c823",
@@ -559,7 +484,7 @@
     ],
     "confidenceScore": 1.0,
     "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-09-07T12:00:31"
+    "lastChecked": "2026-09-14T12:34:12"
   },
   {
     "id": "a599080dc692",
@@ -612,7 +537,7 @@
     ],
     "confidenceScore": 1.0,
     "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-09-07T12:00:31"
+    "lastChecked": "2026-09-14T12:34:12"
   },
   {
     "id": "04465bb7c127",
@@ -795,7 +720,7 @@
     "status": "kommend",
     "veranstaltungsort": "",
     "adresse": "",
-    "beschreibung": "Dennis Durant & Soulband 16. Benefizkonzert am 20.11.2026 mehr erfahren Apfelsaft Nur so lange der Vorrat reicht. mehr erfahren Bücherbasar Jeden 1. Samstag im Monat Wir verkaufen Bücher für einen guten Zweck! DIE NÄCHST...",
+    "beschreibung": "Dennis Durant & Soulband 16. Benefizkonzert am 20.11.2026 mehr erfahren Apfelsaft Nur so lange der Vorrat reicht. mehr erfahren Even Hands Can See Kunst von Horst W. Müller mehr erfahren Bücherbasar Jeden 1. Samstag im M...",
     "quelleUrl": "https://www.lcsl.de/",
     "rawDateText": "Jeden 1. Samstag",
     "matchedKeywords": [
@@ -805,7 +730,7 @@
     ],
     "confidenceScore": 1.0,
     "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-09-07T12:25:11"
+    "lastChecked": "2026-09-14T13:01:52"
   },
   {
     "id": "b24080d58ee3",
@@ -860,7 +785,7 @@
     ],
     "confidenceScore": 1.0,
     "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-09-07T12:16:47"
+    "lastChecked": "2026-09-14T12:52:07"
   },
   {
     "id": "de5df3a32e6f",
@@ -877,7 +802,7 @@
     "status": "kommend",
     "veranstaltungsort": "",
     "adresse": "",
-    "beschreibung": "Dennis Durant & Soulband 16. Benefizkonzert am 20.11.2026 mehr erfahren Apfelsaft Nur so lange der Vorrat reicht. mehr erfahren Bücherbasar Jeden 1. Samstag im Monat Wir verkaufen Bücher für einen guten Zweck! DIE NÄCHST...",
+    "beschreibung": "Dennis Durant & Soulband 16. Benefizkonzert am 20.11.2026 mehr erfahren Apfelsaft Nur so lange der Vorrat reicht. mehr erfahren Even Hands Can See Kunst von Horst W. Müller mehr erfahren Bücherbasar Jeden 1. Samstag im M...",
     "quelleUrl": "https://www.lcsl.de/",
     "rawDateText": "Jeden 1. Samstag",
     "matchedKeywords": [
@@ -887,7 +812,7 @@
     ],
     "confidenceScore": 1.0,
     "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-09-07T12:25:11"
+    "lastChecked": "2026-09-14T13:01:52"
   },
   {
     "id": "4c3c9cac6659",
@@ -915,7 +840,7 @@
     ],
     "confidenceScore": 1.0,
     "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-09-07T12:16:47"
+    "lastChecked": "2026-09-14T12:52:07"
   },
   {
     "id": "addfffa4ec05",

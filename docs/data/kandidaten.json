@@ -195,6 +195,19 @@
     "id": "f61ef9a543f7"
   },
   {
+    "clubName": "Lions Club Wiesloch",
+    "ort": "Wiesloch",
+    "districtName": "Süd-Nord",
+    "eventType": "buecherbasar",
+    "datumStart": "",
+    "titel": "Buecherbasar in Wiesloch",
+    "beschreibung": "Büchermarkt 2026",
+    "quelleUrl": "http://www.lionsclub-wiesloch.de/",
+    "confidenceScore": 0.65,
+    "reviewGrund": "kein Datum erkannt",
+    "id": "61f74ea67dce"
+  },
+  {
     "clubName": "Lions Club Bad Tölz",
     "ort": "Bad Tölz",
     "districtName": "Bayern-Süd",
