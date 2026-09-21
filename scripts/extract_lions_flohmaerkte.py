@@ -33,6 +33,7 @@ import hashlib
 import json
 import logging
 import re
+import shutil
 import sys
 import time
 from datetime import datetime, date, timedelta
@@ -79,6 +80,13 @@ USER_AGENT = (
 REQUEST_TIMEOUT = 8           # Sekunden pro Anfrage (tote Hosts schneller aufgeben)
 POLITE_DELAY = 0.5            # Sekunden Pause zwischen Anfragen (hoeflich, aber zuegig)
 MAX_RETRIES = 1              # keine Wiederholung bei Netzwerkfehlern (spart Zeit)
+
+# Ab so vielen aufeinanderfolgenden 404-Laeufen wird ein fest verdrahteter
+# Pfad aus enabledPaths des Clubs entfernt (selbstheilende Pfadliste). 2 Laeufe
+# fangen einmalige Ausfaelle (Deploy, kurzer Serverfehler) ab. Der Basispfad
+# "/" wird NIE entfernt - ohne erreichbare Startseite findet der Scraper keine
+# echten Unterseiten mehr.
+PFAD_404_SCHWELLE = 2
 
 # Konfidenz-Schwellwert: >= gilt als "sicher" -> flohmaerkte.json,
 # darunter -> review_candidates.json.
@@ -598,6 +606,13 @@ def process_club(session, club, log_entry):
     exclude = set(club.get("excludePaths", []))
     zusatz_ermittelt = False
 
+    # Nur die urspruenglich im Seed verdrahteten Pfade sind Kandidaten fuer die
+    # 404-Bereinigung - dynamisch entdeckte Zusatzpfade (aus Links/Sitemap)
+    # werden NICHT bewertet. Wir merken je Original-Pfad, ob er 404 lieferte
+    # (True) oder erreichbar war (False), und geben das an main() zurueck.
+    orig_pfade = set(pfade)
+    log_entry["pfad404"] = {}
+
     # Netzwerkfehler (kein HTTP-Status) auf der Startseite = toter Host:
     # dann die weiteren Pfade dieses Clubs ueberspringen. Das spart bei
     # nicht erreichbaren Seiten die vielfachen Timeouts pro Pfad.
@@ -612,6 +627,10 @@ def process_club(session, club, log_entry):
 
         html, status, error = fetch_url(session, url)
         seiten_log = {"url": url, "httpStatus": status, "error": error, "treffer": 0}
+
+        # Status des Original-Pfads fuer die 404-Bereinigung festhalten.
+        if pfad in orig_pfade:
+            log_entry["pfad404"][pfad] = (status == 404)
 
         if error or not html:
             log.warning("     Fehler: %s", error)
@@ -982,6 +1001,60 @@ def main():
             scan_log["clubsMitFehler"] += 1
         scan_log["clubDetails"].append(log_entry)
         scan_log["clubsGescannt"] += 1
+
+    # Selbstheilende Pfadliste: 404-Zaehler je Original-Pfad pflegen und Pfade
+    # entfernen, die wiederholt 404 liefern. Reduziert das 404-Rauschen und die
+    # verschwendeten Requests pro Wochenlauf. Nur die in DIESEM Lauf gescannten
+    # Clubs werden angefasst (wichtig fuer --only). "/" bleibt immer erhalten.
+    club_nach_slug = {c.get("slug"): c for c in clubs}
+    pfade_entfernt = 0
+    clubs_bereinigt = 0
+    for eintrag in scan_log["clubDetails"]:
+        pfad_status = eintrag.get("pfad404") or {}
+        if not pfad_status:
+            continue
+        club = club_nach_slug.get(eintrag["slug"])
+        if not club:
+            continue
+        zaehler = dict(club.get("pfad404Count") or {})
+        enabled_paths = list(club.get("enabledPaths") or ["/"])
+        club_geaendert = False
+        for pfad, war_404 in pfad_status.items():
+            if pfad == "/":
+                continue  # Startseite nie entfernen.
+            if war_404:
+                zaehler[pfad] = int(zaehler.get(pfad, 0)) + 1
+                if zaehler[pfad] >= PFAD_404_SCHWELLE and pfad in enabled_paths:
+                    enabled_paths.remove(pfad)
+                    zaehler.pop(pfad, None)
+                    pfade_entfernt += 1
+                    club_geaendert = True
+                    log.info("     404-Bereinigung %s: Pfad '%s' entfernt "
+                             "(>=%d Laeufe 404).", club["slug"], pfad,
+                             PFAD_404_SCHWELLE)
+            else:
+                # Pfad wieder erreichbar -> Zaehler zuruecksetzen.
+                if pfad in zaehler:
+                    zaehler.pop(pfad, None)
+                    club_geaendert = True
+        if zaehler != (club.get("pfad404Count") or {}):
+            club_geaendert = True
+        if club_geaendert:
+            club["enabledPaths"] = enabled_paths
+            if zaehler:
+                club["pfad404Count"] = zaehler
+            else:
+                club.pop("pfad404Count", None)
+            clubs_bereinigt += 1
+
+    if pfade_entfernt or clubs_bereinigt:
+        # Seed nur zurueckschreiben, wenn sich etwas geaendert hat. Backup vorher.
+        backup = SCRIPT_DIR / "clubs_seed.vor_pfadbereinigung.bak"
+        shutil.copy2(SEED_FILE, backup)
+        write_json(SEED_FILE, seed)
+        log.info("Pfad-Bereinigung: %d Pfade in %d Clubs entfernt/aktualisiert. "
+                 "Seed aktualisiert (Backup: %s).",
+                 pfade_entfernt, clubs_bereinigt, backup.name)
 
     # Deduplizieren + sortieren.
     alle_events = deduplicate(alle_events)
