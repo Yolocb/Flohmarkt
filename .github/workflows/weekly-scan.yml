@@ -12,6 +12,11 @@ on:
     - cron: "17 5 * * 1"
   # Erlaubt manuelles Ausloesen ueber den "Actions"-Tab auf GitHub.
   workflow_dispatch:
+    inputs:
+      only:
+        description: "Nur bestimmte Clubs scannen (Slug, kommagetrennt). Leer = Voll-Scan."
+        required: false
+        default: ""
 
 # Dem Workflow das Schreiben ins Repo (Commit) erlauben.
 permissions:
@@ -33,7 +38,12 @@ jobs:
         run: pip install -r scripts/requirements.txt
 
       - name: Termin-Scan ausfuehren
-        run: python scripts/extract_lions_flohmaerkte.py --verbose
+        run: |
+          ARGS="--verbose"
+          if [ -n "${{ inputs.only }}" ]; then
+            ARGS="$ARGS --only ${{ inputs.only }}"
+          fi
+          python scripts/extract_lions_flohmaerkte.py $ARGS
 
       - name: Aenderungen committen (nur wenn vorhanden)
         run: |

@@ -7463,14 +7463,24 @@
       "searchPaths": [
         "/",
         "/veranstaltungen",
-        "/termine"
+        "/termine",
+        "/buchmarkt",
+        "/buechermarkt",
+        "/aktuelles",
+        "/buecher",
+        "/veranstaltung"
       ],
       "enabledPaths": [
         "/",
         "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
-        "/projekte"
+        "/projekte",
+        "/buchmarkt",
+        "/buechermarkt",
+        "/aktuelles",
+        "/buecher",
+        "/veranstaltung"
       ],
       "excludePaths": [
         "/impressum",
