@@ -10,7 +10,10 @@ scripts/clubs_seed.master.bak
 docs/data/flohmaerkte.bestätigt.bak
 
 # Scraper-Zwischenausgaben (nur lokal; flohmaerkte.json wird versioniert)
-scripts/output/
+scripts/output/*
+# Ausnahme: Lauf-Protokoll versionieren, damit der Workflow es committen kann
+# (Diagnose: welche Club-Seiten waren erreichbar, wie viele Treffer).
+!scripts/output/scan_log.json
 
 # Editor / OS
 .vscode/

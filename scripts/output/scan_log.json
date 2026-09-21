@@ -1,0 +1,199 @@
+{
+  "startzeit": "2026-07-25T22:54:41",
+  "endzeit": "2026-07-25T22:55:17",
+  "clubsGescannt": 3,
+  "clubsMitFehler": 3,
+  "eventsSicher": 27,
+  "eventsReview": 131,
+  "clubDetails": [
+    {
+      "slug": "bad-toelz",
+      "clubName": "Lions Club Bad Tölz",
+      "urlStatus": "unverified",
+      "seiten": [
+        {
+          "url": "https://www.lc-bad-toelz.de/",
+          "httpStatus": 200,
+          "error": null,
+          "treffer": 9
+        },
+        {
+          "url": "https://www.lc-bad-toelz.de/veranstaltungen",
+          "httpStatus": null,
+          "error": "HTTP 404",
+          "treffer": 0
+        },
+        {
+          "url": "https://www.lc-bad-toelz.de/termine",
+          "httpStatus": null,
+          "error": "HTTP 404",
+          "treffer": 0
+        },
+        {
+          "url": "https://www.lc-bad-toelz.de/aktivitaeten",
+          "httpStatus": null,
+          "error": "HTTP 404",
+          "treffer": 0
+        },
+        {
+          "url": "https://www.lc-bad-toelz.de/projekte",
+          "httpStatus": null,
+          "error": "HTTP 404",
+          "treffer": 0
+        },
+        {
+          "url": "https://www.lc-bad-toelz.de/club/aktuell-uebersicht/",
+          "httpStatus": 200,
+          "error": null,
+          "treffer": 19
+        },
+        {
+          "url": "https://www.lc-bad-toelz.de/activities/buechermarkt/",
+          "httpStatus": 200,
+          "error": null,
+          "treffer": 9
+        },
+        {
+          "url": "https://www.lc-bad-toelz.de/2026/04/02/wir-koennen-wieder-buecher-annehmen-4/",
+          "httpStatus": 200,
+          "error": null,
+          "treffer": 7
+        }
+      ],
+      "eventsSicher": 25,
+      "eventsReview": 19
+    },
+    {
+      "slug": "sulinger-land",
+      "clubName": "Lions Club Sulinger Land",
+      "urlStatus": "unverified",
+      "seiten": [
+        {
+          "url": "https://www.lcsl.de/",
+          "httpStatus": 200,
+          "error": null,
+          "treffer": 16
+        },
+        {
+          "url": "https://www.lcsl.de/veranstaltungen",
+          "httpStatus": null,
+          "error": "HTTP 404",
+          "treffer": 0
+        },
+        {
+          "url": "https://www.lcsl.de/termine",
+          "httpStatus": null,
+          "error": "HTTP 404",
+          "treffer": 0
+        },
+        {
+          "url": "https://www.lcsl.de/aktivitaeten",
+          "httpStatus": null,
+          "error": "HTTP 404",
+          "treffer": 0
+        },
+        {
+          "url": "https://www.lcsl.de/projekte",
+          "httpStatus": null,
+          "error": "HTTP 404",
+          "treffer": 0
+        },
+        {
+          "url": "https://www.lcsl.de/actvity/buecherbasar/",
+          "httpStatus": 200,
+          "error": null,
+          "treffer": 19
+        }
+      ],
+      "eventsSicher": 26,
+      "eventsReview": 9
+    },
+    {
+      "slug": "unna-via-regis",
+      "clubName": "Lions Club Unna Via Regis",
+      "urlStatus": "unverified",
+      "seiten": [
+        {
+          "url": "https://www.viaregis.de/",
+          "httpStatus": 200,
+          "error": null,
+          "treffer": 11
+        },
+        {
+          "url": "https://www.viaregis.de/veranstaltungen",
+          "httpStatus": null,
+          "error": "HTTP 404",
+          "treffer": 0
+        },
+        {
+          "url": "https://www.viaregis.de/termine",
+          "httpStatus": null,
+          "error": "HTTP 404",
+          "treffer": 0
+        },
+        {
+          "url": "https://www.viaregis.de/aktivitaeten",
+          "httpStatus": null,
+          "error": "HTTP 404",
+          "treffer": 0
+        },
+        {
+          "url": "https://www.viaregis.de/projekte",
+          "httpStatus": null,
+          "error": "HTTP 404",
+          "treffer": 0
+        },
+        {
+          "url": "https://www.viaregis.de/buechermarkt/",
+          "httpStatus": 200,
+          "error": null,
+          "treffer": 17
+        },
+        {
+          "url": "https://www.viaregis.de/buecher-sammelstelle-geschlossen/",
+          "httpStatus": 200,
+          "error": null,
+          "treffer": 8
+        },
+        {
+          "url": "https://www.viaregis.de/buecher-sammelstelle-oeffnet/",
+          "httpStatus": 200,
+          "error": null,
+          "treffer": 3
+        },
+        {
+          "url": "https://www.viaregis.de/tag/buecher/",
+          "httpStatus": 200,
+          "error": null,
+          "treffer": 34
+        },
+        {
+          "url": "https://www.viaregis.de/tag/buechermarkt/",
+          "httpStatus": 200,
+          "error": null,
+          "treffer": 13
+        },
+        {
+          "url": "https://www.viaregis.de/tag/buechersammelstelle/",
+          "httpStatus": 200,
+          "error": null,
+          "treffer": 23
+        },
+        {
+          "url": "https://www.viaregis.de/tag/buecherverkauf/",
+          "httpStatus": 200,
+          "error": null,
+          "treffer": 16
+        },
+        {
+          "url": "https://www.viaregis.de/buecher-koennen-so-viel-mehr/",
+          "httpStatus": 200,
+          "error": null,
+          "treffer": 3
+        }
+      ],
+      "eventsSicher": 60,
+      "eventsReview": 68
+    }
+  ]
+}
