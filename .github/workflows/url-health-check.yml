@@ -6,6 +6,11 @@ name: URL-Health-Check
 # Nur manuell ausloesbar (1.112 Requests sind teuer - kein Cron-Zwang).
 
 on:
+  # Monatlich (1. des Monats, 04:23 UTC). URLs veralten langsam - ein
+  # monatlicher Rhythmus haelt urlStatus aktuell, ohne die 1.112 Requests
+  # woechentlich zu wiederholen.
+  schedule:
+    - cron: "23 4 1 * *"
   workflow_dispatch:
     inputs:
       only:

@@ -18,11 +18,16 @@ Zweck:
     - Klassifizieren: ok | tot | http_fehler | redirect.
     - Bei totem Host testen, ob https://<slug>.lions.de antwortet
       (313 Clubs nutzen dieses Muster) -> als Vorschlag melden.
-    - urlStatus im Seed aktualisieren (nur dieses Feld).
+    - urlStatus im Seed aktualisieren.
+    - Tot-Zaehler (totLaeufe) je Club pflegen: bei ok -> 0, sonst +1.
+      Ab TOT_SCHWELLE toten Laeufen (und OHNE lions.de-Nachfolger) wird der
+      Club automatisch deaktiviert (enabled:false), damit er den Termin-Scan
+      nicht mehr mit Timeouts belastet.
     - Report als JSON + Markdown schreiben.
 
 WICHTIG: Aendert clubUrl NICHT automatisch. Umzugs-/lions.de-Vorschlaege
-    werden nur berichtet und muessen manuell validiert werden.
+    werden nur berichtet und muessen manuell validiert werden. Clubs mit
+    Nachfolger werden auch NIE auto-deaktiviert (sie sind nur umgezogen).
 
 Ausgaben:
     1. scripts/clubs_seed.json                 -> urlStatus aktualisiert (Backup vorher)
@@ -146,9 +151,18 @@ STATUS_MAP = {
     "keine_url": "keine_url",
 }
 
+# Ab so vielen aufeinanderfolgenden toten Laeufen wird ein Club automatisch
+# deaktiviert (enabled:false), damit er den Termin-Scan nicht laenger mit
+# Timeouts belastet. 3 Laeufe (= ~3 Monate bei monatlichem Cron) fangen
+# einmalige Ausfaelle ab. Clubs mit lions.de-Nachfolger werden NIE automatisch
+# deaktiviert - die sind nur umgezogen und sollen migriert, nicht abgeschaltet
+# werden.
+TOT_SCHWELLE = 3
 
-def schreibe_markdown(ergebnisse, zeitstempel):
+
+def schreibe_markdown(ergebnisse, zeitstempel, deaktiviert=None):
     from collections import Counter
+    deaktiviert = deaktiviert or []
     zaehler = Counter(e["status"] for e in ergebnisse)
     tot = [e for e in ergebnisse if e["status"] == "tot"]
     http_fehler = [e for e in ergebnisse if e["status"] == "http_fehler"]
@@ -163,6 +177,15 @@ def schreibe_markdown(ergebnisse, zeitstempel):
     for status in ("ok", "tot", "http_fehler", "keine_url"):
         zeilen.append(f"| {status} | {zaehler.get(status, 0)} |")
     zeilen.append("")
+
+    if deaktiviert:
+        zeilen.append(
+            f"## Automatisch deaktiviert (>={TOT_SCHWELLE} tote Laeufe, kein Nachfolger) — {len(deaktiviert)}\n")
+        zeilen.append("`enabled:false` gesetzt - diese Clubs belasten den Termin-Scan nicht mehr. "
+                      "Bleiben im Seed und koennen bei neuer URL reaktiviert werden.\n")
+        for slug in sorted(deaktiviert):
+            zeilen.append(f"- {slug}")
+        zeilen.append("")
 
     if vorschlaege:
         zeilen.append(f"## Umzugs-Vorschlaege (lions.de erreichbar) — {len(vorschlaege)}\n")
@@ -233,41 +256,64 @@ def main():
                             "Accept-Language": "de-DE,de;q=0.9"})
 
     ergebnisse = []
-    # Slug -> abgeleiteter urlStatus, um den Seed danach zu aktualisieren.
-    status_nach_slug = {}
     for i, club in enumerate(aktive, 1):
         log.info("[%d/%d] %s (%s)", i, len(aktive),
                  club.get("clubName"), club.get("slug"))
         e = pruefe_club(session, club)
         ergebnisse.append(e)
-        neuer_status = STATUS_MAP.get(e["status"])
-        if neuer_status:
-            status_nach_slug[club.get("slug")] = neuer_status
         log.debug("   -> %s (%s)", e["status"], e.get("error") or "ok")
         time.sleep(POLITE_DELAY)
 
-    # Seed aktualisieren: nur urlStatus der geprueften Clubs, Rest unangetastet.
+    # Seed aktualisieren: urlStatus, Tot-Zaehler und ggf. Auto-Deaktivierung.
+    # Ergebnis je Slug nachschlagbar machen (Status + lions.de-Vorschlag).
+    ergebnis_nach_slug = {e["slug"]: e for e in ergebnisse}
     geaendert = 0
+    deaktiviert = []  # Slugs, die in diesem Lauf abgeschaltet wurden.
     for c in clubs:
-        ns = status_nach_slug.get(c.get("slug"))
+        e = ergebnis_nach_slug.get(c.get("slug"))
+        if not e:
+            continue  # Club wurde in diesem Lauf nicht geprueft.
+
+        ns = STATUS_MAP.get(e["status"])
         if ns and c.get("urlStatus") != ns:
             c["urlStatus"] = ns
             geaendert += 1
+
+        # Tot-Zaehler pflegen: bei ok zuruecksetzen, sonst hochzaehlen.
+        # http_fehler zaehlt mit, weil auch 4xx/5xx den Scan leerlaufen laesst.
+        if e["status"] == "ok":
+            if c.get("totLaeufe"):
+                c["totLaeufe"] = 0
+        elif e["status"] in ("tot", "http_fehler"):
+            c["totLaeufe"] = int(c.get("totLaeufe") or 0) + 1
+
+            # Auto-Deaktivierung ab Schwelle - aber NICHT, wenn es einen
+            # lions.de-Nachfolger gibt (dann ist der Club nur umgezogen und
+            # soll migriert werden, nicht abgeschaltet).
+            if (c["totLaeufe"] >= TOT_SCHWELLE
+                    and c.get("enabled")
+                    and not e.get("vorschlagUrl")):
+                c["enabled"] = False
+                deaktiviert.append(c.get("slug"))
 
     # Backup + Seed schreiben (Struktur beibehalten: Dict mit "clubs").
     shutil.copy2(SEED_FILE, BACKUP_FILE)
     log.info("Backup: %s", BACKUP_FILE)
     write_json(SEED_FILE, seed)
     log.info("urlStatus in %d Clubs aktualisiert.", geaendert)
+    if deaktiviert:
+        log.info("Automatisch deaktiviert (>=%d tote Laeufe, kein Nachfolger): %d Clubs: %s",
+                 TOT_SCHWELLE, len(deaktiviert), ", ".join(deaktiviert))
 
     # Reports schreiben.
     zeitstempel = datetime.now().isoformat(timespec="seconds")
     write_json(REPORT_JSON, {
         "zeitstempel": zeitstempel,
         "geprueft": len(ergebnisse),
+        "deaktiviert": deaktiviert,
         "ergebnisse": ergebnisse,
     })
-    schreibe_markdown(ergebnisse, zeitstempel)
+    schreibe_markdown(ergebnisse, zeitstempel, deaktiviert)
 
     from collections import Counter
     z = Counter(e["status"] for e in ergebnisse)
