@@ -1,0 +1,55 @@
+name: URL-Health-Check
+
+# Prueft die Erreichbarkeit aller Club-URLs im Seed (scripts/clubs_seed.json),
+# aktualisiert urlStatus und schreibt einen Report. Deckt tote/umgezogene URLs
+# auf, die den woechentlichen Termin-Scan still ins Leere laufen lassen.
+# Nur manuell ausloesbar (1.112 Requests sind teuer - kein Cron-Zwang).
+
+on:
+  workflow_dispatch:
+    inputs:
+      only:
+        description: "Nur bestimmte Clubs pruefen (Slug, kommagetrennt). Leer = alle."
+        required: false
+        default: ""
+
+# Dem Workflow das Schreiben ins Repo (Commit) erlauben.
+permissions:
+  contents: write
+
+jobs:
+  health:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Repository auschecken
+        uses: actions/checkout@v5
+
+      - name: Python einrichten
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+
+      - name: Abhaengigkeiten installieren
+        run: pip install -r scripts/requirements.txt
+
+      - name: URL-Health-Check ausfuehren
+        # Aus scripts/ heraus, damit der Import von extract_lions_flohmaerkte klappt.
+        working-directory: scripts
+        run: |
+          ARGS=""
+          if [ -n "${{ inputs.only }}" ]; then
+            ARGS="--only ${{ inputs.only }}"
+          fi
+          python url_health_check.py $ARGS --verbose
+
+      - name: Aenderungen committen (nur wenn vorhanden)
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add scripts/clubs_seed.json scripts/output/url_health.json scripts/output/url_health_report.md
+          if git diff --staged --quiet; then
+            echo "Keine Aenderungen - nichts zu committen."
+          else
+            git commit -m "URL-Health-Check ($(date -u +%Y-%m-%d))"
+            git push
+          fi

@@ -14,6 +14,9 @@ scripts/output/*
 # Ausnahme: Lauf-Protokoll versionieren, damit der Workflow es committen kann
 # (Diagnose: welche Club-Seiten waren erreichbar, wie viele Treffer).
 !scripts/output/scan_log.json
+# Ausnahme: URL-Health-Report versionieren (Diagnose toter/umgezogener URLs).
+!scripts/output/url_health.json
+!scripts/output/url_health_report.md
 
 # Editor / OS
 .vscode/
