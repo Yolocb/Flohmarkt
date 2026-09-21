@@ -1677,9 +1677,9 @@
       "bundesland": "Baden-Wuerttemberg",
       "districtCode": "",
       "districtName": "Süd-West",
-      "clubUrl": "https://lionsclub-donaueschingen.de",
+      "clubUrl": "https://donaueschingen.lions.de",
       "sourceType": "club_website",
-      "urlStatus": "tot",
+      "urlStatus": "verified",
       "enabled": true,
       "priority": 3,
       "scanDepth": 1,
@@ -1718,7 +1718,7 @@
       "confidenceBase": 0.4,
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
-      "notesInternal": "Aus Clubfinder ermittelt (clubId Süd-West)."
+      "notesInternal": "Aus Clubfinder ermittelt (clubId Süd-West). | URL migriert 2026-09-21 auf lions.de (alt: https://lionsclub-donaueschingen.de, tot; via Health-Check bestaetigt)."
     },
     {
       "slug": "dreisamtal",
@@ -1931,9 +1931,9 @@
       "bundesland": "Baden-Wuerttemberg",
       "districtCode": "",
       "districtName": "Süd-Mitte",
-      "clubUrl": "https://www.lionsclub-ermstal.de",
+      "clubUrl": "https://ermstal.lions.de",
       "sourceType": "club_website",
-      "urlStatus": "tot",
+      "urlStatus": "verified",
       "enabled": true,
       "priority": 3,
       "scanDepth": 1,
@@ -1972,7 +1972,7 @@
       "confidenceBase": 0.4,
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
-      "notesInternal": "Aus Clubfinder ermittelt (clubId Süd-Mitte)."
+      "notesInternal": "Aus Clubfinder ermittelt (clubId Süd-Mitte). | URL migriert 2026-09-21 auf lions.de (alt: https://www.lionsclub-ermstal.de, tot; via Health-Check bestaetigt)."
     },
     {
       "slug": "esslingen-am-neckar",
@@ -2083,9 +2083,9 @@
       "bundesland": "Baden-Wuerttemberg",
       "districtCode": "",
       "districtName": "Süd-Mitte",
-      "clubUrl": "https://www.lions-postmichel.de",
+      "clubUrl": "https://esslingen-postmichel.lions.de",
       "sourceType": "club_website",
-      "urlStatus": "tot",
+      "urlStatus": "verified",
       "enabled": true,
       "priority": 3,
       "scanDepth": 1,
@@ -2124,7 +2124,7 @@
       "confidenceBase": 0.4,
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
-      "notesInternal": "Aus Clubfinder ermittelt (clubId Süd-Mitte)."
+      "notesInternal": "Aus Clubfinder ermittelt (clubId Süd-Mitte). | URL migriert 2026-09-21 auf lions.de (alt: https://www.lions-postmichel.de, tot; via Health-Check bestaetigt)."
     },
     {
       "slug": "ettenheim-noerdlicher-breisgau",
@@ -2133,9 +2133,9 @@
       "bundesland": "Baden-Wuerttemberg",
       "districtCode": "",
       "districtName": "Süd-West",
-      "clubUrl": "https://lions-ettenheim.de",
+      "clubUrl": "https://ettenheim-noerdlicher-breisgau.lions.de",
       "sourceType": "club_website",
-      "urlStatus": "tot",
+      "urlStatus": "verified",
       "enabled": true,
       "priority": 3,
       "scanDepth": 1,
@@ -2174,7 +2174,7 @@
       "confidenceBase": 0.4,
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
-      "notesInternal": "Aus Clubfinder ermittelt (clubId Süd-West)."
+      "notesInternal": "Aus Clubfinder ermittelt (clubId Süd-West). | URL migriert 2026-09-21 auf lions.de (alt: https://lions-ettenheim.de, tot; via Health-Check bestaetigt)."
     },
     {
       "slug": "ettlingen",
@@ -2943,9 +2943,9 @@
       "bundesland": "Baden-Wuerttemberg",
       "districtCode": "",
       "districtName": "Süd-Nord",
-      "clubUrl": "https://www.lions-altstadt.de",
+      "clubUrl": "https://heidelberg-altstadt.lions.de",
       "sourceType": "club_website",
-      "urlStatus": "tot",
+      "urlStatus": "verified",
       "enabled": true,
       "priority": 3,
       "scanDepth": 1,
@@ -2984,7 +2984,7 @@
       "confidenceBase": 0.4,
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
-      "notesInternal": "Aus Clubfinder ermittelt (clubId Süd-Nord)."
+      "notesInternal": "Aus Clubfinder ermittelt (clubId Süd-Nord). | URL migriert 2026-09-21 auf lions.de (alt: https://www.lions-altstadt.de, tot; via Health-Check bestaetigt)."
     },
     {
       "slug": "heidelberg-palatina",
@@ -3193,9 +3193,9 @@
       "bundesland": "Baden-Wuerttemberg",
       "districtCode": "",
       "districtName": "Süd-Mitte",
-      "clubUrl": "https://www.Lions-Heilbronn-Wartberg.de",
+      "clubUrl": "https://heilbronn-wartberg.lions.de",
       "sourceType": "club_website",
-      "urlStatus": "tot",
+      "urlStatus": "verified",
       "enabled": true,
       "priority": 3,
       "scanDepth": 1,
@@ -3234,7 +3234,7 @@
       "confidenceBase": 0.4,
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
-      "notesInternal": "Aus Clubfinder ermittelt (clubId Süd-Mitte)."
+      "notesInternal": "Aus Clubfinder ermittelt (clubId Süd-Mitte). | URL migriert 2026-09-21 auf lions.de (alt: https://www.Lions-Heilbronn-Wartberg.de, tot; via Health-Check bestaetigt)."
     },
     {
       "slug": "herrenberg",
@@ -3243,9 +3243,9 @@
       "bundesland": "Baden-Wuerttemberg",
       "districtCode": "",
       "districtName": "Süd-Mitte",
-      "clubUrl": "https://www.lions-herrenberg.de",
+      "clubUrl": "https://herrenberg.lions.de",
       "sourceType": "club_website",
-      "urlStatus": "tot",
+      "urlStatus": "verified",
       "enabled": true,
       "priority": 3,
       "scanDepth": 1,
@@ -3284,7 +3284,7 @@
       "confidenceBase": 0.4,
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
-      "notesInternal": "Aus Clubfinder ermittelt (clubId Süd-Mitte)."
+      "notesInternal": "Aus Clubfinder ermittelt (clubId Süd-Mitte). | URL migriert 2026-09-21 auf lions.de (alt: https://www.lions-herrenberg.de, tot; via Health-Check bestaetigt)."
     },
     {
       "slug": "hirsau",
@@ -3395,9 +3395,9 @@
       "bundesland": "Baden-Wuerttemberg",
       "districtCode": "",
       "districtName": "Süd-Nord",
-      "clubUrl": "https://www.Lions-Hockenheim.de",
+      "clubUrl": "https://hockenheim.lions.de",
       "sourceType": "club_website",
-      "urlStatus": "tot",
+      "urlStatus": "verified",
       "enabled": true,
       "priority": 3,
       "scanDepth": 1,
@@ -3436,7 +3436,7 @@
       "confidenceBase": 0.4,
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
-      "notesInternal": "Aus Clubfinder ermittelt (clubId Süd-Nord)."
+      "notesInternal": "Aus Clubfinder ermittelt (clubId Süd-Nord). | URL migriert 2026-09-21 auf lions.de (alt: https://www.Lions-Hockenheim.de, tot; via Health-Check bestaetigt)."
     },
     {
       "slug": "hohenlohe",
@@ -3445,9 +3445,9 @@
       "bundesland": "Baden-Wuerttemberg",
       "districtCode": "",
       "districtName": "Süd-Mitte",
-      "clubUrl": "https://lc-hohenlohe.de",
+      "clubUrl": "https://hohenlohe.lions.de",
       "sourceType": "club_website",
-      "urlStatus": "tot",
+      "urlStatus": "verified",
       "enabled": true,
       "priority": 3,
       "scanDepth": 1,
@@ -3486,7 +3486,7 @@
       "confidenceBase": 0.4,
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
-      "notesInternal": "Aus Clubfinder ermittelt (clubId Süd-Mitte)."
+      "notesInternal": "Aus Clubfinder ermittelt (clubId Süd-Mitte). | URL migriert 2026-09-21 auf lions.de (alt: https://lc-hohenlohe.de, tot; via Health-Check bestaetigt)."
     },
     {
       "slug": "hohenloher-land",
@@ -4099,9 +4099,9 @@
       "bundesland": "Baden-Wuerttemberg",
       "districtCode": "",
       "districtName": "Süd-Nord",
-      "clubUrl": "https://lions-karlsruhe-zirkel.de",
+      "clubUrl": "https://karlsruhe-zirkel.lions.de",
       "sourceType": "club_website",
-      "urlStatus": "tot",
+      "urlStatus": "verified",
       "enabled": true,
       "priority": 3,
       "scanDepth": 1,
@@ -4140,7 +4140,7 @@
       "confidenceBase": 0.4,
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
-      "notesInternal": "Aus Clubfinder ermittelt (clubId Süd-Nord)."
+      "notesInternal": "Aus Clubfinder ermittelt (clubId Süd-Nord). | URL migriert 2026-09-21 auf lions.de (alt: https://lions-karlsruhe-zirkel.de, tot; via Health-Check bestaetigt)."
     },
     {
       "slug": "kinzigtal",
@@ -4407,9 +4407,9 @@
       "bundesland": "Baden-Wuerttemberg",
       "districtCode": "",
       "districtName": "Süd-West",
-      "clubUrl": "https://www.lions-lahr-ortenau.de",
+      "clubUrl": "https://lahr-ortenau.lions.de",
       "sourceType": "club_website",
-      "urlStatus": "tot",
+      "urlStatus": "verified",
       "enabled": true,
       "priority": 3,
       "scanDepth": 1,
@@ -4448,7 +4448,7 @@
       "confidenceBase": 0.4,
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
-      "notesInternal": "Aus Clubfinder ermittelt (clubId Süd-West)."
+      "notesInternal": "Aus Clubfinder ermittelt (clubId Süd-West). | URL migriert 2026-09-21 auf lions.de (alt: https://www.lions-lahr-ortenau.de, tot; via Health-Check bestaetigt)."
     },
     {
       "slug": "leimen",
@@ -4709,9 +4709,9 @@
       "bundesland": "Baden-Wuerttemberg",
       "districtCode": "",
       "districtName": "Süd-West",
-      "clubUrl": "https://www.lc-loerrach.de",
+      "clubUrl": "https://loerrach.lions.de",
       "sourceType": "club_website",
-      "urlStatus": "tot",
+      "urlStatus": "verified",
       "enabled": true,
       "priority": 3,
       "scanDepth": 1,
@@ -4750,7 +4750,7 @@
       "confidenceBase": 0.4,
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
-      "notesInternal": "Aus Clubfinder ermittelt (clubId Süd-West)."
+      "notesInternal": "Aus Clubfinder ermittelt (clubId Süd-West). | URL migriert 2026-09-21 auf lions.de (alt: https://www.lc-loerrach.de, tot; via Health-Check bestaetigt)."
     },
     {
       "slug": "madonnenland",
@@ -4961,9 +4961,9 @@
       "bundesland": "Baden-Wuerttemberg",
       "districtCode": "",
       "districtName": "Süd-Nord",
-      "clubUrl": "https://www.lionsmannheimschloss.de",
+      "clubUrl": "https://mannheim-schloss.lions.de",
       "sourceType": "club_website",
-      "urlStatus": "tot",
+      "urlStatus": "verified",
       "enabled": true,
       "priority": 3,
       "scanDepth": 1,
@@ -5002,7 +5002,7 @@
       "confidenceBase": 0.4,
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
-      "notesInternal": "Aus Clubfinder ermittelt (clubId Süd-Nord)."
+      "notesInternal": "Aus Clubfinder ermittelt (clubId Süd-Nord). | URL migriert 2026-09-21 auf lions.de (alt: https://www.lionsmannheimschloss.de, tot; via Health-Check bestaetigt)."
     },
     {
       "slug": "markgraeflerland",
@@ -5371,9 +5371,9 @@
       "bundesland": "Baden-Wuerttemberg",
       "districtCode": "",
       "districtName": "Süd-Nord",
-      "clubUrl": "https://www.lions-neckargemuend.de",
+      "clubUrl": "https://neckargemuend.lions.de",
       "sourceType": "club_website",
-      "urlStatus": "tot",
+      "urlStatus": "verified",
       "enabled": true,
       "priority": 3,
       "scanDepth": 1,
@@ -5412,7 +5412,7 @@
       "confidenceBase": 0.4,
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
-      "notesInternal": "Aus Clubfinder ermittelt (clubId Süd-Nord)."
+      "notesInternal": "Aus Clubfinder ermittelt (clubId Süd-Nord). | URL migriert 2026-09-21 auf lions.de (alt: https://www.lions-neckargemuend.de, tot; via Health-Check bestaetigt)."
     },
     {
       "slug": "neckarsulm",
@@ -5821,9 +5821,9 @@
       "bundesland": "Baden-Wuerttemberg",
       "districtCode": "",
       "districtName": "Süd-Mitte",
-      "clubUrl": "https://www.Lionsclub-remstal.de",
+      "clubUrl": "https://remstal.lions.de",
       "sourceType": "club_website",
-      "urlStatus": "tot",
+      "urlStatus": "verified",
       "enabled": true,
       "priority": 3,
       "scanDepth": 1,
@@ -5862,7 +5862,7 @@
       "confidenceBase": 0.4,
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
-      "notesInternal": "Aus Clubfinder ermittelt (clubId Süd-Mitte)."
+      "notesInternal": "Aus Clubfinder ermittelt (clubId Süd-Mitte). | URL migriert 2026-09-21 auf lions.de (alt: https://www.Lionsclub-remstal.de, tot; via Health-Check bestaetigt)."
     },
     {
       "slug": "rottenburg",
@@ -6429,9 +6429,9 @@
       "bundesland": "Baden-Wuerttemberg",
       "districtCode": "",
       "districtName": "Süd-Nord",
-      "clubUrl": "https://www.lc-stutensee-hardt.de",
+      "clubUrl": "https://stutensee-hardt.lions.de",
       "sourceType": "club_website",
-      "urlStatus": "tot",
+      "urlStatus": "verified",
       "enabled": true,
       "priority": 3,
       "scanDepth": 1,
@@ -6470,7 +6470,7 @@
       "confidenceBase": 0.4,
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
-      "notesInternal": "Aus Clubfinder ermittelt (clubId Süd-Nord)."
+      "notesInternal": "Aus Clubfinder ermittelt (clubId Süd-Nord). | URL migriert 2026-09-21 auf lions.de (alt: https://www.lc-stutensee-hardt.de, tot; via Health-Check bestaetigt)."
     },
     {
       "slug": "stuttgart-2",
@@ -6737,9 +6737,9 @@
       "bundesland": "Baden-Wuerttemberg",
       "districtCode": "",
       "districtName": "Süd-Mitte",
-      "clubUrl": "https://www.lionstbb.de",
+      "clubUrl": "https://tauberbischofsheim.lions.de",
       "sourceType": "club_website",
-      "urlStatus": "tot",
+      "urlStatus": "verified",
       "enabled": true,
       "priority": 3,
       "scanDepth": 1,
@@ -6778,7 +6778,7 @@
       "confidenceBase": 0.4,
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
-      "notesInternal": "Aus Clubfinder ermittelt (clubId Süd-Mitte)."
+      "notesInternal": "Aus Clubfinder ermittelt (clubId Süd-Mitte). | URL migriert 2026-09-21 auf lions.de (alt: https://www.lionstbb.de, tot; via Health-Check bestaetigt)."
     },
     {
       "slug": "tettnang-montfort",
@@ -6995,9 +6995,9 @@
       "bundesland": "Baden-Wuerttemberg",
       "districtCode": "",
       "districtName": "Süd-Mitte",
-      "clubUrl": "https://www.lionsulm.de",
+      "clubUrl": "https://ulm-neu-ulm-alb-donau.lions.de",
       "sourceType": "club_website",
-      "urlStatus": "tot",
+      "urlStatus": "verified",
       "enabled": true,
       "priority": 3,
       "scanDepth": 1,
@@ -7036,7 +7036,7 @@
       "confidenceBase": 0.4,
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
-      "notesInternal": "Aus Clubfinder ermittelt (clubId Süd-Mitte)."
+      "notesInternal": "Aus Clubfinder ermittelt (clubId Süd-Mitte). | URL migriert 2026-09-21 auf lions.de (alt: https://www.lionsulm.de, tot; via Health-Check bestaetigt)."
     },
     {
       "slug": "villingen",
@@ -7197,9 +7197,9 @@
       "bundesland": "Baden-Wuerttemberg",
       "districtCode": "",
       "districtName": "Süd-Nord",
-      "clubUrl": "https://www.lc-waldbronn.de",
+      "clubUrl": "https://waldbronn.lions.de",
       "sourceType": "club_website",
-      "urlStatus": "tot",
+      "urlStatus": "verified",
       "enabled": true,
       "priority": 3,
       "scanDepth": 1,
@@ -7238,7 +7238,7 @@
       "confidenceBase": 0.4,
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
-      "notesInternal": "Aus Clubfinder ermittelt (clubId Süd-Nord)."
+      "notesInternal": "Aus Clubfinder ermittelt (clubId Süd-Nord). | URL migriert 2026-09-21 auf lions.de (alt: https://www.lc-waldbronn.de, tot; via Health-Check bestaetigt)."
     },
     {
       "slug": "waldkirch-elztal",
@@ -7349,9 +7349,9 @@
       "bundesland": "Baden-Wuerttemberg",
       "districtCode": "",
       "districtName": "Süd-West",
-      "clubUrl": "https://www.LC-Weil.de",
+      "clubUrl": "https://weil-am-rhein.lions.de",
       "sourceType": "club_website",
-      "urlStatus": "tot",
+      "urlStatus": "verified",
       "enabled": true,
       "priority": 3,
       "scanDepth": 1,
@@ -7390,7 +7390,7 @@
       "confidenceBase": 0.4,
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
-      "notesInternal": "Aus Clubfinder ermittelt (clubId Süd-West)."
+      "notesInternal": "Aus Clubfinder ermittelt (clubId Süd-West). | URL migriert 2026-09-21 auf lions.de (alt: https://www.LC-Weil.de, tot; via Health-Check bestaetigt)."
     },
     {
       "slug": "wertheim",
@@ -9025,9 +9025,9 @@
       "bundesland": "Bayern",
       "districtCode": "",
       "districtName": "Bayern-Ost",
-      "clubUrl": "https://www.lionsclub-bayerwald.de",
+      "clubUrl": "https://bayerwald.lions.de",
       "sourceType": "club_website",
-      "urlStatus": "tot",
+      "urlStatus": "verified",
       "enabled": true,
       "priority": 3,
       "scanDepth": 1,
@@ -9066,7 +9066,7 @@
       "confidenceBase": 0.4,
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
-      "notesInternal": "Aus Clubfinder ermittelt (clubId Bayern-Ost)."
+      "notesInternal": "Aus Clubfinder ermittelt (clubId Bayern-Ost). | URL migriert 2026-09-21 auf lions.de (alt: https://www.lionsclub-bayerwald.de, tot; via Health-Check bestaetigt)."
     },
     {
       "slug": "bayreuth-kulmbach",
@@ -9177,9 +9177,9 @@
       "bundesland": "Bayern",
       "districtCode": "",
       "districtName": "Bayern-Ost",
-      "clubUrl": "https://www.lions-beilngries.de",
+      "clubUrl": "https://beilngries.lions.de",
       "sourceType": "club_website",
-      "urlStatus": "tot",
+      "urlStatus": "verified",
       "enabled": true,
       "priority": 3,
       "scanDepth": 1,
@@ -9218,7 +9218,7 @@
       "confidenceBase": 0.4,
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
-      "notesInternal": "Aus Clubfinder ermittelt (clubId Bayern-Ost)."
+      "notesInternal": "Aus Clubfinder ermittelt (clubId Bayern-Ost). | URL migriert 2026-09-21 auf lions.de (alt: https://www.lions-beilngries.de, tot; via Health-Check bestaetigt)."
     },
     {
       "slug": "brombachsee",
@@ -9527,9 +9527,9 @@
       "bundesland": "Bayern",
       "districtCode": "",
       "districtName": "Bayern-Ost",
-      "clubUrl": "https://www.lions-deggendorf.de",
+      "clubUrl": "https://deggendorf.lions.de",
       "sourceType": "club_website",
-      "urlStatus": "tot",
+      "urlStatus": "verified",
       "enabled": true,
       "priority": 3,
       "scanDepth": 1,
@@ -9568,7 +9568,7 @@
       "confidenceBase": 0.4,
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
-      "notesInternal": "Aus Clubfinder ermittelt (clubId Bayern-Ost)."
+      "notesInternal": "Aus Clubfinder ermittelt (clubId Bayern-Ost). | URL migriert 2026-09-21 auf lions.de (alt: https://www.lions-deggendorf.de, tot; via Health-Check bestaetigt)."
     },
     {
       "slug": "diessen-am-ammersee",
@@ -10695,9 +10695,9 @@
       "bundesland": "Bayern",
       "districtCode": "",
       "districtName": "Bayern-Süd",
-      "clubUrl": "https://www.lc-gmund-oberland.de",
+      "clubUrl": "https://gmund-oberland.lions.de",
       "sourceType": "club_website",
-      "urlStatus": "tot",
+      "urlStatus": "verified",
       "enabled": true,
       "priority": 3,
       "scanDepth": 1,
@@ -10736,7 +10736,7 @@
       "confidenceBase": 0.4,
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
-      "notesInternal": "Aus Clubfinder ermittelt (clubId Bayern-Süd)."
+      "notesInternal": "Aus Clubfinder ermittelt (clubId Bayern-Süd). | URL migriert 2026-09-21 auf lions.de (alt: https://www.lc-gmund-oberland.de, tot; via Health-Check bestaetigt)."
     },
     {
       "slug": "greding",
@@ -10895,9 +10895,9 @@
       "bundesland": "Bayern",
       "districtCode": "",
       "districtName": "Bayern-Nord",
-      "clubUrl": "https://www.trimburg-saaletal.de",
+      "clubUrl": "https://hammelburg-trimburg-saaletal.lions.de",
       "sourceType": "club_website",
-      "urlStatus": "tot",
+      "urlStatus": "verified",
       "enabled": true,
       "priority": 3,
       "scanDepth": 1,
@@ -10936,7 +10936,7 @@
       "confidenceBase": 0.4,
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
-      "notesInternal": "Aus Clubfinder ermittelt (clubId Bayern-Nord)."
+      "notesInternal": "Aus Clubfinder ermittelt (clubId Bayern-Nord). | URL migriert 2026-09-21 auf lions.de (alt: https://www.trimburg-saaletal.de, tot; via Health-Check bestaetigt)."
     },
     {
       "slug": "hammelburg-bad-brueckenau",
@@ -11297,9 +11297,9 @@
       "bundesland": "Bayern",
       "districtCode": "",
       "districtName": "Bayern-Süd",
-      "clubUrl": "https://www.lion-in.de",
+      "clubUrl": "https://ingolstadt-auf-der-schanz.lions.de",
       "sourceType": "club_website",
-      "urlStatus": "tot",
+      "urlStatus": "verified",
       "enabled": true,
       "priority": 3,
       "scanDepth": 1,
@@ -11338,7 +11338,7 @@
       "confidenceBase": 0.4,
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
-      "notesInternal": "Aus Clubfinder ermittelt (clubId Bayern-Süd)."
+      "notesInternal": "Aus Clubfinder ermittelt (clubId Bayern-Süd). | URL migriert 2026-09-21 auf lions.de (alt: https://www.lion-in.de, tot; via Health-Check bestaetigt)."
     },
     {
       "slug": "ingolstadt-hohe-schule",
@@ -11447,9 +11447,9 @@
       "bundesland": "Bayern",
       "districtCode": "",
       "districtName": "Bayern-Ost",
-      "clubUrl": "https://www.lions-kelheim.de",
+      "clubUrl": "https://kelheim-holledau.lions.de",
       "sourceType": "club_website",
-      "urlStatus": "tot",
+      "urlStatus": "verified",
       "enabled": true,
       "priority": 3,
       "scanDepth": 1,
@@ -11488,7 +11488,7 @@
       "confidenceBase": 0.4,
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
-      "notesInternal": "Aus Clubfinder ermittelt (clubId Bayern-Ost)."
+      "notesInternal": "Aus Clubfinder ermittelt (clubId Bayern-Ost). | URL migriert 2026-09-21 auf lions.de (alt: https://www.lions-kelheim.de, tot; via Health-Check bestaetigt)."
     },
     {
       "slug": "kempten-allgaeu",
@@ -12457,9 +12457,9 @@
       "bundesland": "Bayern",
       "districtCode": "",
       "districtName": "Bayern-Süd",
-      "clubUrl": "https://www.lionsclub-mittenwald.de",
+      "clubUrl": "https://mittenwald.lions.de",
       "sourceType": "club_website",
-      "urlStatus": "tot",
+      "urlStatus": "verified",
       "enabled": true,
       "priority": 3,
       "scanDepth": 1,
@@ -12498,7 +12498,7 @@
       "confidenceBase": 0.4,
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
-      "notesInternal": "Aus Clubfinder ermittelt (clubId Bayern-Süd)."
+      "notesInternal": "Aus Clubfinder ermittelt (clubId Bayern-Süd). | URL migriert 2026-09-21 auf lions.de (alt: https://www.lionsclub-mittenwald.de, tot; via Health-Check bestaetigt)."
     },
     {
       "slug": "murnau-staffelsee",
@@ -13061,9 +13061,9 @@
       "bundesland": "Bayern",
       "districtCode": "",
       "districtName": "Bayern-Süd",
-      "clubUrl": "https://www.lionsclub-muenchen-georgenstein.de",
+      "clubUrl": "https://muenchen-georgenstein.lions.de",
       "sourceType": "club_website",
-      "urlStatus": "tot",
+      "urlStatus": "verified",
       "enabled": true,
       "priority": 3,
       "scanDepth": 1,
@@ -13102,7 +13102,7 @@
       "confidenceBase": 0.4,
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
-      "notesInternal": "Aus Clubfinder ermittelt (clubId Bayern-Süd)."
+      "notesInternal": "Aus Clubfinder ermittelt (clubId Bayern-Süd). | URL migriert 2026-09-21 auf lions.de (alt: https://www.lionsclub-muenchen-georgenstein.de, tot; via Health-Check bestaetigt)."
     },
     {
       "slug": "muenchen-heinrich-der-loewe",
@@ -13463,9 +13463,9 @@
       "bundesland": "Bayern",
       "districtCode": "",
       "districtName": "Bayern-Süd",
-      "clubUrl": "https://www.lionsclub-muenchen.de",
+      "clubUrl": "https://muenchen-nymphenburg.lions.de",
       "sourceType": "club_website",
-      "urlStatus": "tot",
+      "urlStatus": "verified",
       "enabled": true,
       "priority": 3,
       "scanDepth": 1,
@@ -13504,7 +13504,7 @@
       "confidenceBase": 0.4,
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
-      "notesInternal": "Aus Clubfinder ermittelt (clubId Bayern-Süd)."
+      "notesInternal": "Aus Clubfinder ermittelt (clubId Bayern-Süd). | URL migriert 2026-09-21 auf lions.de (alt: https://www.lionsclub-muenchen.de, tot; via Health-Check bestaetigt)."
     },
     {
       "slug": "muenchen-olympiaturm",
@@ -13767,9 +13767,9 @@
       "bundesland": "Bayern",
       "districtCode": "",
       "districtName": "Bayern-Süd",
-      "clubUrl": "https://www.lions-neu-ulm.de",
+      "clubUrl": "https://neu-ulm-campus.lions.de",
       "sourceType": "club_website",
-      "urlStatus": "tot",
+      "urlStatus": "verified",
       "enabled": true,
       "priority": 3,
       "scanDepth": 1,
@@ -13808,7 +13808,7 @@
       "confidenceBase": 0.4,
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
-      "notesInternal": "Aus Clubfinder ermittelt (clubId Bayern-Süd)."
+      "notesInternal": "Aus Clubfinder ermittelt (clubId Bayern-Süd). | URL migriert 2026-09-21 auf lions.de (alt: https://www.lions-neu-ulm.de, tot; via Health-Check bestaetigt)."
     },
     {
       "slug": "neuburg-a-d-donau",
@@ -13967,9 +13967,9 @@
       "bundesland": "Bayern",
       "districtCode": "",
       "districtName": "Bayern-Ost",
-      "clubUrl": "https://www.lionsclub-neustadt.de",
+      "clubUrl": "https://neustadt-a-d-waldnaab.lions.de",
       "sourceType": "club_website",
-      "urlStatus": "tot",
+      "urlStatus": "verified",
       "enabled": true,
       "priority": 3,
       "scanDepth": 1,
@@ -14008,7 +14008,7 @@
       "confidenceBase": 0.4,
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
-      "notesInternal": "Aus Clubfinder ermittelt (clubId Bayern-Ost)."
+      "notesInternal": "Aus Clubfinder ermittelt (clubId Bayern-Ost). | URL migriert 2026-09-21 auf lions.de (alt: https://www.lionsclub-neustadt.de, tot; via Health-Check bestaetigt)."
     },
     {
       "slug": "neuoetting-lnnsalzach",
@@ -14475,9 +14475,9 @@
       "bundesland": "Bayern",
       "districtCode": "",
       "districtName": "Bayern-Süd",
-      "clubUrl": "https://www.lions-oberallgaeu.de",
+      "clubUrl": "https://oberallgaeu.lions.de",
       "sourceType": "club_website",
-      "urlStatus": "tot",
+      "urlStatus": "verified",
       "enabled": true,
       "priority": 3,
       "scanDepth": 1,
@@ -14516,7 +14516,7 @@
       "confidenceBase": 0.4,
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
-      "notesInternal": "Aus Clubfinder ermittelt (clubId Bayern-Süd)."
+      "notesInternal": "Aus Clubfinder ermittelt (clubId Bayern-Süd). | URL migriert 2026-09-21 auf lions.de (alt: https://www.lions-oberallgaeu.de, tot; via Health-Check bestaetigt)."
     },
     {
       "slug": "obernburg-am-main",
@@ -14727,9 +14727,9 @@
       "bundesland": "Bayern",
       "districtCode": "",
       "districtName": "Bayern-Ost",
-      "clubUrl": "https://www.lions-passau.de",
+      "clubUrl": "https://passau.lions.de",
       "sourceType": "club_website",
-      "urlStatus": "tot",
+      "urlStatus": "verified",
       "enabled": true,
       "priority": 3,
       "scanDepth": 1,
@@ -14768,7 +14768,7 @@
       "confidenceBase": 0.4,
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
-      "notesInternal": "Aus Clubfinder ermittelt (clubId Bayern-Ost)."
+      "notesInternal": "Aus Clubfinder ermittelt (clubId Bayern-Ost). | URL migriert 2026-09-21 auf lions.de (alt: https://www.lions-passau.de, tot; via Health-Check bestaetigt)."
     },
     {
       "slug": "pfaffenhofen-hallertau",
@@ -14977,9 +14977,9 @@
       "bundesland": "Bayern",
       "districtCode": "",
       "districtName": "Bayern-Süd",
-      "clubUrl": "https://www.lc-ro.de",
+      "clubUrl": "https://rosenheim.lions.de",
       "sourceType": "club_website",
-      "urlStatus": "tot",
+      "urlStatus": "verified",
       "enabled": true,
       "priority": 3,
       "scanDepth": 1,
@@ -15018,7 +15018,7 @@
       "confidenceBase": 0.4,
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
-      "notesInternal": "Aus Clubfinder ermittelt (clubId Bayern-Süd)."
+      "notesInternal": "Aus Clubfinder ermittelt (clubId Bayern-Süd). | URL migriert 2026-09-21 auf lions.de (alt: https://www.lc-ro.de, tot; via Health-Check bestaetigt)."
     },
     {
       "slug": "roth-hilpoltstein",
@@ -15177,9 +15177,9 @@
       "bundesland": "Bayern",
       "districtCode": "",
       "districtName": "Bayern-Nord",
-      "clubUrl": "https://www.lc-schnelldorf.de",
+      "clubUrl": "https://schnelldorf.lions.de",
       "sourceType": "club_website",
-      "urlStatus": "tot",
+      "urlStatus": "verified",
       "enabled": true,
       "priority": 3,
       "scanDepth": 1,
@@ -15218,7 +15218,7 @@
       "confidenceBase": 0.4,
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
-      "notesInternal": "Aus Clubfinder ermittelt (clubId Bayern-Nord)."
+      "notesInternal": "Aus Clubfinder ermittelt (clubId Bayern-Nord). | URL migriert 2026-09-21 auf lions.de (alt: https://www.lc-schnelldorf.de, tot; via Health-Check bestaetigt)."
     },
     {
       "slug": "schongau-pfaffenwinkel",
@@ -15633,9 +15633,9 @@
       "bundesland": "Bayern",
       "districtCode": "",
       "districtName": "Bayern-Ost",
-      "clubUrl": "https://www.lions-straubing.de",
+      "clubUrl": "https://straubing.lions.de",
       "sourceType": "club_website",
-      "urlStatus": "tot",
+      "urlStatus": "verified",
       "enabled": true,
       "priority": 3,
       "scanDepth": 1,
@@ -15674,7 +15674,7 @@
       "confidenceBase": 0.4,
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
-      "notesInternal": "Aus Clubfinder ermittelt (clubId Bayern-Ost)."
+      "notesInternal": "Aus Clubfinder ermittelt (clubId Bayern-Ost). | URL migriert 2026-09-21 auf lions.de (alt: https://www.lions-straubing.de, tot; via Health-Check bestaetigt)."
     },
     {
       "slug": "sulzbach-rosenberg",
@@ -16191,9 +16191,9 @@
       "bundesland": "Bayern",
       "districtCode": "",
       "districtName": "Bayern-Nord",
-      "clubUrl": "https://www.lc-wuerzburg-loewenbruecke.de",
+      "clubUrl": "https://wuerzburg-loewenbruecke.lions.de",
       "sourceType": "club_website",
-      "urlStatus": "tot",
+      "urlStatus": "verified",
       "enabled": true,
       "priority": 3,
       "scanDepth": 1,
@@ -16232,7 +16232,7 @@
       "confidenceBase": 0.4,
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
-      "notesInternal": "Aus Clubfinder ermittelt (clubId Bayern-Nord)."
+      "notesInternal": "Aus Clubfinder ermittelt (clubId Bayern-Nord). | URL migriert 2026-09-21 auf lions.de (alt: https://www.lc-wuerzburg-loewenbruecke.de, tot; via Health-Check bestaetigt)."
     },
     {
       "slug": "wuerzburg-stein",
@@ -18065,9 +18065,9 @@
       "bundesland": "",
       "districtCode": "",
       "districtName": "Mitte-Nord",
-      "clubUrl": "https://www.lionsclub-hef.de",
+      "clubUrl": "https://bad-hersfeld.lions.de",
       "sourceType": "club_website",
-      "urlStatus": "tot",
+      "urlStatus": "verified",
       "enabled": true,
       "priority": 3,
       "scanDepth": 1,
@@ -18106,7 +18106,7 @@
       "confidenceBase": 0.4,
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
-      "notesInternal": "Aus Clubfinder ermittelt (Distrikt Mitte-Nord)."
+      "notesInternal": "Aus Clubfinder ermittelt (Distrikt Mitte-Nord). | URL migriert 2026-09-21 auf lions.de (alt: https://www.lionsclub-hef.de, tot; via Health-Check bestaetigt)."
     },
     {
       "slug": "bad-homburg-hessenpark",
@@ -18569,9 +18569,9 @@
       "bundesland": "",
       "districtCode": "",
       "districtName": "Mitte-Nord",
-      "clubUrl": "https://www.lions-club-bsa.de",
+      "clubUrl": "https://bad-sooden-allendorf.lions.de",
       "sourceType": "club_website",
-      "urlStatus": "tot",
+      "urlStatus": "verified",
       "enabled": true,
       "priority": 3,
       "scanDepth": 1,
@@ -18610,7 +18610,7 @@
       "confidenceBase": 0.4,
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
-      "notesInternal": "Aus Clubfinder ermittelt (Distrikt Mitte-Nord)."
+      "notesInternal": "Aus Clubfinder ermittelt (Distrikt Mitte-Nord). | URL migriert 2026-09-21 auf lions.de (alt: https://www.lions-club-bsa.de, tot; via Health-Check bestaetigt)."
     },
     {
       "slug": "bad-vilbel",
@@ -18669,9 +18669,9 @@
       "bundesland": "",
       "districtCode": "",
       "districtName": "Mitte-Nord",
-      "clubUrl": "https://www.lions-club-bv-wasserburg.de",
+      "clubUrl": "https://bad-vilbel-wasserburg.lions.de",
       "sourceType": "club_website",
-      "urlStatus": "tot",
+      "urlStatus": "verified",
       "enabled": true,
       "priority": 3,
       "scanDepth": 1,
@@ -18710,7 +18710,7 @@
       "confidenceBase": 0.4,
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
-      "notesInternal": "Aus Clubfinder ermittelt (Distrikt Mitte-Nord)."
+      "notesInternal": "Aus Clubfinder ermittelt (Distrikt Mitte-Nord). | URL migriert 2026-09-21 auf lions.de (alt: https://www.lions-club-bv-wasserburg.de, tot; via Health-Check bestaetigt)."
     },
     {
       "slug": "baesweiler-herzogenrath",
@@ -19073,9 +19073,9 @@
       "bundesland": "",
       "districtCode": "",
       "districtName": "Rheinland-Süd",
-      "clubUrl": "https://www.lc-bensberg-schloss.de",
+      "clubUrl": "https://bensberg-schloss.lions.de",
       "sourceType": "club_website",
-      "urlStatus": "tot",
+      "urlStatus": "verified",
       "enabled": true,
       "priority": 3,
       "scanDepth": 1,
@@ -19114,7 +19114,7 @@
       "confidenceBase": 0.4,
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
-      "notesInternal": "Aus Clubfinder ermittelt (Distrikt Rheinland-Süd)."
+      "notesInternal": "Aus Clubfinder ermittelt (Distrikt Rheinland-Süd). | URL migriert 2026-09-21 auf lions.de (alt: https://www.lc-bensberg-schloss.de, tot; via Health-Check bestaetigt)."
     },
     {
       "slug": "bergische-loewinnen",
@@ -19175,9 +19175,9 @@
       "bundesland": "",
       "districtCode": "",
       "districtName": "Mitte-Süd",
-      "clubUrl": "https://www.lions-bergstrasse.de",
+      "clubUrl": "https://bergstrasse.lions.de",
       "sourceType": "club_website",
-      "urlStatus": "tot",
+      "urlStatus": "verified",
       "enabled": true,
       "priority": 3,
       "scanDepth": 1,
@@ -19216,7 +19216,7 @@
       "confidenceBase": 0.4,
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
-      "notesInternal": "Aus Clubfinder ermittelt (Distrikt Mitte-Süd)."
+      "notesInternal": "Aus Clubfinder ermittelt (Distrikt Mitte-Süd). | URL migriert 2026-09-21 auf lions.de (alt: https://www.lions-bergstrasse.de, tot; via Health-Check bestaetigt)."
     },
     {
       "slug": "berlin",
@@ -19277,9 +19277,9 @@
       "bundesland": "",
       "districtCode": "",
       "districtName": "Ost-Nord",
-      "clubUrl": "http://www.LIONS-Airport.de",
+      "clubUrl": "https://berlin-airport.lions.de",
       "sourceType": "club_website",
-      "urlStatus": "tot",
+      "urlStatus": "verified",
       "enabled": true,
       "priority": 3,
       "scanDepth": 1,
@@ -19318,7 +19318,7 @@
       "confidenceBase": 0.4,
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
-      "notesInternal": "Aus Clubfinder ermittelt (Distrikt Ost-Nord)."
+      "notesInternal": "Aus Clubfinder ermittelt (Distrikt Ost-Nord). | URL migriert 2026-09-21 auf lions.de (alt: http://www.LIONS-Airport.de, tot; via Health-Check bestaetigt)."
     },
     {
       "slug": "berlin-bellevue-charlottenburg",
@@ -19529,9 +19529,9 @@
       "bundesland": "",
       "districtCode": "",
       "districtName": "Ost-Nord",
-      "clubUrl": "http://www.lc-berlin-gendarmenmarkt.de",
+      "clubUrl": "https://berlin-gendarmenmarkt.lions.de",
       "sourceType": "club_website",
-      "urlStatus": "tot",
+      "urlStatus": "verified",
       "enabled": true,
       "priority": 3,
       "scanDepth": 1,
@@ -19570,7 +19570,7 @@
       "confidenceBase": 0.4,
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
-      "notesInternal": "Aus Clubfinder ermittelt (Distrikt Ost-Nord)."
+      "notesInternal": "Aus Clubfinder ermittelt (Distrikt Ost-Nord). | URL migriert 2026-09-21 auf lions.de (alt: http://www.lc-berlin-gendarmenmarkt.de, tot; via Health-Check bestaetigt)."
     },
     {
       "slug": "berlin-glienicker-bruecke",
@@ -19579,9 +19579,9 @@
       "bundesland": "",
       "districtCode": "",
       "districtName": "Ost-Nord",
-      "clubUrl": "https://www.lc-berlin-glienicker-bruecke.de; www.lionslauf.berlin",
+      "clubUrl": "https://berlin-glienicker-bruecke.lions.de",
       "sourceType": "club_website",
-      "urlStatus": "tot",
+      "urlStatus": "verified",
       "enabled": true,
       "priority": 3,
       "scanDepth": 1,
@@ -19620,7 +19620,7 @@
       "confidenceBase": 0.4,
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
-      "notesInternal": "Aus Clubfinder ermittelt (Distrikt Ost-Nord)."
+      "notesInternal": "Aus Clubfinder ermittelt (Distrikt Ost-Nord). | URL migriert 2026-09-21 auf lions.de (alt: https://www.lc-berlin-glienicker-bruecke.de; www.lionslauf.berlin, tot; via Health-Check bestaetigt)."
     },
     {
       "slug": "berlin-halensee",
@@ -19829,9 +19829,9 @@
       "bundesland": "",
       "districtCode": "",
       "districtName": "Ost-Nord",
-      "clubUrl": "https://www.lions-club-berlin-mitte.de",
+      "clubUrl": "https://berlin-mitte.lions.de",
       "sourceType": "club_website",
-      "urlStatus": "tot",
+      "urlStatus": "verified",
       "enabled": true,
       "priority": 3,
       "scanDepth": 1,
@@ -19870,7 +19870,7 @@
       "confidenceBase": 0.4,
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
-      "notesInternal": "Aus Clubfinder ermittelt (Distrikt Ost-Nord)."
+      "notesInternal": "Aus Clubfinder ermittelt (Distrikt Ost-Nord). | URL migriert 2026-09-21 auf lions.de (alt: https://www.lions-club-berlin-mitte.de, tot; via Health-Check bestaetigt)."
     },
     {
       "slug": "berlin-next",
@@ -20385,9 +20385,9 @@
       "bundesland": "",
       "districtCode": "",
       "districtName": "Ost-Nord",
-      "clubUrl": "https://www.Lions-Club-Berliner-Ring.de",
+      "clubUrl": "https://berliner-ring.lions.de",
       "sourceType": "club_website",
-      "urlStatus": "tot",
+      "urlStatus": "verified",
       "enabled": true,
       "priority": 3,
       "scanDepth": 1,
@@ -20426,7 +20426,7 @@
       "confidenceBase": 0.4,
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
-      "notesInternal": "Aus Clubfinder ermittelt (Distrikt Ost-Nord)."
+      "notesInternal": "Aus Clubfinder ermittelt (Distrikt Ost-Nord). | URL migriert 2026-09-21 auf lions.de (alt: https://www.Lions-Club-Berliner-Ring.de, tot; via Health-Check bestaetigt)."
     },
     {
       "slug": "bersenbruecker-land",
@@ -20889,9 +20889,9 @@
       "bundesland": "",
       "districtCode": "",
       "districtName": "Mitte-Süd",
-      "clubUrl": "https://www.lc-bischofsheim.de",
+      "clubUrl": "https://bischofsheim-mainspitze.lions.de",
       "sourceType": "club_website",
-      "urlStatus": "tot",
+      "urlStatus": "verified",
       "enabled": true,
       "priority": 3,
       "scanDepth": 1,
@@ -20930,7 +20930,7 @@
       "confidenceBase": 0.4,
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
-      "notesInternal": "Aus Clubfinder ermittelt (Distrikt Mitte-Süd)."
+      "notesInternal": "Aus Clubfinder ermittelt (Distrikt Mitte-Süd). | URL migriert 2026-09-21 auf lions.de (alt: https://www.lc-bischofsheim.de, tot; via Health-Check bestaetigt)."
     },
     {
       "slug": "bitburg-pruem",
@@ -20939,9 +20939,9 @@
       "bundesland": "",
       "districtCode": "",
       "districtName": "Mitte-Süd",
-      "clubUrl": "https://www.lions-bitburg-pruem.de",
+      "clubUrl": "https://bitburg-pruem.lions.de",
       "sourceType": "club_website",
-      "urlStatus": "tot",
+      "urlStatus": "verified",
       "enabled": true,
       "priority": 3,
       "scanDepth": 1,
@@ -20980,7 +20980,7 @@
       "confidenceBase": 0.4,
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
-      "notesInternal": "Aus Clubfinder ermittelt (Distrikt Mitte-Süd)."
+      "notesInternal": "Aus Clubfinder ermittelt (Distrikt Mitte-Süd). | URL migriert 2026-09-21 auf lions.de (alt: https://www.lions-bitburg-pruem.de, tot; via Health-Check bestaetigt)."
     },
     {
       "slug": "blankenburg-harz",
@@ -21139,9 +21139,9 @@
       "bundesland": "",
       "districtCode": "",
       "districtName": "Rheinland-Nord",
-      "clubUrl": "https://www.lionsclub-wml.de",
+      "clubUrl": "https://bocholt-westmuensterland.lions.de",
       "sourceType": "club_website",
-      "urlStatus": "tot",
+      "urlStatus": "verified",
       "enabled": true,
       "priority": 3,
       "scanDepth": 1,
@@ -21180,7 +21180,7 @@
       "confidenceBase": 0.4,
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
-      "notesInternal": "Aus Clubfinder ermittelt (Distrikt Rheinland-Nord)."
+      "notesInternal": "Aus Clubfinder ermittelt (Distrikt Rheinland-Nord). | URL migriert 2026-09-21 auf lions.de (alt: https://www.lionsclub-wml.de, tot; via Health-Check bestaetigt)."
     },
     {
       "slug": "bocholt-westfalia",
@@ -21293,9 +21293,9 @@
       "bundesland": "",
       "districtCode": "",
       "districtName": "Westfalen-Ruhr",
-      "clubUrl": "https://www.lc-bochum-allegra.de",
+      "clubUrl": "https://bochum-allegra.lions.de",
       "sourceType": "club_website",
-      "urlStatus": "tot",
+      "urlStatus": "verified",
       "enabled": true,
       "priority": 3,
       "scanDepth": 1,
@@ -21334,7 +21334,7 @@
       "confidenceBase": 0.4,
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
-      "notesInternal": "Aus Clubfinder ermittelt (Distrikt Westfalen-Ruhr)."
+      "notesInternal": "Aus Clubfinder ermittelt (Distrikt Westfalen-Ruhr). | URL migriert 2026-09-21 auf lions.de (alt: https://www.lc-bochum-allegra.de, tot; via Health-Check bestaetigt)."
     },
     {
       "slug": "bochum-graf-engelbert",
@@ -21599,9 +21599,9 @@
       "bundesland": "",
       "districtCode": "",
       "districtName": "Rheinland-Süd",
-      "clubUrl": "https://www.lc-bonn-tomburg.de",
+      "clubUrl": "https://bonn-tomburg.lions.de",
       "sourceType": "club_website",
-      "urlStatus": "tot",
+      "urlStatus": "verified",
       "enabled": true,
       "priority": 3,
       "scanDepth": 1,
@@ -21640,7 +21640,7 @@
       "confidenceBase": 0.4,
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
-      "notesInternal": "Aus Clubfinder ermittelt (Distrikt Rheinland-Süd)."
+      "notesInternal": "Aus Clubfinder ermittelt (Distrikt Rheinland-Süd). | URL migriert 2026-09-21 auf lions.de (alt: https://www.lc-bonn-tomburg.de, tot; via Health-Check bestaetigt)."
     },
     {
       "slug": "bonn-venusberg",
@@ -21853,9 +21853,9 @@
       "bundesland": "",
       "districtCode": "",
       "districtName": "Westfalen-Lippe",
-      "clubUrl": "https://www.lions-bottrop.de",
+      "clubUrl": "https://bottrop.lions.de",
       "sourceType": "club_website",
-      "urlStatus": "tot",
+      "urlStatus": "verified",
       "enabled": true,
       "priority": 3,
       "scanDepth": 1,
@@ -21894,7 +21894,7 @@
       "confidenceBase": 0.4,
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
-      "notesInternal": "Aus Clubfinder ermittelt (Distrikt Westfalen-Lippe)."
+      "notesInternal": "Aus Clubfinder ermittelt (Distrikt Westfalen-Lippe). | URL migriert 2026-09-21 auf lions.de (alt: https://www.lions-bottrop.de, tot; via Health-Check bestaetigt)."
     },
     {
       "slug": "brake-unterweser",
@@ -22361,9 +22361,9 @@
       "bundesland": "",
       "districtCode": "",
       "districtName": "Niedersachsen-Bremen",
-      "clubUrl": "https://www.lions-bremen.de",
+      "clubUrl": "https://bremen-wilhelm-olbers.lions.de",
       "sourceType": "club_website",
-      "urlStatus": "tot",
+      "urlStatus": "verified",
       "enabled": true,
       "priority": 3,
       "scanDepth": 1,
@@ -22402,7 +22402,7 @@
       "confidenceBase": 0.4,
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
-      "notesInternal": "Aus Clubfinder ermittelt (Distrikt Niedersachsen-Bremen)."
+      "notesInternal": "Aus Clubfinder ermittelt (Distrikt Niedersachsen-Bremen). | URL migriert 2026-09-21 auf lions.de (alt: https://www.lions-bremen.de, tot; via Health-Check bestaetigt)."
     },
     {
       "slug": "bremen-bremer-schluessel",
@@ -22461,9 +22461,9 @@
       "bundesland": "",
       "districtCode": "",
       "districtName": "Niedersachsen-Bremen",
-      "clubUrl": "https://www.lions-club-bremer-sueden.de",
+      "clubUrl": "https://bremen-bremer-sueden.lions.de",
       "sourceType": "club_website",
-      "urlStatus": "tot",
+      "urlStatus": "verified",
       "enabled": true,
       "priority": 3,
       "scanDepth": 1,
@@ -22502,7 +22502,7 @@
       "confidenceBase": 0.4,
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
-      "notesInternal": "Aus Clubfinder ermittelt (Distrikt Niedersachsen-Bremen)."
+      "notesInternal": "Aus Clubfinder ermittelt (Distrikt Niedersachsen-Bremen). | URL migriert 2026-09-21 auf lions.de (alt: https://www.lions-club-bremer-sueden.de, tot; via Health-Check bestaetigt)."
     },
     {
       "slug": "bremen-lesmona",
@@ -23425,9 +23425,9 @@
       "bundesland": "",
       "districtCode": "",
       "districtName": "Niedersachsen-Hannover",
-      "clubUrl": "https://www.lions-celle-residenzstadt.de",
+      "clubUrl": "https://celle-residenzstadt.lions.de",
       "sourceType": "club_website",
-      "urlStatus": "tot",
+      "urlStatus": "verified",
       "enabled": true,
       "priority": 3,
       "scanDepth": 1,
@@ -23466,7 +23466,7 @@
       "confidenceBase": 0.4,
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
-      "notesInternal": "Aus Clubfinder ermittelt (Distrikt Niedersachsen-Hannover)."
+      "notesInternal": "Aus Clubfinder ermittelt (Distrikt Niedersachsen-Hannover). | URL migriert 2026-09-21 auf lions.de (alt: https://www.lions-celle-residenzstadt.de, tot; via Health-Check bestaetigt)."
     },
     {
       "slug": "chemnitz",
@@ -24283,9 +24283,9 @@
       "bundesland": "",
       "districtCode": "",
       "districtName": "Mitte-Süd",
-      "clubUrl": "https://www.lions-darmstadt-louise-buechner.de",
+      "clubUrl": "https://darmstadt-louise-buechner.lions.de",
       "sourceType": "club_website",
-      "urlStatus": "tot",
+      "urlStatus": "verified",
       "enabled": true,
       "priority": 3,
       "scanDepth": 1,
@@ -24324,7 +24324,7 @@
       "confidenceBase": 0.4,
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
-      "notesInternal": "Aus Clubfinder ermittelt (Distrikt Mitte-Süd)."
+      "notesInternal": "Aus Clubfinder ermittelt (Distrikt Mitte-Süd). | URL migriert 2026-09-21 auf lions.de (alt: https://www.lions-darmstadt-louise-buechner.de, tot; via Health-Check bestaetigt)."
     },
     {
       "slug": "das-alte-land",
@@ -24687,9 +24687,9 @@
       "bundesland": "",
       "districtCode": "",
       "districtName": "Westfalen-Lippe",
-      "clubUrl": "https://www.lions-detmold.de",
+      "clubUrl": "https://detmold-residenz.lions.de",
       "sourceType": "club_website",
-      "urlStatus": "tot",
+      "urlStatus": "verified",
       "enabled": true,
       "priority": 3,
       "scanDepth": 1,
@@ -24728,7 +24728,7 @@
       "confidenceBase": 0.4,
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
-      "notesInternal": "Aus Clubfinder ermittelt (Distrikt Westfalen-Lippe)."
+      "notesInternal": "Aus Clubfinder ermittelt (Distrikt Westfalen-Lippe). | URL migriert 2026-09-21 auf lions.de (alt: https://www.lions-detmold.de, tot; via Health-Check bestaetigt)."
     },
     {
       "slug": "dietzenbach",
@@ -24937,9 +24937,9 @@
       "bundesland": "",
       "districtCode": "",
       "districtName": "Mitte-Süd",
-      "clubUrl": "https://www.lions-club-dillingen-saar.de",
+      "clubUrl": "https://dillingen-saar.lions.de",
       "sourceType": "club_website",
-      "urlStatus": "tot",
+      "urlStatus": "verified",
       "enabled": true,
       "priority": 3,
       "scanDepth": 1,
@@ -24978,7 +24978,7 @@
       "confidenceBase": 0.4,
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
-      "notesInternal": "Aus Clubfinder ermittelt (Distrikt Mitte-Süd)."
+      "notesInternal": "Aus Clubfinder ermittelt (Distrikt Mitte-Süd). | URL migriert 2026-09-21 auf lions.de (alt: https://www.lions-club-dillingen-saar.de, tot; via Health-Check bestaetigt)."
     },
     {
       "slug": "dinslaken",
@@ -25087,9 +25087,9 @@
       "bundesland": "",
       "districtCode": "",
       "districtName": "Ost-Süd",
-      "clubUrl": "https://www.lc-dippoldiswalde.de",
+      "clubUrl": "https://dippoldiswalde.lions.de",
       "sourceType": "club_website",
-      "urlStatus": "tot",
+      "urlStatus": "verified",
       "enabled": true,
       "priority": 3,
       "scanDepth": 1,
@@ -25128,7 +25128,7 @@
       "confidenceBase": 0.4,
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
-      "notesInternal": "Aus Clubfinder ermittelt (Distrikt Ost-Süd)."
+      "notesInternal": "Aus Clubfinder ermittelt (Distrikt Ost-Süd). | URL migriert 2026-09-21 auf lions.de (alt: https://www.lc-dippoldiswalde.de, tot; via Health-Check bestaetigt)."
     },
     {
       "slug": "dorsten",
@@ -25137,9 +25137,9 @@
       "bundesland": "",
       "districtCode": "",
       "districtName": "Westfalen-Lippe",
-      "clubUrl": "https://www.lc-dorsten.de",
+      "clubUrl": "https://dorsten.lions.de",
       "sourceType": "club_website",
-      "urlStatus": "tot",
+      "urlStatus": "verified",
       "enabled": true,
       "priority": 3,
       "scanDepth": 1,
@@ -25178,7 +25178,7 @@
       "confidenceBase": 0.4,
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
-      "notesInternal": "Aus Clubfinder ermittelt (Distrikt Westfalen-Lippe)."
+      "notesInternal": "Aus Clubfinder ermittelt (Distrikt Westfalen-Lippe). | URL migriert 2026-09-21 auf lions.de (alt: https://www.lc-dorsten.de, tot; via Health-Check bestaetigt)."
     },
     {
       "slug": "dorsten-hanse",
@@ -25793,9 +25793,9 @@
       "bundesland": "",
       "districtCode": "",
       "districtName": "Mitte-Nord",
-      "clubUrl": "https://www.lions-dreieich.de",
+      "clubUrl": "https://dreieich.lions.de",
       "sourceType": "club_website",
-      "urlStatus": "tot",
+      "urlStatus": "verified",
       "enabled": true,
       "priority": 3,
       "scanDepth": 1,
@@ -25834,7 +25834,7 @@
       "confidenceBase": 0.4,
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
-      "notesInternal": "Aus Clubfinder ermittelt (Distrikt Mitte-Nord)."
+      "notesInternal": "Aus Clubfinder ermittelt (Distrikt Mitte-Nord). | URL migriert 2026-09-21 auf lions.de (alt: https://www.lions-dreieich.de, tot; via Health-Check bestaetigt)."
     },
     {
       "slug": "dresden",
@@ -25893,9 +25893,9 @@
       "bundesland": "",
       "districtCode": "",
       "districtName": "Ost-Süd",
-      "clubUrl": "https://www.lionsclub-agenda21.de",
+      "clubUrl": "https://dresden-agenda-21.lions.de",
       "sourceType": "club_website",
-      "urlStatus": "tot",
+      "urlStatus": "verified",
       "enabled": true,
       "priority": 3,
       "scanDepth": 1,
@@ -25934,7 +25934,7 @@
       "confidenceBase": 0.4,
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
-      "notesInternal": "Aus Clubfinder ermittelt (Distrikt Ost-Süd)."
+      "notesInternal": "Aus Clubfinder ermittelt (Distrikt Ost-Süd). | URL migriert 2026-09-21 auf lions.de (alt: https://www.lionsclub-agenda21.de, tot; via Health-Check bestaetigt)."
     },
     {
       "slug": "dresden-inter-kontinental",
@@ -26801,9 +26801,9 @@
       "bundesland": "",
       "districtCode": "",
       "districtName": "Rheinland-Nord",
-      "clubUrl": "https://www.lions-hofgarten.de",
+      "clubUrl": "https://duesseldorf-hofgarten.lions.de",
       "sourceType": "club_website",
-      "urlStatus": "tot",
+      "urlStatus": "verified",
       "enabled": true,
       "priority": 3,
       "scanDepth": 1,
@@ -26842,7 +26842,7 @@
       "confidenceBase": 0.4,
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
-      "notesInternal": "Aus Clubfinder ermittelt (Distrikt Rheinland-Nord)."
+      "notesInternal": "Aus Clubfinder ermittelt (Distrikt Rheinland-Nord). | URL migriert 2026-09-21 auf lions.de (alt: https://www.lions-hofgarten.de, tot; via Health-Check bestaetigt)."
     },
     {
       "slug": "duesseldorf-jan-wellem",
@@ -27103,9 +27103,9 @@
       "bundesland": "",
       "districtCode": "",
       "districtName": "Rheinland-Nord",
-      "clubUrl": "https://www.lions-duesseldorf-renaissance.de",
+      "clubUrl": "https://duesseldorf-renaissance.lions.de",
       "sourceType": "club_website",
-      "urlStatus": "tot",
+      "urlStatus": "verified",
       "enabled": true,
       "priority": 3,
       "scanDepth": 1,
@@ -27144,7 +27144,7 @@
       "confidenceBase": 0.4,
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
-      "notesInternal": "Aus Clubfinder ermittelt (Distrikt Rheinland-Nord)."
+      "notesInternal": "Aus Clubfinder ermittelt (Distrikt Rheinland-Nord). | URL migriert 2026-09-21 auf lions.de (alt: https://www.lions-duesseldorf-renaissance.de, tot; via Health-Check bestaetigt)."
     },
     {
       "slug": "duesseldorf-rheinturm",
@@ -27405,9 +27405,9 @@
       "bundesland": "",
       "districtCode": "",
       "districtName": "Nord",
-      "clubUrl": "https://www.lionsclub-eckernfoerde.de",
+      "clubUrl": "https://eckernfoerde.lions.de",
       "sourceType": "club_website",
-      "urlStatus": "tot",
+      "urlStatus": "verified",
       "enabled": true,
       "priority": 3,
       "scanDepth": 1,
@@ -27446,7 +27446,7 @@
       "confidenceBase": 0.4,
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
-      "notesInternal": "Aus Clubfinder ermittelt (Distrikt Nord)."
+      "notesInternal": "Aus Clubfinder ermittelt (Distrikt Nord). | URL migriert 2026-09-21 auf lions.de (alt: https://www.lionsclub-eckernfoerde.de, tot; via Health-Check bestaetigt)."
     },
     {
       "slug": "eisenach-wartburg",
@@ -28063,9 +28063,9 @@
       "bundesland": "",
       "districtCode": "",
       "districtName": "Ost-Mitte",
-      "clubUrl": "https://www.lions-erfurt.net",
+      "clubUrl": "https://erfurt-thuringia.lions.de",
       "sourceType": "club_website",
-      "urlStatus": "tot",
+      "urlStatus": "verified",
       "enabled": true,
       "priority": 3,
       "scanDepth": 1,
@@ -28104,7 +28104,7 @@
       "confidenceBase": 0.4,
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
-      "notesInternal": "Aus Clubfinder ermittelt (Distrikt Ost-Mitte)."
+      "notesInternal": "Aus Clubfinder ermittelt (Distrikt Ost-Mitte). | URL migriert 2026-09-21 auf lions.de (alt: https://www.lions-erfurt.net, tot; via Health-Check bestaetigt)."
     },
     {
       "slug": "eschborn",
@@ -28265,9 +28265,9 @@
       "bundesland": "",
       "districtCode": "",
       "districtName": "Mitte-Nord",
-      "clubUrl": "https://www.lions-eschwege-werratal.de",
+      "clubUrl": "https://eschwege-werratal.lions.de",
       "sourceType": "club_website",
-      "urlStatus": "tot",
+      "urlStatus": "verified",
       "enabled": true,
       "priority": 3,
       "scanDepth": 1,
@@ -28306,7 +28306,7 @@
       "confidenceBase": 0.4,
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
-      "notesInternal": "Aus Clubfinder ermittelt (Distrikt Mitte-Nord)."
+      "notesInternal": "Aus Clubfinder ermittelt (Distrikt Mitte-Nord). | URL migriert 2026-09-21 auf lions.de (alt: https://www.lions-eschwege-werratal.de, tot; via Health-Check bestaetigt)."
     },
     {
       "slug": "eschweiler-ascvilare",
@@ -28825,9 +28825,9 @@
       "bundesland": "",
       "districtCode": "",
       "districtName": "Rheinland-Süd",
-      "clubUrl": "https://www.lions-euskirchen-nordeifel.de",
+      "clubUrl": "https://euskirchen-nordeifel.lions.de",
       "sourceType": "club_website",
-      "urlStatus": "tot",
+      "urlStatus": "verified",
       "enabled": true,
       "priority": 3,
       "scanDepth": 1,
@@ -28866,7 +28866,7 @@
       "confidenceBase": 0.4,
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
-      "notesInternal": "Aus Clubfinder ermittelt (Distrikt Rheinland-Süd)."
+      "notesInternal": "Aus Clubfinder ermittelt (Distrikt Rheinland-Süd). | URL migriert 2026-09-21 auf lions.de (alt: https://www.lions-euskirchen-nordeifel.de, tot; via Health-Check bestaetigt)."
     },
     {
       "slug": "eutin",
@@ -28975,9 +28975,9 @@
       "bundesland": "",
       "districtCode": "",
       "districtName": "Ost-Nord",
-      "clubUrl": "https://www.lions-finsterwalde.de",
+      "clubUrl": "https://finsterwalde-saengerstadt.lions.de",
       "sourceType": "club_website",
-      "urlStatus": "tot",
+      "urlStatus": "verified",
       "enabled": true,
       "priority": 3,
       "scanDepth": 1,
@@ -29016,7 +29016,7 @@
       "confidenceBase": 0.4,
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
-      "notesInternal": "Aus Clubfinder ermittelt (Distrikt Ost-Nord)."
+      "notesInternal": "Aus Clubfinder ermittelt (Distrikt Ost-Nord). | URL migriert 2026-09-21 auf lions.de (alt: https://www.lions-finsterwalde.de, tot; via Health-Check bestaetigt)."
     },
     {
       "slug": "flensburg",
@@ -30241,9 +30241,9 @@
       "bundesland": "",
       "districtCode": "",
       "districtName": "Westfalen-Lippe",
-      "clubUrl": "https://www.lions-gelsenkirchen.de",
+      "clubUrl": "https://gelsenkirchen.lions.de",
       "sourceType": "club_website",
-      "urlStatus": "tot",
+      "urlStatus": "verified",
       "enabled": true,
       "priority": 3,
       "scanDepth": 1,
@@ -30282,7 +30282,7 @@
       "confidenceBase": 0.4,
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
-      "notesInternal": "Aus Clubfinder ermittelt (Distrikt Westfalen-Lippe)."
+      "notesInternal": "Aus Clubfinder ermittelt (Distrikt Westfalen-Lippe). | URL migriert 2026-09-21 auf lions.de (alt: https://www.lions-gelsenkirchen.de, tot; via Health-Check bestaetigt)."
     },
     {
       "slug": "gelsenkirchen-buer",
@@ -30541,9 +30541,9 @@
       "bundesland": "",
       "districtCode": "",
       "districtName": "Mitte-Nord",
-      "clubUrl": "https://www.lionsclub-giessen-jvl.de",
+      "clubUrl": "https://giessen-justus-von-liebig.lions.de",
       "sourceType": "club_website",
-      "urlStatus": "tot",
+      "urlStatus": "verified",
       "enabled": true,
       "priority": 3,
       "scanDepth": 1,
@@ -30582,7 +30582,7 @@
       "confidenceBase": 0.4,
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
-      "notesInternal": "Aus Clubfinder ermittelt (Distrikt Mitte-Nord)."
+      "notesInternal": "Aus Clubfinder ermittelt (Distrikt Mitte-Nord). | URL migriert 2026-09-21 auf lions.de (alt: https://www.lionsclub-giessen-jvl.de, tot; via Health-Check bestaetigt)."
     },
     {
       "slug": "gifhorn",
@@ -31097,9 +31097,9 @@
       "bundesland": "",
       "districtCode": "",
       "districtName": "Rheinland-Nord",
-      "clubUrl": "https://www.grafschafter-lions.de",
+      "clubUrl": "https://grafschafter-moers.lions.de",
       "sourceType": "club_website",
-      "urlStatus": "tot",
+      "urlStatus": "verified",
       "enabled": true,
       "priority": 3,
       "scanDepth": 1,
@@ -31138,7 +31138,7 @@
       "confidenceBase": 0.4,
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
-      "notesInternal": "Aus Clubfinder ermittelt (Distrikt Rheinland-Nord)."
+      "notesInternal": "Aus Clubfinder ermittelt (Distrikt Rheinland-Nord). | URL migriert 2026-09-21 auf lions.de (alt: https://www.grafschafter-lions.de, tot; via Health-Check bestaetigt)."
     },
     {
       "slug": "greifswald-hansestadt",
@@ -31247,9 +31247,9 @@
       "bundesland": "",
       "districtCode": "",
       "districtName": "Rheinland-Nord",
-      "clubUrl": "https://Grevenbroich.lion.de",
+      "clubUrl": "https://grevenbroich.lions.de",
       "sourceType": "club_website",
-      "urlStatus": "tot",
+      "urlStatus": "verified",
       "enabled": true,
       "priority": 3,
       "scanDepth": 1,
@@ -31288,7 +31288,7 @@
       "confidenceBase": 0.4,
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
-      "notesInternal": "Aus Clubfinder ermittelt (Distrikt Rheinland-Nord)."
+      "notesInternal": "Aus Clubfinder ermittelt (Distrikt Rheinland-Nord). | URL migriert 2026-09-21 auf lions.de (alt: https://Grevenbroich.lion.de, tot; via Health-Check bestaetigt)."
     },
     {
       "slug": "gross-gerau",
@@ -31857,9 +31857,9 @@
       "bundesland": "",
       "districtCode": "",
       "districtName": "Westfalen-Lippe",
-      "clubUrl": "https://www.lions-gütersloh.de",
+      "clubUrl": "https://guetersloh-wiedenbrueck.lions.de",
       "sourceType": "club_website",
-      "urlStatus": "tot",
+      "urlStatus": "verified",
       "enabled": true,
       "priority": 3,
       "scanDepth": 1,
@@ -31898,7 +31898,7 @@
       "confidenceBase": 0.4,
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
-      "notesInternal": "Aus Clubfinder ermittelt (Distrikt Westfalen-Lippe)."
+      "notesInternal": "Aus Clubfinder ermittelt (Distrikt Westfalen-Lippe). | URL migriert 2026-09-21 auf lions.de (alt: https://www.lions-gütersloh.de, tot; via Health-Check bestaetigt)."
     },
     {
       "slug": "haan",
@@ -32059,9 +32059,9 @@
       "bundesland": "",
       "districtCode": "",
       "districtName": "Westfalen-Ruhr",
-      "clubUrl": "https://www.lionsclub-hagen-harkort.de",
+      "clubUrl": "https://hagen-harkort.lions.de",
       "sourceType": "club_website",
-      "urlStatus": "tot",
+      "urlStatus": "verified",
       "enabled": true,
       "priority": 3,
       "scanDepth": 1,
@@ -32100,7 +32100,7 @@
       "confidenceBase": 0.4,
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
-      "notesInternal": "Aus Clubfinder ermittelt (Distrikt Westfalen-Ruhr)."
+      "notesInternal": "Aus Clubfinder ermittelt (Distrikt Westfalen-Ruhr). | URL migriert 2026-09-21 auf lions.de (alt: https://www.lionsclub-hagen-harkort.de, tot; via Health-Check bestaetigt)."
     },
     {
       "slug": "hagen-mark",
@@ -32713,9 +32713,9 @@
       "bundesland": "",
       "districtCode": "",
       "districtName": "Nord",
-      "clubUrl": "https://www.LCHamburgHammonia.de",
+      "clubUrl": "https://hamburg-hammonia.lions.de",
       "sourceType": "club_website",
-      "urlStatus": "tot",
+      "urlStatus": "verified",
       "enabled": true,
       "priority": 3,
       "scanDepth": 1,
@@ -32754,7 +32754,7 @@
       "confidenceBase": 0.4,
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
-      "notesInternal": "Aus Clubfinder ermittelt (Distrikt Nord)."
+      "notesInternal": "Aus Clubfinder ermittelt (Distrikt Nord). | URL migriert 2026-09-21 auf lions.de (alt: https://www.LCHamburgHammonia.de, tot; via Health-Check bestaetigt)."
     },
     {
       "slug": "hamburg-harburg-hafen",
@@ -33981,9 +33981,9 @@
       "bundesland": "",
       "districtCode": "",
       "districtName": "Niedersachsen-Hannover",
-      "clubUrl": "https://www.lions-hannover-expo.de",
+      "clubUrl": "https://hannover-expo.lions.de",
       "sourceType": "club_website",
-      "urlStatus": "tot",
+      "urlStatus": "verified",
       "enabled": true,
       "priority": 3,
       "scanDepth": 1,
@@ -34022,7 +34022,7 @@
       "confidenceBase": 0.4,
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
-      "notesInternal": "Aus Clubfinder ermittelt (Distrikt Niedersachsen-Hannover)."
+      "notesInternal": "Aus Clubfinder ermittelt (Distrikt Niedersachsen-Hannover). | URL migriert 2026-09-21 auf lions.de (alt: https://www.lions-hannover-expo.de, tot; via Health-Check bestaetigt)."
     },
     {
       "slug": "hannover-herrenhausen",
@@ -34135,9 +34135,9 @@
       "bundesland": "",
       "districtCode": "",
       "districtName": "Niedersachsen-Hannover",
-      "clubUrl": "https://www.lc-kurfuerstin-sophie.de",
+      "clubUrl": "https://hannover-kurfuerstin-sophie.lions.de",
       "sourceType": "club_website",
-      "urlStatus": "tot",
+      "urlStatus": "verified",
       "enabled": true,
       "priority": 3,
       "scanDepth": 1,
@@ -34176,7 +34176,7 @@
       "confidenceBase": 0.4,
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
-      "notesInternal": "Aus Clubfinder ermittelt (Distrikt Niedersachsen-Hannover)."
+      "notesInternal": "Aus Clubfinder ermittelt (Distrikt Niedersachsen-Hannover). | URL migriert 2026-09-21 auf lions.de (alt: https://www.lc-kurfuerstin-sophie.de, tot; via Health-Check bestaetigt)."
     },
     {
       "slug": "hannover-maschsee",
@@ -34845,9 +34845,9 @@
       "bundesland": "",
       "districtCode": "",
       "districtName": "Westfalen-Ruhr",
-      "clubUrl": "https://www.lionsclub-herdecke.de",
+      "clubUrl": "https://herdecke.lions.de",
       "sourceType": "club_website",
-      "urlStatus": "tot",
+      "urlStatus": "verified",
       "enabled": true,
       "priority": 3,
       "scanDepth": 1,
@@ -34886,7 +34886,7 @@
       "confidenceBase": 0.4,
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
-      "notesInternal": "Aus Clubfinder ermittelt (Distrikt Westfalen-Ruhr)."
+      "notesInternal": "Aus Clubfinder ermittelt (Distrikt Westfalen-Ruhr). | URL migriert 2026-09-21 auf lions.de (alt: https://www.lionsclub-herdecke.de, tot; via Health-Check bestaetigt)."
     },
     {
       "slug": "herford",
@@ -35457,9 +35457,9 @@
       "bundesland": "",
       "districtCode": "",
       "districtName": "Niedersachsen-Hannover",
-      "clubUrl": "https://www.lionsclub-hildesheim-marienburg.de",
+      "clubUrl": "https://hildesheim-marienburg.lions.de",
       "sourceType": "club_website",
-      "urlStatus": "tot",
+      "urlStatus": "verified",
       "enabled": true,
       "priority": 3,
       "scanDepth": 1,
@@ -35498,7 +35498,7 @@
       "confidenceBase": 0.4,
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
-      "notesInternal": "Aus Clubfinder ermittelt (Distrikt Niedersachsen-Hannover)."
+      "notesInternal": "Aus Clubfinder ermittelt (Distrikt Niedersachsen-Hannover). | URL migriert 2026-09-21 auf lions.de (alt: https://www.lionsclub-hildesheim-marienburg.de, tot; via Health-Check bestaetigt)."
     },
     {
       "slug": "hildesheim-rose",
@@ -35861,9 +35861,9 @@
       "bundesland": "",
       "districtCode": "",
       "districtName": "Nord",
-      "clubUrl": "https://www.lions-husum.de",
+      "clubUrl": "https://husum.lions.de",
       "sourceType": "club_website",
-      "urlStatus": "tot",
+      "urlStatus": "verified",
       "enabled": true,
       "priority": 3,
       "scanDepth": 1,
@@ -35902,7 +35902,7 @@
       "confidenceBase": 0.4,
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
-      "notesInternal": "Aus Clubfinder ermittelt (Distrikt Nord)."
+      "notesInternal": "Aus Clubfinder ermittelt (Distrikt Nord). | URL migriert 2026-09-21 auf lions.de (alt: https://www.lions-husum.de, tot; via Health-Check bestaetigt)."
     },
     {
       "slug": "hoechst-main-taunus",
@@ -35911,9 +35911,9 @@
       "bundesland": "",
       "districtCode": "",
       "districtName": "Mitte-Nord",
-      "clubUrl": "https://www.lions-hoechst-main-taunus.de",
+      "clubUrl": "https://hoechst-main-taunus.lions.de",
       "sourceType": "club_website",
-      "urlStatus": "tot",
+      "urlStatus": "verified",
       "enabled": true,
       "priority": 3,
       "scanDepth": 1,
@@ -35952,7 +35952,7 @@
       "confidenceBase": 0.4,
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
-      "notesInternal": "Aus Clubfinder ermittelt (Distrikt Mitte-Nord)."
+      "notesInternal": "Aus Clubfinder ermittelt (Distrikt Mitte-Nord). | URL migriert 2026-09-21 auf lions.de (alt: https://www.lions-hoechst-main-taunus.de, tot; via Health-Check bestaetigt)."
     },
     {
       "slug": "hoexter-corvey",
@@ -37985,9 +37985,9 @@
       "bundesland": "",
       "districtCode": "",
       "districtName": "Rheinland-Süd",
-      "clubUrl": "https://www.Lions-Club-Kreuzau.de",
+      "clubUrl": "https://kreuzau-rureifel.lions.de",
       "sourceType": "club_website",
-      "urlStatus": "tot",
+      "urlStatus": "verified",
       "enabled": true,
       "priority": 3,
       "scanDepth": 1,
@@ -38026,7 +38026,7 @@
       "confidenceBase": 0.4,
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
-      "notesInternal": "Aus Clubfinder ermittelt (Distrikt Rheinland-Süd)."
+      "notesInternal": "Aus Clubfinder ermittelt (Distrikt Rheinland-Süd). | URL migriert 2026-09-21 auf lions.de (alt: https://www.Lions-Club-Kreuzau.de, tot; via Health-Check bestaetigt)."
     },
     {
       "slug": "kreuztal",
@@ -39353,9 +39353,9 @@
       "bundesland": "",
       "districtCode": "",
       "districtName": "Niedersachsen-West",
-      "clubUrl": "https://www.lions-langeoog.de",
+      "clubUrl": "https://langeoog-graefin-anna.lions.de",
       "sourceType": "club_website",
-      "urlStatus": "tot",
+      "urlStatus": "verified",
       "enabled": true,
       "priority": 3,
       "scanDepth": 1,
@@ -39394,7 +39394,7 @@
       "confidenceBase": 0.4,
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
-      "notesInternal": "Aus Clubfinder ermittelt (Distrikt Niedersachsen-West)."
+      "notesInternal": "Aus Clubfinder ermittelt (Distrikt Niedersachsen-West). | URL migriert 2026-09-21 auf lions.de (alt: https://www.lions-langeoog.de, tot; via Health-Check bestaetigt)."
     },
     {
       "slug": "laubach",
@@ -39553,9 +39553,9 @@
       "bundesland": "",
       "districtCode": "",
       "districtName": "Niedersachsen-Hannover",
-      "clubUrl": "https://www.LC-Lehrte.de",
+      "clubUrl": "https://lehrte-sehnde-im-grossen-freien.lions.de",
       "sourceType": "club_website",
-      "urlStatus": "tot",
+      "urlStatus": "verified",
       "enabled": true,
       "priority": 3,
       "scanDepth": 1,
@@ -39594,7 +39594,7 @@
       "confidenceBase": 0.4,
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
-      "notesInternal": "Aus Clubfinder ermittelt (Distrikt Niedersachsen-Hannover)."
+      "notesInternal": "Aus Clubfinder ermittelt (Distrikt Niedersachsen-Hannover). | URL migriert 2026-09-21 auf lions.de (alt: https://www.LC-Lehrte.de, tot; via Health-Check bestaetigt)."
     },
     {
       "slug": "leichlingen-loewen-von-berg",
@@ -41773,9 +41773,9 @@
       "bundesland": "",
       "districtCode": "",
       "districtName": "Mitte-Nord",
-      "clubUrl": "https://www.lions-maintal.org",
+      "clubUrl": "https://maintal.lions.de",
       "sourceType": "club_website",
-      "urlStatus": "tot",
+      "urlStatus": "verified",
       "enabled": true,
       "priority": 3,
       "scanDepth": 1,
@@ -41814,7 +41814,7 @@
       "confidenceBase": 0.4,
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
-      "notesInternal": "Aus Clubfinder ermittelt (Distrikt Mitte-Nord)."
+      "notesInternal": "Aus Clubfinder ermittelt (Distrikt Mitte-Nord). | URL migriert 2026-09-21 auf lions.de (alt: https://www.lions-maintal.org, tot; via Health-Check bestaetigt)."
     },
     {
       "slug": "mainz",
@@ -42027,9 +42027,9 @@
       "bundesland": "",
       "districtCode": "",
       "districtName": "Mitte-Nord",
-      "clubUrl": "https://www.lionsclub-marburg-evt.de",
+      "clubUrl": "https://marburg-elisabeth-von-thueringen.lions.de",
       "sourceType": "club_website",
-      "urlStatus": "tot",
+      "urlStatus": "verified",
       "enabled": true,
       "priority": 3,
       "scanDepth": 1,
@@ -42068,7 +42068,7 @@
       "confidenceBase": 0.4,
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
-      "notesInternal": "Aus Clubfinder ermittelt (Distrikt Mitte-Nord)."
+      "notesInternal": "Aus Clubfinder ermittelt (Distrikt Mitte-Nord). | URL migriert 2026-09-21 auf lions.de (alt: https://www.lionsclub-marburg-evt.de, tot; via Health-Check bestaetigt)."
     },
     {
       "slug": "markkleeberg",
@@ -42535,9 +42535,9 @@
       "bundesland": "",
       "districtCode": "",
       "districtName": "Niedersachsen-West",
-      "clubUrl": "https://www.Lions-Melle.de",
+      "clubUrl": "https://melle-groenegau.lions.de",
       "sourceType": "club_website",
-      "urlStatus": "tot",
+      "urlStatus": "verified",
       "enabled": true,
       "priority": 3,
       "scanDepth": 1,
@@ -42576,7 +42576,7 @@
       "confidenceBase": 0.4,
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
-      "notesInternal": "Aus Clubfinder ermittelt (Distrikt Niedersachsen-West)."
+      "notesInternal": "Aus Clubfinder ermittelt (Distrikt Niedersachsen-West). | URL migriert 2026-09-21 auf lions.de (alt: https://www.Lions-Melle.de, tot; via Health-Check bestaetigt)."
     },
     {
       "slug": "melsungen",
@@ -43347,9 +43347,9 @@
       "bundesland": "",
       "districtCode": "",
       "districtName": "Rheinland-Nord",
-      "clubUrl": "http://www.lc-mg-abteiberg.de",
+      "clubUrl": "https://moenchengladbach-abteiberg.lions.de",
       "sourceType": "club_website",
-      "urlStatus": "tot",
+      "urlStatus": "verified",
       "enabled": true,
       "priority": 3,
       "scanDepth": 1,
@@ -43388,7 +43388,7 @@
       "confidenceBase": 0.4,
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
-      "notesInternal": "Aus Clubfinder ermittelt (Distrikt Rheinland-Nord)."
+      "notesInternal": "Aus Clubfinder ermittelt (Distrikt Rheinland-Nord). | URL migriert 2026-09-21 auf lions.de (alt: http://www.lc-mg-abteiberg.de, tot; via Health-Check bestaetigt)."
     },
     {
       "slug": "moerfelden-walldorf",
@@ -43447,9 +43447,9 @@
       "bundesland": "",
       "districtCode": "",
       "districtName": "Mitte-Nord",
-      "clubUrl": "https://www.lc-muehlheim.de",
+      "clubUrl": "https://muehlheim-am-main.lions.de",
       "sourceType": "club_website",
-      "urlStatus": "tot",
+      "urlStatus": "verified",
       "enabled": true,
       "priority": 3,
       "scanDepth": 1,
@@ -43488,7 +43488,7 @@
       "confidenceBase": 0.4,
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
-      "notesInternal": "Aus Clubfinder ermittelt (Distrikt Mitte-Nord)."
+      "notesInternal": "Aus Clubfinder ermittelt (Distrikt Mitte-Nord). | URL migriert 2026-09-21 auf lions.de (alt: https://www.lc-muehlheim.de, tot; via Health-Check bestaetigt)."
     },
     {
       "slug": "muelheim-ruhr",
@@ -44255,9 +44255,9 @@
       "bundesland": "",
       "districtCode": "",
       "districtName": "Nord",
-      "clubUrl": "https://www.lionsclub-neumuenster-holsten.de",
+      "clubUrl": "https://neumuenster-holsten.lions.de",
       "sourceType": "club_website",
-      "urlStatus": "tot",
+      "urlStatus": "verified",
       "enabled": true,
       "priority": 3,
       "scanDepth": 1,
@@ -44296,7 +44296,7 @@
       "confidenceBase": 0.4,
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
-      "notesInternal": "Aus Clubfinder ermittelt (Distrikt Nord)."
+      "notesInternal": "Aus Clubfinder ermittelt (Distrikt Nord). | URL migriert 2026-09-21 auf lions.de (alt: https://www.lionsclub-neumuenster-holsten.de, tot; via Health-Check bestaetigt)."
     },
     {
       "slug": "neunkirchen-seelscheid",
@@ -45015,9 +45015,9 @@
       "bundesland": "",
       "districtCode": "",
       "districtName": "Niedersachsen-Bremen",
-      "clubUrl": "https://www.lions-club-nienburg.de",
+      "clubUrl": "https://nienburg-weser.lions.de",
       "sourceType": "club_website",
-      "urlStatus": "tot",
+      "urlStatus": "verified",
       "enabled": true,
       "priority": 3,
       "scanDepth": 1,
@@ -45056,7 +45056,7 @@
       "confidenceBase": 0.4,
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
-      "notesInternal": "Aus Clubfinder ermittelt (Distrikt Niedersachsen-Bremen)."
+      "notesInternal": "Aus Clubfinder ermittelt (Distrikt Niedersachsen-Bremen). | URL migriert 2026-09-21 auf lions.de (alt: https://www.lions-club-nienburg.de, tot; via Health-Check bestaetigt)."
     },
     {
       "slug": "nienburg-weser-cor-leonis",
@@ -45219,9 +45219,9 @@
       "bundesland": "",
       "districtCode": "",
       "districtName": "Nord",
-      "clubUrl": "https://www.lionsclub-norderstedt.de",
+      "clubUrl": "https://norderstedt.lions.de",
       "sourceType": "club_website",
-      "urlStatus": "tot",
+      "urlStatus": "verified",
       "enabled": true,
       "priority": 3,
       "scanDepth": 1,
@@ -45260,7 +45260,7 @@
       "confidenceBase": 0.4,
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
-      "notesInternal": "Aus Clubfinder ermittelt (Distrikt Nord)."
+      "notesInternal": "Aus Clubfinder ermittelt (Distrikt Nord). | URL migriert 2026-09-21 auf lions.de (alt: https://www.lionsclub-norderstedt.de, tot; via Health-Check bestaetigt)."
     },
     {
       "slug": "norderstedt-neo",
@@ -45727,9 +45727,9 @@
       "bundesland": "",
       "districtCode": "",
       "districtName": "Mitte-Süd",
-      "clubUrl": "https://www.lions-odenwald.de",
+      "clubUrl": "https://odenwald.lions.de",
       "sourceType": "club_website",
-      "urlStatus": "tot",
+      "urlStatus": "verified",
       "enabled": true,
       "priority": 3,
       "scanDepth": 1,
@@ -45768,7 +45768,7 @@
       "confidenceBase": 0.4,
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
-      "notesInternal": "Aus Clubfinder ermittelt (Distrikt Mitte-Süd)."
+      "notesInternal": "Aus Clubfinder ermittelt (Distrikt Mitte-Süd). | URL migriert 2026-09-21 auf lions.de (alt: https://www.lions-odenwald.de, tot; via Health-Check bestaetigt)."
     },
     {
       "slug": "oerlinghausen",
@@ -45877,9 +45877,9 @@
       "bundesland": "",
       "districtCode": "",
       "districtName": "Mitte-Nord",
-      "clubUrl": "https://www.lionsclub-offenbach.de",
+      "clubUrl": "https://offenbach-rhein-main.lions.de",
       "sourceType": "club_website",
-      "urlStatus": "tot",
+      "urlStatus": "verified",
       "enabled": true,
       "priority": 3,
       "scanDepth": 1,
@@ -45918,7 +45918,7 @@
       "confidenceBase": 0.4,
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
-      "notesInternal": "Aus Clubfinder ermittelt (Distrikt Mitte-Nord)."
+      "notesInternal": "Aus Clubfinder ermittelt (Distrikt Mitte-Nord). | URL migriert 2026-09-21 auf lions.de (alt: https://www.lionsclub-offenbach.de, tot; via Health-Check bestaetigt)."
     },
     {
       "slug": "offenbach-am-main-lederstadt",
@@ -46685,9 +46685,9 @@
       "bundesland": "",
       "districtCode": "",
       "districtName": "Westfalen-Lippe",
-      "clubUrl": "https://www.lions-ostbevern.de",
+      "clubUrl": "https://ostbevern.lions.de",
       "sourceType": "club_website",
-      "urlStatus": "tot",
+      "urlStatus": "verified",
       "enabled": true,
       "priority": 3,
       "scanDepth": 1,
@@ -46726,7 +46726,7 @@
       "confidenceBase": 0.4,
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
-      "notesInternal": "Aus Clubfinder ermittelt (Distrikt Westfalen-Lippe)."
+      "notesInternal": "Aus Clubfinder ermittelt (Distrikt Westfalen-Lippe). | URL migriert 2026-09-21 auf lions.de (alt: https://www.lions-ostbevern.de, tot; via Health-Check bestaetigt)."
     },
     {
       "slug": "osterholz",
@@ -47545,9 +47545,9 @@
       "bundesland": "",
       "districtCode": "",
       "districtName": "Ost-Mitte",
-      "clubUrl": "https://www.lionsclub-quedlinburg.de",
+      "clubUrl": "https://quedlinburg.lions.de",
       "sourceType": "club_website",
-      "urlStatus": "tot",
+      "urlStatus": "verified",
       "enabled": true,
       "priority": 3,
       "scanDepth": 1,
@@ -47586,7 +47586,7 @@
       "confidenceBase": 0.4,
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
-      "notesInternal": "Aus Clubfinder ermittelt (Distrikt Ost-Mitte)."
+      "notesInternal": "Aus Clubfinder ermittelt (Distrikt Ost-Mitte). | URL migriert 2026-09-21 auf lions.de (alt: https://www.lionsclub-quedlinburg.de, tot; via Health-Check bestaetigt)."
     },
     {
       "slug": "querfurt",
@@ -47797,9 +47797,9 @@
       "bundesland": "",
       "districtCode": "",
       "districtName": "Niedersachsen-West",
-      "clubUrl": "https://www.lions-rastede.de",
+      "clubUrl": "https://rastede.lions.de",
       "sourceType": "club_website",
-      "urlStatus": "tot",
+      "urlStatus": "verified",
       "enabled": true,
       "priority": 3,
       "scanDepth": 1,
@@ -47838,7 +47838,7 @@
       "confidenceBase": 0.4,
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
-      "notesInternal": "Aus Clubfinder ermittelt (Distrikt Niedersachsen-West)."
+      "notesInternal": "Aus Clubfinder ermittelt (Distrikt Niedersachsen-West). | URL migriert 2026-09-21 auf lions.de (alt: https://www.lions-rastede.de, tot; via Health-Check bestaetigt)."
     },
     {
       "slug": "ratingen",
@@ -49263,9 +49263,9 @@
       "bundesland": "",
       "districtCode": "",
       "districtName": "Mitte-Süd",
-      "clubUrl": "https://www.lions-club-saarlouis.de",
+      "clubUrl": "https://saarlouis.lions.de",
       "sourceType": "club_website",
-      "urlStatus": "tot",
+      "urlStatus": "verified",
       "enabled": true,
       "priority": 3,
       "scanDepth": 1,
@@ -49304,7 +49304,7 @@
       "confidenceBase": 0.4,
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
-      "notesInternal": "Aus Clubfinder ermittelt (Distrikt Mitte-Süd)."
+      "notesInternal": "Aus Clubfinder ermittelt (Distrikt Mitte-Süd). | URL migriert 2026-09-21 auf lions.de (alt: https://www.lions-club-saarlouis.de, tot; via Health-Check bestaetigt)."
     },
     {
       "slug": "sachsen-anhalt-thueringen-wir-inclusiv",
@@ -50381,9 +50381,9 @@
       "bundesland": "",
       "districtCode": "",
       "districtName": "Ost-Nord",
-      "clubUrl": "https://www.lionssenftenberg.de",
+      "clubUrl": "https://senftenberg.lions.de",
       "sourceType": "club_website",
-      "urlStatus": "tot",
+      "urlStatus": "verified",
       "enabled": true,
       "priority": 3,
       "scanDepth": 1,
@@ -50422,7 +50422,7 @@
       "confidenceBase": 0.4,
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
-      "notesInternal": "Aus Clubfinder ermittelt (Distrikt Ost-Nord)."
+      "notesInternal": "Aus Clubfinder ermittelt (Distrikt Ost-Nord). | URL migriert 2026-09-21 auf lions.de (alt: https://www.lionssenftenberg.de, tot; via Health-Check bestaetigt)."
     },
     {
       "slug": "siegburg",
@@ -50685,9 +50685,9 @@
       "bundesland": "",
       "districtCode": "",
       "districtName": "Westfalen-Lippe",
-      "clubUrl": "https://www.lions-soest-hellweg.de",
+      "clubUrl": "https://soest-hellweg.lions.de",
       "sourceType": "club_website",
-      "urlStatus": "tot",
+      "urlStatus": "verified",
       "enabled": true,
       "priority": 3,
       "scanDepth": 1,
@@ -50726,7 +50726,7 @@
       "confidenceBase": 0.4,
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
-      "notesInternal": "Aus Clubfinder ermittelt (Distrikt Westfalen-Lippe)."
+      "notesInternal": "Aus Clubfinder ermittelt (Distrikt Westfalen-Lippe). | URL migriert 2026-09-21 auf lions.de (alt: https://www.lions-soest-hellweg.de, tot; via Health-Check bestaetigt)."
     },
     {
       "slug": "solingen",
@@ -51443,9 +51443,9 @@
       "bundesland": "",
       "districtCode": "",
       "districtName": "Niedersachsen-Bremen",
-      "clubUrl": "https://www.lc-stolzenau.de",
+      "clubUrl": "https://stolzenau-an-der-weser.lions.de",
       "sourceType": "club_website",
-      "urlStatus": "tot",
+      "urlStatus": "verified",
       "enabled": true,
       "priority": 3,
       "scanDepth": 1,
@@ -51484,7 +51484,7 @@
       "confidenceBase": 0.4,
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
-      "notesInternal": "Aus Clubfinder ermittelt (Distrikt Niedersachsen-Bremen)."
+      "notesInternal": "Aus Clubfinder ermittelt (Distrikt Niedersachsen-Bremen). | URL migriert 2026-09-21 auf lions.de (alt: https://www.lc-stolzenau.de, tot; via Health-Check bestaetigt)."
     },
     {
       "slug": "stormarn",
@@ -51595,9 +51595,9 @@
       "bundesland": "",
       "districtCode": "",
       "districtName": "Ost-Mitte",
-      "clubUrl": "https://www.lions-club.online",
+      "clubUrl": "https://suhl-zella-mehlis.lions.de",
       "sourceType": "club_website",
-      "urlStatus": "tot",
+      "urlStatus": "verified",
       "enabled": true,
       "priority": 3,
       "scanDepth": 1,
@@ -51636,7 +51636,7 @@
       "confidenceBase": 0.4,
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
-      "notesInternal": "Aus Clubfinder ermittelt (Distrikt Ost-Mitte)."
+      "notesInternal": "Aus Clubfinder ermittelt (Distrikt Ost-Mitte). | URL migriert 2026-09-21 auf lions.de (alt: https://www.lions-club.online, tot; via Health-Check bestaetigt)."
     },
     {
       "slug": "sulinger-land",
@@ -51795,9 +51795,9 @@
       "bundesland": "",
       "districtCode": "",
       "districtName": "Niedersachsen-Hannover",
-      "clubUrl": "https://www.https://suedharz.lions.de",
+      "clubUrl": "https://suedharz.lions.de",
       "sourceType": "club_website",
-      "urlStatus": "tot",
+      "urlStatus": "verified",
       "enabled": true,
       "priority": 3,
       "scanDepth": 1,
@@ -51836,7 +51836,7 @@
       "confidenceBase": 0.4,
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
-      "notesInternal": "Aus Clubfinder ermittelt (Distrikt Niedersachsen-Hannover)."
+      "notesInternal": "Aus Clubfinder ermittelt (Distrikt Niedersachsen-Hannover). | URL migriert 2026-09-21 auf lions.de (alt: https://www.https://suedharz.lions.de, tot; via Health-Check bestaetigt)."
     },
     {
       "slug": "suedtondern",
@@ -52099,9 +52099,9 @@
       "bundesland": "",
       "districtCode": "",
       "districtName": "Niedersachsen-Hannover",
-      "clubUrl": "https://www.lions-uelzen.de",
+      "clubUrl": "https://uelzen.lions.de",
       "sourceType": "club_website",
-      "urlStatus": "tot",
+      "urlStatus": "verified",
       "enabled": true,
       "priority": 3,
       "scanDepth": 1,
@@ -52140,7 +52140,7 @@
       "confidenceBase": 0.4,
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
-      "notesInternal": "Aus Clubfinder ermittelt (Distrikt Niedersachsen-Hannover)."
+      "notesInternal": "Aus Clubfinder ermittelt (Distrikt Niedersachsen-Hannover). | URL migriert 2026-09-21 auf lions.de (alt: https://www.lions-uelzen.de, tot; via Health-Check bestaetigt)."
     },
     {
       "slug": "uggelharde",
@@ -52149,9 +52149,9 @@
       "bundesland": "",
       "districtCode": "",
       "districtName": "Nord",
-      "clubUrl": "https://www.lions-uggelharde.de",
+      "clubUrl": "https://uggelharde.lions.de",
       "sourceType": "club_website",
-      "urlStatus": "tot",
+      "urlStatus": "verified",
       "enabled": true,
       "priority": 3,
       "scanDepth": 1,
@@ -52190,7 +52190,7 @@
       "confidenceBase": 0.4,
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
-      "notesInternal": "Aus Clubfinder ermittelt (Distrikt Nord)."
+      "notesInternal": "Aus Clubfinder ermittelt (Distrikt Nord). | URL migriert 2026-09-21 auf lions.de (alt: https://www.lions-uggelharde.de, tot; via Health-Check bestaetigt)."
     },
     {
       "slug": "unna",
@@ -53013,9 +53013,9 @@
       "bundesland": "",
       "districtCode": "",
       "districtName": "Mitte-Süd",
-      "clubUrl": "https://www.lc-wachenheim.de",
+      "clubUrl": "https://wachenheim-weinstr.lions.de",
       "sourceType": "club_website",
-      "urlStatus": "tot",
+      "urlStatus": "verified",
       "enabled": true,
       "priority": 3,
       "scanDepth": 1,
@@ -53054,7 +53054,7 @@
       "confidenceBase": 0.4,
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
-      "notesInternal": "Aus Clubfinder ermittelt (Distrikt Mitte-Süd)."
+      "notesInternal": "Aus Clubfinder ermittelt (Distrikt Mitte-Süd). | URL migriert 2026-09-21 auf lions.de (alt: https://www.lc-wachenheim.de, tot; via Health-Check bestaetigt)."
     },
     {
       "slug": "wahlstedt",
@@ -53515,9 +53515,9 @@
       "bundesland": "",
       "districtCode": "",
       "districtName": "Ost-Mitte",
-      "clubUrl": "http://www.lions-weimar.de",
+      "clubUrl": "https://weimar-classic.lions.de",
       "sourceType": "club_website",
-      "urlStatus": "tot",
+      "urlStatus": "verified",
       "enabled": true,
       "priority": 3,
       "scanDepth": 1,
@@ -53556,7 +53556,7 @@
       "confidenceBase": 0.4,
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
-      "notesInternal": "Aus Clubfinder ermittelt (Distrikt Ost-Mitte)."
+      "notesInternal": "Aus Clubfinder ermittelt (Distrikt Ost-Mitte). | URL migriert 2026-09-21 auf lions.de (alt: http://www.lions-weimar.de, tot; via Health-Check bestaetigt)."
     },
     {
       "slug": "weinboehla",
@@ -53973,9 +53973,9 @@
       "bundesland": "",
       "districtCode": "",
       "districtName": "Westfalen-Lippe",
-      "clubUrl": "https://www.Lions-Club-Westerwald.de",
+      "clubUrl": "https://westerwald.lions.de",
       "sourceType": "club_website",
-      "urlStatus": "tot",
+      "urlStatus": "verified",
       "enabled": true,
       "priority": 3,
       "scanDepth": 1,
@@ -54014,7 +54014,7 @@
       "confidenceBase": 0.4,
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
-      "notesInternal": "Aus Clubfinder ermittelt (Distrikt Westfalen-Lippe)."
+      "notesInternal": "Aus Clubfinder ermittelt (Distrikt Westfalen-Lippe). | URL migriert 2026-09-21 auf lions.de (alt: https://www.Lions-Club-Westerwald.de, tot; via Health-Check bestaetigt)."
     },
     {
       "slug": "wetterau",
@@ -54481,9 +54481,9 @@
       "bundesland": "",
       "districtCode": "",
       "districtName": "Mitte-Nord",
-      "clubUrl": "https://www.lc-wiesbaden-neroberg.de",
+      "clubUrl": "https://wiesbaden-neroberg.lions.de",
       "sourceType": "club_website",
-      "urlStatus": "tot",
+      "urlStatus": "verified",
       "enabled": true,
       "priority": 3,
       "scanDepth": 1,
@@ -54522,7 +54522,7 @@
       "confidenceBase": 0.4,
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
-      "notesInternal": "Aus Clubfinder ermittelt (Distrikt Mitte-Nord)."
+      "notesInternal": "Aus Clubfinder ermittelt (Distrikt Mitte-Nord). | URL migriert 2026-09-21 auf lions.de (alt: https://www.lc-wiesbaden-neroberg.de, tot; via Health-Check bestaetigt)."
     },
     {
       "slug": "wiesbaden-oranien",
@@ -54785,9 +54785,9 @@
       "bundesland": "",
       "districtCode": "",
       "districtName": "Westfalen-Lippe",
-      "clubUrl": "https://www.lionsclub-winterberg.de",
+      "clubUrl": "https://winterberg.lions.de",
       "sourceType": "club_website",
-      "urlStatus": "tot",
+      "urlStatus": "verified",
       "enabled": true,
       "priority": 3,
       "scanDepth": 1,
@@ -54826,7 +54826,7 @@
       "confidenceBase": 0.4,
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
-      "notesInternal": "Aus Clubfinder ermittelt (Distrikt Westfalen-Lippe)."
+      "notesInternal": "Aus Clubfinder ermittelt (Distrikt Westfalen-Lippe). | URL migriert 2026-09-21 auf lions.de (alt: https://www.lionsclub-winterberg.de, tot; via Health-Check bestaetigt)."
     },
     {
       "slug": "witten",
@@ -55747,9 +55747,9 @@
       "bundesland": "",
       "districtCode": "",
       "districtName": "Westfalen-Ruhr",
-      "clubUrl": "https://www.w-lions.de",
+      "clubUrl": "https://wuppertal-bergisch-land.lions.de",
       "sourceType": "club_website",
-      "urlStatus": "tot",
+      "urlStatus": "verified",
       "enabled": true,
       "priority": 3,
       "scanDepth": 1,
@@ -55788,7 +55788,7 @@
       "confidenceBase": 0.4,
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
-      "notesInternal": "Aus Clubfinder ermittelt (Distrikt Westfalen-Ruhr)."
+      "notesInternal": "Aus Clubfinder ermittelt (Distrikt Westfalen-Ruhr). | URL migriert 2026-09-21 auf lions.de (alt: https://www.w-lions.de, tot; via Health-Check bestaetigt)."
     },
     {
       "slug": "wurzen-graf-lindenau",

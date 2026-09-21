@@ -17,6 +17,8 @@ scripts/output/*
 # Ausnahme: URL-Health-Report versionieren (Diagnose toter/umgezogener URLs).
 !scripts/output/url_health.json
 !scripts/output/url_health_report.md
+# Ausnahme: Migrations-Protokoll (welche URL von->zu geaendert wurde).
+!scripts/output/lionsde_migration.md
 
 # Editor / OS
 .vscode/
