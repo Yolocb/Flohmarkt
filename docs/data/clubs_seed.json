@@ -7451,9 +7451,9 @@
       "bundesland": "Baden-Wuerttemberg",
       "districtCode": "",
       "districtName": "Süd-Nord",
-      "clubUrl": "http://www.lionsclub-wiesloch.de",
+      "clubUrl": "https://wiesloch.lions.de",
       "sourceType": "club_website",
-      "urlStatus": "unverified",
+      "urlStatus": "verified",
       "enabled": true,
       "priority": 3,
       "scanDepth": 1,
@@ -7502,7 +7502,7 @@
       "confidenceBase": 0.4,
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
-      "notesInternal": "Aus Clubfinder ermittelt (clubId Süd-Nord)."
+      "notesInternal": "Aus Clubfinder ermittelt (clubId Süd-Nord). | URL korrigiert 2026-09-21: echte Domain wiesloch.lions.de (alt: lionsclub-wiesloch.de tot)."
     },
     {
       "slug": "wimsheim-heckengaeu",
