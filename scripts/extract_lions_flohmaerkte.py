@@ -629,8 +629,10 @@ def process_club(session, club, log_entry):
         seiten_log = {"url": url, "httpStatus": status, "error": error, "treffer": 0}
 
         # Status des Original-Pfads fuer die 404-Bereinigung festhalten.
+        # fetch_url gibt bei 4xx status=None zurueck (der HTTP-Code steckt nur
+        # im error-String, z.B. "HTTP 404"), daher hier ueber error pruefen.
         if pfad in orig_pfade:
-            log_entry["pfad404"][pfad] = (status == 404)
+            log_entry["pfad404"][pfad] = (error == "HTTP 404")
 
         if error or not html:
             log.warning("     Fehler: %s", error)
