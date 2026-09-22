@@ -365,7 +365,7 @@
     "status": "kommend",
     "veranstaltungsort": "",
     "adresse": "",
-    "beschreibung": "Aktuelles Pubquiz am Di. 22.9.2026 Die Anmeldung zum nächsten Charity-Pubquiz ist ab sofort möglich! Mehr Kinderkonzert mit Volker Rosin (13.9.2026) Volker Rosin kommt nach Emsdetten – ein fröhlicher Familiennachmittag z...",
+    "beschreibung": "Aktuelles Pubquiz am Di. 22.9.2026 Drittes Charity-Pubquiz am Di. 22.9.2026 Mehr Kinderkonzert mit Volker Rosin (13.9.2026) Volker Rosin kommt nach Emsdetten – ein fröhlicher Familiennachmittag zugunsten des Kinderschutz...",
     "quelleUrl": "http://www.lions-emsdetten.de/",
     "rawDateText": "22.9.2026",
     "matchedKeywords": [
@@ -373,7 +373,7 @@
     ],
     "confidenceScore": 1.0,
     "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-09-14T11:54:58"
+    "lastChecked": "2026-09-22T07:29:31"
   },
   {
     "id": "1121f299c823",
@@ -405,6 +405,32 @@
     "manuellGeprueft": true
   },
   {
+    "id": "1fa98673872a",
+    "clubName": "Lions Club Wachenheim/Weinstr.",
+    "clubUrl": "https://wachenheim-weinstr.lions.de",
+    "ort": "Wachenheim/Weinstr.",
+    "bundesland": "",
+    "districtName": "Mitte-Süd",
+    "titel": "Flohmarkt in Wachenheim/Weinstr.",
+    "eventType": "flohmarkt",
+    "datumStart": "2026-09-26",
+    "datumEnd": "2026-09-26",
+    "uhrzeit": "10:00",
+    "status": "kommend",
+    "veranstaltungsort": "",
+    "adresse": "",
+    "beschreibung": "Aktuelles - Wachenheim/Weinstr. Aktuelles Auf unserer Seite „Aktuelles“ halten wir Sie über spannende Activities, Veranstaltungen und Projekte auf dem Laufenden. Schauen Sie regelmäßig vorbei – wir freuen uns über Ihr In...",
+    "quelleUrl": "https://wachenheim-weinstr.lions.de/aktuelles",
+    "rawDateText": "26.09.2026",
+    "matchedKeywords": [
+      "Flohmarkt",
+      "Veranstaltung"
+    ],
+    "confidenceScore": 1.0,
+    "extractionMethod": "html_keyword_date_scan_v1",
+    "lastChecked": "2026-09-22T08:35:30"
+  },
+  {
     "id": "8206bc67d09b",
     "clubName": "Lions Club Sulinger Land",
     "clubUrl": "https://www.lcsl.de",
@@ -430,6 +456,60 @@
     "confidenceScore": 1.0,
     "extractionMethod": "html_keyword_date_scan_v1",
     "lastChecked": "2026-07-25T20:23:50",
+    "manuellGeprueft": true
+  },
+  {
+    "id": "a10c6866f663",
+    "clubName": "Lions Club Kitzingen",
+    "clubUrl": "https://www.lionsclub-kitzingen.de",
+    "ort": "Kitzingen",
+    "bundesland": "Bayern",
+    "districtName": "Bayern-Nord",
+    "titel": "Flohmarkt in Kitzingen",
+    "eventType": "flohmarkt",
+    "datumStart": "2026-10-18",
+    "datumEnd": "2026-10-18",
+    "uhrzeit": "",
+    "status": "kommend",
+    "veranstaltungsort": "",
+    "adresse": "",
+    "beschreibung": "Home - Kitzingen Header Club Kitzingen LIONS-Club Kitzingen ... herzlich Willkommen auf unseren Internet-Seiten! Asset-Herausgeber Kitzingen LIONS-Markt am Sonntag 18. Oktober 2026 Björn Keyser, PR-Beauftragter LC Kitzin...",
+    "quelleUrl": "https://www.lionsclub-kitzingen.de/",
+    "rawDateText": "18. Oktober 2026",
+    "matchedKeywords": [
+      "Flohmarkt",
+      "Veranstaltung"
+    ],
+    "confidenceScore": 1.0,
+    "extractionMethod": "html_keyword_date_scan_v1",
+    "lastChecked": "2026-09-22T06:49:13"
+  },
+  {
+    "id": "87ae7e5739ba",
+    "clubName": "Lions Club Wiesloch",
+    "clubUrl": "https://wiesloch.lions.de",
+    "ort": "Wiesloch",
+    "bundesland": "Baden-Wuerttemberg",
+    "districtName": "Süd-Nord",
+    "titel": "Büchermarkt 2026",
+    "eventType": "buechermarkt",
+    "datumStart": "2026-10-23",
+    "datumEnd": "2026-10-25",
+    "uhrzeit": "11:00",
+    "status": "kommend",
+    "veranstaltungsort": "Florapark Wagner",
+    "adresse": "Hauptstraße 163, Wiesloch",
+    "beschreibung": "Großer Büchermarkt des Lions Club Wiesloch. Fr 23.10. 11-19 Uhr, Sa 24.10. 9-17 Uhr, So 25.10. 14-17 Uhr. Verkauf gut erhaltener Bücher, CDs, DVDs und Spiele; Erlös für kulturelle und soziale Projekte.",
+    "quelleUrl": "https://wiesloch.lions.de/w/aktuell-buechermarkt-2026",
+    "rawDateText": "23.-25. Oktober 2026",
+    "matchedKeywords": [
+      "Buechermarkt",
+      "Buch",
+      "Markt"
+    ],
+    "confidenceScore": 1.0,
+    "extractionMethod": "manuell",
+    "lastChecked": "2026-09-21T11:00:44",
     "manuellGeprueft": true
   },
   {
@@ -462,6 +542,31 @@
     "manuellGeprueft": true
   },
   {
+    "id": "a5b0220421f5",
+    "clubName": "Lions Club Rendsburg-Königsthor",
+    "clubUrl": "https://rendsburg-koenigsthor.lions.de",
+    "ort": "Rendsburg-Königsthor",
+    "bundesland": "",
+    "districtName": "Nord",
+    "titel": "Flohmarkt in Rendsburg-Königsthor",
+    "eventType": "flohmarkt",
+    "datumStart": "2026-10-25",
+    "datumEnd": "2026-10-25",
+    "uhrzeit": "12:00",
+    "status": "kommend",
+    "veranstaltungsort": "",
+    "adresse": "",
+    "beschreibung": "Projekte - Rendsburg-Königsthor Unsere Activites Unsere Activities Unten stehend finden Sie Berichte über unsere durchgeführten bzw. geplanten Activities Asset-Herausgeber Rendsburg-Königsthor Der 38. Lionsmarkt findet a...",
+    "quelleUrl": "https://rendsburg-koenigsthor.lions.de/projekte",
+    "rawDateText": "25.10.2026",
+    "matchedKeywords": [
+      "Flohmarkt"
+    ],
+    "confidenceScore": 1.0,
+    "extractionMethod": "html_keyword_date_scan_v1",
+    "lastChecked": "2026-09-22T08:23:22"
+  },
+  {
     "id": "3bbe711fd9a0",
     "clubName": "Lions Club Magdeburg-Kaiser Otto I.",
     "clubUrl": "https://www.lions-magdeburg.de",
@@ -484,7 +589,7 @@
     ],
     "confidenceScore": 1.0,
     "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-09-14T12:34:12"
+    "lastChecked": "2026-09-22T08:06:23"
   },
   {
     "id": "a599080dc692",
@@ -537,7 +642,7 @@
     ],
     "confidenceScore": 1.0,
     "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-09-14T12:34:12"
+    "lastChecked": "2026-09-22T08:06:23"
   },
   {
     "id": "04465bb7c127",
@@ -564,6 +669,31 @@
     "extractionMethod": "html_keyword_date_scan_v1",
     "lastChecked": "2026-07-24T22:02:40",
     "manuellGeprueft": true
+  },
+  {
+    "id": "54119f7fb414",
+    "clubName": "Lions Club Tauberbischofsheim",
+    "clubUrl": "https://tauberbischofsheim.lions.de",
+    "ort": "Tauberbischofsheim",
+    "bundesland": "Baden-Wuerttemberg",
+    "districtName": "Süd-Mitte",
+    "titel": "Basar in Tauberbischofsheim",
+    "eventType": "basar",
+    "datumStart": "2026-11-14",
+    "datumEnd": "2026-11-14",
+    "uhrzeit": "09:30",
+    "status": "kommend",
+    "veranstaltungsort": "",
+    "adresse": "",
+    "beschreibung": "Lions Basar Lauda - Tauberbischofsheim Menü-Anzeige Lions Basar TBB Allgemeine Hinweise Anmeldung für Aussteller in TBB Basarbesucher FAQ Galerie Soziale Projekte TBB Lions Basar Lauda Allgemeine Hinweise Anmeldung für A...",
+    "quelleUrl": "https://tauberbischofsheim.lions.de/lions-basar-lauda",
+    "rawDateText": "14. November 2026",
+    "matchedKeywords": [
+      "Basar"
+    ],
+    "confidenceScore": 0.95,
+    "extractionMethod": "html_keyword_date_scan_v1",
+    "lastChecked": "2026-09-22T06:37:18"
   },
   {
     "id": "808e7e6aa0a2",
@@ -730,7 +860,7 @@
     ],
     "confidenceScore": 1.0,
     "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-09-14T13:01:52"
+    "lastChecked": "2026-09-22T08:32:00"
   },
   {
     "id": "b24080d58ee3",
@@ -785,7 +915,7 @@
     ],
     "confidenceScore": 1.0,
     "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-09-14T12:52:07"
+    "lastChecked": "2026-09-22T08:22:57"
   },
   {
     "id": "de5df3a32e6f",
@@ -812,7 +942,7 @@
     ],
     "confidenceScore": 1.0,
     "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-09-14T13:01:52"
+    "lastChecked": "2026-09-22T08:32:00"
   },
   {
     "id": "4c3c9cac6659",
@@ -840,7 +970,7 @@
     ],
     "confidenceScore": 1.0,
     "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-09-14T12:52:07"
+    "lastChecked": "2026-09-22T08:22:57"
   },
   {
     "id": "addfffa4ec05",
@@ -868,6 +998,109 @@
     "extractionMethod": "html_keyword_date_scan_v1",
     "lastChecked": "2026-07-25T16:32:58",
     "manuellGeprueft": true
+  },
+  {
+    "id": "e8f95cdc7a9f",
+    "clubName": "Lions Club Kamen-Westfalen",
+    "clubUrl": "https://www.lions-kamen.de",
+    "ort": "Kamen-Westfalen",
+    "bundesland": "",
+    "districtName": "Westfalen-Ruhr",
+    "titel": "Buecherbasar in Kamen-Westfalen",
+    "eventType": "buecherbasar",
+    "datumStart": "2027-03-06",
+    "datumEnd": "2027-03-06",
+    "uhrzeit": "11:00",
+    "status": "kommend",
+    "veranstaltungsort": "",
+    "adresse": "",
+    "beschreibung": "Aktuell: Wir freuen uns über Ihre Bücherspenden, diese nehmen wir gerne an folgenden Terminen an. Ort: Hauptschule Kamen, Am Koppelteich 16, 59174 Kamen (Anfahrt) Nächste Termine: 06.03.2027 in der Zeit von 11:00 bis 13:...",
+    "quelleUrl": "https://www.lions-kamen.de/",
+    "rawDateText": "06.03.2027",
+    "matchedKeywords": [
+      "Buechermarkt",
+      "Termine"
+    ],
+    "confidenceScore": 1.0,
+    "extractionMethod": "html_keyword_date_scan_v1",
+    "lastChecked": "2026-09-22T07:54:31"
+  },
+  {
+    "id": "5e5dc9d52af0",
+    "clubName": "Lions Club Waldbronn",
+    "clubUrl": "https://waldbronn.lions.de",
+    "ort": "Waldbronn",
+    "bundesland": "Baden-Wuerttemberg",
+    "districtName": "Süd-Nord",
+    "titel": "Basar in Waldbronn",
+    "eventType": "basar",
+    "datumStart": "2027-04-24",
+    "datumEnd": "2027-04-24",
+    "uhrzeit": "",
+    "status": "kommend",
+    "veranstaltungsort": "",
+    "adresse": "",
+    "beschreibung": "Infos zum Basar - Lions Club Waldbronn Breadcrumb in Informationen zum Basar Aktuelle Informationen zum Basar am 24. April 2027 werden hier zeitnah veröffentlicht! Bitte beachten Sie die untenstehenden Hinweise, insbeson...",
+    "quelleUrl": "https://waldbronn.lions.de/infoszumbasar",
+    "rawDateText": "24. April 2027",
+    "matchedKeywords": [
+      "Basar"
+    ],
+    "confidenceScore": 0.95,
+    "extractionMethod": "html_keyword_date_scan_v1",
+    "lastChecked": "2026-09-22T06:38:14"
+  },
+  {
+    "id": "166cc8eea9d9",
+    "clubName": "Lions Club Kamen-Westfalen",
+    "clubUrl": "https://www.lions-kamen.de",
+    "ort": "Kamen-Westfalen",
+    "bundesland": "",
+    "districtName": "Westfalen-Ruhr",
+    "titel": "Buecherbasar in Kamen-Westfalen",
+    "eventType": "buecherbasar",
+    "datumStart": "2027-05-08",
+    "datumEnd": "2027-05-08",
+    "uhrzeit": "11:00",
+    "status": "kommend",
+    "veranstaltungsort": "",
+    "adresse": "",
+    "beschreibung": "Aktuell: Wir freuen uns über Ihre Bücherspenden, diese nehmen wir gerne an folgenden Terminen an. Ort: Hauptschule Kamen, Am Koppelteich 16, 59174 Kamen (Anfahrt) Nächste Termine: 06.03.2027 in der Zeit von 11:00 bis 13:...",
+    "quelleUrl": "https://www.lions-kamen.de/",
+    "rawDateText": "08.05.2027",
+    "matchedKeywords": [
+      "Buechermarkt",
+      "Termine"
+    ],
+    "confidenceScore": 1.0,
+    "extractionMethod": "html_keyword_date_scan_v1",
+    "lastChecked": "2026-09-22T07:54:31"
+  },
+  {
+    "id": "748675709846",
+    "clubName": "Lions Club Kamen-Westfalen",
+    "clubUrl": "https://www.lions-kamen.de",
+    "ort": "Kamen-Westfalen",
+    "bundesland": "",
+    "districtName": "Westfalen-Ruhr",
+    "titel": "Buecherbasar in Kamen-Westfalen",
+    "eventType": "buecherbasar",
+    "datumStart": "2027-07-03",
+    "datumEnd": "2027-07-03",
+    "uhrzeit": "11:00",
+    "status": "kommend",
+    "veranstaltungsort": "",
+    "adresse": "",
+    "beschreibung": "Aktuell: Wir freuen uns über Ihre Bücherspenden, diese nehmen wir gerne an folgenden Terminen an. Ort: Hauptschule Kamen, Am Koppelteich 16, 59174 Kamen (Anfahrt) Nächste Termine: 06.03.2027 in der Zeit von 11:00 bis 13:...",
+    "quelleUrl": "https://www.lions-kamen.de/",
+    "rawDateText": "03.07.2027",
+    "matchedKeywords": [
+      "Buechermarkt",
+      "Termine"
+    ],
+    "confidenceScore": 1.0,
+    "extractionMethod": "html_keyword_date_scan_v1",
+    "lastChecked": "2026-09-22T07:54:31"
   },
   {
     "id": "a53da81866b0",
@@ -920,33 +1153,5 @@
     "extractionMethod": "kandidat_manuell_geprueft_v1",
     "manuellGeprueft": true,
     "lastChecked": "2026-07-26T09:00:00"
-  },
-  {
-    "id": "87ae7e5739ba",
-    "clubName": "Lions Club Wiesloch",
-    "clubUrl": "https://wiesloch.lions.de",
-    "ort": "Wiesloch",
-    "bundesland": "Baden-Wuerttemberg",
-    "districtName": "Süd-Nord",
-    "titel": "Büchermarkt 2026",
-    "eventType": "buechermarkt",
-    "datumStart": "2026-10-23",
-    "datumEnd": "2026-10-25",
-    "uhrzeit": "11:00",
-    "status": "kommend",
-    "veranstaltungsort": "Florapark Wagner",
-    "adresse": "Hauptstraße 163, Wiesloch",
-    "beschreibung": "Großer Büchermarkt des Lions Club Wiesloch. Fr 23.10. 11-19 Uhr, Sa 24.10. 9-17 Uhr, So 25.10. 14-17 Uhr. Verkauf gut erhaltener Bücher, CDs, DVDs und Spiele; Erlös für kulturelle und soziale Projekte.",
-    "quelleUrl": "https://wiesloch.lions.de/w/aktuell-buechermarkt-2026",
-    "rawDateText": "23.-25. Oktober 2026",
-    "matchedKeywords": [
-      "Buechermarkt",
-      "Buch",
-      "Markt"
-    ],
-    "confidenceScore": 1.0,
-    "extractionMethod": "manuell",
-    "lastChecked": "2026-09-21T11:00:44",
-    "manuellGeprueft": true
   }
 ]
