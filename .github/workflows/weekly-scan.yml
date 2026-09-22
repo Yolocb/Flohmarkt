@@ -54,5 +54,18 @@ jobs:
             echo "Keine Termin-Aenderungen - nichts zu committen."
           else
             git commit -m "Automatischer Termin-Scan ($(date -u +%Y-%m-%d))"
-            git push
+            # Lange Scans (~2,5 h) verlieren sonst alle Ergebnisse, wenn main
+            # zwischenzeitlich weitergewandert ist (push wird als non-fast-forward
+            # abgelehnt). Vor dem Push aktuellen Stand rebasen, mit Retry gegen
+            # ein Rennen mit anderen Commits.
+            for versuch in 1 2 3; do
+              git fetch origin main
+              git rebase origin/main || { echo "Rebase-Konflikt - abgebrochen."; git rebase --abort; exit 1; }
+              if git push origin HEAD:main; then
+                echo "Push erfolgreich (Versuch $versuch)."
+                break
+              fi
+              echo "Push abgelehnt - erneuter Versuch ($versuch)..."
+              sleep 5
+            done
           fi

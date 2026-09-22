@@ -56,5 +56,16 @@ jobs:
             echo "Keine Aenderungen - nichts zu committen."
           else
             git commit -m "URL-Health-Check ($(date -u +%Y-%m-%d))"
-            git push
+            # Der Check laeuft lange (1.112 Requests); main kann zwischenzeitlich
+            # weitergewandert sein. Vor dem Push rebasen, mit Retry gegen Rennen.
+            for versuch in 1 2 3; do
+              git fetch origin main
+              git rebase origin/main || { echo "Rebase-Konflikt - abgebrochen."; git rebase --abort; exit 1; }
+              if git push origin HEAD:main; then
+                echo "Push erfolgreich (Versuch $versuch)."
+                break
+              fi
+              echo "Push abgelehnt - erneuter Versuch ($versuch)..."
+              sleep 5
+            done
           fi
