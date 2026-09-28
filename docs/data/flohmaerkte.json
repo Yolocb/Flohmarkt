@@ -351,31 +351,6 @@
     "manuellGeprueft": true
   },
   {
-    "id": "c71e7cd85ad1",
-    "clubName": "Lions Club Emsdetten",
-    "clubUrl": "http://www.lions-emsdetten.de",
-    "ort": "Emsdetten",
-    "bundesland": "",
-    "districtName": "Westfalen-Lippe",
-    "titel": "Buecherbasar in Emsdetten",
-    "eventType": "buecherbasar",
-    "datumStart": "2026-09-22",
-    "datumEnd": "2026-09-22",
-    "uhrzeit": "",
-    "status": "kommend",
-    "veranstaltungsort": "",
-    "adresse": "",
-    "beschreibung": "Aktuelles Pubquiz am Di. 22.9.2026 Drittes Charity-Pubquiz am Di. 22.9.2026 Mehr Kinderkonzert mit Volker Rosin (13.9.2026) Volker Rosin kommt nach Emsdetten – ein fröhlicher Familiennachmittag zugunsten des Kinderschutz...",
-    "quelleUrl": "http://www.lions-emsdetten.de/",
-    "rawDateText": "22.9.2026",
-    "matchedKeywords": [
-      "Flohmarkt"
-    ],
-    "confidenceScore": 1.0,
-    "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-09-22T07:29:31"
-  },
-  {
     "id": "1121f299c823",
     "clubName": "Lions Club Remscheid",
     "clubUrl": "https://remscheid.lions.de",
@@ -405,30 +380,29 @@
     "manuellGeprueft": true
   },
   {
-    "id": "1fa98673872a",
-    "clubName": "Lions Club Wachenheim/Weinstr.",
-    "clubUrl": "https://wachenheim-weinstr.lions.de",
-    "ort": "Wachenheim/Weinstr.",
-    "bundesland": "",
-    "districtName": "Mitte-Süd",
-    "titel": "Flohmarkt in Wachenheim/Weinstr.",
-    "eventType": "flohmarkt",
-    "datumStart": "2026-09-26",
-    "datumEnd": "2026-09-26",
-    "uhrzeit": "10:00",
+    "id": "40a87365339e",
+    "clubName": "Lions Club Mosbach",
+    "clubUrl": "https://mosbach.lions.de",
+    "ort": "Mosbach",
+    "bundesland": "Baden-Wuerttemberg",
+    "districtName": "Süd-Nord",
+    "titel": "Buecherbasar in Mosbach",
+    "eventType": "buecherbasar",
+    "datumStart": "2026-09-28",
+    "datumEnd": "2026-09-28",
+    "uhrzeit": "",
     "status": "kommend",
     "veranstaltungsort": "",
     "adresse": "",
-    "beschreibung": "Aktuelles - Wachenheim/Weinstr. Aktuelles Auf unserer Seite „Aktuelles“ halten wir Sie über spannende Activities, Veranstaltungen und Projekte auf dem Laufenden. Schauen Sie regelmäßig vorbei – wir freuen uns über Ihr In...",
-    "quelleUrl": "https://wachenheim-weinstr.lions.de/aktuelles",
-    "rawDateText": "26.09.2026",
+    "beschreibung": "Header Club Mosbach Lions Club Mosbach Herzlich willkommen im Badischen Odenwald! Asset-Herausgeber Mosbach Stadtlauf 2026 - eine weitere Sponsoraktion der Lions Gerhard Cherdron Weiterlesen Veröffentlicht am 28. Septemb...",
+    "quelleUrl": "https://mosbach.lions.de/",
+    "rawDateText": "28. September 2026",
     "matchedKeywords": [
-      "Flohmarkt",
-      "Veranstaltung"
+      "Buechermarkt"
     ],
     "confidenceScore": 1.0,
     "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-09-22T08:35:30"
+    "lastChecked": "2026-09-28T11:56:35"
   },
   {
     "id": "8206bc67d09b",
@@ -459,6 +433,31 @@
     "manuellGeprueft": true
   },
   {
+    "id": "d0ec351a9417",
+    "clubName": "Lions Club Uggelharde",
+    "clubUrl": "https://uggelharde.lions.de",
+    "ort": "Uggelharde",
+    "bundesland": "",
+    "districtName": "Nord",
+    "titel": "Buecherbasar in Uggelharde",
+    "eventType": "buecherbasar",
+    "datumStart": "2026-10-09",
+    "datumEnd": "2026-10-09",
+    "uhrzeit": "",
+    "status": "kommend",
+    "veranstaltungsort": "",
+    "adresse": "",
+    "beschreibung": "Home - Uggelharde Header Club Beispiel Kurhaus Lions Club Uggelharde Willkommen im Lions Club Uggelharde Asset-Herausgeber Uggelharde Verspielen 09.10.2026 Lutz Baastrup Machen Sie mit beim Verspielen im Westerkrug in Wa...",
+    "quelleUrl": "https://uggelharde.lions.de/",
+    "rawDateText": "09.10.2026",
+    "matchedKeywords": [
+      "Flohmarkt"
+    ],
+    "confidenceScore": 1.0,
+    "extractionMethod": "html_keyword_date_scan_v1",
+    "lastChecked": "2026-09-28T14:02:21"
+  },
+  {
     "id": "a10c6866f663",
     "clubName": "Lions Club Kitzingen",
     "clubUrl": "https://www.lionsclub-kitzingen.de",
@@ -482,7 +481,7 @@
     ],
     "confidenceScore": 1.0,
     "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-09-22T06:49:13"
+    "lastChecked": "2026-09-28T12:13:38"
   },
   {
     "id": "87ae7e5739ba",
@@ -542,6 +541,57 @@
     "manuellGeprueft": true
   },
   {
+    "id": "20ddf37789c0",
+    "clubName": "Lions Club Wiesloch",
+    "clubUrl": "https://wiesloch.lions.de",
+    "ort": "Wiesloch",
+    "bundesland": "Baden-Wuerttemberg",
+    "districtName": "Süd-Nord",
+    "titel": "Buecherbasar in Wiesloch",
+    "eventType": "buecherbasar",
+    "datumStart": "2026-10-25",
+    "datumEnd": "2026-10-25",
+    "uhrzeit": "",
+    "status": "kommend",
+    "veranstaltungsort": "",
+    "adresse": "",
+    "beschreibung": "Asset-Herausgeber Lions Club Wiesloch Büchermarkt 2026 Thomas Stegemann Der Lions Büchermarkt findet vom 23. - 25. Oktober 2026 statt Weiterlesen Veröffentlicht am 15. September 2026 Lions Club Wiesloch Erfolgreicher Auf...",
+    "quelleUrl": "https://wiesloch.lions.de/",
+    "rawDateText": "25. Oktober 2026",
+    "matchedKeywords": [
+      "Buechermarkt",
+      "Veranstaltung"
+    ],
+    "confidenceScore": 1.0,
+    "extractionMethod": "html_keyword_date_scan_v1",
+    "lastChecked": "2026-09-28T12:02:31"
+  },
+  {
+    "id": "4f0586ccc367",
+    "clubName": "Lions Club Schongau-Pfaffenwinkel",
+    "clubUrl": "https://www.lions-schongau.de",
+    "ort": "Schongau-Pfaffenwinkel",
+    "bundesland": "Bayern",
+    "districtName": "Bayern-Süd",
+    "titel": "Buecherbasar in Schongau-Pfaffenwinkel",
+    "eventType": "buecherbasar",
+    "datumStart": "2026-10-25",
+    "datumEnd": "2026-10-25",
+    "uhrzeit": "",
+    "status": "kommend",
+    "veranstaltungsort": "",
+    "adresse": "",
+    "beschreibung": "Neuigkeiten des Lions Club Schongau-Pfaffenwinkel Büchermarkt am Sonntag, 25. Oktober 2026 Wer sich für das Frühjahr und den Sommer mit Büchern eindecken möchte, hat jetzt die Gelegenheit dazu. Der Lions Club Schongau-Pf...",
+    "quelleUrl": "https://www.lions-schongau.de/",
+    "rawDateText": "25. Oktober 2026",
+    "matchedKeywords": [
+      "Buechermarkt"
+    ],
+    "confidenceScore": 1.0,
+    "extractionMethod": "html_keyword_date_scan_v1",
+    "lastChecked": "2026-09-28T12:21:21"
+  },
+  {
     "id": "a5b0220421f5",
     "clubName": "Lions Club Rendsburg-Königsthor",
     "clubUrl": "https://rendsburg-koenigsthor.lions.de",
@@ -564,7 +614,7 @@
     ],
     "confidenceScore": 1.0,
     "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-09-22T08:23:22"
+    "lastChecked": "2026-09-28T13:51:55"
   },
   {
     "id": "3bbe711fd9a0",
@@ -589,7 +639,7 @@
     ],
     "confidenceScore": 1.0,
     "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-09-22T08:06:23"
+    "lastChecked": "2026-09-28T13:34:10"
   },
   {
     "id": "a599080dc692",
@@ -642,7 +692,7 @@
     ],
     "confidenceScore": 1.0,
     "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-09-22T08:06:23"
+    "lastChecked": "2026-09-28T13:34:10"
   },
   {
     "id": "04465bb7c127",
@@ -693,7 +743,7 @@
     ],
     "confidenceScore": 0.95,
     "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-09-22T06:37:18"
+    "lastChecked": "2026-09-28T12:01:05"
   },
   {
     "id": "808e7e6aa0a2",
@@ -860,7 +910,32 @@
     ],
     "confidenceScore": 1.0,
     "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-09-22T08:32:00"
+    "lastChecked": "2026-09-28T14:01:01"
+  },
+  {
+    "id": "8270f623f079",
+    "clubName": "Lions Club Uggelharde",
+    "clubUrl": "https://uggelharde.lions.de",
+    "ort": "Uggelharde",
+    "bundesland": "",
+    "districtName": "Nord",
+    "titel": "Buecherbasar in Uggelharde",
+    "eventType": "buecherbasar",
+    "datumStart": "2027-01-09",
+    "datumEnd": "2027-01-09",
+    "uhrzeit": "",
+    "status": "kommend",
+    "veranstaltungsort": "",
+    "adresse": "",
+    "beschreibung": "Home - Uggelharde Header Club Beispiel Kurhaus Lions Club Uggelharde Willkommen im Lions Club Uggelharde Asset-Herausgeber Uggelharde Verspielen 09.10.2026 Lutz Baastrup Machen Sie mit beim Verspielen im Westerkrug in Wa...",
+    "quelleUrl": "https://uggelharde.lions.de/",
+    "rawDateText": "09. Januar 2027",
+    "matchedKeywords": [
+      "Flohmarkt"
+    ],
+    "confidenceScore": 1.0,
+    "extractionMethod": "html_keyword_date_scan_v1",
+    "lastChecked": "2026-09-28T14:02:21"
   },
   {
     "id": "b24080d58ee3",
@@ -915,7 +990,7 @@
     ],
     "confidenceScore": 1.0,
     "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-09-22T08:22:57"
+    "lastChecked": "2026-09-28T13:51:27"
   },
   {
     "id": "de5df3a32e6f",
@@ -942,7 +1017,7 @@
     ],
     "confidenceScore": 1.0,
     "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-09-22T08:32:00"
+    "lastChecked": "2026-09-28T14:01:01"
   },
   {
     "id": "4c3c9cac6659",
@@ -970,7 +1045,7 @@
     ],
     "confidenceScore": 1.0,
     "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-09-22T08:22:57"
+    "lastChecked": "2026-09-28T13:51:27"
   },
   {
     "id": "addfffa4ec05",
@@ -1023,7 +1098,7 @@
     ],
     "confidenceScore": 1.0,
     "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-09-22T07:54:31"
+    "lastChecked": "2026-09-28T13:21:46"
   },
   {
     "id": "5e5dc9d52af0",
@@ -1048,7 +1123,7 @@
     ],
     "confidenceScore": 0.95,
     "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-09-22T06:38:14"
+    "lastChecked": "2026-09-28T12:02:02"
   },
   {
     "id": "166cc8eea9d9",
@@ -1074,7 +1149,7 @@
     ],
     "confidenceScore": 1.0,
     "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-09-22T07:54:31"
+    "lastChecked": "2026-09-28T13:21:46"
   },
   {
     "id": "748675709846",
@@ -1100,7 +1175,7 @@
     ],
     "confidenceScore": 1.0,
     "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-09-22T07:54:31"
+    "lastChecked": "2026-09-28T13:21:46"
   },
   {
     "id": "a53da81866b0",
