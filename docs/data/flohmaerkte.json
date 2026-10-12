@@ -408,31 +408,6 @@
     "manuellGeprueft": true
   },
   {
-    "id": "d0ec351a9417",
-    "clubName": "Lions Club Uggelharde",
-    "clubUrl": "https://uggelharde.lions.de",
-    "ort": "Uggelharde",
-    "bundesland": "",
-    "districtName": "Nord",
-    "titel": "Buecherbasar in Uggelharde",
-    "eventType": "buecherbasar",
-    "datumStart": "2026-10-09",
-    "datumEnd": "2026-10-09",
-    "uhrzeit": "",
-    "status": "kommend",
-    "veranstaltungsort": "",
-    "adresse": "",
-    "beschreibung": "Home - Uggelharde Header Club Beispiel Kurhaus Lions Club Uggelharde Willkommen im Lions Club Uggelharde Asset-Herausgeber Uggelharde Verspielen 09.10.2026 Lutz Baastrup Machen Sie mit beim Verspielen im Westerkrug in Wa...",
-    "quelleUrl": "https://uggelharde.lions.de/",
-    "rawDateText": "09.10.2026",
-    "matchedKeywords": [
-      "Flohmarkt"
-    ],
-    "confidenceScore": 1.0,
-    "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-10-05T14:40:51"
-  },
-  {
     "id": "95ef51b2a203",
     "clubName": "Lions Club Magdeburg-Kaiser Otto I.",
     "clubUrl": "https://www.lions-magdeburg.de",
@@ -456,7 +431,57 @@
     ],
     "confidenceScore": 1.0,
     "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-10-05T14:12:12"
+    "lastChecked": "2026-10-12T14:29:01"
+  },
+  {
+    "id": "ffd028668324",
+    "clubName": "Lions Club Freiburg-Alt Freiburg",
+    "clubUrl": "https://freiburg-alt-freiburg.lions.de",
+    "ort": "Freiburg-Alt Freiburg",
+    "bundesland": "Baden-Wuerttemberg",
+    "districtName": "Süd-West",
+    "titel": "Buecherbasar in Freiburg-Alt Freiburg",
+    "eventType": "buecherbasar",
+    "datumStart": "2026-10-16",
+    "datumEnd": "2026-10-16",
+    "uhrzeit": "",
+    "status": "kommend",
+    "veranstaltungsort": "",
+    "adresse": "",
+    "beschreibung": "Home - Freiburg-Alt Freiburg Lions Club Freiburg Alt-Freiburg Lions Club Alt-Freiburg Willkommen beim Lions Club Alt-Freiburg Teaser Weiterführung Beispiel Lernen Sie unseren Club kennen MEHR ÜBER UNS Das sind WIR Weiter...",
+    "quelleUrl": "https://freiburg-alt-freiburg.lions.de/",
+    "rawDateText": "16.10.2026",
+    "matchedKeywords": [
+      "Buechermarkt"
+    ],
+    "confidenceScore": 1.0,
+    "extractionMethod": "html_keyword_date_scan_v1",
+    "lastChecked": "2026-10-12T13:17:06"
+  },
+  {
+    "id": "46509ce5cac3",
+    "clubName": "Lions Club Freiburg-Alt Freiburg",
+    "clubUrl": "https://freiburg-alt-freiburg.lions.de",
+    "ort": "Freiburg-Alt Freiburg",
+    "bundesland": "Baden-Wuerttemberg",
+    "districtName": "Süd-West",
+    "titel": "Buecherbasar in Freiburg-Alt Freiburg",
+    "eventType": "buecherbasar",
+    "datumStart": "2026-10-17",
+    "datumEnd": "2026-10-17",
+    "uhrzeit": "",
+    "status": "kommend",
+    "veranstaltungsort": "",
+    "adresse": "",
+    "beschreibung": "Home - Freiburg-Alt Freiburg Lions Club Freiburg Alt-Freiburg Lions Club Alt-Freiburg Willkommen beim Lions Club Alt-Freiburg Teaser Weiterführung Beispiel Lernen Sie unseren Club kennen MEHR ÜBER UNS Das sind WIR Weiter...",
+    "quelleUrl": "https://freiburg-alt-freiburg.lions.de/",
+    "rawDateText": "17.10.2026",
+    "matchedKeywords": [
+      "Buechermarkt"
+    ],
+    "confidenceScore": 1.0,
+    "extractionMethod": "html_keyword_date_scan_v1",
+    "lastChecked": "2026-10-12T13:17:06"
   },
   {
     "id": "a10c6866f663",
@@ -482,7 +507,32 @@
     ],
     "confidenceScore": 1.0,
     "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-10-05T12:49:41"
+    "lastChecked": "2026-10-12T13:33:42"
+  },
+  {
+    "id": "4cc4f97fa2f0",
+    "clubName": "Lions Club Hannover-Herrenhausen",
+    "clubUrl": "https://hannover-herrenhausen.lions.de",
+    "ort": "Hannover-Herrenhausen",
+    "bundesland": "",
+    "districtName": "Niedersachsen-Hannover",
+    "titel": "Flohmarkt in Hannover-Herrenhausen",
+    "eventType": "flohmarkt",
+    "datumStart": "2026-10-22",
+    "datumEnd": "2026-10-22",
+    "uhrzeit": "",
+    "status": "kommend",
+    "veranstaltungsort": "",
+    "adresse": "",
+    "beschreibung": "Asset-Herausgeber Hannover-Herrenhausen Kommende Jumelage Ursula Elisabeth Neuhaus Die nächste Jumelage befindet sich derzeit in Vorbereitung. Wir freuen uns auf den Besuch unserer französischen Freunde und Freundinnen d...",
+    "quelleUrl": "https://hannover-herrenhausen.lions.de/",
+    "rawDateText": "22. Oktober 2026",
+    "matchedKeywords": [
+      "Flohmarkt"
+    ],
+    "confidenceScore": 1.0,
+    "extractionMethod": "html_keyword_date_scan_v1",
+    "lastChecked": "2026-10-12T14:15:12"
   },
   {
     "id": "87ae7e5739ba",
@@ -565,7 +615,7 @@
     ],
     "confidenceScore": 1.0,
     "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-10-05T12:38:50"
+    "lastChecked": "2026-10-12T13:25:40"
   },
   {
     "id": "4f0586ccc367",
@@ -590,7 +640,7 @@
     ],
     "confidenceScore": 1.0,
     "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-10-05T12:57:22"
+    "lastChecked": "2026-10-12T13:38:45"
   },
   {
     "id": "a5b0220421f5",
@@ -615,7 +665,7 @@
     ],
     "confidenceScore": 1.0,
     "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-10-05T14:29:48"
+    "lastChecked": "2026-10-12T14:42:14"
   },
   {
     "id": "3bbe711fd9a0",
@@ -641,7 +691,7 @@
     ],
     "confidenceScore": 1.0,
     "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-10-05T14:12:12"
+    "lastChecked": "2026-10-12T14:29:01"
   },
   {
     "id": "a599080dc692",
@@ -695,7 +745,7 @@
     ],
     "confidenceScore": 1.0,
     "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-10-05T14:12:12"
+    "lastChecked": "2026-10-12T14:29:01"
   },
   {
     "id": "04465bb7c127",
@@ -747,7 +797,7 @@
     ],
     "confidenceScore": 1.0,
     "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-10-05T14:12:12"
+    "lastChecked": "2026-10-12T14:29:01"
   },
   {
     "id": "54119f7fb414",
@@ -772,7 +822,7 @@
     ],
     "confidenceScore": 0.95,
     "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-10-05T12:37:23"
+    "lastChecked": "2026-10-12T13:24:33"
   },
   {
     "id": "808e7e6aa0a2",
@@ -939,7 +989,7 @@
     ],
     "confidenceScore": 1.0,
     "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-10-05T14:39:21"
+    "lastChecked": "2026-10-12T14:48:32"
   },
   {
     "id": "8270f623f079",
@@ -956,7 +1006,7 @@
     "status": "kommend",
     "veranstaltungsort": "",
     "adresse": "",
-    "beschreibung": "Home - Uggelharde Header Club Beispiel Kurhaus Lions Club Uggelharde Willkommen im Lions Club Uggelharde Asset-Herausgeber Uggelharde Verspielen 09.10.2026 Lutz Baastrup Machen Sie mit beim Verspielen im Westerkrug in Wa...",
+    "beschreibung": "Home - Uggelharde Header Club Beispiel Kurhaus Lions Club Uggelharde Willkommen im Lions Club Uggelharde Asset-Herausgeber Uggelharde Verspielen am 09.10.2026 Lutz Baastrup Es geht wieder los - gemeinsam spielen und Gute...",
     "quelleUrl": "https://uggelharde.lions.de/",
     "rawDateText": "09. Januar 2027",
     "matchedKeywords": [
@@ -964,7 +1014,7 @@
     ],
     "confidenceScore": 1.0,
     "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-10-05T14:40:51"
+    "lastChecked": "2026-10-12T14:49:34"
   },
   {
     "id": "b24080d58ee3",
@@ -1019,7 +1069,7 @@
     ],
     "confidenceScore": 1.0,
     "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-10-05T14:29:20"
+    "lastChecked": "2026-10-12T14:41:52"
   },
   {
     "id": "de5df3a32e6f",
@@ -1046,7 +1096,7 @@
     ],
     "confidenceScore": 1.0,
     "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-10-05T14:39:21"
+    "lastChecked": "2026-10-12T14:48:32"
   },
   {
     "id": "4c3c9cac6659",
@@ -1074,7 +1124,32 @@
     ],
     "confidenceScore": 1.0,
     "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-10-05T14:29:20"
+    "lastChecked": "2026-10-12T14:41:52"
+  },
+  {
+    "id": "be96df408bcc",
+    "clubName": "Lions Club Wörth-Kandel",
+    "clubUrl": "https://www.lionsclub-woerth-kandel.de",
+    "ort": "Wörth-Kandel",
+    "bundesland": "",
+    "districtName": "Mitte-Süd",
+    "titel": "Basar in Wörth-Kandel",
+    "eventType": "basar",
+    "datumStart": "2027-02-27",
+    "datumEnd": "2027-02-27",
+    "uhrzeit": "",
+    "status": "kommend",
+    "veranstaltungsort": "",
+    "adresse": "",
+    "beschreibung": "Skip to content Search for: Spendenkonto: LIONS Förderverein Wörth-Kandel E.V. Sparkasse Südpfalz IBAN: DE89 5485 0010 0000 0270 78 Neueste Beiträge Basar Sa. 27.02.2027 Uwe Burger vom Lions Club Wörth-Kandel für langjäh...",
+    "quelleUrl": "https://www.lionsclub-woerth-kandel.de/",
+    "rawDateText": "27.02.2027",
+    "matchedKeywords": [
+      "Basar"
+    ],
+    "confidenceScore": 0.95,
+    "extractionMethod": "html_keyword_date_scan_v1",
+    "lastChecked": "2026-10-12T14:56:47"
   },
   {
     "id": "addfffa4ec05",
@@ -1127,7 +1202,7 @@
     ],
     "confidenceScore": 1.0,
     "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-10-05T13:59:42"
+    "lastChecked": "2026-10-12T14:20:35"
   },
   {
     "id": "41829668ca33",
@@ -1154,7 +1229,7 @@
     ],
     "confidenceScore": 1.0,
     "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-10-05T14:39:21"
+    "lastChecked": "2026-10-12T14:48:32"
   },
   {
     "id": "03af7d66b6d9",
@@ -1182,7 +1257,7 @@
     ],
     "confidenceScore": 1.0,
     "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-10-05T14:29:20"
+    "lastChecked": "2026-10-12T14:41:52"
   },
   {
     "id": "5e5dc9d52af0",
@@ -1207,7 +1282,7 @@
     ],
     "confidenceScore": 0.95,
     "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-10-05T12:38:21"
+    "lastChecked": "2026-10-12T13:25:19"
   },
   {
     "id": "166cc8eea9d9",
@@ -1233,7 +1308,7 @@
     ],
     "confidenceScore": 1.0,
     "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-10-05T13:59:42"
+    "lastChecked": "2026-10-12T14:20:35"
   },
   {
     "id": "1e3e4d07da5a",
@@ -1259,7 +1334,7 @@
     ],
     "confidenceScore": 1.0,
     "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-10-05T14:12:12"
+    "lastChecked": "2026-10-12T14:29:01"
   },
   {
     "id": "748675709846",
@@ -1285,7 +1360,7 @@
     ],
     "confidenceScore": 1.0,
     "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-10-05T13:59:42"
+    "lastChecked": "2026-10-12T14:20:35"
   },
   {
     "id": "a53da81866b0",

@@ -1239,7 +1239,10 @@
       "confidenceBase": 0.4,
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
-      "notesInternal": "Aus Clubfinder ermittelt (clubId Süd-Nord)."
+      "notesInternal": "Aus Clubfinder ermittelt (clubId Süd-Nord).",
+      "pfad404Count": {
+        "/projekte": 1
+      }
     },
     {
       "slug": "bruchsal",
@@ -2490,7 +2493,10 @@
       "confidenceBase": 0.4,
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
-      "notesInternal": "Aus Clubfinder ermittelt (clubId Süd-Nord)."
+      "notesInternal": "Aus Clubfinder ermittelt (clubId Süd-Nord).",
+      "pfad404Count": {
+        "/termine": 1
+      }
     },
     {
       "slug": "geislingen-steige",
@@ -12651,7 +12657,10 @@
       "confidenceBase": 0.4,
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
-      "notesInternal": "Aus Clubfinder ermittelt (clubId Bayern-Süd)."
+      "notesInternal": "Aus Clubfinder ermittelt (clubId Bayern-Süd).",
+      "pfad404Count": {
+        "/veranstaltungen": 1
+      }
     },
     {
       "slug": "muenchen-koenig-otto",
@@ -16754,8 +16763,7 @@
         "/termine"
       ],
       "enabledPaths": [
-        "/",
-        "/termine"
+        "/"
       ],
       "excludePaths": [
         "/impressum",
@@ -16777,10 +16785,7 @@
       "confidenceBase": 0.4,
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
-      "notesInternal": "Aus Clubfinder ermittelt (Distrikt Westfalen-Lippe).",
-      "pfad404Count": {
-        "/termine": 1
-      }
+      "notesInternal": "Aus Clubfinder ermittelt (Distrikt Westfalen-Lippe)."
     },
     {
       "slug": "aurich-frisia-orientalis",
@@ -23599,7 +23604,13 @@
       "confidenceBase": 0.4,
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
-      "notesInternal": "Aus Clubfinder ermittelt (Distrikt Mitte-Nord)."
+      "notesInternal": "Aus Clubfinder ermittelt (Distrikt Mitte-Nord).",
+      "pfad404Count": {
+        "/veranstaltungen": 1,
+        "/termine": 1,
+        "/aktivitaeten": 1,
+        "/projekte": 1
+      }
     },
     {
       "slug": "diez",
@@ -25158,11 +25169,7 @@
         "/termine"
       ],
       "enabledPaths": [
-        "/",
-        "/veranstaltungen",
-        "/termine",
-        "/aktivitaeten",
-        "/projekte"
+        "/"
       ],
       "excludePaths": [
         "/impressum",
@@ -25184,13 +25191,7 @@
       "confidenceBase": 0.4,
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
-      "notesInternal": "Aus Clubfinder ermittelt (Distrikt Rheinland-Nord).",
-      "pfad404Count": {
-        "/veranstaltungen": 1,
-        "/termine": 1,
-        "/aktivitaeten": 1,
-        "/projekte": 1
-      }
+      "notesInternal": "Aus Clubfinder ermittelt (Distrikt Rheinland-Nord)."
     },
     {
       "slug": "doebeln",
@@ -26267,8 +26268,7 @@
         "/termine"
       ],
       "enabledPaths": [
-        "/",
-        "/aktivitaeten"
+        "/"
       ],
       "excludePaths": [
         "/impressum",
@@ -26291,9 +26291,6 @@
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
       "notesInternal": "Aus Clubfinder ermittelt (Distrikt Nord).",
-      "pfad404Count": {
-        "/aktivitaeten": 1
-      },
       "totLaeufe": 1
     },
     {
@@ -29010,10 +29007,7 @@
       ],
       "enabledPaths": [
         "/",
-        "/veranstaltungen",
-        "/termine",
-        "/aktivitaeten",
-        "/projekte"
+        "/termine"
       ],
       "excludePaths": [
         "/impressum",
@@ -29035,12 +29029,7 @@
       "confidenceBase": 0.4,
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
-      "notesInternal": "Aus Clubfinder ermittelt (Distrikt Mitte-Nord).",
-      "pfad404Count": {
-        "/veranstaltungen": 1,
-        "/aktivitaeten": 1,
-        "/projekte": 1
-      }
+      "notesInternal": "Aus Clubfinder ermittelt (Distrikt Mitte-Nord)."
     },
     {
       "slug": "giessen-wilhelm-conrad-roentgen",
@@ -31023,7 +31012,6 @@
       ],
       "enabledPaths": [
         "/",
-        "/veranstaltungen",
         "/termine",
         "/aktivitaeten",
         "/projekte"
@@ -31048,13 +31036,7 @@
       "confidenceBase": 0.4,
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
-      "notesInternal": "Aus Clubfinder ermittelt (Distrikt Nord).",
-      "pfad404Count": {
-        "/veranstaltungen": 1,
-        "/termine": 1,
-        "/aktivitaeten": 1,
-        "/projekte": 1
-      }
+      "notesInternal": "Aus Clubfinder ermittelt (Distrikt Nord)."
     },
     {
       "slug": "hamburg-alster",
@@ -33451,10 +33433,7 @@
       ],
       "enabledPaths": [
         "/",
-        "/veranstaltungen",
-        "/termine",
-        "/aktivitaeten",
-        "/projekte"
+        "/veranstaltungen"
       ],
       "excludePaths": [
         "/impressum",
@@ -33478,9 +33457,7 @@
       "lastSeedReview": "2026-07-24",
       "notesInternal": "Aus Clubfinder ermittelt (Distrikt Westfalen-Ruhr).",
       "pfad404Count": {
-        "/termine": 1,
-        "/aktivitaeten": 1,
-        "/projekte": 1
+        "/veranstaltungen": 1
       }
     },
     {
@@ -35888,11 +35865,7 @@
         "/termine"
       ],
       "enabledPaths": [
-        "/",
-        "/veranstaltungen",
-        "/termine",
-        "/aktivitaeten",
-        "/projekte"
+        "/"
       ],
       "excludePaths": [
         "/impressum",
@@ -35914,13 +35887,7 @@
       "confidenceBase": 0.4,
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
-      "notesInternal": "Aus Clubfinder ermittelt (Distrikt Mitte-Süd).",
-      "pfad404Count": {
-        "/veranstaltungen": 1,
-        "/termine": 1,
-        "/aktivitaeten": 1,
-        "/projekte": 1
-      }
+      "notesInternal": "Aus Clubfinder ermittelt (Distrikt Mitte-Süd)."
     },
     {
       "slug": "koblenz-rhein-mosel",
@@ -36038,11 +36005,7 @@
         "/termine"
       ],
       "enabledPaths": [
-        "/",
-        "/veranstaltungen",
-        "/termine",
-        "/aktivitaeten",
-        "/projekte"
+        "/"
       ],
       "excludePaths": [
         "/impressum",
@@ -36065,13 +36028,7 @@
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
       "notesInternal": "Aus Clubfinder ermittelt (Distrikt Mitte-Nord).",
-      "totLaeufe": 1,
-      "pfad404Count": {
-        "/veranstaltungen": 1,
-        "/termine": 1,
-        "/aktivitaeten": 1,
-        "/projekte": 1
-      }
+      "totLaeufe": 1
     },
     {
       "slug": "krefeld-gelduba",
@@ -36337,11 +36294,7 @@
         "/termine"
       ],
       "enabledPaths": [
-        "/",
-        "/veranstaltungen",
-        "/termine",
-        "/aktivitaeten",
-        "/projekte"
+        "/"
       ],
       "excludePaths": [
         "/impressum",
@@ -36363,13 +36316,7 @@
       "confidenceBase": 0.4,
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
-      "notesInternal": "Aus Clubfinder ermittelt (Distrikt Niedersachsen-West).",
-      "pfad404Count": {
-        "/veranstaltungen": 1,
-        "/termine": 1,
-        "/aktivitaeten": 1,
-        "/projekte": 1
-      }
+      "notesInternal": "Aus Clubfinder ermittelt (Distrikt Niedersachsen-West)."
     },
     {
       "slug": "koeln-caligula",
@@ -43308,7 +43255,11 @@
       "confidenceBase": 0.4,
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
-      "notesInternal": "Aus Clubfinder ermittelt (Distrikt Niedersachsen-West)."
+      "notesInternal": "Aus Clubfinder ermittelt (Distrikt Niedersachsen-West).",
+      "pfad404Count": {
+        "/termine": 1,
+        "/projekte": 1
+      }
     },
     {
       "slug": "oberharz",
@@ -44067,8 +44018,6 @@
       ],
       "enabledPaths": [
         "/",
-        "/veranstaltungen",
-        "/termine",
         "/aktivitaeten",
         "/projekte"
       ],
@@ -44094,8 +44043,8 @@
       "lastSeedReview": "2026-07-24",
       "notesInternal": "Aus Clubfinder ermittelt (Distrikt Niedersachsen-West).",
       "pfad404Count": {
-        "/veranstaltungen": 1,
-        "/termine": 1
+        "/aktivitaeten": 1,
+        "/projekte": 1
       },
       "totLaeufe": 1
     },
@@ -45038,10 +44987,7 @@
       ],
       "enabledPaths": [
         "/",
-        "/veranstaltungen",
-        "/termine",
-        "/aktivitaeten",
-        "/projekte"
+        "/termine"
       ],
       "excludePaths": [
         "/impressum",
@@ -45063,12 +45009,7 @@
       "confidenceBase": 0.4,
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
-      "notesInternal": "Aus Clubfinder ermittelt (Distrikt Westfalen-Ruhr).",
-      "pfad404Count": {
-        "/veranstaltungen": 1,
-        "/aktivitaeten": 1,
-        "/projekte": 1
-      }
+      "notesInternal": "Aus Clubfinder ermittelt (Distrikt Westfalen-Ruhr)."
     },
     {
       "slug": "porta-westfalica",
