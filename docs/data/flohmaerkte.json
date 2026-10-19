@@ -408,108 +408,6 @@
     "manuellGeprueft": true
   },
   {
-    "id": "95ef51b2a203",
-    "clubName": "Lions Club Magdeburg-Kaiser Otto I.",
-    "clubUrl": "https://www.lions-magdeburg.de",
-    "ort": "Magdeburg-Kaiser Otto I.",
-    "bundesland": "",
-    "districtName": "Ost-Mitte",
-    "titel": "Buecherbasar in Magdeburg-Kaiser Otto I.",
-    "eventType": "buecherbasar",
-    "datumStart": "2026-10-12",
-    "datumEnd": "2026-10-12",
-    "uhrzeit": "19:00",
-    "status": "kommend",
-    "veranstaltungsort": "",
-    "adresse": "",
-    "beschreibung": "Wann wir uns treffen Termine Aktuelle und vergangene Clubtermine des Lions Club Magdeburg - Kaiser Otto I. Aktuelle Clubtermine 01. Juli 2026 laufend Activity Activity Adventskalender (01.07.2026 - 30.06.2027) Überall 12...",
-    "quelleUrl": "https://www.lions-magdeburg.de/termine",
-    "rawDateText": "12. Oktober 2026",
-    "matchedKeywords": [
-      "Buechermarkt",
-      "Termine"
-    ],
-    "confidenceScore": 1.0,
-    "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-10-12T14:29:01"
-  },
-  {
-    "id": "ffd028668324",
-    "clubName": "Lions Club Freiburg-Alt Freiburg",
-    "clubUrl": "https://freiburg-alt-freiburg.lions.de",
-    "ort": "Freiburg-Alt Freiburg",
-    "bundesland": "Baden-Wuerttemberg",
-    "districtName": "Süd-West",
-    "titel": "Buecherbasar in Freiburg-Alt Freiburg",
-    "eventType": "buecherbasar",
-    "datumStart": "2026-10-16",
-    "datumEnd": "2026-10-16",
-    "uhrzeit": "",
-    "status": "kommend",
-    "veranstaltungsort": "",
-    "adresse": "",
-    "beschreibung": "Home - Freiburg-Alt Freiburg Lions Club Freiburg Alt-Freiburg Lions Club Alt-Freiburg Willkommen beim Lions Club Alt-Freiburg Teaser Weiterführung Beispiel Lernen Sie unseren Club kennen MEHR ÜBER UNS Das sind WIR Weiter...",
-    "quelleUrl": "https://freiburg-alt-freiburg.lions.de/",
-    "rawDateText": "16.10.2026",
-    "matchedKeywords": [
-      "Buechermarkt"
-    ],
-    "confidenceScore": 1.0,
-    "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-10-12T13:17:06"
-  },
-  {
-    "id": "46509ce5cac3",
-    "clubName": "Lions Club Freiburg-Alt Freiburg",
-    "clubUrl": "https://freiburg-alt-freiburg.lions.de",
-    "ort": "Freiburg-Alt Freiburg",
-    "bundesland": "Baden-Wuerttemberg",
-    "districtName": "Süd-West",
-    "titel": "Buecherbasar in Freiburg-Alt Freiburg",
-    "eventType": "buecherbasar",
-    "datumStart": "2026-10-17",
-    "datumEnd": "2026-10-17",
-    "uhrzeit": "",
-    "status": "kommend",
-    "veranstaltungsort": "",
-    "adresse": "",
-    "beschreibung": "Home - Freiburg-Alt Freiburg Lions Club Freiburg Alt-Freiburg Lions Club Alt-Freiburg Willkommen beim Lions Club Alt-Freiburg Teaser Weiterführung Beispiel Lernen Sie unseren Club kennen MEHR ÜBER UNS Das sind WIR Weiter...",
-    "quelleUrl": "https://freiburg-alt-freiburg.lions.de/",
-    "rawDateText": "17.10.2026",
-    "matchedKeywords": [
-      "Buechermarkt"
-    ],
-    "confidenceScore": 1.0,
-    "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-10-12T13:17:06"
-  },
-  {
-    "id": "a10c6866f663",
-    "clubName": "Lions Club Kitzingen",
-    "clubUrl": "https://www.lionsclub-kitzingen.de",
-    "ort": "Kitzingen",
-    "bundesland": "Bayern",
-    "districtName": "Bayern-Nord",
-    "titel": "Flohmarkt in Kitzingen",
-    "eventType": "flohmarkt",
-    "datumStart": "2026-10-18",
-    "datumEnd": "2026-10-18",
-    "uhrzeit": "",
-    "status": "kommend",
-    "veranstaltungsort": "",
-    "adresse": "",
-    "beschreibung": "Home - Kitzingen Header Club Kitzingen LIONS-Club Kitzingen ... herzlich Willkommen auf unseren Internet-Seiten! Asset-Herausgeber Kitzingen LIONS-Markt am Sonntag 18. Oktober 2026 Björn Keyser, PR-Beauftragter LC Kitzin...",
-    "quelleUrl": "https://www.lionsclub-kitzingen.de/",
-    "rawDateText": "18. Oktober 2026",
-    "matchedKeywords": [
-      "Flohmarkt",
-      "Veranstaltung"
-    ],
-    "confidenceScore": 1.0,
-    "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-10-12T13:33:42"
-  },
-  {
     "id": "4cc4f97fa2f0",
     "clubName": "Lions Club Hannover-Herrenhausen",
     "clubUrl": "https://hannover-herrenhausen.lions.de",
@@ -532,7 +430,7 @@
     ],
     "confidenceScore": 1.0,
     "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-10-12T14:15:12"
+    "lastChecked": "2026-10-19T11:49:15"
   },
   {
     "id": "87ae7e5739ba",
@@ -615,7 +513,7 @@
     ],
     "confidenceScore": 1.0,
     "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-10-12T13:25:40"
+    "lastChecked": "2026-10-19T11:01:34"
   },
   {
     "id": "4f0586ccc367",
@@ -640,7 +538,7 @@
     ],
     "confidenceScore": 1.0,
     "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-10-12T13:38:45"
+    "lastChecked": "2026-10-19T11:14:39"
   },
   {
     "id": "a5b0220421f5",
@@ -665,7 +563,7 @@
     ],
     "confidenceScore": 1.0,
     "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-10-12T14:42:14"
+    "lastChecked": "2026-10-19T12:14:15"
   },
   {
     "id": "3bbe711fd9a0",
@@ -682,7 +580,7 @@
     "status": "kommend",
     "veranstaltungsort": "",
     "adresse": "",
-    "beschreibung": "Wann wir uns treffen Termine Aktuelle und vergangene Clubtermine des Lions Club Magdeburg - Kaiser Otto I. Aktuelle Clubtermine 01. Juli 2026 laufend Activity Activity Adventskalender (01.07.2026 - 30.06.2027) Überall 12...",
+    "beschreibung": "Wann wir uns treffen Termine Aktuelle und vergangene Clubtermine des Lions Club Magdeburg - Kaiser Otto I. Aktuelle Clubtermine 01. Juli 2026 laufend Activity Activity Adventskalender (01.07.2026 - 30.06.2027) Überall 02...",
     "quelleUrl": "https://www.lions-magdeburg.de/termine",
     "rawDateText": "02.11.2026",
     "matchedKeywords": [
@@ -691,7 +589,7 @@
     ],
     "confidenceScore": 1.0,
     "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-10-12T14:29:01"
+    "lastChecked": "2026-10-19T12:01:53"
   },
   {
     "id": "a599080dc692",
@@ -736,7 +634,7 @@
     "status": "kommend",
     "veranstaltungsort": "",
     "adresse": "",
-    "beschreibung": "Wann wir uns treffen Termine Aktuelle und vergangene Clubtermine des Lions Club Magdeburg - Kaiser Otto I. Aktuelle Clubtermine 01. Juli 2026 laufend Activity Activity Adventskalender (01.07.2026 - 30.06.2027) Überall 12...",
+    "beschreibung": "Wann wir uns treffen Termine Aktuelle und vergangene Clubtermine des Lions Club Magdeburg - Kaiser Otto I. Aktuelle Clubtermine 01. Juli 2026 laufend Activity Activity Adventskalender (01.07.2026 - 30.06.2027) Überall 02...",
     "quelleUrl": "https://www.lions-magdeburg.de/termine",
     "rawDateText": "07.11.2026",
     "matchedKeywords": [
@@ -745,7 +643,7 @@
     ],
     "confidenceScore": 1.0,
     "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-10-12T14:29:01"
+    "lastChecked": "2026-10-19T12:01:53"
   },
   {
     "id": "04465bb7c127",
@@ -788,7 +686,7 @@
     "status": "kommend",
     "veranstaltungsort": "",
     "adresse": "",
-    "beschreibung": "Wann wir uns treffen Termine Aktuelle und vergangene Clubtermine des Lions Club Magdeburg - Kaiser Otto I. Aktuelle Clubtermine 01. Juli 2026 laufend Activity Activity Adventskalender (01.07.2026 - 30.06.2027) Überall 12...",
+    "beschreibung": "Wann wir uns treffen Termine Aktuelle und vergangene Clubtermine des Lions Club Magdeburg - Kaiser Otto I. Aktuelle Clubtermine 01. Juli 2026 laufend Activity Activity Adventskalender (01.07.2026 - 30.06.2027) Überall 02...",
     "quelleUrl": "https://www.lions-magdeburg.de/termine",
     "rawDateText": "09. November 2026",
     "matchedKeywords": [
@@ -797,7 +695,32 @@
     ],
     "confidenceScore": 1.0,
     "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-10-12T14:29:01"
+    "lastChecked": "2026-10-19T12:01:53"
+  },
+  {
+    "id": "df2d2a59b38c",
+    "clubName": "Lions Club Waginger See",
+    "clubUrl": "https://www.lions-wagingersee.de",
+    "ort": "Waginger See",
+    "bundesland": "Bayern",
+    "districtName": "Bayern-Süd",
+    "titel": "Basar in Waginger See",
+    "eventType": "basar",
+    "datumStart": "2026-11-11",
+    "datumEnd": "2026-11-11",
+    "uhrzeit": "16:00",
+    "status": "kommend",
+    "veranstaltungsort": "",
+    "adresse": "",
+    "beschreibung": "Sonntag 22. November 2026 SRI LANKA HILFE ADVENTSBASAR 11 - 16 Uhr in der Aula der Mittelschule Waging Mehr zum Sri Lanka Projekt erfahren ... ADVENTSKALENDER 2026 222 tolle Gewinne Verkauf ab Ende Oktober bei den bekann...",
+    "quelleUrl": "https://www.lions-wagingersee.de/",
+    "rawDateText": "jeden zweiten Mittwoch",
+    "matchedKeywords": [
+      "Basar"
+    ],
+    "confidenceScore": 0.95,
+    "extractionMethod": "html_keyword_date_scan_v1",
+    "lastChecked": "2026-10-19T11:15:53"
   },
   {
     "id": "54119f7fb414",
@@ -822,7 +745,33 @@
     ],
     "confidenceScore": 0.95,
     "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-10-12T13:24:33"
+    "lastChecked": "2026-10-19T11:00:26"
+  },
+  {
+    "id": "34dd636f5d39",
+    "clubName": "Lions Club Magdeburg-Kaiser Otto I.",
+    "clubUrl": "https://www.lions-magdeburg.de",
+    "ort": "Magdeburg-Kaiser Otto I.",
+    "bundesland": "",
+    "districtName": "Ost-Mitte",
+    "titel": "Buecherbasar in Magdeburg-Kaiser Otto I.",
+    "eventType": "buecherbasar",
+    "datumStart": "2026-11-19",
+    "datumEnd": "2026-11-19",
+    "uhrzeit": "19:00",
+    "status": "kommend",
+    "veranstaltungsort": "",
+    "adresse": "",
+    "beschreibung": "Wann wir uns treffen Termine Aktuelle und vergangene Clubtermine des Lions Club Magdeburg - Kaiser Otto I. Aktuelle Clubtermine 01. Juli 2026 laufend Activity Activity Adventskalender (01.07.2026 - 30.06.2027) Überall 02...",
+    "quelleUrl": "https://www.lions-magdeburg.de/termine",
+    "rawDateText": "19. November 2026",
+    "matchedKeywords": [
+      "Buechermarkt",
+      "Termine"
+    ],
+    "confidenceScore": 1.0,
+    "extractionMethod": "html_keyword_date_scan_v1",
+    "lastChecked": "2026-10-19T12:01:53"
   },
   {
     "id": "808e7e6aa0a2",
@@ -877,6 +826,57 @@
     "extractionMethod": "html_keyword_date_scan_v1",
     "lastChecked": "2026-07-24T22:02:59",
     "manuellGeprueft": true
+  },
+  {
+    "id": "1a0de7e1462b",
+    "clubName": "Lions Club Waginger See",
+    "clubUrl": "https://www.lions-wagingersee.de",
+    "ort": "Waginger See",
+    "bundesland": "Bayern",
+    "districtName": "Bayern-Süd",
+    "titel": "Basar in Waginger See",
+    "eventType": "basar",
+    "datumStart": "2026-11-22",
+    "datumEnd": "2026-11-22",
+    "uhrzeit": "16:00",
+    "status": "kommend",
+    "veranstaltungsort": "",
+    "adresse": "",
+    "beschreibung": "Sonntag 22. November 2026 SRI LANKA HILFE ADVENTSBASAR 11 - 16 Uhr in der Aula der Mittelschule Waging Mehr zum Sri Lanka Projekt erfahren ... ADVENTSKALENDER 2026 222 tolle Gewinne Verkauf ab Ende Oktober bei den bekann...",
+    "quelleUrl": "https://www.lions-wagingersee.de/",
+    "rawDateText": "22. November 2026",
+    "matchedKeywords": [
+      "Basar"
+    ],
+    "confidenceScore": 0.95,
+    "extractionMethod": "html_keyword_date_scan_v1",
+    "lastChecked": "2026-10-19T11:15:53"
+  },
+  {
+    "id": "951714ba6a5a",
+    "clubName": "Lions Club Travemünde",
+    "clubUrl": "https://travemuende.lions.de",
+    "ort": "Travemünde",
+    "bundesland": "",
+    "districtName": "Nord",
+    "titel": "Flohmarkt in Travemünde",
+    "eventType": "flohmarkt",
+    "datumStart": "2026-11-22",
+    "datumEnd": "2026-11-22",
+    "uhrzeit": "18:00",
+    "status": "kommend",
+    "veranstaltungsort": "",
+    "adresse": "",
+    "beschreibung": "Termine - Travemünde laufende Termine Termine 22.11.2026 Weihnachtsmarkt am Fährplatz in Travemünde - Feuerzangenbowle – 06.02.2027 Benefizkonzert mit „Pop Symphonics Lübeck“ Maritim Hotel Travemünde - 18:00 Uhr 1 5.05.2...",
+    "quelleUrl": "https://travemuende.lions.de/termine1",
+    "rawDateText": "22.11.2026",
+    "matchedKeywords": [
+      "Flohmarkt",
+      "Termine"
+    ],
+    "confidenceScore": 1.0,
+    "extractionMethod": "html_keyword_date_scan_v1",
+    "lastChecked": "2026-10-19T12:21:13"
   },
   {
     "id": "99169bcbb913",
@@ -936,6 +936,56 @@
     "manuellGeprueft": true
   },
   {
+    "id": "70a9d9443023",
+    "clubName": "Lions Club Waginger See",
+    "clubUrl": "https://www.lions-wagingersee.de",
+    "ort": "Waginger See",
+    "bundesland": "Bayern",
+    "districtName": "Bayern-Süd",
+    "titel": "Basar in Waginger See",
+    "eventType": "basar",
+    "datumStart": "2026-12-09",
+    "datumEnd": "2026-12-09",
+    "uhrzeit": "16:00",
+    "status": "kommend",
+    "veranstaltungsort": "",
+    "adresse": "",
+    "beschreibung": "Sonntag 22. November 2026 SRI LANKA HILFE ADVENTSBASAR 11 - 16 Uhr in der Aula der Mittelschule Waging Mehr zum Sri Lanka Projekt erfahren ... ADVENTSKALENDER 2026 222 tolle Gewinne Verkauf ab Ende Oktober bei den bekann...",
+    "quelleUrl": "https://www.lions-wagingersee.de/",
+    "rawDateText": "jeden zweiten Mittwoch",
+    "matchedKeywords": [
+      "Basar"
+    ],
+    "confidenceScore": 0.95,
+    "extractionMethod": "html_keyword_date_scan_v1",
+    "lastChecked": "2026-10-19T11:15:53"
+  },
+  {
+    "id": "e71f75e2ad05",
+    "clubName": "Lions Club Straubing",
+    "clubUrl": "https://straubing.lions.de",
+    "ort": "Straubing",
+    "bundesland": "Bayern",
+    "districtName": "Bayern-Ost",
+    "titel": "Flohmarkt in Straubing",
+    "eventType": "flohmarkt",
+    "datumStart": "2026-12-22",
+    "datumEnd": "2026-12-22",
+    "uhrzeit": "",
+    "status": "kommend",
+    "veranstaltungsort": "",
+    "adresse": "",
+    "beschreibung": "Home - Straubing Startseite_Willkommen Willkommen beim Lions Club Straubing! Asset-Herausgeber Straubing Mittwoch, 03.02.2027 - 7. Straubinger Lions-Krapfenschmaus Andreas Fuchs Weiterlesen Veröffentlicht am 02. Januar 2...",
+    "quelleUrl": "https://straubing.lions.de/",
+    "rawDateText": "22.12.2026",
+    "matchedKeywords": [
+      "Troedelmarkt"
+    ],
+    "confidenceScore": 0.95,
+    "extractionMethod": "html_keyword_date_scan_v1",
+    "lastChecked": "2026-10-19T11:15:32"
+  },
+  {
     "id": "72df022c8332",
     "clubName": "Lions Club Remscheid",
     "clubUrl": "https://remscheid.lions.de",
@@ -989,7 +1039,7 @@
     ],
     "confidenceScore": 1.0,
     "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-10-12T14:48:32"
+    "lastChecked": "2026-10-19T12:20:26"
   },
   {
     "id": "8270f623f079",
@@ -1014,7 +1064,7 @@
     ],
     "confidenceScore": 1.0,
     "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-10-12T14:49:34"
+    "lastChecked": "2026-10-19T12:21:27"
   },
   {
     "id": "b24080d58ee3",
@@ -1044,6 +1094,31 @@
     "manuellGeprueft": true
   },
   {
+    "id": "f1cc3a0a5f61",
+    "clubName": "Lions Club Waginger See",
+    "clubUrl": "https://www.lions-wagingersee.de",
+    "ort": "Waginger See",
+    "bundesland": "Bayern",
+    "districtName": "Bayern-Süd",
+    "titel": "Basar in Waginger See",
+    "eventType": "basar",
+    "datumStart": "2027-01-13",
+    "datumEnd": "2027-01-13",
+    "uhrzeit": "16:00",
+    "status": "kommend",
+    "veranstaltungsort": "",
+    "adresse": "",
+    "beschreibung": "Sonntag 22. November 2026 SRI LANKA HILFE ADVENTSBASAR 11 - 16 Uhr in der Aula der Mittelschule Waging Mehr zum Sri Lanka Projekt erfahren ... ADVENTSKALENDER 2026 222 tolle Gewinne Verkauf ab Ende Oktober bei den bekann...",
+    "quelleUrl": "https://www.lions-wagingersee.de/",
+    "rawDateText": "jeden zweiten Mittwoch",
+    "matchedKeywords": [
+      "Basar"
+    ],
+    "confidenceScore": 0.95,
+    "extractionMethod": "html_keyword_date_scan_v1",
+    "lastChecked": "2026-10-19T11:15:53"
+  },
+  {
     "id": "06c19e963939",
     "clubName": "Lions Club Remscheid",
     "clubUrl": "https://remscheid.lions.de",
@@ -1069,7 +1144,32 @@
     ],
     "confidenceScore": 1.0,
     "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-10-12T14:41:52"
+    "lastChecked": "2026-10-19T12:13:56"
+  },
+  {
+    "id": "4cef38bdd4ff",
+    "clubName": "Lions Club Straubing",
+    "clubUrl": "https://straubing.lions.de",
+    "ort": "Straubing",
+    "bundesland": "Bayern",
+    "districtName": "Bayern-Ost",
+    "titel": "Flohmarkt in Straubing",
+    "eventType": "flohmarkt",
+    "datumStart": "2027-02-03",
+    "datumEnd": "2027-02-03",
+    "uhrzeit": "",
+    "status": "kommend",
+    "veranstaltungsort": "",
+    "adresse": "",
+    "beschreibung": "Home - Straubing Startseite_Willkommen Willkommen beim Lions Club Straubing! Asset-Herausgeber Straubing Mittwoch, 03.02.2027 - 7. Straubinger Lions-Krapfenschmaus Andreas Fuchs Weiterlesen Veröffentlicht am 02. Januar 2...",
+    "quelleUrl": "https://straubing.lions.de/",
+    "rawDateText": "03.02.2027",
+    "matchedKeywords": [
+      "Troedelmarkt"
+    ],
+    "confidenceScore": 0.95,
+    "extractionMethod": "html_keyword_date_scan_v1",
+    "lastChecked": "2026-10-19T11:15:32"
   },
   {
     "id": "de5df3a32e6f",
@@ -1096,7 +1196,58 @@
     ],
     "confidenceScore": 1.0,
     "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-10-12T14:48:32"
+    "lastChecked": "2026-10-19T12:20:26"
+  },
+  {
+    "id": "76cc0af4f482",
+    "clubName": "Lions Club Travemünde",
+    "clubUrl": "https://travemuende.lions.de",
+    "ort": "Travemünde",
+    "bundesland": "",
+    "districtName": "Nord",
+    "titel": "Flohmarkt in Travemünde",
+    "eventType": "flohmarkt",
+    "datumStart": "2027-02-06",
+    "datumEnd": "2027-02-06",
+    "uhrzeit": "18:00",
+    "status": "kommend",
+    "veranstaltungsort": "",
+    "adresse": "",
+    "beschreibung": "Termine - Travemünde laufende Termine Termine 22.11.2026 Weihnachtsmarkt am Fährplatz in Travemünde - Feuerzangenbowle – 06.02.2027 Benefizkonzert mit „Pop Symphonics Lübeck“ Maritim Hotel Travemünde - 18:00 Uhr 1 5.05.2...",
+    "quelleUrl": "https://travemuende.lions.de/termine1",
+    "rawDateText": "06.02.2027",
+    "matchedKeywords": [
+      "Flohmarkt",
+      "Termine"
+    ],
+    "confidenceScore": 1.0,
+    "extractionMethod": "html_keyword_date_scan_v1",
+    "lastChecked": "2026-10-19T12:21:13"
+  },
+  {
+    "id": "25eab1a3c15c",
+    "clubName": "Lions Club Waginger See",
+    "clubUrl": "https://www.lions-wagingersee.de",
+    "ort": "Waginger See",
+    "bundesland": "Bayern",
+    "districtName": "Bayern-Süd",
+    "titel": "Basar in Waginger See",
+    "eventType": "basar",
+    "datumStart": "2027-02-10",
+    "datumEnd": "2027-02-10",
+    "uhrzeit": "16:00",
+    "status": "kommend",
+    "veranstaltungsort": "",
+    "adresse": "",
+    "beschreibung": "Sonntag 22. November 2026 SRI LANKA HILFE ADVENTSBASAR 11 - 16 Uhr in der Aula der Mittelschule Waging Mehr zum Sri Lanka Projekt erfahren ... ADVENTSKALENDER 2026 222 tolle Gewinne Verkauf ab Ende Oktober bei den bekann...",
+    "quelleUrl": "https://www.lions-wagingersee.de/",
+    "rawDateText": "jeden zweiten Mittwoch",
+    "matchedKeywords": [
+      "Basar"
+    ],
+    "confidenceScore": 0.95,
+    "extractionMethod": "html_keyword_date_scan_v1",
+    "lastChecked": "2026-10-19T11:15:53"
   },
   {
     "id": "4c3c9cac6659",
@@ -1124,7 +1275,7 @@
     ],
     "confidenceScore": 1.0,
     "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-10-12T14:41:52"
+    "lastChecked": "2026-10-19T12:13:56"
   },
   {
     "id": "be96df408bcc",
@@ -1149,7 +1300,7 @@
     ],
     "confidenceScore": 0.95,
     "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-10-12T14:56:47"
+    "lastChecked": "2026-10-19T12:28:38"
   },
   {
     "id": "addfffa4ec05",
@@ -1202,7 +1353,7 @@
     ],
     "confidenceScore": 1.0,
     "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-10-12T14:20:35"
+    "lastChecked": "2026-10-19T11:54:23"
   },
   {
     "id": "41829668ca33",
@@ -1229,7 +1380,57 @@
     ],
     "confidenceScore": 1.0,
     "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-10-12T14:48:32"
+    "lastChecked": "2026-10-19T12:20:26"
+  },
+  {
+    "id": "ad53a7515e29",
+    "clubName": "Lions Club Waginger See",
+    "clubUrl": "https://www.lions-wagingersee.de",
+    "ort": "Waginger See",
+    "bundesland": "Bayern",
+    "districtName": "Bayern-Süd",
+    "titel": "Basar in Waginger See",
+    "eventType": "basar",
+    "datumStart": "2027-03-10",
+    "datumEnd": "2027-03-10",
+    "uhrzeit": "16:00",
+    "status": "kommend",
+    "veranstaltungsort": "",
+    "adresse": "",
+    "beschreibung": "Sonntag 22. November 2026 SRI LANKA HILFE ADVENTSBASAR 11 - 16 Uhr in der Aula der Mittelschule Waging Mehr zum Sri Lanka Projekt erfahren ... ADVENTSKALENDER 2026 222 tolle Gewinne Verkauf ab Ende Oktober bei den bekann...",
+    "quelleUrl": "https://www.lions-wagingersee.de/",
+    "rawDateText": "jeden zweiten Mittwoch",
+    "matchedKeywords": [
+      "Basar"
+    ],
+    "confidenceScore": 0.95,
+    "extractionMethod": "html_keyword_date_scan_v1",
+    "lastChecked": "2026-10-19T11:15:53"
+  },
+  {
+    "id": "3d80f0d9f172",
+    "clubName": "Lions Club Straubing",
+    "clubUrl": "https://straubing.lions.de",
+    "ort": "Straubing",
+    "bundesland": "Bayern",
+    "districtName": "Bayern-Ost",
+    "titel": "Flohmarkt in Straubing",
+    "eventType": "flohmarkt",
+    "datumStart": "2027-03-14",
+    "datumEnd": "2027-03-14",
+    "uhrzeit": "",
+    "status": "kommend",
+    "veranstaltungsort": "",
+    "adresse": "",
+    "beschreibung": "Home - Straubing Startseite_Willkommen Willkommen beim Lions Club Straubing! Asset-Herausgeber Straubing Mittwoch, 03.02.2027 - 7. Straubinger Lions-Krapfenschmaus Andreas Fuchs Weiterlesen Veröffentlicht am 02. Januar 2...",
+    "quelleUrl": "https://straubing.lions.de/",
+    "rawDateText": "14.03.2027",
+    "matchedKeywords": [
+      "Troedelmarkt"
+    ],
+    "confidenceScore": 0.95,
+    "extractionMethod": "html_keyword_date_scan_v1",
+    "lastChecked": "2026-10-19T11:15:32"
   },
   {
     "id": "03af7d66b6d9",
@@ -1257,7 +1458,7 @@
     ],
     "confidenceScore": 1.0,
     "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-10-12T14:41:52"
+    "lastChecked": "2026-10-19T12:13:56"
   },
   {
     "id": "5e5dc9d52af0",
@@ -1282,7 +1483,33 @@
     ],
     "confidenceScore": 0.95,
     "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-10-12T13:25:19"
+    "lastChecked": "2026-10-19T11:01:13"
+  },
+  {
+    "id": "be1e8cab144d",
+    "clubName": "Lions Club Travemünde",
+    "clubUrl": "https://travemuende.lions.de",
+    "ort": "Travemünde",
+    "bundesland": "",
+    "districtName": "Nord",
+    "titel": "Flohmarkt in Travemünde",
+    "eventType": "flohmarkt",
+    "datumStart": "2027-05-05",
+    "datumEnd": "2027-05-05",
+    "uhrzeit": "18:00",
+    "status": "kommend",
+    "veranstaltungsort": "",
+    "adresse": "",
+    "beschreibung": "Termine - Travemünde laufende Termine Termine 22.11.2026 Weihnachtsmarkt am Fährplatz in Travemünde - Feuerzangenbowle – 06.02.2027 Benefizkonzert mit „Pop Symphonics Lübeck“ Maritim Hotel Travemünde - 18:00 Uhr 1 5.05.2...",
+    "quelleUrl": "https://travemuende.lions.de/termine1",
+    "rawDateText": "5.05.2027",
+    "matchedKeywords": [
+      "Flohmarkt",
+      "Termine"
+    ],
+    "confidenceScore": 1.0,
+    "extractionMethod": "html_keyword_date_scan_v1",
+    "lastChecked": "2026-10-19T12:21:13"
   },
   {
     "id": "166cc8eea9d9",
@@ -1308,7 +1535,7 @@
     ],
     "confidenceScore": 1.0,
     "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-10-12T14:20:35"
+    "lastChecked": "2026-10-19T11:54:23"
   },
   {
     "id": "1e3e4d07da5a",
@@ -1325,7 +1552,7 @@
     "status": "kommend",
     "veranstaltungsort": "",
     "adresse": "",
-    "beschreibung": "Wann wir uns treffen Termine Aktuelle und vergangene Clubtermine des Lions Club Magdeburg - Kaiser Otto I. Aktuelle Clubtermine 01. Juli 2026 laufend Activity Activity Adventskalender (01.07.2026 - 30.06.2027) Überall 12...",
+    "beschreibung": "Wann wir uns treffen Termine Aktuelle und vergangene Clubtermine des Lions Club Magdeburg - Kaiser Otto I. Aktuelle Clubtermine 01. Juli 2026 laufend Activity Activity Adventskalender (01.07.2026 - 30.06.2027) Überall 02...",
     "quelleUrl": "https://www.lions-magdeburg.de/termine",
     "rawDateText": "30.06.2027",
     "matchedKeywords": [
@@ -1334,7 +1561,7 @@
     ],
     "confidenceScore": 1.0,
     "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-10-12T14:29:01"
+    "lastChecked": "2026-10-19T12:01:53"
   },
   {
     "id": "748675709846",
@@ -1360,7 +1587,7 @@
     ],
     "confidenceScore": 1.0,
     "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-10-12T14:20:35"
+    "lastChecked": "2026-10-19T11:54:23"
   },
   {
     "id": "a53da81866b0",

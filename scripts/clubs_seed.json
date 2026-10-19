@@ -1239,10 +1239,7 @@
       "confidenceBase": 0.4,
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
-      "notesInternal": "Aus Clubfinder ermittelt (clubId Süd-Nord).",
-      "pfad404Count": {
-        "/projekte": 1
-      }
+      "notesInternal": "Aus Clubfinder ermittelt (clubId Süd-Nord)."
     },
     {
       "slug": "bruchsal",
@@ -2470,8 +2467,7 @@
         "/termine"
       ],
       "enabledPaths": [
-        "/",
-        "/termine"
+        "/"
       ],
       "excludePaths": [
         "/impressum",
@@ -2493,10 +2489,7 @@
       "confidenceBase": 0.4,
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
-      "notesInternal": "Aus Clubfinder ermittelt (clubId Süd-Nord).",
-      "pfad404Count": {
-        "/termine": 1
-      }
+      "notesInternal": "Aus Clubfinder ermittelt (clubId Süd-Nord)."
     },
     {
       "slug": "geislingen-steige",
@@ -5515,7 +5508,10 @@
       "confidenceBase": 0.4,
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
-      "notesInternal": "Aus Clubfinder ermittelt (clubId Süd-Mitte)."
+      "notesInternal": "Aus Clubfinder ermittelt (clubId Süd-Mitte).",
+      "pfad404Count": {
+        "/termine": 1
+      }
     },
     {
       "slug": "remstal",
@@ -12657,10 +12653,7 @@
       "confidenceBase": 0.4,
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
-      "notesInternal": "Aus Clubfinder ermittelt (clubId Bayern-Süd).",
-      "pfad404Count": {
-        "/veranstaltungen": 1
-      }
+      "notesInternal": "Aus Clubfinder ermittelt (clubId Bayern-Süd)."
     },
     {
       "slug": "muenchen-koenig-otto",
@@ -22876,7 +22869,10 @@
       "confidenceBase": 0.4,
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
-      "notesInternal": "Aus Clubfinder ermittelt (Distrikt Ost-Nord)."
+      "notesInternal": "Aus Clubfinder ermittelt (Distrikt Ost-Nord).",
+      "pfad404Count": {
+        "/termine": 1
+      }
     },
     {
       "slug": "crimmitschau-werdau",
@@ -23578,11 +23574,7 @@
         "/termine"
       ],
       "enabledPaths": [
-        "/",
-        "/veranstaltungen",
-        "/termine",
-        "/aktivitaeten",
-        "/projekte"
+        "/"
       ],
       "excludePaths": [
         "/impressum",
@@ -23604,13 +23596,7 @@
       "confidenceBase": 0.4,
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
-      "notesInternal": "Aus Clubfinder ermittelt (Distrikt Mitte-Nord).",
-      "pfad404Count": {
-        "/veranstaltungen": 1,
-        "/termine": 1,
-        "/aktivitaeten": 1,
-        "/projekte": 1
-      }
+      "notesInternal": "Aus Clubfinder ermittelt (Distrikt Mitte-Nord)."
     },
     {
       "slug": "diez",
@@ -33432,8 +33418,7 @@
         "/termine"
       ],
       "enabledPaths": [
-        "/",
-        "/veranstaltungen"
+        "/"
       ],
       "excludePaths": [
         "/impressum",
@@ -33455,10 +33440,7 @@
       "confidenceBase": 0.4,
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
-      "notesInternal": "Aus Clubfinder ermittelt (Distrikt Westfalen-Ruhr).",
-      "pfad404Count": {
-        "/veranstaltungen": 1
-      }
+      "notesInternal": "Aus Clubfinder ermittelt (Distrikt Westfalen-Ruhr)."
     },
     {
       "slug": "herten",
@@ -44018,7 +44000,6 @@
       ],
       "enabledPaths": [
         "/",
-        "/aktivitaeten",
         "/projekte"
       ],
       "excludePaths": [
@@ -44042,10 +44023,6 @@
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
       "notesInternal": "Aus Clubfinder ermittelt (Distrikt Niedersachsen-West).",
-      "pfad404Count": {
-        "/aktivitaeten": 1,
-        "/projekte": 1
-      },
       "totLaeufe": 1
     },
     {
