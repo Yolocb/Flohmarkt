@@ -169,19 +169,6 @@
     "id": "afba981e1fb7"
   },
   {
-    "clubName": "Lions Club Schongau-Pfaffenwinkel",
-    "ort": "Schongau-Pfaffenwinkel",
-    "districtName": "Bayern-Süd",
-    "eventType": "buecherbasar",
-    "datumStart": "",
-    "titel": "Buecherbasar in Schongau-Pfaffenwinkel",
-    "beschreibung": "Neuigkeiten des Lions Club Schongau-Pfaffenwinkel Viele bunte Ideen – unsere Adventskalenderbilder 2026 Dieses Bild wird unser Cover für den Adventskalender 2026. Unser diesjähriger Adventskalender bekommt ganz besondere...",
-    "quelleUrl": "https://www.lions-schongau.de/",
-    "confidenceScore": 0.75,
-    "reviewGrund": "kein Datum erkannt",
-    "id": "8780d8c5a8c1"
-  },
-  {
     "clubName": "Lions Club Attendorn-Hansestadt",
     "ort": "Attendorn-Hansestadt",
     "districtName": "Westfalen-Lippe",
@@ -492,19 +479,6 @@
     "confidenceScore": 0.65,
     "reviewGrund": "kein Datum erkannt",
     "id": "92e4509b97c8"
-  },
-  {
-    "clubName": "Lions Club Ravensburg",
-    "ort": "Ravensburg",
-    "districtName": "Süd-Mitte",
-    "eventType": "flohmarkt",
-    "datumStart": "",
-    "titel": "Flohmarkt in Ravensburg",
-    "beschreibung": "Die Öffnungszeiten für 2026 stehen fest. Das Team der Alten Schmiede (Zogenfeldstraße 1, 88214 Ravensburg) heißt Sie auch in 2026 beim Trödelmarkt willkommen. An den folgenden Tagen wird geöffnet sein:",
-    "quelleUrl": "https://www.lions-ravensburg.de/",
-    "confidenceScore": 0.6,
-    "reviewGrund": "kein Datum erkannt",
-    "id": "c297cf13bd8d"
   },
   {
     "clubName": "Lions Club Tauberbischofsheim",

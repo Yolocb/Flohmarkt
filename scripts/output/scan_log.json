@@ -1,10 +1,10 @@
 {
-  "startzeit": "2026-10-19T10:48:02",
-  "endzeit": "2026-10-19T12:29:05",
+  "startzeit": "2026-10-26T11:09:01",
+  "endzeit": "2026-10-26T12:42:50",
   "clubsGescannt": 1112,
-  "clubsMitFehler": 135,
-  "eventsSicher": 62,
-  "eventsReview": 5106,
+  "clubsMitFehler": 144,
+  "eventsSicher": 59,
+  "eventsReview": 5032,
   "clubDetails": [
     {
       "slug": "heilbronn",
@@ -39,14 +39,14 @@
           "url": "https://lionsclub-nuernberg.de/veranstaltungen",
           "httpStatus": 200,
           "error": null,
-          "treffer": 13
+          "treffer": 14
         }
       ],
       "pfad404": {
         "/": false,
         "/veranstaltungen": false
       },
-      "eventsSicher": 7,
+      "eventsSicher": 8,
       "eventsReview": 8
     },
     {
@@ -329,13 +329,13 @@
           "url": "https://lionsclub-regensburg.de/",
           "httpStatus": 200,
           "error": null,
-          "treffer": 12
+          "treffer": 14
         },
         {
           "url": "https://lionsclub-regensburg.de/programm.html",
           "httpStatus": 200,
           "error": null,
-          "treffer": 23
+          "treffer": 22
         },
         {
           "url": "https://lionsclub-regensburg.de/programm/veranstaltungen.html",
@@ -347,8 +347,8 @@
       "pfad404": {
         "/": false
       },
-      "eventsSicher": 9,
-      "eventsReview": 75
+      "eventsSicher": 14,
+      "eventsReview": 71
     },
     {
       "slug": "ingolstadt",
@@ -408,13 +408,13 @@
           "url": "https://lionsclub-ulm.de/index.php/lions-hilfswerk-e-v/veranstaltungen",
           "httpStatus": 200,
           "error": null,
-          "treffer": 36
+          "treffer": 31
         },
         {
           "url": "https://lionsclub-ulm.de/index.php/veranstaltungen",
           "httpStatus": 200,
           "error": null,
-          "treffer": 36
+          "treffer": 31
         },
         {
           "url": "https://lionsclub-ulm.de/index.php/clubtermine",
@@ -433,7 +433,7 @@
         "/": false,
         "/veranstaltungen": false
       },
-      "eventsSicher": 66,
+      "eventsSicher": 56,
       "eventsReview": 6
     },
     {
@@ -776,7 +776,7 @@
           "url": "https://www.lions-biberach.de/",
           "httpStatus": 200,
           "error": null,
-          "treffer": 2
+          "treffer": 3
         },
         {
           "url": "https://www.lions-biberach.de/aktuelles",
@@ -788,8 +788,8 @@
       "pfad404": {
         "/": false
       },
-      "eventsSicher": 1,
-      "eventsReview": 1
+      "eventsSicher": 0,
+      "eventsReview": 3
     },
     {
       "slug": "bottwartal",
@@ -898,14 +898,14 @@
         },
         {
           "url": "https://www.lc-bretten-stromberg.de/aktivitaeten",
-          "httpStatus": 200,
-          "error": null,
+          "httpStatus": null,
+          "error": "ConnectionError: HTTPSConnectionPool(host='lc-bretten-stromberg.de', port=443): Max retries exceeded with url: /aktivitaeten/ (Caused by NewConnectionError(\"HTTPSConnection(host='lc-bretten-stromberg.de', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))",
           "treffer": 0
         },
         {
           "url": "https://www.lc-bretten-stromberg.de/projekte",
           "httpStatus": null,
-          "error": "ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",
+          "error": "ConnectionError: HTTPSConnectionPool(host='lc-bretten-stromberg.de', port=443): Max retries exceeded with url: /projekte (Caused by NewConnectionError(\"HTTPSConnection(host='lc-bretten-stromberg.de', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))",
           "treffer": 0
         }
       ],
@@ -930,8 +930,8 @@
         },
         {
           "url": "https://www.entenrennen-bruchsal.de/veranstaltungen",
-          "httpStatus": 200,
-          "error": null,
+          "httpStatus": null,
+          "error": "SSL-Fallback: ConnectionError",
           "treffer": 0
         },
         {
@@ -1048,20 +1048,13 @@
       "seiten": [
         {
           "url": "https://www.lions-buehl.de/",
-          "httpStatus": 200,
-          "error": null,
-          "treffer": 0
-        },
-        {
-          "url": "https://www.lions-buehl.de/termine",
-          "httpStatus": 200,
-          "error": null,
+          "httpStatus": null,
+          "error": "ConnectionError: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
           "treffer": 0
         }
       ],
       "pfad404": {
-        "/": false,
-        "/termine": false
+        "/": false
       },
       "eventsSicher": 0,
       "eventsReview": 0
@@ -1865,12 +1858,6 @@
           "treffer": 2
         },
         {
-          "url": "http://www.lions-freudenstadt.de/termine",
-          "httpStatus": null,
-          "error": "HTTP 404",
-          "treffer": 0
-        },
-        {
           "url": "http://www.lions-freudenstadt.de/aktuelles",
           "httpStatus": 200,
           "error": null,
@@ -1878,8 +1865,7 @@
         }
       ],
       "pfad404": {
-        "/": false,
-        "/termine": true
+        "/": false
       },
       "eventsSicher": 1,
       "eventsReview": 10
@@ -2184,14 +2170,14 @@
           "url": "https://www.lions-hn-franken.de/",
           "httpStatus": 200,
           "error": null,
-          "treffer": 4
+          "treffer": 0
         }
       ],
       "pfad404": {
         "/": false
       },
-      "eventsSicher": 2,
-      "eventsReview": 2
+      "eventsSicher": 0,
+      "eventsReview": 0
     },
     {
       "slug": "heilbronn-wartberg",
@@ -2560,22 +2546,16 @@
       "seiten": [
         {
           "url": "https://www.lc-karlsruhe.de/",
-          "httpStatus": 200,
-          "error": null,
+          "httpStatus": null,
+          "error": "ConnectionError: HTTPSConnectionPool(host='www.lc-karlsruhe.de', port=443): Max retries exceeded with url: / (Caused by NewConnectionError(\"HTTPSConnection(host='www.lc-karlsruhe.de', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))",
           "treffer": 0
-        },
-        {
-          "url": "https://www.lc-karlsruhe.de/index.php/der-club/veranstaltungen",
-          "httpStatus": 200,
-          "error": null,
-          "treffer": 1
         }
       ],
       "pfad404": {
         "/": false
       },
       "eventsSicher": 0,
-      "eventsReview": 1
+      "eventsReview": 0
     },
     {
       "slug": "karlsruhe-fidelitas",
@@ -2876,7 +2856,7 @@
           "url": "https://kraichgau.lions.de/",
           "httpStatus": 200,
           "error": null,
-          "treffer": 2
+          "treffer": 7
         },
         {
           "url": "https://kraichgau.lions.de/termine",
@@ -2900,7 +2880,7 @@
           "url": "https://kraichgau.lions.de/home",
           "httpStatus": 200,
           "error": null,
-          "treffer": 2
+          "treffer": 7
         }
       ],
       "pfad404": {
@@ -2910,8 +2890,8 @@
         "/aktuell": false,
         "/home": false
       },
-      "eventsSicher": 2,
-      "eventsReview": 10
+      "eventsSicher": 10,
+      "eventsReview": 12
     },
     {
       "slug": "lahr-schwarzwald",
@@ -2975,27 +2955,13 @@
       "seiten": [
         {
           "url": "https://www.lions-club-leimen.de/",
-          "httpStatus": 200,
-          "error": null,
-          "treffer": 0
-        },
-        {
-          "url": "https://www.lions-club-leimen.de/termine",
-          "httpStatus": 200,
-          "error": null,
-          "treffer": 0
-        },
-        {
-          "url": "https://www.lions-club-leimen.de/projekte",
-          "httpStatus": 200,
-          "error": null,
+          "httpStatus": null,
+          "error": "ConnectionError: HTTPSConnectionPool(host='www.lions-club-leimen.de', port=443): Max retries exceeded with url: / (Caused by NewConnectionError(\"HTTPSConnection(host='www.lions-club-leimen.de', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))",
           "treffer": 0
         }
       ],
       "pfad404": {
-        "/": false,
-        "/termine": false,
-        "/projekte": false
+        "/": false
       },
       "eventsSicher": 0,
       "eventsReview": 0
@@ -3009,13 +2975,13 @@
           "url": "https://www.lions-leonberg.de/",
           "httpStatus": 200,
           "error": null,
-          "treffer": 5
+          "treffer": 3
         }
       ],
       "pfad404": {
         "/": false
       },
-      "eventsSicher": 4,
+      "eventsSicher": 2,
       "eventsReview": 1
     },
     {
@@ -3247,34 +3213,16 @@
       "seiten": [
         {
           "url": "https://www.lions-mannheim-rn.de/",
-          "httpStatus": 200,
-          "error": null,
-          "treffer": 6
-        },
-        {
-          "url": "https://www.lions-mannheim-rn.de/aktuelles.html",
-          "httpStatus": 200,
-          "error": null,
-          "treffer": 3
-        },
-        {
-          "url": "https://www.lions-mannheim-rn.de/aktuelles/termine.html",
-          "httpStatus": 200,
-          "error": null,
-          "treffer": 6
-        },
-        {
-          "url": "https://www.lions-mannheim-rn.de/aktivitaeten/projektuebersicht/klasse-2000.html",
-          "httpStatus": 200,
-          "error": null,
+          "httpStatus": null,
+          "error": "ConnectionError: HTTPSConnectionPool(host='www.lions-mannheim-rn.de', port=443): Max retries exceeded with url: / (Caused by NewConnectionError(\"HTTPSConnection(host='www.lions-mannheim-rn.de', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))",
           "treffer": 0
         }
       ],
       "pfad404": {
         "/": false
       },
-      "eventsSicher": 3,
-      "eventsReview": 12
+      "eventsSicher": 0,
+      "eventsReview": 0
     },
     {
       "slug": "mannheim-schloss",
@@ -3608,7 +3556,7 @@
           "url": "https://neckargemuend.lions.de/aktuell",
           "httpStatus": 200,
           "error": null,
-          "treffer": 1
+          "treffer": 0
         }
       ],
       "pfad404": {
@@ -3616,7 +3564,7 @@
         "/termine": false,
         "/projekte": false
       },
-      "eventsSicher": 1,
+      "eventsSicher": 0,
       "eventsReview": 0
     },
     {
@@ -3721,37 +3669,37 @@
         {
           "url": "https://www.lionsclub-offenburg.de/veranstaltungen",
           "httpStatus": null,
-          "error": "HTTP 500",
+          "error": "HTTP 404",
           "treffer": 0
         },
         {
           "url": "https://www.lionsclub-offenburg.de/termine",
-          "httpStatus": null,
-          "error": "HTTP 500",
-          "treffer": 0
+          "httpStatus": 200,
+          "error": null,
+          "treffer": 2
         },
         {
           "url": "https://www.lionsclub-offenburg.de/aktivitaeten",
           "httpStatus": null,
-          "error": "HTTP 500",
+          "error": "HTTP 404",
           "treffer": 0
         },
         {
           "url": "https://www.lionsclub-offenburg.de/projekte",
           "httpStatus": null,
-          "error": "HTTP 500",
+          "error": "HTTP 404",
           "treffer": 0
         }
       ],
       "pfad404": {
         "/": false,
-        "/veranstaltungen": false,
+        "/veranstaltungen": true,
         "/termine": false,
-        "/aktivitaeten": false,
-        "/projekte": false
+        "/aktivitaeten": true,
+        "/projekte": true
       },
       "eventsSicher": 0,
-      "eventsReview": 0
+      "eventsReview": 2
     },
     {
       "slug": "offenburg-simplicius",
@@ -3816,13 +3764,41 @@
       "seiten": [
         {
           "url": "https://www.Lions-pf.de/",
+          "httpStatus": 200,
+          "error": null,
+          "treffer": 0
+        },
+        {
+          "url": "https://www.Lions-pf.de/veranstaltungen",
+          "httpStatus": 200,
+          "error": null,
+          "treffer": 0
+        },
+        {
+          "url": "https://www.Lions-pf.de/termine",
           "httpStatus": null,
-          "error": "HTTP 403",
+          "error": "HTTP 404",
+          "treffer": 0
+        },
+        {
+          "url": "https://www.Lions-pf.de/aktivitaeten",
+          "httpStatus": null,
+          "error": "HTTP 404",
+          "treffer": 0
+        },
+        {
+          "url": "https://www.Lions-pf.de/projekte",
+          "httpStatus": null,
+          "error": "HTTP 404",
           "treffer": 0
         }
       ],
       "pfad404": {
-        "/": false
+        "/": false,
+        "/veranstaltungen": false,
+        "/termine": true,
+        "/aktivitaeten": true,
+        "/projekte": true
       },
       "eventsSicher": 0,
       "eventsReview": 0
@@ -3834,30 +3810,16 @@
       "seiten": [
         {
           "url": "https://www.lions-ravensburg.de/",
-          "httpStatus": 200,
-          "error": null,
-          "treffer": 15
-        },
-        {
-          "url": "https://www.lions-ravensburg.de/termine",
           "httpStatus": null,
-          "error": "HTTP 404",
+          "error": "ConnectionError: HTTPSConnectionPool(host='www.lions-ravensburg.de', port=443): Max retries exceeded with url: / (Caused by NewConnectionError(\"HTTPSConnection(host='www.lions-ravensburg.de', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))",
           "treffer": 0
-        },
-        {
-          "url": "https://www.lions-ravensburg.de/aktivitaeten",
-          "httpStatus": 200,
-          "error": null,
-          "treffer": 4
         }
       ],
       "pfad404": {
-        "/": false,
-        "/termine": true,
-        "/aktivitaeten": false
+        "/": false
       },
       "eventsSicher": 0,
-      "eventsReview": 19
+      "eventsReview": 0
     },
     {
       "slug": "remstal",
@@ -4325,31 +4287,31 @@
           "url": "https://www.lions-club-stockach.de/",
           "httpStatus": 200,
           "error": null,
-          "treffer": 0
+          "treffer": 1
         },
         {
           "url": "https://www.lions-club-stockach.de/veranstaltungen",
           "httpStatus": 200,
           "error": null,
-          "treffer": 0
+          "treffer": 1
         },
         {
           "url": "https://www.lions-club-stockach.de/termine",
           "httpStatus": 200,
           "error": null,
-          "treffer": 0
+          "treffer": 1
         },
         {
           "url": "https://www.lions-club-stockach.de/aktivitaeten",
           "httpStatus": 200,
           "error": null,
-          "treffer": 0
+          "treffer": 1
         },
         {
           "url": "https://www.lions-club-stockach.de/projekte",
           "httpStatus": 200,
           "error": null,
-          "treffer": 0
+          "treffer": 1
         },
         {
           "url": "https://www.lions-club-stockach.de/jahresprogramm.html",
@@ -4365,7 +4327,7 @@
         "/aktivitaeten": false,
         "/projekte": false
       },
-      "eventsSicher": 0,
+      "eventsSicher": 5,
       "eventsReview": 5
     },
     {
@@ -5543,6 +5505,12 @@
           "treffer": 2
         },
         {
+          "url": "https://www.lc-altoetting-burghausen.de/aktuell/zammad-beruehrt-die-herzen",
+          "httpStatus": 200,
+          "error": null,
+          "treffer": 0
+        },
+        {
           "url": "https://www.lc-altoetting-burghausen.de/aktuell/hilfe-fuer-krankenhaus-in-westafrika",
           "httpStatus": 200,
           "error": null,
@@ -5577,12 +5545,6 @@
           "httpStatus": 200,
           "error": null,
           "treffer": 2
-        },
-        {
-          "url": "https://www.lc-altoetting-burghausen.de/aktuell/lions-club-finanziert-krankenhaus-in-togo",
-          "httpStatus": 200,
-          "error": null,
-          "treffer": 0
         }
       ],
       "pfad404": {
@@ -5672,14 +5634,14 @@
           "url": "https://lions-amorbach-miltenberg.de/",
           "httpStatus": 200,
           "error": null,
-          "treffer": 3
+          "treffer": 4
         }
       ],
       "pfad404": {
         "/": false
       },
       "eventsSicher": 1,
-      "eventsReview": 2
+      "eventsReview": 3
     },
     {
       "slug": "ansbach",
@@ -6274,30 +6236,16 @@
       "seiten": [
         {
           "url": "http://lc-bayreuth-kulmbach.de/",
-          "httpStatus": 200,
-          "error": null,
-          "treffer": 2
-        },
-        {
-          "url": "http://lc-bayreuth-kulmbach.de/termine",
-          "httpStatus": 200,
-          "error": null,
+          "httpStatus": null,
+          "error": "ReadTimeout: HTTPConnectionPool(host='lc-bayreuth-kulmbach.de', port=80): Read timed out. (read timeout=8)",
           "treffer": 0
-        },
-        {
-          "url": "http://lc-bayreuth-kulmbach.de/projekte",
-          "httpStatus": 200,
-          "error": null,
-          "treffer": 9
         }
       ],
       "pfad404": {
-        "/": false,
-        "/termine": false,
-        "/projekte": false
+        "/": false
       },
-      "eventsSicher": 6,
-      "eventsReview": 5
+      "eventsSicher": 0,
+      "eventsReview": 0
     },
     {
       "slug": "bayreuth-thiergarten",
@@ -6726,23 +6674,16 @@
       "seiten": [
         {
           "url": "https://www.lions-eching.de/",
-          "httpStatus": 200,
-          "error": null,
-          "treffer": 2
-        },
-        {
-          "url": "https://www.lions-eching.de/termine",
-          "httpStatus": 200,
-          "error": null,
-          "treffer": 3
+          "httpStatus": null,
+          "error": "ConnectionError: HTTPSConnectionPool(host='www.lions-eching.de', port=443): Max retries exceeded with url: / (Caused by NewConnectionError(\"HTTPSConnection(host='www.lions-eching.de', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))",
+          "treffer": 0
         }
       ],
       "pfad404": {
-        "/": false,
-        "/termine": false
+        "/": false
       },
       "eventsSicher": 0,
-      "eventsReview": 5
+      "eventsReview": 0
     },
     {
       "slug": "eichstaett",
@@ -6753,7 +6694,7 @@
           "url": "https://eichstaett.lions.de/",
           "httpStatus": 200,
           "error": null,
-          "treffer": 3
+          "treffer": 6
         },
         {
           "url": "https://eichstaett.lions.de/termine",
@@ -6765,7 +6706,7 @@
           "url": "https://eichstaett.lions.de/home",
           "httpStatus": 200,
           "error": null,
-          "treffer": 3
+          "treffer": 6
         }
       ],
       "pfad404": {
@@ -6773,7 +6714,7 @@
         "/termine": false,
         "/home": false
       },
-      "eventsSicher": 2,
+      "eventsSicher": 8,
       "eventsReview": 4
     },
     {
@@ -7043,16 +6984,30 @@
       "seiten": [
         {
           "url": "https://www.lions-frg.de/",
-          "httpStatus": null,
-          "error": "ReadTimeout: HTTPSConnectionPool(host='www.lions-frg.de', port=443): Read timed out. (read timeout=8)",
+          "httpStatus": 200,
+          "error": null,
+          "treffer": 12
+        },
+        {
+          "url": "https://www.lions-frg.de/termine",
+          "httpStatus": 200,
+          "error": null,
+          "treffer": 0
+        },
+        {
+          "url": "https://www.lions-frg.de/projekte",
+          "httpStatus": 200,
+          "error": null,
           "treffer": 0
         }
       ],
       "pfad404": {
-        "/": false
+        "/": false,
+        "/termine": false,
+        "/projekte": false
       },
-      "eventsSicher": 0,
-      "eventsReview": 0
+      "eventsSicher": 6,
+      "eventsReview": 6
     },
     {
       "slug": "friedberg",
@@ -7099,8 +7054,8 @@
         },
         {
           "url": "https://www.lions-fn.de/termine",
-          "httpStatus": null,
-          "error": "ReadTimeout: HTTPSConnectionPool(host='www.lions-fn.de', port=443): Read timed out. (read timeout=8)",
+          "httpStatus": 200,
+          "error": null,
           "treffer": 0
         },
         {
@@ -7125,26 +7080,8 @@
       "seiten": [
         {
           "url": "https://lc-friedrichshafen-schloss-hersberg-cyber.de/",
-          "httpStatus": 200,
-          "error": null,
-          "treffer": 0
-        },
-        {
-          "url": "https://lc-friedrichshafen-schloss-hersberg-cyber.de/jahresprogramm/",
-          "httpStatus": 200,
-          "error": null,
-          "treffer": 0
-        },
-        {
-          "url": "https://lc-friedrichshafen-schloss-hersberg-cyber.de/programm-2023-2024/",
-          "httpStatus": 200,
-          "error": null,
-          "treffer": 0
-        },
-        {
-          "url": "https://lc-friedrichshafen-schloss-hersberg-cyber.de/programm-2019-2020/",
-          "httpStatus": 200,
-          "error": null,
+          "httpStatus": null,
+          "error": "ConnectionError: HTTPSConnectionPool(host='lc-friedrichshafen-schloss-hersberg-cyber.de', port=443): Max retries exceeded with url: / (Caused by NewConnectionError(\"HTTPSConnection(host='lc-friedrichshafen-schloss-hersberg-cyber.de', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))",
           "treffer": 0
         }
       ],
@@ -8096,7 +8033,7 @@
           "url": "https://www.lionsclub-kitzingen.de/",
           "httpStatus": 200,
           "error": null,
-          "treffer": 11
+          "treffer": 13
         },
         {
           "url": "https://www.lionsclub-kitzingen.de/termine",
@@ -8116,7 +8053,7 @@
         "/termine": false,
         "/projekte": false
       },
-      "eventsSicher": 11,
+      "eventsSicher": 13,
       "eventsReview": 2
     },
     {
@@ -8126,41 +8063,13 @@
       "seiten": [
         {
           "url": "https://www.lions-club-kronach.de/",
-          "httpStatus": 200,
-          "error": null,
-          "treffer": 0
-        },
-        {
-          "url": "https://www.lions-club-kronach.de/veranstaltungen",
-          "httpStatus": 200,
-          "error": null,
-          "treffer": 0
-        },
-        {
-          "url": "https://www.lions-club-kronach.de/termine",
-          "httpStatus": 200,
-          "error": null,
-          "treffer": 0
-        },
-        {
-          "url": "https://www.lions-club-kronach.de/aktivitaeten",
-          "httpStatus": 200,
-          "error": null,
-          "treffer": 0
-        },
-        {
-          "url": "https://www.lions-club-kronach.de/projekte",
-          "httpStatus": 200,
-          "error": null,
+          "httpStatus": null,
+          "error": "ConnectionError: HTTPSConnectionPool(host='www.lions-club-kronach.de', port=443): Max retries exceeded with url: / (Caused by NewConnectionError(\"HTTPSConnection(host='www.lions-club-kronach.de', port=443): Failed to establish a new connection: [Errno 111] Connection refused\"))",
           "treffer": 0
         }
       ],
       "pfad404": {
-        "/": false,
-        "/veranstaltungen": false,
-        "/termine": false,
-        "/aktivitaeten": false,
-        "/projekte": false
+        "/": false
       },
       "eventsSicher": 0,
       "eventsReview": 0
@@ -8719,13 +8628,41 @@
       "seiten": [
         {
           "url": "https://www.instagram.com/lionsclubmuenchenbergblick?igsh=dDEzdWM3dnhzZmJ4/",
-          "httpStatus": null,
-          "error": "HTTP 429",
+          "httpStatus": 200,
+          "error": null,
+          "treffer": 0
+        },
+        {
+          "url": "https://www.instagram.com/veranstaltungen",
+          "httpStatus": 200,
+          "error": null,
+          "treffer": 0
+        },
+        {
+          "url": "https://www.instagram.com/termine",
+          "httpStatus": 200,
+          "error": null,
+          "treffer": 0
+        },
+        {
+          "url": "https://www.instagram.com/aktivitaeten",
+          "httpStatus": 200,
+          "error": null,
+          "treffer": 0
+        },
+        {
+          "url": "https://www.instagram.com/projekte",
+          "httpStatus": 200,
+          "error": null,
           "treffer": 0
         }
       ],
       "pfad404": {
-        "/": false
+        "/": false,
+        "/veranstaltungen": false,
+        "/termine": false,
+        "/aktivitaeten": false,
+        "/projekte": false
       },
       "eventsSicher": 0,
       "eventsReview": 0
@@ -9136,14 +9073,14 @@
           "url": "http://www.lions-koenig-otto.de/",
           "httpStatus": 200,
           "error": null,
-          "treffer": 1
+          "treffer": 0
         }
       ],
       "pfad404": {
         "/": false
       },
       "eventsSicher": 0,
-      "eventsReview": 1
+      "eventsReview": 0
     },
     {
       "slug": "muenchen-marienplatz",
@@ -9763,7 +9700,7 @@
         {
           "url": "https://www.LCKaiserburg.de/",
           "httpStatus": null,
-          "error": "SSL-Fallback: SSLError",
+          "error": "ConnectionError: HTTPSConnectionPool(host='www.lckaiserburg.de', port=443): Max retries exceeded with url: / (Caused by NewConnectionError(\"HTTPSConnection(host='www.lckaiserburg.de', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))",
           "treffer": 0
         }
       ],
@@ -10236,8 +10173,8 @@
       "seiten": [
         {
           "url": "http://www.lions-schleissheim.de/",
-          "httpStatus": 200,
-          "error": null,
+          "httpStatus": null,
+          "error": "ReadTimeout: HTTPConnectionPool(host='www.lions-schleissheim.de', port=80): Read timed out. (read timeout=8)",
           "treffer": 0
         }
       ],
@@ -10294,7 +10231,7 @@
           "url": "https://www.lions-schongau.de/",
           "httpStatus": 200,
           "error": null,
-          "treffer": 13
+          "treffer": 11
         },
         {
           "url": "https://www.lions-schongau.de/aktivitaeten",
@@ -10319,8 +10256,8 @@
         "/": false,
         "/aktivitaeten": false
       },
-      "eventsSicher": 7,
-      "eventsReview": 19
+      "eventsSicher": 6,
+      "eventsReview": 18
     },
     {
       "slug": "schrobenhausen-aichach",
@@ -10789,8 +10726,8 @@
       "seiten": [
         {
           "url": "https://www.lions-weiden.de/",
-          "httpStatus": 200,
-          "error": null,
+          "httpStatus": null,
+          "error": "ConnectionError: HTTPSConnectionPool(host='www.lions-weiden.de', port=443): Max retries exceeded with url: / (Caused by NewConnectionError(\"HTTPSConnection(host='www.lions-weiden.de', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))",
           "treffer": 0
         }
       ],
@@ -10807,8 +10744,8 @@
       "seiten": [
         {
           "url": "https://www.lions-goldene-strasse.de/",
-          "httpStatus": 200,
-          "error": null,
+          "httpStatus": null,
+          "error": "ConnectionError: HTTPSConnectionPool(host='www.lions-goldene-strasse.de', port=443): Max retries exceeded with url: / (Caused by NewConnectionError(\"HTTPSConnection(host='www.lions-goldene-strasse.de', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))",
           "treffer": 0
         }
       ],
@@ -11215,8 +11152,8 @@
       "seiten": [
         {
           "url": "https://www.LionsAix.de/",
-          "httpStatus": 200,
-          "error": null,
+          "httpStatus": null,
+          "error": "ConnectionError: HTTPSConnectionPool(host='lionsaix.de', port=443): Max retries exceeded with url: / (Caused by NewConnectionError(\"HTTPSConnection(host='lionsaix.de', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))",
           "treffer": 0
         }
       ],
@@ -11233,8 +11170,8 @@
       "seiten": [
         {
           "url": "https://www.lions-aachen-urbs-regalis.de/",
-          "httpStatus": 200,
-          "error": null,
+          "httpStatus": null,
+          "error": "ConnectionError: HTTPSConnectionPool(host='www.lions-aachen-urbs-regalis.de', port=443): Max retries exceeded with url: / (Caused by NewConnectionError(\"HTTPSConnection(host='www.lions-aachen-urbs-regalis.de', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))",
           "treffer": 0
         }
       ],
@@ -11458,7 +11395,7 @@
         {
           "url": "https://www.lions-altenburg.de/",
           "httpStatus": null,
-          "error": "HTTP 403",
+          "error": "ConnectionError: HTTPSConnectionPool(host='www.lions-altenburg.de', port=443): Max retries exceeded with url: / (Caused by NewConnectionError(\"HTTPSConnection(host='www.lions-altenburg.de', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))",
           "treffer": 0
         }
       ],
@@ -11733,7 +11670,7 @@
         {
           "url": "https://lionsclubannweiler.de/",
           "httpStatus": null,
-          "error": "HTTP 500",
+          "error": "ConnectionError: HTTPSConnectionPool(host='lionsclubannweiler.de', port=443): Max retries exceeded with url: / (Caused by NewConnectionError(\"HTTPSConnection(host='lionsclubannweiler.de', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))",
           "treffer": 0
         }
       ],
@@ -11878,8 +11815,8 @@
       "seiten": [
         {
           "url": "https://www.lions-frisia-orientalis.de/",
-          "httpStatus": 200,
-          "error": null,
+          "httpStatus": null,
+          "error": "HTTP 503",
           "treffer": 0
         }
       ],
@@ -12236,25 +12173,25 @@
           "url": "https://www.lc-hgwt.de/",
           "httpStatus": 200,
           "error": null,
-          "treffer": 6
+          "treffer": 4
         },
         {
           "url": "https://www.lc-hgwt.de/veranstaltungen",
           "httpStatus": 200,
           "error": null,
-          "treffer": 4
+          "treffer": 6
         },
         {
           "url": "https://www.lc-hgwt.de/termine",
           "httpStatus": 200,
           "error": null,
-          "treffer": 5
+          "treffer": 8
         },
         {
           "url": "https://www.lc-hgwt.de/aktivitaeten",
           "httpStatus": 200,
           "error": null,
-          "treffer": 5
+          "treffer": 6
         },
         {
           "url": "https://www.lc-hgwt.de/projekte",
@@ -12270,7 +12207,7 @@
         "/aktivitaeten": false,
         "/projekte": false
       },
-      "eventsSicher": 14,
+      "eventsSicher": 18,
       "eventsReview": 10
     },
     {
@@ -12298,44 +12235,16 @@
       "seiten": [
         {
           "url": "http://www.lc-badnauheim.de/",
-          "httpStatus": 200,
-          "error": null,
-          "treffer": 6
-        },
-        {
-          "url": "http://www.lc-badnauheim.de/veranstaltungen",
-          "httpStatus": 200,
-          "error": null,
-          "treffer": 6
-        },
-        {
-          "url": "http://www.lc-badnauheim.de/termine",
-          "httpStatus": 200,
-          "error": null,
-          "treffer": 6
-        },
-        {
-          "url": "http://www.lc-badnauheim.de/aktivitaeten",
-          "httpStatus": 200,
-          "error": null,
-          "treffer": 6
-        },
-        {
-          "url": "http://www.lc-badnauheim.de/projekte",
-          "httpStatus": 200,
-          "error": null,
-          "treffer": 6
+          "httpStatus": null,
+          "error": "ConnectionError: HTTPConnectionPool(host='www.lc-badnauheim.de', port=80): Max retries exceeded with url: / (Caused by NewConnectionError(\"HTTPConnection(host='www.lc-badnauheim.de', port=80): Failed to establish a new connection: [Errno 111] Connection refused\"))",
+          "treffer": 0
         }
       ],
       "pfad404": {
-        "/": false,
-        "/veranstaltungen": false,
-        "/termine": false,
-        "/aktivitaeten": false,
-        "/projekte": false
+        "/": false
       },
       "eventsSicher": 0,
-      "eventsReview": 30
+      "eventsReview": 0
     },
     {
       "slug": "bad-nauheim-hessischer-loewe",
@@ -13399,7 +13308,7 @@
         {
           "url": "https://www.lcbn.de/",
           "httpStatus": null,
-          "error": "ConnectTimeout: HTTPSConnectionPool(host='www.lcbn.de', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.lcbn.de', port=443) at 0x7f00dd0148f0>, 'Connection to www.lcbn.de timed out. (connect timeout=8)'))",
+          "error": "ConnectTimeout: HTTPSConnectionPool(host='www.lcbn.de', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.lcbn.de', port=443) at 0x75f9cb977770>, 'Connection to www.lcbn.de timed out. (connect timeout=8)'))",
           "treffer": 0
         }
       ],
@@ -13525,7 +13434,7 @@
           "url": "https://berlin-savigny.lions.de/projekte",
           "httpStatus": 200,
           "error": null,
-          "treffer": 21
+          "treffer": 27
         },
         {
           "url": "https://berlin-savigny.lions.de/aktuell",
@@ -13547,7 +13456,7 @@
         "/aktuell": false,
         "/home": false
       },
-      "eventsSicher": 21,
+      "eventsSicher": 27,
       "eventsReview": 0
     },
     {
@@ -13680,7 +13589,7 @@
           "url": "https://www.Lions-Wannsee.de/",
           "httpStatus": 200,
           "error": null,
-          "treffer": 1
+          "treffer": 2
         },
         {
           "url": "https://www.Lions-Wannsee.de/termine",
@@ -13710,7 +13619,7 @@
           "url": "https://www.Lions-Wannsee.de/category/veranstaltungen/",
           "httpStatus": 200,
           "error": null,
-          "treffer": 1
+          "treffer": 2
         },
         {
           "url": "https://www.Lions-Wannsee.de/tag/weihnachtsmarkt/",
@@ -13722,7 +13631,7 @@
           "url": "https://www.Lions-Wannsee.de/category/termine/",
           "httpStatus": 200,
           "error": null,
-          "treffer": 2
+          "treffer": 3
         }
       ],
       "pfad404": {
@@ -13731,7 +13640,7 @@
         "/projekte": false
       },
       "eventsSicher": 0,
-      "eventsReview": 7
+      "eventsReview": 10
     },
     {
       "slug": "berlin-wuhletal",
@@ -14945,7 +14854,7 @@
           "url": "https://www.lions-brandenburg.de/ueber-uns/terminplan.html",
           "httpStatus": 200,
           "error": null,
-          "treffer": 5
+          "treffer": 7
         }
       ],
       "pfad404": {
@@ -14955,7 +14864,7 @@
         "/aktivitaeten": false,
         "/projekte": false
       },
-      "eventsSicher": 4,
+      "eventsSicher": 6,
       "eventsReview": 10
     },
     {
@@ -15396,8 +15305,8 @@
         },
         {
           "url": "https://www.lions-bremervoerde.de/projekte",
-          "httpStatus": null,
-          "error": "ReadTimeout: HTTPSConnectionPool(host='www.lions-bremervoerde.de', port=443): Read timed out. (read timeout=8)",
+          "httpStatus": 200,
+          "error": null,
           "treffer": 0
         }
       ],
@@ -15486,15 +15395,15 @@
         },
         {
           "url": "https://www.lionsclub-bruchkoebel.de/projekte",
-          "httpStatus": 200,
-          "error": null,
-          "treffer": 4
+          "httpStatus": null,
+          "error": "ReadTimeout: HTTPSConnectionPool(host='lionsclub-bruchkoebel.de', port=443): Read timed out. (read timeout=8)",
+          "treffer": 0
         },
         {
           "url": "https://www.lionsclub-bruchkoebel.de/activities",
           "httpStatus": 200,
           "error": null,
-          "treffer": 14
+          "treffer": 15
         }
       ],
       "pfad404": {
@@ -15504,8 +15413,8 @@
         "/aktivitaeten": false,
         "/projekte": false
       },
-      "eventsSicher": 6,
-      "eventsReview": 35
+      "eventsSicher": 7,
+      "eventsReview": 31
     },
     {
       "slug": "bruehl",
@@ -15718,27 +15627,13 @@
       "seiten": [
         {
           "url": "https://lc-castrop-rauxel.de/",
-          "httpStatus": 200,
-          "error": null,
-          "treffer": 0
-        },
-        {
-          "url": "https://lc-castrop-rauxel.de/termine",
-          "httpStatus": 200,
-          "error": null,
-          "treffer": 0
-        },
-        {
-          "url": "https://lc-castrop-rauxel.de/projekte",
-          "httpStatus": 200,
-          "error": null,
+          "httpStatus": null,
+          "error": "ConnectionError: HTTPSConnectionPool(host='lc-castrop-rauxel.de', port=443): Max retries exceeded with url: / (Caused by NewConnectionError(\"HTTPSConnection(host='lc-castrop-rauxel.de', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))",
           "treffer": 0
         }
       ],
       "pfad404": {
-        "/": false,
-        "/termine": false,
-        "/projekte": false
+        "/": false
       },
       "eventsSicher": 0,
       "eventsReview": 0
@@ -15853,7 +15748,7 @@
         {
           "url": "https://www.lions-rabenstein.de/",
           "httpStatus": null,
-          "error": "ConnectTimeout: HTTPSConnectionPool(host='www.lions-rabenstein.de', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.lions-rabenstein.de', port=443) at 0x7f00dd8cd4f0>, 'Connection to www.lions-rabenstein.de timed out. (connect timeout=8)'))",
+          "error": "ConnectTimeout: HTTPSConnectionPool(host='www.lions-rabenstein.de', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.lions-rabenstein.de', port=443) at 0x75f9cc1d3140>, 'Connection to www.lions-rabenstein.de timed out. (connect timeout=8)'))",
           "treffer": 0
         }
       ],
@@ -15870,14 +15765,8 @@
       "seiten": [
         {
           "url": "https://www.lionsclub-chemnitz.com/",
-          "httpStatus": 200,
-          "error": null,
-          "treffer": 3
-        },
-        {
-          "url": "https://www.lionsclub-chemnitz.com/aktuelles/",
-          "httpStatus": 200,
-          "error": null,
+          "httpStatus": null,
+          "error": "ConnectionError: HTTPSConnectionPool(host='www.lionsclub-chemnitz.com', port=443): Max retries exceeded with url: / (Caused by NewConnectionError(\"HTTPSConnection(host='www.lionsclub-chemnitz.com', port=443): Failed to establish a new connection: [Errno 111] Connection refused\"))",
           "treffer": 0
         }
       ],
@@ -15885,7 +15774,7 @@
         "/": false
       },
       "eventsSicher": 0,
-      "eventsReview": 3
+      "eventsReview": 0
     },
     {
       "slug": "chemnitz-agricola",
@@ -16150,8 +16039,8 @@
         "/": false,
         "/termine": true
       },
-      "eventsSicher": 10,
-      "eventsReview": 8
+      "eventsSicher": 9,
+      "eventsReview": 9
     },
     {
       "slug": "crimmitschau-werdau",
@@ -16697,30 +16586,6 @@
           "treffer": 10
         },
         {
-          "url": "https://www.lions-dietzenbach.de/veranstaltungen",
-          "httpStatus": null,
-          "error": "HTTP 404",
-          "treffer": 0
-        },
-        {
-          "url": "https://www.lions-dietzenbach.de/termine",
-          "httpStatus": null,
-          "error": "HTTP 404",
-          "treffer": 0
-        },
-        {
-          "url": "https://www.lions-dietzenbach.de/aktivitaeten",
-          "httpStatus": null,
-          "error": "HTTP 404",
-          "treffer": 0
-        },
-        {
-          "url": "https://www.lions-dietzenbach.de/projekte",
-          "httpStatus": null,
-          "error": "HTTP 404",
-          "treffer": 0
-        },
-        {
           "url": "https://www.lions-dietzenbach.de/willkommen/programm",
           "httpStatus": 200,
           "error": null,
@@ -16752,11 +16617,7 @@
         }
       ],
       "pfad404": {
-        "/": false,
-        "/veranstaltungen": true,
-        "/termine": true,
-        "/aktivitaeten": true,
-        "/projekte": true
+        "/": false
       },
       "eventsSicher": 0,
       "eventsReview": 19
@@ -17006,13 +16867,13 @@
           "url": "https://www.lions-dorsten-hanse.de/termine.php",
           "httpStatus": 200,
           "error": null,
-          "treffer": 224
+          "treffer": 229
         }
       ],
       "pfad404": {
         "/": false
       },
-      "eventsSicher": 215,
+      "eventsSicher": 220,
       "eventsReview": 33
     },
     {
@@ -17239,22 +17100,16 @@
       "seiten": [
         {
           "url": "https://lions-dortmund-phoenix.de/",
-          "httpStatus": 200,
-          "error": null,
-          "treffer": 1
-        },
-        {
-          "url": "https://lions-dortmund-phoenix.de/activities/",
-          "httpStatus": 200,
-          "error": null,
-          "treffer": 4
+          "httpStatus": null,
+          "error": "ConnectionError: HTTPSConnectionPool(host='lions-dortmund-phoenix.de', port=443): Max retries exceeded with url: / (Caused by NewConnectionError(\"HTTPSConnection(host='lions-dortmund-phoenix.de', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))",
+          "treffer": 0
         }
       ],
       "pfad404": {
         "/": false
       },
-      "eventsSicher": 1,
-      "eventsReview": 4
+      "eventsSicher": 0,
+      "eventsReview": 0
     },
     {
       "slug": "dortmund-reinoldus",
@@ -17299,50 +17154,16 @@
       "seiten": [
         {
           "url": "https://www.lionsclub-dortmund-tremonia.de/",
-          "httpStatus": 200,
-          "error": null,
-          "treffer": 9
-        },
-        {
-          "url": "https://www.lionsclub-dortmund-tremonia.de/veranstaltungen",
-          "httpStatus": 200,
-          "error": null,
-          "treffer": 9
-        },
-        {
-          "url": "https://www.lionsclub-dortmund-tremonia.de/termine",
-          "httpStatus": 200,
-          "error": null,
-          "treffer": 9
-        },
-        {
-          "url": "https://www.lionsclub-dortmund-tremonia.de/aktivitaeten",
-          "httpStatus": 200,
-          "error": null,
-          "treffer": 9
-        },
-        {
-          "url": "https://www.lionsclub-dortmund-tremonia.de/projekte",
-          "httpStatus": 200,
-          "error": null,
-          "treffer": 9
-        },
-        {
-          "url": "https://www.lionsclub-dortmund-tremonia.de/informationen/termine",
-          "httpStatus": 200,
-          "error": null,
-          "treffer": 9
+          "httpStatus": null,
+          "error": "ConnectionError: HTTPSConnectionPool(host='www.lionsclub-dortmund-tremonia.de', port=443): Max retries exceeded with url: / (Caused by NewConnectionError(\"HTTPSConnection(host='www.lionsclub-dortmund-tremonia.de', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))",
+          "treffer": 0
         }
       ],
       "pfad404": {
-        "/": false,
-        "/veranstaltungen": false,
-        "/termine": false,
-        "/aktivitaeten": false,
-        "/projekte": false
+        "/": false
       },
-      "eventsSicher": 12,
-      "eventsReview": 42
+      "eventsSicher": 0,
+      "eventsReview": 0
     },
     {
       "slug": "dortmund-union",
@@ -17755,20 +17576,14 @@
           "url": "https://www.lions-doebeln.de/",
           "httpStatus": 200,
           "error": null,
-          "treffer": 3
-        },
-        {
-          "url": "https://www.lions-doebeln.de/veranstaltungen.php",
-          "httpStatus": 200,
-          "error": null,
-          "treffer": 19
+          "treffer": 0
         }
       ],
       "pfad404": {
         "/": false
       },
-      "eventsSicher": 15,
-      "eventsReview": 7
+      "eventsSicher": 0,
+      "eventsReview": 0
     },
     {
       "slug": "duelmen",
@@ -18357,22 +18172,15 @@
       "seiten": [
         {
           "url": "https://www.lc-benrath.de/",
-          "httpStatus": 200,
-          "error": null,
+          "httpStatus": null,
+          "error": "ReadTimeout: HTTPSConnectionPool(host='www.lc-benrath.de', port=443): Read timed out. (read timeout=8)",
           "treffer": 0
-        },
-        {
-          "url": "https://www.lc-benrath.de/termine",
-          "httpStatus": 200,
-          "error": null,
-          "treffer": 3
         }
       ],
       "pfad404": {
-        "/": false,
-        "/termine": false
+        "/": false
       },
-      "eventsSicher": 3,
+      "eventsSicher": 0,
       "eventsReview": 0
     },
     {
@@ -18542,7 +18350,7 @@
           "url": "http://www.lions-emmerich-rees.de/veranstaltungen",
           "httpStatus": 200,
           "error": null,
-          "treffer": 8
+          "treffer": 7
         },
         {
           "url": "http://www.lions-emmerich-rees.de/projekte",
@@ -18556,8 +18364,8 @@
         "/veranstaltungen": false,
         "/projekte": false
       },
-      "eventsSicher": 5,
-      "eventsReview": 7
+      "eventsSicher": 3,
+      "eventsReview": 8
     },
     {
       "slug": "emsdetten",
@@ -19525,7 +19333,7 @@
           "url": "https://flensburg-alexandra.lions.de/",
           "httpStatus": 200,
           "error": null,
-          "treffer": 6
+          "treffer": 17
         },
         {
           "url": "https://flensburg-alexandra.lions.de/termine",
@@ -19537,13 +19345,13 @@
           "url": "https://flensburg-alexandra.lions.de/home",
           "httpStatus": 200,
           "error": null,
-          "treffer": 6
+          "treffer": 17
         },
         {
           "url": "https://flensburg-alexandra.lions.de/buechermaerkte",
           "httpStatus": 200,
           "error": null,
-          "treffer": 13
+          "treffer": 23
         },
         {
           "url": "https://flensburg-alexandra.lions.de/buecherschrank",
@@ -19557,7 +19365,7 @@
         "/termine": false,
         "/home": false
       },
-      "eventsSicher": 0,
+      "eventsSicher": 32,
       "eventsReview": 25
     },
     {
@@ -19739,7 +19547,7 @@
           "url": "https://lions-frankfurt-cosmopolitan.de/",
           "httpStatus": 200,
           "error": null,
-          "treffer": 1
+          "treffer": 0
         },
         {
           "url": "https://lions-frankfurt-cosmopolitan.de/veranstaltungen",
@@ -19753,7 +19561,7 @@
         "/veranstaltungen": false
       },
       "eventsSicher": 0,
-      "eventsReview": 1
+      "eventsReview": 0
     },
     {
       "slug": "frankfurt-eschenheimer-turm",
@@ -19866,27 +19674,13 @@
       "seiten": [
         {
           "url": "http://lions-ffm.de/",
-          "httpStatus": 200,
-          "error": null,
-          "treffer": 0
-        },
-        {
-          "url": "http://lions-ffm.de/termine",
-          "httpStatus": 200,
-          "error": null,
-          "treffer": 0
-        },
-        {
-          "url": "http://lions-ffm.de/projekte",
-          "httpStatus": 200,
-          "error": null,
+          "httpStatus": null,
+          "error": "ConnectionError: HTTPConnectionPool(host='lions-ffm.de', port=80): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPConnection(host='lions-ffm.de', port=80): Failed to resolve 'lions-ffm.de' ([Errno -2] Name or service not known)\"))",
           "treffer": 0
         }
       ],
       "pfad404": {
-        "/": false,
-        "/termine": false,
-        "/projekte": false
+        "/": false
       },
       "eventsSicher": 0,
       "eventsReview": 0
@@ -20164,7 +19958,7 @@
           "url": "https://garbsen.lions.de/aktivitaeten",
           "httpStatus": 200,
           "error": null,
-          "treffer": 10
+          "treffer": 12
         },
         {
           "url": "https://garbsen.lions.de/home",
@@ -20179,7 +19973,7 @@
         "/aktivitaeten": false,
         "/home": false
       },
-      "eventsSicher": 24,
+      "eventsSicher": 26,
       "eventsReview": 0
     },
     {
@@ -20318,8 +20112,8 @@
         },
         {
           "url": "http://www.lions-club-germersheim.de/termine",
-          "httpStatus": null,
-          "error": "ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",
+          "httpStatus": 200,
+          "error": null,
           "treffer": 0
         },
         {
@@ -21333,22 +21127,16 @@
       "seiten": [
         {
           "url": "https://www.lionshagen.de/",
-          "httpStatus": 200,
-          "error": null,
+          "httpStatus": null,
+          "error": "ConnectionError: HTTPSConnectionPool(host='www.lionshagen.de', port=443): Max retries exceeded with url: / (Caused by NewConnectionError(\"HTTPSConnection(host='www.lionshagen.de', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))",
           "treffer": 0
-        },
-        {
-          "url": "https://www.lionshagen.de/unsere-Aktivitaeten/aktuelle-Aktivitaeten/",
-          "httpStatus": 200,
-          "error": null,
-          "treffer": 3
         }
       ],
       "pfad404": {
         "/": false
       },
-      "eventsSicher": 2,
-      "eventsReview": 1
+      "eventsSicher": 0,
+      "eventsReview": 0
     },
     {
       "slug": "hagen-asteria",
@@ -21357,27 +21145,15 @@
       "seiten": [
         {
           "url": "https://www.lions-hagen-asteria.de/",
-          "httpStatus": 200,
-          "error": null,
+          "httpStatus": null,
+          "error": "ConnectionError: HTTPSConnectionPool(host='www.lions-hagen-asteria.de', port=443): Max retries exceeded with url: / (Caused by NewConnectionError(\"HTTPSConnection(host='www.lions-hagen-asteria.de', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))",
           "treffer": 0
-        },
-        {
-          "url": "https://www.lions-hagen-asteria.de/category/Aktuelles/",
-          "httpStatus": 200,
-          "error": null,
-          "treffer": 0
-        },
-        {
-          "url": "https://www.lions-hagen-asteria.de/mitgliederbereich/jahresprogramm/",
-          "httpStatus": 200,
-          "error": null,
-          "treffer": 1
         }
       ],
       "pfad404": {
         "/": false
       },
-      "eventsSicher": 1,
+      "eventsSicher": 0,
       "eventsReview": 0
     },
     {
@@ -21614,7 +21390,7 @@
           "url": "http://lions-hamburg67.de/",
           "httpStatus": 200,
           "error": null,
-          "treffer": 11
+          "treffer": 17
         },
         {
           "url": "http://lions-hamburg67.de/projekte",
@@ -21626,14 +21402,14 @@
           "url": "http://lions-hamburg67.de/blog/",
           "httpStatus": 200,
           "error": null,
-          "treffer": 2
+          "treffer": 3
         }
       ],
       "pfad404": {
         "/": false,
         "/projekte": false
       },
-      "eventsSicher": 12,
+      "eventsSicher": 19,
       "eventsReview": 3
     },
     {
@@ -21643,16 +21419,43 @@
       "seiten": [
         {
           "url": "https://lions-hamburg-waterkant.blogspot.com/",
+          "httpStatus": 200,
+          "error": null,
+          "treffer": 1
+        },
+        {
+          "url": "https://lions-hamburg-waterkant.blogspot.com/termine",
           "httpStatus": null,
-          "error": "HTTP 429",
+          "error": "HTTP 404",
+          "treffer": 0
+        },
+        {
+          "url": "https://lions-hamburg-waterkant.blogspot.com/aktivitaeten",
+          "httpStatus": null,
+          "error": "HTTP 404",
+          "treffer": 0
+        },
+        {
+          "url": "https://lions-hamburg-waterkant.blogspot.com/projekte",
+          "httpStatus": null,
+          "error": "HTTP 404",
+          "treffer": 0
+        },
+        {
+          "url": "https://lions-hamburg-waterkant.blogspot.com/2021/12/weihnachtslesung-und-buchspende.html",
+          "httpStatus": 200,
+          "error": null,
           "treffer": 0
         }
       ],
       "pfad404": {
-        "/": false
+        "/": false,
+        "/termine": true,
+        "/aktivitaeten": true,
+        "/projekte": true
       },
       "eventsSicher": 0,
-      "eventsReview": 0
+      "eventsReview": 1
     },
     {
       "slug": "hamburg-alster",
@@ -21984,8 +21787,8 @@
         },
         {
           "url": "https://www.lions-leuchtturm.de/termine",
-          "httpStatus": null,
-          "error": "ReadTimeout: HTTPSConnectionPool(host='www.lions-leuchtturm.de', port=443): Read timed out. (read timeout=8)",
+          "httpStatus": 200,
+          "error": null,
           "treffer": 0
         },
         {
@@ -22481,8 +22284,8 @@
       "seiten": [
         {
           "url": "http://www.lionsclub-hanau-schloss-philippsruhe.de/",
-          "httpStatus": 200,
-          "error": null,
+          "httpStatus": null,
+          "error": "ConnectionError: HTTPSConnectionPool(host='lions-schloss-philippsruhe.de', port=443): Max retries exceeded with url: / (Caused by NewConnectionError(\"HTTPSConnection(host='lions-schloss-philippsruhe.de', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))",
           "treffer": 0
         }
       ],
@@ -22501,10 +22304,16 @@
           "url": "https://lions-hmue.de/",
           "httpStatus": 200,
           "error": null,
-          "treffer": 0
+          "treffer": 5
         },
         {
           "url": "https://lions-hmue.de/aktivitaeten",
+          "httpStatus": 200,
+          "error": null,
+          "treffer": 3
+        },
+        {
+          "url": "https://lions-hmue.de/category/veranstaltungen/",
           "httpStatus": 200,
           "error": null,
           "treffer": 3
@@ -22515,7 +22324,7 @@
         "/aktivitaeten": false
       },
       "eventsSicher": 0,
-      "eventsReview": 3
+      "eventsReview": 11
     },
     {
       "slug": "hannover",
@@ -23388,17 +23197,10 @@
           "httpStatus": 200,
           "error": null,
           "treffer": 1
-        },
-        {
-          "url": "https://www.lions-herne.de/veranstaltungen",
-          "httpStatus": null,
-          "error": "HTTP 404",
-          "treffer": 0
         }
       ],
       "pfad404": {
-        "/": false,
-        "/veranstaltungen": true
+        "/": false
       },
       "eventsSicher": 0,
       "eventsReview": 1
@@ -23829,6 +23631,18 @@
           "treffer": 0
         },
         {
+          "url": "https://www.lions-hofheim.de/aktuelles/persoenlicher-austausch-des-lions-clubs-hofheim-mit-sponsoren-und-unterstuetzern",
+          "httpStatus": 200,
+          "error": null,
+          "treffer": 0
+        },
+        {
+          "url": "https://www.lions-hofheim.de/aktuelles/wolfgang-exner-ist-neuer-lions-praesident",
+          "httpStatus": 200,
+          "error": null,
+          "treffer": 1
+        },
+        {
           "url": "https://www.lions-hofheim.de/aktuelles/wein-chalet-august",
           "httpStatus": 200,
           "error": null,
@@ -23851,7 +23665,7 @@
         "/": false
       },
       "eventsSicher": 0,
-      "eventsReview": 1
+      "eventsReview": 2
     },
     {
       "slug": "holzminden",
@@ -23979,14 +23793,14 @@
           "url": "https://www.lc-hoexter-corvey.de/",
           "httpStatus": 200,
           "error": null,
-          "treffer": 7
+          "treffer": 0
         }
       ],
       "pfad404": {
         "/": false
       },
       "eventsSicher": 0,
-      "eventsReview": 7
+      "eventsReview": 0
     },
     {
       "slug": "huenfeld",
@@ -24099,7 +23913,7 @@
           "url": "https://www.lc-huerth.de/",
           "httpStatus": 200,
           "error": null,
-          "treffer": 0
+          "treffer": 1
         },
         {
           "url": "https://www.lc-huerth.de/aktuelles/",
@@ -24112,7 +23926,7 @@
         "/": false
       },
       "eventsSicher": 6,
-      "eventsReview": 1
+      "eventsReview": 2
     },
     {
       "slug": "idstein",
@@ -25408,8 +25222,8 @@
       "seiten": [
         {
           "url": "http://www.lc-claudia-ara.de/",
-          "httpStatus": 200,
-          "error": null,
+          "httpStatus": null,
+          "error": "ConnectTimeout: HTTPConnectionPool(host='www.lc-claudia-ara.de', port=80): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPConnection(host='www.lc-claudia-ara.de', port=80) at 0x75f9cb21ad50>, 'Connection to www.lc-claudia-ara.de timed out. (connect timeout=8)'))",
           "treffer": 0
         }
       ],
@@ -25515,8 +25329,8 @@
         "/": false,
         "/termine": false
       },
-      "eventsSicher": 1,
-      "eventsReview": 3
+      "eventsSicher": 0,
+      "eventsReview": 4
     },
     {
       "slug": "koeln-theophanu",
@@ -26251,12 +26065,6 @@
           "httpStatus": 200,
           "error": null,
           "treffer": 0
-        },
-        {
-          "url": "https://www.lions-lebach.de/2025/12/01/adventsmarkt-an-der-kirche-in-lebach/",
-          "httpStatus": 200,
-          "error": null,
-          "treffer": 0
         }
       ],
       "pfad404": {
@@ -26600,7 +26408,7 @@
           "url": "https://www.Lionsclub-Lilienthal.de/projekte",
           "httpStatus": 200,
           "error": null,
-          "treffer": 0
+          "treffer": 3
         },
         {
           "url": "https://www.Lionsclub-Lilienthal.de/we-serve/internationale-programme/",
@@ -26614,7 +26422,7 @@
         "/projekte": false
       },
       "eventsSicher": 0,
-      "eventsReview": 0
+      "eventsReview": 3
     },
     {
       "slug": "limbach-oberfrohna-johann-esche",
@@ -26801,8 +26609,8 @@
       "seiten": [
         {
           "url": "https://lions-lingenerland.com/",
-          "httpStatus": null,
-          "error": "ReadTimeout: HTTPSConnectionPool(host='lions-lingenerland.com', port=443): Read timed out. (read timeout=8)",
+          "httpStatus": 200,
+          "error": null,
           "treffer": 0
         }
       ],
@@ -27119,38 +26927,8 @@
       "seiten": [
         {
           "url": "https://www.lionsclub-luebeckerbucht.de/",
-          "httpStatus": 200,
-          "error": null,
-          "treffer": 4
-        },
-        {
-          "url": "https://www.lionsclub-luebeckerbucht.de/aktuelles/",
-          "httpStatus": 200,
-          "error": null,
-          "treffer": 0
-        },
-        {
-          "url": "https://www.lionsclub-luebeckerbucht.de/live-jazz-im-haffhuus-lions-scheunen-jazz-neu-aufgelegt/",
-          "httpStatus": 200,
-          "error": null,
-          "treffer": 0
-        },
-        {
-          "url": "https://www.lionsclub-luebeckerbucht.de/wir-begruessen-alida-wilckens-im-lions-club-luebecker-bucht/",
-          "httpStatus": 200,
-          "error": null,
-          "treffer": 0
-        },
-        {
-          "url": "https://www.lionsclub-luebeckerbucht.de/amtsuebergabe-beim-lions-club-luebecker-bucht-bernd-uebernimmt-das-ruder/",
-          "httpStatus": 200,
-          "error": null,
-          "treffer": 0
-        },
-        {
-          "url": "https://www.lionsclub-luebeckerbucht.de/info@lionsclub-luebeckerbucht.de",
           "httpStatus": null,
-          "error": "HTTP 404",
+          "error": "ReadTimeout: HTTPSConnectionPool(host='www.lionsclub-luebeckerbucht.de', port=443): Read timed out. (read timeout=8)",
           "treffer": 0
         }
       ],
@@ -27158,7 +26936,7 @@
         "/": false
       },
       "eventsSicher": 0,
-      "eventsReview": 4
+      "eventsReview": 0
     },
     {
       "slug": "luedenscheid-lennetal",
@@ -28804,8 +28582,8 @@
       "seiten": [
         {
           "url": "https://www.lcmw.de/",
-          "httpStatus": 200,
-          "error": null,
+          "httpStatus": null,
+          "error": "HTTP 500",
           "treffer": 0
         }
       ],
@@ -29355,13 +29133,27 @@
       "seiten": [
         {
           "url": "https://lions-club-fliunnia.de/",
-          "httpStatus": null,
-          "error": "ReadTimeout: HTTPSConnectionPool(host='lions-club-fliunnia.de', port=443): Read timed out. (read timeout=8)",
+          "httpStatus": 200,
+          "error": null,
+          "treffer": 0
+        },
+        {
+          "url": "https://lions-club-fliunnia.de/termine",
+          "httpStatus": 200,
+          "error": null,
+          "treffer": 0
+        },
+        {
+          "url": "https://lions-club-fliunnia.de/projekte",
+          "httpStatus": 200,
+          "error": null,
           "treffer": 0
         }
       ],
       "pfad404": {
-        "/": false
+        "/": false,
+        "/termine": false,
+        "/projekte": false
       },
       "eventsSicher": 0,
       "eventsReview": 0
@@ -30305,16 +30097,44 @@
       "seiten": [
         {
           "url": "https://www.lions-noh-lin.de/",
+          "httpStatus": 200,
+          "error": null,
+          "treffer": 0
+        },
+        {
+          "url": "https://www.lions-noh-lin.de/veranstaltungen",
           "httpStatus": null,
-          "error": "SSL-Fallback: SSLError",
+          "error": "HTTP 404",
+          "treffer": 0
+        },
+        {
+          "url": "https://www.lions-noh-lin.de/termine",
+          "httpStatus": null,
+          "error": "HTTP 404",
+          "treffer": 0
+        },
+        {
+          "url": "https://www.lions-noh-lin.de/aktivitaeten",
+          "httpStatus": 200,
+          "error": null,
+          "treffer": 9
+        },
+        {
+          "url": "https://www.lions-noh-lin.de/projekte",
+          "httpStatus": null,
+          "error": "HTTP 404",
           "treffer": 0
         }
       ],
       "pfad404": {
-        "/": false
+        "/": false,
+        "/veranstaltungen": true,
+        "/termine": true,
+        "/aktivitaeten": false,
+        "/projekte": true
       },
-      "eventsSicher": 0,
-      "eventsReview": 0
+      "eventsSicher": 3,
+      "eventsReview": 6
     },
     {
       "slug": "oberharz",
@@ -30405,16 +30225,30 @@
       "seiten": [
         {
           "url": "https://www.lions-oberursel.de/",
+          "httpStatus": 200,
+          "error": null,
+          "treffer": 7
+        },
+        {
+          "url": "https://www.lions-oberursel.de/termine",
+          "httpStatus": 200,
+          "error": null,
+          "treffer": 7
+        },
+        {
+          "url": "https://www.lions-oberursel.de/aktivitaeten",
           "httpStatus": null,
-          "error": "ReadTimeout: HTTPSConnectionPool(host='www.lions-oberursel.de', port=443): Read timed out. (read timeout=8)",
+          "error": "HTTP 500",
           "treffer": 0
         }
       ],
       "pfad404": {
-        "/": false
+        "/": false,
+        "/termine": false,
+        "/aktivitaeten": false
       },
       "eventsSicher": 0,
-      "eventsReview": 0
+      "eventsReview": 14
     },
     {
       "slug": "oberursel-schillerturm",
@@ -30429,8 +30263,8 @@
         },
         {
           "url": "http://lions-oberursel-schillerturm.de/aktivitaeten",
-          "httpStatus": null,
-          "error": "ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",
+          "httpStatus": 200,
+          "error": null,
           "treffer": 0
         },
         {
@@ -30727,12 +30561,6 @@
           "treffer": 19
         },
         {
-          "url": "https://www.lcog.de/aktivitaeten",
-          "httpStatus": null,
-          "error": "HTTP 404",
-          "treffer": 0
-        },
-        {
           "url": "https://www.lcog.de/projekte",
           "httpStatus": 200,
           "error": null,
@@ -30747,7 +30575,6 @@
       ],
       "pfad404": {
         "/": false,
-        "/aktivitaeten": true,
         "/projekte": false
       },
       "eventsSicher": 0,
@@ -30850,8 +30677,8 @@
         },
         {
           "url": "https://www.lionsclub-olsberg.de/projekte",
-          "httpStatus": null,
-          "error": "ReadTimeout: HTTPSConnectionPool(host='www.lionsclub-olsberg.de', port=443): Read timed out. (read timeout=8)",
+          "httpStatus": 200,
+          "error": null,
           "treffer": 0
         }
       ],
@@ -31929,7 +31756,7 @@
           "url": "https://remscheid.lions.de/",
           "httpStatus": 200,
           "error": null,
-          "treffer": 46
+          "treffer": 43
         },
         {
           "url": "https://remscheid.lions.de/termine",
@@ -31947,19 +31774,19 @@
           "url": "https://remscheid.lions.de/aktuell",
           "httpStatus": 200,
           "error": null,
-          "treffer": 54
+          "treffer": 50
         },
         {
           "url": "https://remscheid.lions.de/home",
           "httpStatus": 200,
           "error": null,
-          "treffer": 46
+          "treffer": 43
         },
         {
           "url": "https://remscheid.lions.de/termine1",
           "httpStatus": 200,
           "error": null,
-          "treffer": 45
+          "treffer": 44
         },
         {
           "url": "https://remscheid.lions.de/documents/4052036/0/B%C3%BCchermarkt%2C+Signal.jpg/8a2b5222-d55a-765b-64b8-01b1abc1c445",
@@ -31981,7 +31808,7 @@
         "/aktuell": false,
         "/home": false
       },
-      "eventsSicher": 128,
+      "eventsSicher": 117,
       "eventsReview": 73
     },
     {
@@ -32380,13 +32207,27 @@
       "seiten": [
         {
           "url": "https://www.lc-rodgau-roedermark.de/",
-          "httpStatus": null,
-          "error": "ReadTimeout: HTTPSConnectionPool(host='www.lc-rodgau-roedermark.de', port=443): Read timed out. (read timeout=8)",
+          "httpStatus": 200,
+          "error": null,
+          "treffer": 0
+        },
+        {
+          "url": "https://www.lc-rodgau-roedermark.de/termine",
+          "httpStatus": 200,
+          "error": null,
+          "treffer": 0
+        },
+        {
+          "url": "https://www.lc-rodgau-roedermark.de/projekte",
+          "httpStatus": 200,
+          "error": null,
           "treffer": 0
         }
       ],
       "pfad404": {
-        "/": false
+        "/": false,
+        "/termine": false,
+        "/projekte": false
       },
       "eventsSicher": 0,
       "eventsReview": 0
@@ -32490,17 +32331,17 @@
         },
         {
           "url": "http://www.lions-ruesselsheim-cosmopolitan.de/projekte",
-          "httpStatus": null,
-          "error": "ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",
-          "treffer": 0
+          "httpStatus": 200,
+          "error": null,
+          "treffer": 8
         }
       ],
       "pfad404": {
         "/": false,
         "/projekte": false
       },
-      "eventsSicher": 7,
-      "eventsReview": 1
+      "eventsSicher": 14,
+      "eventsReview": 2
     },
     {
       "slug": "saarbruecken-am-schloss",
@@ -32736,8 +32577,8 @@
       "seiten": [
         {
           "url": "https://www.schloss-salder.de/",
-          "httpStatus": null,
-          "error": "ReadTimeout: HTTPSConnectionPool(host='www.schloss-salder.de', port=443): Read timed out. (read timeout=8)",
+          "httpStatus": 200,
+          "error": null,
           "treffer": 0
         }
       ],
@@ -32772,16 +32613,16 @@
       "seiten": [
         {
           "url": "https://www.lions-sangerhausen.de/",
-          "httpStatus": 200,
-          "error": null,
-          "treffer": 3
+          "httpStatus": null,
+          "error": "ReadTimeout: HTTPSConnectionPool(host='www.lions-sangerhausen.de', port=443): Read timed out. (read timeout=8)",
+          "treffer": 0
         }
       ],
       "pfad404": {
         "/": false
       },
       "eventsSicher": 0,
-      "eventsReview": 3
+      "eventsReview": 0
     },
     {
       "slug": "scheessel",
@@ -33748,16 +33589,30 @@
       "seiten": [
         {
           "url": "https://www.lc-speyer-palatina.de/",
-          "httpStatus": null,
-          "error": "ReadTimeout: HTTPSConnectionPool(host='www.lc-speyer-palatina.de', port=443): Read timed out. (read timeout=8)",
-          "treffer": 0
+          "httpStatus": 200,
+          "error": null,
+          "treffer": 9
+        },
+        {
+          "url": "https://www.lc-speyer-palatina.de/termine",
+          "httpStatus": 200,
+          "error": null,
+          "treffer": 4
+        },
+        {
+          "url": "https://www.lc-speyer-palatina.de/projekte",
+          "httpStatus": 200,
+          "error": null,
+          "treffer": 9
         }
       ],
       "pfad404": {
-        "/": false
+        "/": false,
+        "/termine": false,
+        "/projekte": false
       },
-      "eventsSicher": 0,
-      "eventsReview": 0
+      "eventsSicher": 15,
+      "eventsReview": 7
     },
     {
       "slug": "springe",
@@ -33768,37 +33623,37 @@
           "url": "https://www.lions-springe.de/",
           "httpStatus": 200,
           "error": null,
-          "treffer": 0
+          "treffer": 6
         },
         {
           "url": "https://www.lions-springe.de/veranstaltungen",
           "httpStatus": 200,
           "error": null,
-          "treffer": 0
+          "treffer": 6
         },
         {
           "url": "https://www.lions-springe.de/termine",
           "httpStatus": 200,
           "error": null,
-          "treffer": 0
+          "treffer": 6
         },
         {
           "url": "https://www.lions-springe.de/aktivitaeten",
           "httpStatus": 200,
           "error": null,
-          "treffer": 0
+          "treffer": 6
         },
         {
           "url": "https://www.lions-springe.de/projekte",
           "httpStatus": 200,
           "error": null,
-          "treffer": 0
+          "treffer": 6
         },
         {
           "url": "https://www.lions-springe.de/documents/2363269/74112271/F%C3%B6rderprogramm.pdf/9337a57c-b4b7-4cb1-0721-bd498d1921b2",
           "httpStatus": 200,
           "error": null,
-          "treffer": 0
+          "treffer": 6
         }
       ],
       "pfad404": {
@@ -33809,7 +33664,7 @@
         "/projekte": false
       },
       "eventsSicher": 0,
-      "eventsReview": 0
+      "eventsReview": 36
     },
     {
       "slug": "sprockhoevel",
@@ -33882,56 +33737,16 @@
       "seiten": [
         {
           "url": "https://lions-stade.de/",
-          "httpStatus": 200,
-          "error": null,
-          "treffer": 14
-        },
-        {
-          "url": "https://lions-stade.de/veranstaltungen",
           "httpStatus": null,
           "error": "ReadTimeout: HTTPSConnectionPool(host='lions-stade.de', port=443): Read timed out. (read timeout=8)",
           "treffer": 0
-        },
-        {
-          "url": "https://lions-stade.de/termine",
-          "httpStatus": 200,
-          "error": null,
-          "treffer": 14
-        },
-        {
-          "url": "https://lions-stade.de/aktivitaeten",
-          "httpStatus": 200,
-          "error": null,
-          "treffer": 14
-        },
-        {
-          "url": "https://lions-stade.de/projekte",
-          "httpStatus": 200,
-          "error": null,
-          "treffer": 4
-        },
-        {
-          "url": "https://lions-stade.de/events/categories/oeffentliche-termine/",
-          "httpStatus": 200,
-          "error": null,
-          "treffer": 14
-        },
-        {
-          "url": "https://lions-stade.de/locations/pferdemarkt-stade/",
-          "httpStatus": 200,
-          "error": null,
-          "treffer": 17
         }
       ],
       "pfad404": {
-        "/": false,
-        "/veranstaltungen": false,
-        "/termine": false,
-        "/aktivitaeten": false,
-        "/projekte": false
+        "/": false
       },
-      "eventsSicher": 62,
-      "eventsReview": 15
+      "eventsSicher": 0,
+      "eventsReview": 0
     },
     {
       "slug": "stade-aurora-von-koenigsmarck",
@@ -34579,7 +34394,7 @@
           "url": "https://uggelharde.lions.de/",
           "httpStatus": 200,
           "error": null,
-          "treffer": 22
+          "treffer": 15
         },
         {
           "url": "https://uggelharde.lions.de/termine",
@@ -34617,7 +34432,7 @@
         "/termine": false,
         "/projekte": false
       },
-      "eventsSicher": 37,
+      "eventsSicher": 30,
       "eventsReview": 5
     },
     {
@@ -35639,16 +35454,16 @@
       "seiten": [
         {
           "url": "https://www.lions-weinheim.de/",
-          "httpStatus": null,
-          "error": "ReadTimeout: HTTPSConnectionPool(host='www.lions-weinheim.de', port=443): Read timed out. (read timeout=8)",
-          "treffer": 0
+          "httpStatus": 200,
+          "error": null,
+          "treffer": 6
         }
       ],
       "pfad404": {
         "/": false
       },
-      "eventsSicher": 0,
-      "eventsReview": 0
+      "eventsSicher": 3,
+      "eventsReview": 3
     },
     {
       "slug": "weissenfels",
@@ -35986,7 +35801,7 @@
           "url": "http://www.lc-wetzlar-charlotte-buff.de/",
           "httpStatus": 200,
           "error": null,
-          "treffer": 10
+          "treffer": 9
         },
         {
           "url": "http://www.lc-wetzlar-charlotte-buff.de/projekte",
@@ -36011,7 +35826,7 @@
         "/": false,
         "/projekte": false
       },
-      "eventsSicher": 10,
+      "eventsSicher": 9,
       "eventsReview": 9
     },
     {
@@ -36482,7 +36297,7 @@
           "url": "https://www.lions-willich.de/startseite/termine/",
           "httpStatus": 200,
           "error": null,
-          "treffer": 1
+          "treffer": 2
         },
         {
           "url": "https://www.lions-willich.de/startseite/gästebuch/",
@@ -36512,7 +36327,7 @@
       "pfad404": {
         "/": false
       },
-      "eventsSicher": 1,
+      "eventsSicher": 2,
       "eventsReview": 0
     },
     {
@@ -36688,8 +36503,8 @@
         },
         {
           "url": "http://www.lions-wittingen.de/projekte",
-          "httpStatus": null,
-          "error": "ReadTimeout: HTTPConnectionPool(host='www.lions-wittingen.de', port=80): Read timed out. (read timeout=8)",
+          "httpStatus": 200,
+          "error": null,
           "treffer": 0
         }
       ],

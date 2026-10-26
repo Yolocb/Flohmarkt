@@ -24,5 +24,34 @@
     "manuellGeprueft": true,
     "lastChecked": "2026-07-22T14:15:22",
     "districtName": "Bayern-Mitte"
+  },
+  {
+    "id": "0672c8d876ff",
+    "clubName": "Lions Club Remscheid",
+    "clubUrl": "https://remscheid.lions.de",
+    "ort": "Remscheid",
+    "bundesland": "",
+    "districtName": "Westfalen-Ruhr",
+    "titel": "Bücherbasar Remscheid",
+    "eventType": "buecherbasar",
+    "datumStart": "2026-07-25",
+    "datumEnd": "2026-07-25",
+    "uhrzeit": "10:00",
+    "status": "kommend",
+    "veranstaltungsort": "",
+    "adresse": "",
+    "beschreibung": "Verkauf ausgelesener Bücher und Vinyl-Schallplatten, jeden vierten Samstag von 10 bis 12 Uhr an der Sammelstelle.",
+    "quelleUrl": "https://remscheid.lions.de/aktuell",
+    "rawDateText": "jeden vierten Samstag",
+    "matchedKeywords": [
+      "Buecherbasar",
+      "Buechermarkt",
+      "Basar",
+      "Termine"
+    ],
+    "confidenceScore": 1.0,
+    "extractionMethod": "html_keyword_date_scan_v1",
+    "lastChecked": "2026-07-25T20:15:13",
+    "manuellGeprueft": true
   }
 ]

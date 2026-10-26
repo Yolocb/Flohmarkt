@@ -5315,7 +5315,12 @@
       "confidenceBase": 0.4,
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
-      "notesInternal": "Aus Clubfinder ermittelt (clubId Süd-West)."
+      "notesInternal": "Aus Clubfinder ermittelt (clubId Süd-West).",
+      "pfad404Count": {
+        "/veranstaltungen": 1,
+        "/aktivitaeten": 1,
+        "/projekte": 1
+      }
     },
     {
       "slug": "offenburg-simplicius",
@@ -5460,7 +5465,12 @@
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
       "notesInternal": "Aus Clubfinder ermittelt (clubId Süd-Nord).",
-      "totLaeufe": 1
+      "totLaeufe": 1,
+      "pfad404Count": {
+        "/termine": 1,
+        "/aktivitaeten": 1,
+        "/projekte": 1
+      }
     },
     {
       "slug": "ravensburg",
@@ -22846,8 +22856,7 @@
         "/termine"
       ],
       "enabledPaths": [
-        "/",
-        "/termine"
+        "/"
       ],
       "excludePaths": [
         "/impressum",
@@ -22869,10 +22878,7 @@
       "confidenceBase": 0.4,
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
-      "notesInternal": "Aus Clubfinder ermittelt (Distrikt Ost-Nord).",
-      "pfad404Count": {
-        "/termine": 1
-      }
+      "notesInternal": "Aus Clubfinder ermittelt (Distrikt Ost-Nord)."
     },
     {
       "slug": "crimmitschau-werdau",
@@ -31022,7 +31028,12 @@
       "confidenceBase": 0.4,
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
-      "notesInternal": "Aus Clubfinder ermittelt (Distrikt Nord)."
+      "notesInternal": "Aus Clubfinder ermittelt (Distrikt Nord).",
+      "pfad404Count": {
+        "/termine": 1,
+        "/aktivitaeten": 1,
+        "/projekte": 1
+      }
     },
     {
       "slug": "hamburg-alster",
@@ -43213,9 +43224,7 @@
       "enabledPaths": [
         "/",
         "/veranstaltungen",
-        "/termine",
-        "/aktivitaeten",
-        "/projekte"
+        "/aktivitaeten"
       ],
       "excludePaths": [
         "/impressum",
@@ -43239,8 +43248,7 @@
       "lastSeedReview": "2026-07-24",
       "notesInternal": "Aus Clubfinder ermittelt (Distrikt Niedersachsen-West).",
       "pfad404Count": {
-        "/termine": 1,
-        "/projekte": 1
+        "/veranstaltungen": 1
       }
     },
     {
