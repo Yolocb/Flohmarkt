@@ -1010,7 +1010,7 @@
       "districtName": "Süd-Mitte",
       "clubUrl": "https://www.lionsclub-balingen.de",
       "sourceType": "club_website",
-      "urlStatus": "verified",
+      "urlStatus": "tot",
       "enabled": true,
       "priority": 3,
       "scanDepth": 1,
@@ -1049,7 +1049,8 @@
       "confidenceBase": 0.4,
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
-      "notesInternal": "Aus Clubfinder ermittelt (clubId Süd-Mitte)."
+      "notesInternal": "Aus Clubfinder ermittelt (clubId Süd-Mitte).",
+      "totLaeufe": 1
     },
     {
       "slug": "biberach",
@@ -2586,7 +2587,7 @@
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
       "notesInternal": "Aus Clubfinder ermittelt (clubId Süd-Mitte).",
-      "totLaeufe": 1
+      "totLaeufe": 2
     },
     {
       "slug": "goeppingen",
@@ -2737,7 +2738,7 @@
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
       "notesInternal": "Aus Clubfinder ermittelt (clubId Süd-Nord).",
-      "totLaeufe": 1
+      "totLaeufe": 2
     },
     {
       "slug": "heidelberg-mittlere-bergstrasse",
@@ -2883,7 +2884,7 @@
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
       "notesInternal": "Aus Clubfinder ermittelt (clubId Süd-Nord).",
-      "totLaeufe": 1
+      "totLaeufe": 2
     },
     {
       "slug": "heidenheim-a-d-brenz",
@@ -3323,7 +3324,7 @@
       "districtName": "Süd-Mitte",
       "clubUrl": "https://www.lc-hohenloherland.de",
       "sourceType": "club_website",
-      "urlStatus": "verified",
+      "urlStatus": "tot",
       "enabled": true,
       "priority": 3,
       "scanDepth": 1,
@@ -3362,7 +3363,8 @@
       "confidenceBase": 0.4,
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
-      "notesInternal": "Aus Clubfinder ermittelt (clubId Süd-Mitte)."
+      "notesInternal": "Aus Clubfinder ermittelt (clubId Süd-Mitte).",
+      "totLaeufe": 1
     },
     {
       "slug": "hohenzollern-hechingen",
@@ -5425,7 +5427,7 @@
       "districtName": "Süd-Nord",
       "clubUrl": "https://www.Lions-pf.de",
       "sourceType": "club_website",
-      "urlStatus": "tot",
+      "urlStatus": "verified",
       "enabled": true,
       "priority": 3,
       "scanDepth": 1,
@@ -5465,7 +5467,7 @@
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
       "notesInternal": "Aus Clubfinder ermittelt (clubId Süd-Nord).",
-      "totLaeufe": 1,
+      "totLaeufe": 0,
       "pfad404Count": {
         "/termine": 1,
         "/aktivitaeten": 1,
@@ -6017,7 +6019,7 @@
       "districtName": "Süd-Mitte",
       "clubUrl": "https://www.lions-club-solitude.de",
       "sourceType": "club_website",
-      "urlStatus": "verified",
+      "urlStatus": "tot",
       "enabled": true,
       "priority": 3,
       "scanDepth": 1,
@@ -6052,7 +6054,8 @@
       "confidenceBase": 0.4,
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
-      "notesInternal": "Aus Clubfinder ermittelt (clubId Süd-Mitte)."
+      "notesInternal": "Aus Clubfinder ermittelt (clubId Süd-Mitte).",
+      "totLaeufe": 1
     },
     {
       "slug": "stockach",
@@ -6546,7 +6549,7 @@
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
       "notesInternal": "Aus Clubfinder ermittelt (clubId Süd-West).",
-      "totLaeufe": 1
+      "totLaeufe": 2
     },
     {
       "slug": "tuebingen",
@@ -6791,7 +6794,7 @@
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
       "notesInternal": "Aus Clubfinder ermittelt (clubId Süd-West).",
-      "totLaeufe": 1
+      "totLaeufe": 2
     },
     {
       "slug": "waiblingen",
@@ -7425,7 +7428,7 @@
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
       "notesInternal": "Aus Clubfinder ermittelt (clubId Bayern-Nord).",
-      "totLaeufe": 1
+      "totLaeufe": 2
     },
     {
       "slug": "altdorf-bei-nuernberg",
@@ -8145,7 +8148,7 @@
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
       "notesInternal": "Aus Clubfinder ermittelt (clubId Bayern-Süd).",
-      "totLaeufe": 1
+      "totLaeufe": 2
     },
     {
       "slug": "bad-aibling-mangfalltal",
@@ -8344,7 +8347,7 @@
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
       "notesInternal": "Aus Clubfinder ermittelt (clubId Bayern-Nord).",
-      "totLaeufe": 1
+      "totLaeufe": 2
     },
     {
       "slug": "bad-reichenhall",
@@ -8726,7 +8729,7 @@
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
       "notesInternal": "Aus Clubfinder ermittelt (clubId Bayern-Ost).",
-      "totLaeufe": 1
+      "totLaeufe": 2
     },
     {
       "slug": "beilngries",
@@ -10022,7 +10025,7 @@
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
       "notesInternal": "Aus Clubfinder ermittelt (clubId Bayern-Süd).",
-      "totLaeufe": 1
+      "totLaeufe": 2
     },
     {
       "slug": "garmisch-partenkirchen",
@@ -10597,7 +10600,7 @@
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
       "notesInternal": "Aus Clubfinder ermittelt (clubId Bayern-Nord).",
-      "totLaeufe": 1
+      "totLaeufe": 2
     },
     {
       "slug": "hochfranken",
@@ -11135,7 +11138,7 @@
       "districtName": "Bayern-Nord",
       "clubUrl": "https://www.lions-club-kronach.de",
       "sourceType": "club_website",
-      "urlStatus": "verified",
+      "urlStatus": "tot",
       "enabled": true,
       "priority": 3,
       "scanDepth": 1,
@@ -11174,7 +11177,8 @@
       "confidenceBase": 0.4,
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
-      "notesInternal": "Aus Clubfinder ermittelt (clubId Bayern-Nord)."
+      "notesInternal": "Aus Clubfinder ermittelt (clubId Bayern-Nord).",
+      "totLaeufe": 1
     },
     {
       "slug": "kronach-festung-rosenberg",
@@ -11934,7 +11938,7 @@
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
       "notesInternal": "Aus Clubfinder ermittelt (clubId Bayern-Süd).",
-      "totLaeufe": 1
+      "totLaeufe": 2
     },
     {
       "slug": "muenchen",
@@ -11985,7 +11989,7 @@
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
       "notesInternal": "Aus Clubfinder ermittelt (clubId Bayern-Süd).",
-      "totLaeufe": 1
+      "totLaeufe": 2
     },
     {
       "slug": "muenchen-bergblick",
@@ -11996,7 +12000,7 @@
       "districtName": "Bayern-Süd",
       "clubUrl": "https://www.instagram.com/lionsclubmuenchenbergblick?igsh=dDEzdWM3dnhzZmJ4",
       "sourceType": "club_website",
-      "urlStatus": "tot",
+      "urlStatus": "verified",
       "enabled": true,
       "priority": 3,
       "scanDepth": 1,
@@ -12036,7 +12040,7 @@
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
       "notesInternal": "Aus Clubfinder ermittelt (clubId Bayern-Süd).",
-      "totLaeufe": 1
+      "totLaeufe": 0
     },
     {
       "slug": "muenchen-muenchner-kindl",
@@ -12325,7 +12329,7 @@
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
       "notesInternal": "Aus Clubfinder ermittelt (clubId Bayern-Süd).",
-      "totLaeufe": 1
+      "totLaeufe": 2
     },
     {
       "slug": "muenchen-friedensengel",
@@ -12567,7 +12571,7 @@
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
       "notesInternal": "Aus Clubfinder ermittelt (clubId Bayern-Süd).",
-      "totLaeufe": 1
+      "totLaeufe": 2
     },
     {
       "slug": "muenchen-karl-valentin",
@@ -12760,7 +12764,7 @@
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
       "notesInternal": "Aus Clubfinder ermittelt (clubId Bayern-Süd).",
-      "totLaeufe": 1
+      "totLaeufe": 2
     },
     {
       "slug": "muenchen-metropolitan",
@@ -12954,7 +12958,7 @@
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
       "notesInternal": "Aus Clubfinder ermittelt (clubId Bayern-Süd).",
-      "totLaeufe": 1
+      "totLaeufe": 2
     },
     {
       "slug": "muenchen-pullach",
@@ -13628,7 +13632,7 @@
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
       "notesInternal": "Aus Clubfinder ermittelt (clubId Bayern-Nord).",
-      "totLaeufe": 1
+      "totLaeufe": 2
     },
     {
       "slug": "nuernberg-metropol-inklusion",
@@ -14820,7 +14824,7 @@
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
       "notesInternal": "Aus Clubfinder ermittelt (clubId Bayern-Süd).",
-      "totLaeufe": 1
+      "totLaeufe": 2
     },
     {
       "slug": "starnberger-see-ludwig-ii",
@@ -16013,7 +16017,7 @@
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
       "notesInternal": "Aus Clubfinder ermittelt (Distrikt Rheinland-Süd).",
-      "totLaeufe": 1
+      "totLaeufe": 2
     },
     {
       "slug": "aachen-kaiserpfalz",
@@ -16256,7 +16260,7 @@
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
       "notesInternal": "Aus Clubfinder ermittelt (Distrikt Ost-Mitte).",
-      "totLaeufe": 1
+      "totLaeufe": 2
     },
     {
       "slug": "altenkirchen-friedrich-wilhelm-raiffeisen",
@@ -16799,7 +16803,7 @@
       "districtName": "Niedersachsen-West",
       "clubUrl": "https://www.lions-frisia-orientalis.de",
       "sourceType": "club_website",
-      "urlStatus": "verified",
+      "urlStatus": "tot",
       "enabled": true,
       "priority": 3,
       "scanDepth": 1,
@@ -16834,7 +16838,8 @@
       "confidenceBase": 0.4,
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
-      "notesInternal": "Aus Clubfinder ermittelt (Distrikt Niedersachsen-West)."
+      "notesInternal": "Aus Clubfinder ermittelt (Distrikt Niedersachsen-West).",
+      "totLaeufe": 1
     },
     {
       "slug": "bad-arolsen",
@@ -16885,7 +16890,7 @@
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
       "notesInternal": "Aus Clubfinder ermittelt (Distrikt Mitte-Nord).",
-      "totLaeufe": 1
+      "totLaeufe": 2
     },
     {
       "slug": "bad-bergzabern",
@@ -17028,7 +17033,7 @@
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
       "notesInternal": "Aus Clubfinder ermittelt (Distrikt Mitte-Süd).",
-      "totLaeufe": 1
+      "totLaeufe": 2
     },
     {
       "slug": "bad-essen-lea-wiehengebirge",
@@ -18086,7 +18091,7 @@
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
       "notesInternal": "Aus Clubfinder ermittelt (Distrikt Westfalen-Lippe).",
-      "totLaeufe": 1
+      "totLaeufe": 2
     },
     {
       "slug": "bensberg-koenigsforst",
@@ -18579,7 +18584,7 @@
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
       "notesInternal": "Aus Clubfinder ermittelt (Distrikt Ost-Nord).",
-      "totLaeufe": 1
+      "totLaeufe": 2
     },
     {
       "slug": "berlin-gendarmenmarkt",
@@ -18963,7 +18968,7 @@
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
       "notesInternal": "Aus Clubfinder ermittelt (Distrikt Ost-Nord).",
-      "totLaeufe": 1
+      "totLaeufe": 2
     },
     {
       "slug": "berlin-pariser-platz",
@@ -19216,7 +19221,7 @@
       "districtName": "Ost-Nord",
       "clubUrl": "https://www.lions-berlin-spandau.de",
       "sourceType": "club_website",
-      "urlStatus": "tot",
+      "urlStatus": "verified",
       "enabled": true,
       "priority": 3,
       "scanDepth": 1,
@@ -19253,7 +19258,7 @@
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
       "notesInternal": "Aus Clubfinder ermittelt (Distrikt Ost-Nord).",
-      "totLaeufe": 1
+      "totLaeufe": 0
     },
     {
       "slug": "berlin-spree",
@@ -19403,7 +19408,7 @@
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
       "notesInternal": "Aus Clubfinder ermittelt (Distrikt Ost-Nord).",
-      "totLaeufe": 1
+      "totLaeufe": 2
     },
     {
       "slug": "berliner-ring",
@@ -19692,7 +19697,7 @@
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
       "notesInternal": "Aus Clubfinder ermittelt (Distrikt Westfalen-Lippe).",
-      "totLaeufe": 1
+      "totLaeufe": 2
     },
     {
       "slug": "bielefeld-phoenix",
@@ -21140,7 +21145,7 @@
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
       "notesInternal": "Aus Clubfinder ermittelt (Distrikt Niedersachsen-Hannover).",
-      "totLaeufe": 1
+      "totLaeufe": 2
     },
     {
       "slug": "braunschweig-eulenspiegel",
@@ -21524,7 +21529,7 @@
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
       "notesInternal": "Aus Clubfinder ermittelt (Distrikt Niedersachsen-Bremen).",
-      "totLaeufe": 1
+      "totLaeufe": 2
     },
     {
       "slug": "bremen-wuemme",
@@ -21577,7 +21582,7 @@
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
       "notesInternal": "Aus Clubfinder ermittelt (Distrikt Niedersachsen-Bremen).",
-      "totLaeufe": 1
+      "totLaeufe": 2
     },
     {
       "slug": "bremer-westen",
@@ -22014,7 +22019,7 @@
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
       "notesInternal": "Aus Clubfinder ermittelt (Distrikt Niedersachsen-Hannover).",
-      "totLaeufe": 1
+      "totLaeufe": 2
     },
     {
       "slug": "butzbach",
@@ -22213,7 +22218,7 @@
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
       "notesInternal": "Aus Clubfinder ermittelt (Distrikt Westfalen-Lippe).",
-      "totLaeufe": 1
+      "totLaeufe": 2
     },
     {
       "slug": "castrop-rauxel",
@@ -22416,7 +22421,7 @@
       "districtName": "Ost-Süd",
       "clubUrl": "https://www.lions-rabenstein.de",
       "sourceType": "club_website",
-      "urlStatus": "verified",
+      "urlStatus": "tot",
       "enabled": true,
       "priority": 3,
       "scanDepth": 1,
@@ -22451,7 +22456,8 @@
       "confidenceBase": 0.4,
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
-      "notesInternal": "Aus Clubfinder ermittelt (Distrikt Ost-Süd)."
+      "notesInternal": "Aus Clubfinder ermittelt (Distrikt Ost-Süd).",
+      "totLaeufe": 1
     },
     {
       "slug": "chemnitz-richard-hartmann",
@@ -23699,7 +23705,7 @@
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
       "notesInternal": "Aus Clubfinder ermittelt (Distrikt Mitte-Nord).",
-      "totLaeufe": 1
+      "totLaeufe": 2
     },
     {
       "slug": "dillenburg-oranien",
@@ -23852,7 +23858,7 @@
       "districtName": "Rheinland-Nord",
       "clubUrl": "https://www.lionsclub-dinslaken-2012.de",
       "sourceType": "club_website",
-      "urlStatus": "verified",
+      "urlStatus": "tot",
       "enabled": true,
       "priority": 3,
       "scanDepth": 1,
@@ -23887,7 +23893,8 @@
       "confidenceBase": 0.4,
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
-      "notesInternal": "Aus Clubfinder ermittelt (Distrikt Rheinland-Nord)."
+      "notesInternal": "Aus Clubfinder ermittelt (Distrikt Rheinland-Nord).",
+      "totLaeufe": 1
     },
     {
       "slug": "dippoldiswalde",
@@ -24130,7 +24137,7 @@
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
       "notesInternal": "Aus Clubfinder ermittelt (Distrikt Westfalen-Lippe).",
-      "totLaeufe": 1
+      "totLaeufe": 2
     },
     {
       "slug": "dortmund",
@@ -24420,7 +24427,7 @@
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
       "notesInternal": "Aus Clubfinder ermittelt (Distrikt Westfalen-Ruhr).",
-      "totLaeufe": 1
+      "totLaeufe": 2
     },
     {
       "slug": "dortmund-rothe-erde",
@@ -25137,7 +25144,7 @@
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
       "notesInternal": "Aus Clubfinder ermittelt (Distrikt Rheinland-Nord).",
-      "totLaeufe": 1
+      "totLaeufe": 2
     },
     {
       "slug": "duisburg-hamborn",
@@ -25328,7 +25335,7 @@
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
       "notesInternal": "Aus Clubfinder ermittelt (Distrikt Rheinland-Süd).",
-      "totLaeufe": 1
+      "totLaeufe": 2
     },
     {
       "slug": "dueren-rurstadt",
@@ -26094,7 +26101,7 @@
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
       "notesInternal": "Aus Clubfinder ermittelt (Distrikt Rheinland-Nord).",
-      "totLaeufe": 1
+      "totLaeufe": 2
     },
     {
       "slug": "eckernfoerde",
@@ -26247,7 +26254,7 @@
       "districtName": "Nord",
       "clubUrl": "https://www.lions-elmshorn.de",
       "sourceType": "club_website",
-      "urlStatus": "tot",
+      "urlStatus": "verified",
       "enabled": true,
       "priority": 3,
       "scanDepth": 1,
@@ -26283,7 +26290,7 @@
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
       "notesInternal": "Aus Clubfinder ermittelt (Distrikt Nord).",
-      "totLaeufe": 1
+      "totLaeufe": 0
     },
     {
       "slug": "emden-friesische-freiheit",
@@ -26487,7 +26494,7 @@
       "districtName": "Westfalen-Ruhr",
       "clubUrl": "https://www.lions-en.de",
       "sourceType": "club_website",
-      "urlStatus": "verified",
+      "urlStatus": "tot",
       "enabled": true,
       "priority": 3,
       "scanDepth": 1,
@@ -26522,7 +26529,8 @@
       "confidenceBase": 0.4,
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
-      "notesInternal": "Aus Clubfinder ermittelt (Distrikt Westfalen-Ruhr)."
+      "notesInternal": "Aus Clubfinder ermittelt (Distrikt Westfalen-Ruhr).",
+      "totLaeufe": 1
     },
     {
       "slug": "ennepe-ruhr-audacia",
@@ -27059,7 +27067,7 @@
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
       "notesInternal": "Aus Clubfinder ermittelt (Distrikt Westfalen-Ruhr).",
-      "totLaeufe": 1
+      "totLaeufe": 2
     },
     {
       "slug": "essen-assindia",
@@ -27353,7 +27361,7 @@
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
       "notesInternal": "Aus Clubfinder ermittelt (Distrikt Westfalen-Ruhr).",
-      "totLaeufe": 1
+      "totLaeufe": 2
     },
     {
       "slug": "essen-werethina",
@@ -27781,7 +27789,7 @@
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
       "notesInternal": "Aus Clubfinder ermittelt (Distrikt Nord).",
-      "totLaeufe": 1
+      "totLaeufe": 2
     },
     {
       "slug": "floeha-augustusburg",
@@ -28111,7 +28119,7 @@
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
       "notesInternal": "Aus Clubfinder ermittelt (Distrikt Mitte-Nord).",
-      "totLaeufe": 1
+      "totLaeufe": 2
     },
     {
       "slug": "frankfurt-goethestadt",
@@ -28308,7 +28316,7 @@
       "districtName": "Mitte-Nord",
       "clubUrl": "http://lions-ffm.de",
       "sourceType": "club_website",
-      "urlStatus": "verified",
+      "urlStatus": "tot",
       "enabled": true,
       "priority": 3,
       "scanDepth": 1,
@@ -28345,7 +28353,8 @@
       "confidenceBase": 0.4,
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
-      "notesInternal": "Aus Clubfinder ermittelt (Distrikt Mitte-Nord)."
+      "notesInternal": "Aus Clubfinder ermittelt (Distrikt Mitte-Nord).",
+      "totLaeufe": 1
     },
     {
       "slug": "frankfurt-roemer",
@@ -28542,7 +28551,7 @@
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
       "notesInternal": "Aus Clubfinder ermittelt (Distrikt Ost-Süd).",
-      "totLaeufe": 1
+      "totLaeufe": 2
     },
     {
       "slug": "freudenberg",
@@ -29410,7 +29419,7 @@
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
       "notesInternal": "Aus Clubfinder ermittelt (Distrikt Niedersachsen-Hannover).",
-      "totLaeufe": 1
+      "totLaeufe": 2
     },
     {
       "slug": "goslar-kaiserpfalz",
@@ -29745,7 +29754,7 @@
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
       "notesInternal": "Aus Clubfinder ermittelt (Distrikt Ost-Mitte).",
-      "totLaeufe": 1
+      "totLaeufe": 2
     },
     {
       "slug": "grevenbroich",
@@ -30474,7 +30483,7 @@
       "districtName": "Westfalen-Ruhr",
       "clubUrl": "https://www.lions-hagen-asteria.de",
       "sourceType": "club_website",
-      "urlStatus": "verified",
+      "urlStatus": "tot",
       "enabled": true,
       "priority": 3,
       "scanDepth": 1,
@@ -30509,7 +30518,8 @@
       "confidenceBase": 0.4,
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
-      "notesInternal": "Aus Clubfinder ermittelt (Distrikt Westfalen-Ruhr)."
+      "notesInternal": "Aus Clubfinder ermittelt (Distrikt Westfalen-Ruhr).",
+      "totLaeufe": 1
     },
     {
       "slug": "hagen-harkort",
@@ -32053,7 +32063,7 @@
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
       "notesInternal": "Aus Clubfinder ermittelt (Distrikt Mitte-Nord).",
-      "totLaeufe": 1
+      "totLaeufe": 2
     },
     {
       "slug": "hanau-am-limes",
@@ -32149,7 +32159,7 @@
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
       "notesInternal": "Aus Clubfinder ermittelt (Distrikt Mitte-Nord).",
-      "totLaeufe": 1
+      "totLaeufe": 2
     },
     {
       "slug": "hann-muenden",
@@ -32823,7 +32833,7 @@
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
       "notesInternal": "Aus Clubfinder ermittelt (Distrikt Mitte-Nord).",
-      "totLaeufe": 1
+      "totLaeufe": 2
     },
     {
       "slug": "hattingen-ruhr",
@@ -33310,7 +33320,7 @@
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
       "notesInternal": "Aus Clubfinder ermittelt (Distrikt Westfalen-Lippe).",
-      "totLaeufe": 1
+      "totLaeufe": 2
     },
     {
       "slug": "hermannsburg-bergen",
@@ -33986,7 +33996,7 @@
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
       "notesInternal": "Aus Clubfinder ermittelt (Distrikt Mitte-Nord).",
-      "totLaeufe": 1
+      "totLaeufe": 2
     },
     {
       "slug": "hofheim-am-taunus",
@@ -34091,7 +34101,7 @@
       "districtName": "Mitte-Süd",
       "clubUrl": "https://www.lions-hunsrueck.de",
       "sourceType": "club_website",
-      "urlStatus": "tot",
+      "urlStatus": "verified",
       "enabled": true,
       "priority": 3,
       "scanDepth": 1,
@@ -34127,7 +34137,7 @@
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
       "notesInternal": "Aus Clubfinder ermittelt (Distrikt Mitte-Süd).",
-      "totLaeufe": 1
+      "totLaeufe": 0
     },
     {
       "slug": "husum",
@@ -35985,7 +35995,7 @@
       "districtName": "Mitte-Nord",
       "clubUrl": "https://www.lions-waldeckerland.de",
       "sourceType": "club_website",
-      "urlStatus": "tot",
+      "urlStatus": "verified",
       "enabled": true,
       "priority": 3,
       "scanDepth": 1,
@@ -36021,7 +36031,7 @@
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
       "notesInternal": "Aus Clubfinder ermittelt (Distrikt Mitte-Nord).",
-      "totLaeufe": 1
+      "totLaeufe": 0
     },
     {
       "slug": "krefeld-gelduba",
@@ -36122,7 +36132,7 @@
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
       "notesInternal": "Aus Clubfinder ermittelt (Distrikt Rheinland-Nord).",
-      "totLaeufe": 1
+      "totLaeufe": 2
     },
     {
       "slug": "kreuzau-rureifel",
@@ -36366,7 +36376,7 @@
       "districtName": "Rheinland-Süd",
       "clubUrl": "http://www.lc-claudia-ara.de",
       "sourceType": "club_website",
-      "urlStatus": "verified",
+      "urlStatus": "tot",
       "enabled": true,
       "priority": 3,
       "scanDepth": 1,
@@ -36401,7 +36411,8 @@
       "confidenceBase": 0.4,
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
-      "notesInternal": "Aus Clubfinder ermittelt (Distrikt Rheinland-Süd)."
+      "notesInternal": "Aus Clubfinder ermittelt (Distrikt Rheinland-Süd).",
+      "totLaeufe": 1
     },
     {
       "slug": "koeln-colonia",
@@ -36738,7 +36749,7 @@
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
       "notesInternal": "Aus Clubfinder ermittelt (Distrikt Rheinland-Süd).",
-      "totLaeufe": 1
+      "totLaeufe": 2
     },
     {
       "slug": "koenigs-wusterhausen",
@@ -37416,7 +37427,7 @@
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
       "notesInternal": "Aus Clubfinder ermittelt (Distrikt Niedersachsen-West).",
-      "totLaeufe": 1
+      "totLaeufe": 2
     },
     {
       "slug": "langeoog-graefin-anna",
@@ -37849,7 +37860,7 @@
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
       "notesInternal": "Aus Clubfinder ermittelt (Distrikt Ost-Süd).",
-      "totLaeufe": 1
+      "totLaeufe": 2
     },
     {
       "slug": "leipzig-saxonia",
@@ -38133,7 +38144,7 @@
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
       "notesInternal": "Aus Clubfinder ermittelt (Distrikt Rheinland-Süd).",
-      "totLaeufe": 1
+      "totLaeufe": 2
     },
     {
       "slug": "lilienthal",
@@ -38231,7 +38242,7 @@
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
       "notesInternal": "Aus Clubfinder ermittelt (Distrikt Ost-Süd).",
-      "totLaeufe": 1
+      "totLaeufe": 2
     },
     {
       "slug": "limburg-mittellahn",
@@ -39040,7 +39051,7 @@
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
       "notesInternal": "Aus Clubfinder ermittelt (Distrikt Nord).",
-      "totLaeufe": 1
+      "totLaeufe": 2
     },
     {
       "slug": "luebecker-bucht",
@@ -39380,7 +39391,7 @@
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
       "notesInternal": "Aus Clubfinder ermittelt (Distrikt Nord).",
-      "totLaeufe": 1
+      "totLaeufe": 2
     },
     {
       "slug": "luenen",
@@ -39478,7 +39489,7 @@
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
       "notesInternal": "Aus Clubfinder ermittelt (Distrikt Nord).",
-      "totLaeufe": 1
+      "totLaeufe": 2
     },
     {
       "slug": "magdeburg",
@@ -39915,7 +39926,7 @@
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
       "notesInternal": "Aus Clubfinder ermittelt (Distrikt Mitte-Süd).",
-      "totLaeufe": 1
+      "totLaeufe": 2
     },
     {
       "slug": "marburg",
@@ -40692,7 +40703,7 @@
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
       "notesInternal": "Aus Clubfinder ermittelt (Distrikt Ost-Mitte).",
-      "totLaeufe": 1
+      "totLaeufe": 2
     },
     {
       "slug": "merzig-saar",
@@ -43300,7 +43311,7 @@
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
       "notesInternal": "Aus Clubfinder ermittelt (Distrikt Niedersachsen-Hannover).",
-      "totLaeufe": 1
+      "totLaeufe": 2
     },
     {
       "slug": "oberhausen",
@@ -43353,7 +43364,7 @@
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
       "notesInternal": "Aus Clubfinder ermittelt (Distrikt Westfalen-Ruhr).",
-      "totLaeufe": 1
+      "totLaeufe": 2
     },
     {
       "slug": "oberhausen-glueckauf",
@@ -43834,7 +43845,7 @@
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
       "notesInternal": "Aus Clubfinder ermittelt (Distrikt Niedersachsen-West).",
-      "totLaeufe": 1
+      "totLaeufe": 2
     },
     {
       "slug": "oldenburg-in-holstein",
@@ -43994,7 +44005,7 @@
       "districtName": "Niedersachsen-West",
       "clubUrl": "https://www.lcog.de",
       "sourceType": "club_website",
-      "urlStatus": "tot",
+      "urlStatus": "verified",
       "enabled": true,
       "priority": 3,
       "scanDepth": 1,
@@ -44031,7 +44042,7 @@
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
       "notesInternal": "Aus Clubfinder ermittelt (Distrikt Niedersachsen-West).",
-      "totLaeufe": 1
+      "totLaeufe": 0
     },
     {
       "slug": "olpe-am-biggesee",
@@ -45332,7 +45343,7 @@
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
       "notesInternal": "Aus Clubfinder ermittelt (Distrikt Ost-Mitte).",
-      "totLaeufe": 1
+      "totLaeufe": 2
     },
     {
       "slug": "quickborn",
@@ -45574,7 +45585,7 @@
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
       "notesInternal": "Aus Clubfinder ermittelt (Distrikt Rheinland-Nord).",
-      "totLaeufe": 1
+      "totLaeufe": 2
     },
     {
       "slug": "ratingen-ratinger-tor",
@@ -46390,7 +46401,7 @@
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
       "notesInternal": "Aus Clubfinder ermittelt (Distrikt Mitte-Süd).",
-      "totLaeufe": 1
+      "totLaeufe": 2
     },
     {
       "slug": "ritterhude",
@@ -46819,7 +46830,7 @@
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
       "notesInternal": "Aus Clubfinder ermittelt (Distrikt Mitte-Süd).",
-      "totLaeufe": 1
+      "totLaeufe": 2
     },
     {
       "slug": "saarburg",
@@ -47112,7 +47123,7 @@
       "districtName": "Ost-Mitte",
       "clubUrl": "https://www.lions-sangerhausen.de",
       "sourceType": "club_website",
-      "urlStatus": "tot",
+      "urlStatus": "verified",
       "enabled": true,
       "priority": 3,
       "scanDepth": 1,
@@ -47148,7 +47159,7 @@
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
       "notesInternal": "Aus Clubfinder ermittelt (Distrikt Ost-Mitte).",
-      "totLaeufe": 1
+      "totLaeufe": 0
     },
     {
       "slug": "scheessel",
@@ -47438,7 +47449,7 @@
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
       "notesInternal": "Aus Clubfinder ermittelt (Distrikt Ost-Nord).",
-      "totLaeufe": 1
+      "totLaeufe": 2
     },
     {
       "slug": "schwerin-fuerst-niklot",
@@ -47781,7 +47792,7 @@
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
       "notesInternal": "Aus Clubfinder ermittelt (Distrikt Niedersachsen-Hannover).",
-      "totLaeufe": 1
+      "totLaeufe": 2
     },
     {
       "slug": "segeberg",
@@ -48371,7 +48382,7 @@
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
       "notesInternal": "Aus Clubfinder ermittelt (Distrikt Ost-Mitte).",
-      "totLaeufe": 1
+      "totLaeufe": 2
     },
     {
       "slug": "sorpesee",
@@ -49052,7 +49063,7 @@
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
       "notesInternal": "Aus Clubfinder ermittelt (Distrikt Nord).",
-      "totLaeufe": 1
+      "totLaeufe": 2
     },
     {
       "slug": "strausberg",
@@ -49243,7 +49254,7 @@
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
       "notesInternal": "Aus Clubfinder ermittelt (Distrikt Mitte-Nord).",
-      "totLaeufe": 1
+      "totLaeufe": 2
     },
     {
       "slug": "sylt",
@@ -49964,7 +49975,7 @@
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
       "notesInternal": "Aus Clubfinder ermittelt (Distrikt Mitte-Süd).",
-      "totLaeufe": 1
+      "totLaeufe": 2
     },
     {
       "slug": "vallendar-whu",
@@ -50163,7 +50174,7 @@
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
       "notesInternal": "Aus Clubfinder ermittelt (Distrikt Westfalen-Lippe).",
-      "totLaeufe": 1
+      "totLaeufe": 2
     },
     {
       "slug": "visselhoevede",
@@ -50363,7 +50374,7 @@
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
       "notesInternal": "Aus Clubfinder ermittelt (Distrikt Rheinland-Süd).",
-      "totLaeufe": 1
+      "totLaeufe": 2
     },
     {
       "slug": "vortaunus",
@@ -50609,7 +50620,7 @@
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
       "notesInternal": "Aus Clubfinder ermittelt (Distrikt Ost-Nord).",
-      "totLaeufe": 1
+      "totLaeufe": 2
     },
     {
       "slug": "wanne-eickel",
@@ -50757,7 +50768,7 @@
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
       "notesInternal": "Aus Clubfinder ermittelt (Distrikt Westfalen-Lippe).",
-      "totLaeufe": 1
+      "totLaeufe": 2
     },
     {
       "slug": "warnemuende",
@@ -53354,7 +53365,7 @@
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
       "notesInternal": "Aus Clubfinder ermittelt (Distrikt Niedersachsen-West).",
-      "totLaeufe": 1
+      "totLaeufe": 2
     },
     {
       "slug": "zeven",

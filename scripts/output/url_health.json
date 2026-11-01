@@ -1,5 +1,5 @@
 {
-  "zeitstempel": "2026-10-01T11:40:57",
+  "zeitstempel": "2026-11-01T11:58:23",
   "geprueft": 1112,
   "deaktiviert": [],
   "ergebnisse": [
@@ -196,10 +196,10 @@
       "slug": "balingen",
       "clubName": "Lions Club Balingen",
       "clubUrl": "https://www.lionsclub-balingen.de",
-      "status": "ok",
-      "httpStatus": 200,
-      "error": null,
-      "vorschlagUrl": null
+      "status": "tot",
+      "httpStatus": null,
+      "error": "ConnectionError: HTTPSConnectionPool(host='www.lionsclub-balingen.de', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='www.lionsclub-balingen.de', port=443): Failed to resolve 'www.lionsclub-balingen.de' ([Errno -2] Name or service not known)\"))",
+      "vorschlagUrl": "https://balingen.lions.de"
     },
     {
       "slug": "biberach",
@@ -628,10 +628,10 @@
       "slug": "hohenloher-land",
       "clubName": "Lions Club Hohenloher Land",
       "clubUrl": "https://www.lc-hohenloherland.de",
-      "status": "ok",
-      "httpStatus": 200,
-      "error": null,
-      "vorschlagUrl": null
+      "status": "tot",
+      "httpStatus": null,
+      "error": "ConnectionError: HTTPSConnectionPool(host='www.lc-hohenloherland.de', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='www.lc-hohenloherland.de', port=443): Failed to resolve 'www.lc-hohenloherland.de' ([Errno -2] Name or service not known)\"))",
+      "vorschlagUrl": "https://hohenloher-land.lions.de"
     },
     {
       "slug": "hohenzollern-hechingen",
@@ -1024,9 +1024,9 @@
       "slug": "pforzheim-2",
       "clubName": "Lions Club Pforzheim",
       "clubUrl": "https://www.Lions-pf.de",
-      "status": "tot",
-      "httpStatus": null,
-      "error": "HTTP 403",
+      "status": "ok",
+      "httpStatus": 200,
+      "error": null,
       "vorschlagUrl": null
     },
     {
@@ -1132,10 +1132,10 @@
       "slug": "solitude-leonberg-ditzingen-gerlingen",
       "clubName": "Lions Club Solitude Leonberg Ditzingen Gerlingen",
       "clubUrl": "https://www.lions-club-solitude.de",
-      "status": "ok",
-      "httpStatus": 200,
-      "error": null,
-      "vorschlagUrl": null
+      "status": "tot",
+      "httpStatus": null,
+      "error": "HTTP 404",
+      "vorschlagUrl": "https://solitude-leonberg-ditzingen-gerlingen.lions.de"
     },
     {
       "slug": "stockach",
@@ -2086,10 +2086,10 @@
       "slug": "kronach",
       "clubName": "Lions Club Kronach",
       "clubUrl": "https://www.lions-club-kronach.de",
-      "status": "ok",
-      "httpStatus": 200,
-      "error": null,
-      "vorschlagUrl": null
+      "status": "tot",
+      "httpStatus": null,
+      "error": "ConnectionError: HTTPSConnectionPool(host='www.lions-club-kronach.de', port=443): Max retries exceeded with url: / (Caused by NewConnectionError(\"HTTPSConnection(host='www.lions-club-kronach.de', port=443): Failed to establish a new connection: [Errno 111] Connection refused\"))",
+      "vorschlagUrl": "https://kronach.lions.de"
     },
     {
       "slug": "kronach-festung-rosenberg",
@@ -2248,9 +2248,9 @@
       "slug": "muenchen-bergblick",
       "clubName": "Lions Club München Bergblick",
       "clubUrl": "https://www.instagram.com/lionsclubmuenchenbergblick?igsh=dDEzdWM3dnhzZmJ4",
-      "status": "tot",
-      "httpStatus": null,
-      "error": "HTTP 429",
+      "status": "ok",
+      "httpStatus": 200,
+      "error": null,
       "vorschlagUrl": null
     },
     {
@@ -3148,10 +3148,10 @@
       "slug": "aurich-frisia-orientalis",
       "clubName": "Lions Club Aurich -Frisia Orientalis",
       "clubUrl": "https://www.lions-frisia-orientalis.de",
-      "status": "ok",
-      "httpStatus": 200,
-      "error": null,
-      "vorschlagUrl": null
+      "status": "tot",
+      "httpStatus": null,
+      "error": "HTTP 503",
+      "vorschlagUrl": "https://aurich-frisia-orientalis.lions.de"
     },
     {
       "slug": "bad-arolsen",
@@ -3546,7 +3546,7 @@
       "clubUrl": "https://www.lcbn.de",
       "status": "tot",
       "httpStatus": null,
-      "error": "ConnectTimeout: HTTPSConnectionPool(host='www.lcbn.de', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.lcbn.de', port=443) at 0x7f46593e4e90>, 'Connection to www.lcbn.de timed out. (connect timeout=8)'))",
+      "error": "ConnectTimeout: HTTPSConnectionPool(host='www.lcbn.de', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.lcbn.de', port=443) at 0x7f3d0dcbade0>, 'Connection to www.lcbn.de timed out. (connect timeout=8)'))",
       "vorschlagUrl": null
     },
     {
@@ -3598,9 +3598,9 @@
       "slug": "berlin-spandau",
       "clubName": "Lions Club Berlin-Spandau",
       "clubUrl": "https://www.lions-berlin-spandau.de",
-      "status": "tot",
-      "httpStatus": null,
-      "error": "ReadTimeout: HTTPSConnectionPool(host='www.lions-berlin-spandau.de', port=443): Read timed out. (read timeout=8)",
+      "status": "ok",
+      "httpStatus": 200,
+      "error": null,
       "vorschlagUrl": null
     },
     {
@@ -4192,9 +4192,9 @@
       "slug": "chemnitz-rabenstein",
       "clubName": "Lions Club Chemnitz Rabenstein",
       "clubUrl": "https://www.lions-rabenstein.de",
-      "status": "ok",
-      "httpStatus": 200,
-      "error": null,
+      "status": "tot",
+      "httpStatus": null,
+      "error": "ConnectTimeout: HTTPSConnectionPool(host='www.lions-rabenstein.de', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.lions-rabenstein.de', port=443) at 0x7f3d0dc7be30>, 'Connection to www.lions-rabenstein.de timed out. (connect timeout=8)'))",
       "vorschlagUrl": null
     },
     {
@@ -4462,9 +4462,9 @@
       "slug": "dinslaken-2012",
       "clubName": "Lions Club Dinslaken 2012",
       "clubUrl": "https://www.lionsclub-dinslaken-2012.de",
-      "status": "ok",
-      "httpStatus": 200,
-      "error": null,
+      "status": "tot",
+      "httpStatus": null,
+      "error": "HTTP 500",
       "vorschlagUrl": null
     },
     {
@@ -4912,10 +4912,10 @@
       "slug": "elmshorn",
       "clubName": "Lions Club Elmshorn",
       "clubUrl": "https://www.lions-elmshorn.de",
-      "status": "tot",
-      "httpStatus": null,
-      "error": "SSL-Fallback: ConnectionError",
-      "vorschlagUrl": "https://elmshorn.lions.de"
+      "status": "ok",
+      "httpStatus": 200,
+      "error": null,
+      "vorschlagUrl": null
     },
     {
       "slug": "emden-friesische-freiheit",
@@ -4957,10 +4957,10 @@
       "slug": "ennepe-ruhr",
       "clubName": "Lions Club Ennepe-Ruhr",
       "clubUrl": "https://www.lions-en.de",
-      "status": "ok",
-      "httpStatus": 200,
-      "error": null,
-      "vorschlagUrl": null
+      "status": "tot",
+      "httpStatus": null,
+      "error": "ConnectionError: HTTPSConnectionPool(host='www.lions-en.de', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='www.lions-en.de', port=443): Failed to resolve 'www.lions-en.de' ([Errno -2] Name or service not known)\"))",
+      "vorschlagUrl": "https://ennepe-ruhr.lions.de"
     },
     {
       "slug": "ennepe-ruhr-audacia",
@@ -5299,10 +5299,10 @@
       "slug": "frankfurt-rhein-main",
       "clubName": "Lions Club Frankfurt-Rhein-Main",
       "clubUrl": "http://lions-ffm.de",
-      "status": "ok",
-      "httpStatus": 200,
-      "error": null,
-      "vorschlagUrl": null
+      "status": "tot",
+      "httpStatus": null,
+      "error": "ConnectionError: HTTPConnectionPool(host='lions-ffm.de', port=80): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPConnection(host='lions-ffm.de', port=80): Failed to resolve 'lions-ffm.de' ([Errno -2] Name or service not known)\"))",
+      "vorschlagUrl": "https://frankfurt-rhein-main.lions.de"
     },
     {
       "slug": "frankfurt-roemer",
@@ -5704,9 +5704,9 @@
       "slug": "hagen-asteria",
       "clubName": "Lions Club Hagen-Asteria",
       "clubUrl": "https://www.lions-hagen-asteria.de",
-      "status": "ok",
-      "httpStatus": 200,
-      "error": null,
+      "status": "tot",
+      "httpStatus": null,
+      "error": "ReadTimeout: HTTPSConnectionPool(host='www.lions-hagen-asteria.de', port=443): Read timed out. (read timeout=8)",
       "vorschlagUrl": null
     },
     {
@@ -6379,10 +6379,10 @@
       "slug": "hunsrueck",
       "clubName": "Lions Club Hunsrück",
       "clubUrl": "https://www.lions-hunsrueck.de",
-      "status": "tot",
-      "httpStatus": null,
-      "error": "ConnectTimeout: HTTPSConnectionPool(host='www.lions-hunsrueck.de', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.lions-hunsrueck.de', port=443) at 0x7f46593c6150>, 'Connection to www.lions-hunsrueck.de timed out. (connect timeout=8)'))",
-      "vorschlagUrl": "https://hunsrueck.lions.de"
+      "status": "ok",
+      "httpStatus": 200,
+      "error": null,
+      "vorschlagUrl": null
     },
     {
       "slug": "husum",
@@ -6739,9 +6739,9 @@
       "slug": "korbach-waldecker-land",
       "clubName": "Lions Club Korbach-Waldecker Land",
       "clubUrl": "https://www.lions-waldeckerland.de",
-      "status": "tot",
-      "httpStatus": null,
-      "error": "SSL-Fallback: SSLError",
+      "status": "ok",
+      "httpStatus": 200,
+      "error": null,
       "vorschlagUrl": null
     },
     {
@@ -6811,10 +6811,10 @@
       "slug": "koeln-claudia-ara",
       "clubName": "Lions Club Köln-Claudia Ara",
       "clubUrl": "http://www.lc-claudia-ara.de",
-      "status": "ok",
-      "httpStatus": 200,
-      "error": null,
-      "vorschlagUrl": null
+      "status": "tot",
+      "httpStatus": null,
+      "error": "ConnectTimeout: HTTPConnectionPool(host='www.lc-claudia-ara.de', port=80): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPConnection(host='www.lc-claudia-ara.de', port=80) at 0x7f3d0ddf6090>, 'Connection to www.lc-claudia-ara.de timed out. (connect timeout=8)'))",
+      "vorschlagUrl": "https://koeln-claudia-ara.lions.de"
     },
     {
       "slug": "koeln-colonia",
@@ -8233,9 +8233,9 @@
       "slug": "oldenburger-geest",
       "clubName": "Lions Club Oldenburger Geest",
       "clubUrl": "https://www.lcog.de",
-      "status": "tot",
-      "httpStatus": null,
-      "error": "HTTP 500",
+      "status": "ok",
+      "httpStatus": 200,
+      "error": null,
       "vorschlagUrl": null
     },
     {
@@ -8818,9 +8818,9 @@
       "slug": "sangerhausen-rosenstadt",
       "clubName": "Lions Club Sangerhausen-Rosenstadt",
       "clubUrl": "https://www.lions-sangerhausen.de",
-      "status": "tot",
-      "httpStatus": null,
-      "error": "ReadTimeout: HTTPSConnectionPool(host='www.lions-sangerhausen.de', port=443): Read timed out. (read timeout=8)",
+      "status": "ok",
+      "httpStatus": 200,
+      "error": null,
       "vorschlagUrl": null
     },
     {
