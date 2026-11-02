@@ -1,112 +1,5 @@
 [
   {
-    "id": "cd8a6ea41484",
-    "clubName": "Lions Club Wuerzburg",
-    "clubUrl": "https://lions-wuerzburg.de",
-    "ort": "Wuerzburg",
-    "bundesland": "Bayern",
-    "titel": "Lions-Konzert auf Schloss Weißenstein Pommersfelden",
-    "eventType": "veranstaltung",
-    "datumStart": "2026-07-31",
-    "datumEnd": "2026-07-31",
-    "uhrzeit": "19:30",
-    "status": "kommend",
-    "veranstaltungsort": "Schloss Pommersfelden",
-    "adresse": "Schloss Weißenstein, Pommersfelden",
-    "beschreibung": "Freitag, 31. Juli 2026, 19:30 Uhr: Lions-Konzert auf Schloss Weißenstein Pommersfelden. Ort: Schloss Pommersfelden.",
-    "quelleUrl": "https://lions-wuerzburg.de/",
-    "rawDateText": "31.07.2026",
-    "matchedKeywords": [
-      "Termine"
-    ],
-    "confidenceScore": 0.95,
-    "extractionMethod": "html_keyword_date_scan_v1",
-    "manuellGeprueft": true,
-    "lastChecked": "2026-07-22T14:16:57",
-    "districtName": "Bayern-Nord"
-  },
-  {
-    "id": "c6a8584f2512",
-    "clubName": "Lions Club Nuernberg",
-    "clubUrl": "https://lionsclub-nuernberg.de",
-    "ort": "Nuernberg",
-    "bundesland": "Bayern",
-    "titel": "Lions-Flohmarkt Nürnberg",
-    "eventType": "flohmarkt",
-    "datumStart": "2026-08-01",
-    "datumEnd": "2026-08-01",
-    "uhrzeit": "10:00",
-    "status": "kommend",
-    "veranstaltungsort": "Fußgängerzone, vor Breuninger",
-    "adresse": "Karolinenstr. 34, Nürnberg",
-    "beschreibung": "Samstag, 1. August 2026 Lions-Flohmarkt. Ab 10:00 Uhr, Fußgängerzone, Karolinenstr. 34, Nürnberg (vor Breuninger).",
-    "quelleUrl": "https://lionsclub-nuernberg.de/",
-    "rawDateText": "1. August 2026",
-    "matchedKeywords": [
-      "Flohmarkt"
-    ],
-    "confidenceScore": 1.0,
-    "extractionMethod": "html_keyword_date_scan_v1",
-    "manuellGeprueft": true,
-    "lastChecked": "2026-07-22T14:15:19",
-    "districtName": "Bayern-Mitte"
-  },
-  {
-    "id": "e26ec0c189a7",
-    "clubName": "Lions Club Sulinger Land",
-    "clubUrl": "https://www.lcsl.de",
-    "ort": "Sulinger Land",
-    "bundesland": "",
-    "districtName": "Niedersachsen-Bremen",
-    "titel": "Bücherbasar Sulinger Land",
-    "eventType": "buecherbasar",
-    "datumStart": "2026-08-01",
-    "datumEnd": "2026-08-01",
-    "uhrzeit": "12:00",
-    "status": "kommend",
-    "veranstaltungsort": "",
-    "adresse": "",
-    "beschreibung": "Bücherbasar Jeden 1. Samstag im Monat Wir verkaufen Bücher für einen guten Zweck! DIE NÄCHSTEN TERMINE: Sa. 1. August 2026 jeweils von 10 - 12 Uhr geöffnet! alle Infos zum Bücherbasar",
-    "quelleUrl": "https://www.lcsl.de/",
-    "rawDateText": "1. August 2026",
-    "matchedKeywords": [
-      "Buecherbasar",
-      "Basar",
-      "Termine"
-    ],
-    "confidenceScore": 1.0,
-    "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-07-24T22:29:43",
-    "manuellGeprueft": true
-  },
-  {
-    "id": "043ed699a2fd",
-    "clubName": "Lions Club Bad Tölz",
-    "clubUrl": "https://www.lc-bad-toelz.de",
-    "ort": "Bad Tölz",
-    "bundesland": "Bayern",
-    "districtName": "Bayern-Süd",
-    "titel": "Büchermarkt Bad Tölz",
-    "eventType": "buecherbasar",
-    "datumStart": "2026-08-01",
-    "datumEnd": "2026-08-01",
-    "uhrzeit": "10:00",
-    "status": "kommend",
-    "veranstaltungsort": "",
-    "adresse": "",
-    "beschreibung": "Büchermarkt des Lions Club Bad Tölz. Termine: Samstag 1. August 2026 und Samstag 5. September 2026, jeweils ab 10 Uhr.",
-    "quelleUrl": "https://www.lc-bad-toelz.de/activities/buechermarkt/",
-    "rawDateText": "1. August 2026",
-    "matchedKeywords": [
-      "Buechermarkt",
-      "Termine"
-    ],
-    "confidenceScore": 1.0,
-    "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-07-25T16:22:14",
-    "manuellGeprueft": true
-  },
-  {
     "id": "4a1918449b3a",
     "clubName": "Lions Club Remscheid",
     "clubUrl": "https://remscheid.lions.de",
@@ -459,7 +352,33 @@
     ],
     "confidenceScore": 1.0,
     "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-10-26T12:16:26"
+    "lastChecked": "2026-11-02T14:54:56"
+  },
+  {
+    "id": "6fe0e29d5190",
+    "clubName": "Lions Club Olpe am Biggesee",
+    "clubUrl": "https://www.lionsclub-olpe-am-biggesee.de",
+    "ort": "Olpe am Biggesee",
+    "bundesland": "",
+    "districtName": "Westfalen-Lippe",
+    "titel": "Buecherbasar in Olpe am Biggesee",
+    "eventType": "buecherbasar",
+    "datumStart": "2026-11-02",
+    "datumEnd": "2026-11-02",
+    "uhrzeit": "",
+    "status": "kommend",
+    "veranstaltungsort": "",
+    "adresse": "",
+    "beschreibung": "Home - Olpe am Biggesee Header Club Beispiel Kurhaus Lions Club Olpe am Biggesee Willkommen im Lions Club Olpe am Biggesee Asset-Herausgeber Olpe am Biggesee Mit Adventskalendern des Lions Club Olpe am Biggesee gewinnen ...",
+    "quelleUrl": "https://www.lionsclub-olpe-am-biggesee.de/",
+    "rawDateText": "2. November 2026",
+    "matchedKeywords": [
+      "Buecherbasar",
+      "Basar"
+    ],
+    "confidenceScore": 1.0,
+    "extractionMethod": "html_keyword_date_scan_v1",
+    "lastChecked": "2026-11-02T15:05:24"
   },
   {
     "id": "a599080dc692",
@@ -513,7 +432,7 @@
     ],
     "confidenceScore": 1.0,
     "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-10-26T12:16:26"
+    "lastChecked": "2026-11-02T14:54:56"
   },
   {
     "id": "04465bb7c127",
@@ -565,32 +484,7 @@
     ],
     "confidenceScore": 1.0,
     "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-10-26T12:16:26"
-  },
-  {
-    "id": "df2d2a59b38c",
-    "clubName": "Lions Club Waginger See",
-    "clubUrl": "https://www.lions-wagingersee.de",
-    "ort": "Waginger See",
-    "bundesland": "Bayern",
-    "districtName": "Bayern-Süd",
-    "titel": "Basar in Waginger See",
-    "eventType": "basar",
-    "datumStart": "2026-11-11",
-    "datumEnd": "2026-11-11",
-    "uhrzeit": "16:00",
-    "status": "kommend",
-    "veranstaltungsort": "",
-    "adresse": "",
-    "beschreibung": "Sonntag 22. November 2026 SRI LANKA HILFE ADVENTSBASAR 11 - 16 Uhr in der Aula der Mittelschule Waging Mehr zum Sri Lanka Projekt erfahren ... ADVENTSKALENDER 2026 222 tolle Gewinne Verkauf ab Ende Oktober bei den bekann...",
-    "quelleUrl": "https://www.lions-wagingersee.de/",
-    "rawDateText": "jeden zweiten Mittwoch",
-    "matchedKeywords": [
-      "Basar"
-    ],
-    "confidenceScore": 0.95,
-    "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-10-26T11:34:36"
+    "lastChecked": "2026-11-02T14:54:56"
   },
   {
     "id": "54119f7fb414",
@@ -615,7 +509,32 @@
     ],
     "confidenceScore": 0.95,
     "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-10-26T11:20:36"
+    "lastChecked": "2026-11-02T13:46:17"
+  },
+  {
+    "id": "a55f68e94117",
+    "clubName": "Lions Club Heusweiler",
+    "clubUrl": "https://lions-heusweiler.de",
+    "ort": "Heusweiler",
+    "bundesland": "",
+    "districtName": "Mitte-Süd",
+    "titel": "Buecherbasar in Heusweiler",
+    "eventType": "buecherbasar",
+    "datumStart": "2026-11-15",
+    "datumEnd": "2026-11-15",
+    "uhrzeit": "18:00",
+    "status": "kommend",
+    "veranstaltungsort": "",
+    "adresse": "",
+    "beschreibung": "WE SERVE LIONS HEUSWEILER FIND OUT MORE Terminankündigung „Kulinarischer Büchermarkt“ Der nächste „Kulinarische Büchermarkt“ findet am Sonntag, dem 15. November 2026 von 11 bis 18 Uhr im Erdbeerland (Spargelhof) Heusweil...",
+    "quelleUrl": "https://lions-heusweiler.de/",
+    "rawDateText": "15. November 2026",
+    "matchedKeywords": [
+      "Buechermarkt"
+    ],
+    "confidenceScore": 1.0,
+    "extractionMethod": "html_keyword_date_scan_v1",
+    "lastChecked": "2026-11-02T14:43:10"
   },
   {
     "id": "a01039f6affd",
@@ -640,7 +559,7 @@
     ],
     "confidenceScore": 1.0,
     "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-10-26T11:56:08"
+    "lastChecked": "2026-11-02T14:30:42"
   },
   {
     "id": "34dd636f5d39",
@@ -666,7 +585,7 @@
     ],
     "confidenceScore": 1.0,
     "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-10-26T12:16:26"
+    "lastChecked": "2026-11-02T14:54:56"
   },
   {
     "id": "808e7e6aa0a2",
@@ -723,31 +642,6 @@
     "manuellGeprueft": true
   },
   {
-    "id": "1a0de7e1462b",
-    "clubName": "Lions Club Waginger See",
-    "clubUrl": "https://www.lions-wagingersee.de",
-    "ort": "Waginger See",
-    "bundesland": "Bayern",
-    "districtName": "Bayern-Süd",
-    "titel": "Basar in Waginger See",
-    "eventType": "basar",
-    "datumStart": "2026-11-22",
-    "datumEnd": "2026-11-22",
-    "uhrzeit": "16:00",
-    "status": "kommend",
-    "veranstaltungsort": "",
-    "adresse": "",
-    "beschreibung": "Sonntag 22. November 2026 SRI LANKA HILFE ADVENTSBASAR 11 - 16 Uhr in der Aula der Mittelschule Waging Mehr zum Sri Lanka Projekt erfahren ... ADVENTSKALENDER 2026 222 tolle Gewinne Verkauf ab Ende Oktober bei den bekann...",
-    "quelleUrl": "https://www.lions-wagingersee.de/",
-    "rawDateText": "22. November 2026",
-    "matchedKeywords": [
-      "Basar"
-    ],
-    "confidenceScore": 0.95,
-    "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-10-26T11:34:36"
-  },
-  {
     "id": "951714ba6a5a",
     "clubName": "Lions Club Travemünde",
     "clubUrl": "https://travemuende.lions.de",
@@ -771,7 +665,7 @@
     ],
     "confidenceScore": 1.0,
     "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-10-26T12:35:14"
+    "lastChecked": "2026-11-02T15:17:10"
   },
   {
     "id": "99169bcbb913",
@@ -831,31 +725,6 @@
     "manuellGeprueft": true
   },
   {
-    "id": "70a9d9443023",
-    "clubName": "Lions Club Waginger See",
-    "clubUrl": "https://www.lions-wagingersee.de",
-    "ort": "Waginger See",
-    "bundesland": "Bayern",
-    "districtName": "Bayern-Süd",
-    "titel": "Basar in Waginger See",
-    "eventType": "basar",
-    "datumStart": "2026-12-09",
-    "datumEnd": "2026-12-09",
-    "uhrzeit": "16:00",
-    "status": "kommend",
-    "veranstaltungsort": "",
-    "adresse": "",
-    "beschreibung": "Sonntag 22. November 2026 SRI LANKA HILFE ADVENTSBASAR 11 - 16 Uhr in der Aula der Mittelschule Waging Mehr zum Sri Lanka Projekt erfahren ... ADVENTSKALENDER 2026 222 tolle Gewinne Verkauf ab Ende Oktober bei den bekann...",
-    "quelleUrl": "https://www.lions-wagingersee.de/",
-    "rawDateText": "jeden zweiten Mittwoch",
-    "matchedKeywords": [
-      "Basar"
-    ],
-    "confidenceScore": 0.95,
-    "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-10-26T11:34:36"
-  },
-  {
     "id": "e71f75e2ad05",
     "clubName": "Lions Club Straubing",
     "clubUrl": "https://straubing.lions.de",
@@ -878,7 +747,7 @@
     ],
     "confidenceScore": 0.95,
     "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-10-26T11:34:16"
+    "lastChecked": "2026-11-02T14:03:27"
   },
   {
     "id": "72df022c8332",
@@ -934,7 +803,7 @@
     ],
     "confidenceScore": 1.0,
     "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-10-26T12:34:25"
+    "lastChecked": "2026-11-02T15:16:14"
   },
   {
     "id": "8270f623f079",
@@ -959,7 +828,7 @@
     ],
     "confidenceScore": 1.0,
     "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-10-26T12:35:27"
+    "lastChecked": "2026-11-02T15:17:28"
   },
   {
     "id": "b24080d58ee3",
@@ -989,31 +858,6 @@
     "manuellGeprueft": true
   },
   {
-    "id": "f1cc3a0a5f61",
-    "clubName": "Lions Club Waginger See",
-    "clubUrl": "https://www.lions-wagingersee.de",
-    "ort": "Waginger See",
-    "bundesland": "Bayern",
-    "districtName": "Bayern-Süd",
-    "titel": "Basar in Waginger See",
-    "eventType": "basar",
-    "datumStart": "2027-01-13",
-    "datumEnd": "2027-01-13",
-    "uhrzeit": "16:00",
-    "status": "kommend",
-    "veranstaltungsort": "",
-    "adresse": "",
-    "beschreibung": "Sonntag 22. November 2026 SRI LANKA HILFE ADVENTSBASAR 11 - 16 Uhr in der Aula der Mittelschule Waging Mehr zum Sri Lanka Projekt erfahren ... ADVENTSKALENDER 2026 222 tolle Gewinne Verkauf ab Ende Oktober bei den bekann...",
-    "quelleUrl": "https://www.lions-wagingersee.de/",
-    "rawDateText": "jeden zweiten Mittwoch",
-    "matchedKeywords": [
-      "Basar"
-    ],
-    "confidenceScore": 0.95,
-    "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-10-26T11:34:36"
-  },
-  {
     "id": "06c19e963939",
     "clubName": "Lions Club Remscheid",
     "clubUrl": "https://remscheid.lions.de",
@@ -1039,7 +883,7 @@
     ],
     "confidenceScore": 1.0,
     "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-10-26T12:28:42"
+    "lastChecked": "2026-11-02T15:09:06"
   },
   {
     "id": "4cef38bdd4ff",
@@ -1064,7 +908,7 @@
     ],
     "confidenceScore": 0.95,
     "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-10-26T11:34:16"
+    "lastChecked": "2026-11-02T14:03:27"
   },
   {
     "id": "de5df3a32e6f",
@@ -1091,7 +935,7 @@
     ],
     "confidenceScore": 1.0,
     "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-10-26T12:34:25"
+    "lastChecked": "2026-11-02T15:16:14"
   },
   {
     "id": "76cc0af4f482",
@@ -1117,32 +961,7 @@
     ],
     "confidenceScore": 1.0,
     "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-10-26T12:35:14"
-  },
-  {
-    "id": "25eab1a3c15c",
-    "clubName": "Lions Club Waginger See",
-    "clubUrl": "https://www.lions-wagingersee.de",
-    "ort": "Waginger See",
-    "bundesland": "Bayern",
-    "districtName": "Bayern-Süd",
-    "titel": "Basar in Waginger See",
-    "eventType": "basar",
-    "datumStart": "2027-02-10",
-    "datumEnd": "2027-02-10",
-    "uhrzeit": "16:00",
-    "status": "kommend",
-    "veranstaltungsort": "",
-    "adresse": "",
-    "beschreibung": "Sonntag 22. November 2026 SRI LANKA HILFE ADVENTSBASAR 11 - 16 Uhr in der Aula der Mittelschule Waging Mehr zum Sri Lanka Projekt erfahren ... ADVENTSKALENDER 2026 222 tolle Gewinne Verkauf ab Ende Oktober bei den bekann...",
-    "quelleUrl": "https://www.lions-wagingersee.de/",
-    "rawDateText": "jeden zweiten Mittwoch",
-    "matchedKeywords": [
-      "Basar"
-    ],
-    "confidenceScore": 0.95,
-    "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-10-26T11:34:36"
+    "lastChecked": "2026-11-02T15:17:10"
   },
   {
     "id": "5e9dc3099a62",
@@ -1167,7 +986,7 @@
     ],
     "confidenceScore": 1.0,
     "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-10-26T11:56:08"
+    "lastChecked": "2026-11-02T14:30:42"
   },
   {
     "id": "4c3c9cac6659",
@@ -1195,7 +1014,7 @@
     ],
     "confidenceScore": 1.0,
     "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-10-26T12:28:42"
+    "lastChecked": "2026-11-02T15:09:06"
   },
   {
     "id": "be96df408bcc",
@@ -1220,7 +1039,7 @@
     ],
     "confidenceScore": 0.95,
     "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-10-26T12:42:20"
+    "lastChecked": "2026-11-02T15:25:45"
   },
   {
     "id": "addfffa4ec05",
@@ -1273,7 +1092,7 @@
     ],
     "confidenceScore": 1.0,
     "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-10-26T12:09:12"
+    "lastChecked": "2026-11-02T14:46:19"
   },
   {
     "id": "41829668ca33",
@@ -1300,32 +1119,7 @@
     ],
     "confidenceScore": 1.0,
     "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-10-26T12:34:25"
-  },
-  {
-    "id": "ad53a7515e29",
-    "clubName": "Lions Club Waginger See",
-    "clubUrl": "https://www.lions-wagingersee.de",
-    "ort": "Waginger See",
-    "bundesland": "Bayern",
-    "districtName": "Bayern-Süd",
-    "titel": "Basar in Waginger See",
-    "eventType": "basar",
-    "datumStart": "2027-03-10",
-    "datumEnd": "2027-03-10",
-    "uhrzeit": "16:00",
-    "status": "kommend",
-    "veranstaltungsort": "",
-    "adresse": "",
-    "beschreibung": "Sonntag 22. November 2026 SRI LANKA HILFE ADVENTSBASAR 11 - 16 Uhr in der Aula der Mittelschule Waging Mehr zum Sri Lanka Projekt erfahren ... ADVENTSKALENDER 2026 222 tolle Gewinne Verkauf ab Ende Oktober bei den bekann...",
-    "quelleUrl": "https://www.lions-wagingersee.de/",
-    "rawDateText": "jeden zweiten Mittwoch",
-    "matchedKeywords": [
-      "Basar"
-    ],
-    "confidenceScore": 0.95,
-    "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-10-26T11:34:36"
+    "lastChecked": "2026-11-02T15:16:14"
   },
   {
     "id": "3d80f0d9f172",
@@ -1350,7 +1144,7 @@
     ],
     "confidenceScore": 0.95,
     "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-10-26T11:34:16"
+    "lastChecked": "2026-11-02T14:03:27"
   },
   {
     "id": "03af7d66b6d9",
@@ -1378,7 +1172,34 @@
     ],
     "confidenceScore": 1.0,
     "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-10-26T12:28:42"
+    "lastChecked": "2026-11-02T15:09:06"
+  },
+  {
+    "id": "de0c24dbf913",
+    "clubName": "Lions Club Sulinger Land",
+    "clubUrl": "https://www.lcsl.de",
+    "ort": "Sulinger Land",
+    "bundesland": "",
+    "districtName": "Niedersachsen-Bremen",
+    "titel": "Buecherbasar in Sulinger Land",
+    "eventType": "buecherbasar",
+    "datumStart": "2027-04-03",
+    "datumEnd": "2027-04-03",
+    "uhrzeit": "12:00",
+    "status": "kommend",
+    "veranstaltungsort": "",
+    "adresse": "",
+    "beschreibung": "Dennis Durant & Soulband 16. Benefizkonzert am 20.11.2026 mehr erfahren Apfelsaft Nur so lange der Vorrat reicht. mehr erfahren Even Hands Can See Kunst von Horst W. Müller mehr erfahren Bücherbasar Jeden 1. Samstag im M...",
+    "quelleUrl": "https://www.lcsl.de/",
+    "rawDateText": "Jeden 1. Samstag",
+    "matchedKeywords": [
+      "Buecherbasar",
+      "Basar",
+      "Termine"
+    ],
+    "confidenceScore": 1.0,
+    "extractionMethod": "html_keyword_date_scan_v1",
+    "lastChecked": "2026-11-02T15:16:14"
   },
   {
     "id": "5e5dc9d52af0",
@@ -1403,7 +1224,35 @@
     ],
     "confidenceScore": 0.95,
     "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-10-26T11:21:23"
+    "lastChecked": "2026-11-02T13:47:11"
+  },
+  {
+    "id": "1a9e8c2a1cc2",
+    "clubName": "Lions Club Remscheid",
+    "clubUrl": "https://remscheid.lions.de",
+    "ort": "Remscheid",
+    "bundesland": "",
+    "districtName": "Westfalen-Ruhr",
+    "titel": "Buecherbasar in Remscheid",
+    "eventType": "buecherbasar",
+    "datumStart": "2027-04-24",
+    "datumEnd": "2027-04-24",
+    "uhrzeit": "12:00",
+    "status": "kommend",
+    "veranstaltungsort": "",
+    "adresse": "",
+    "beschreibung": "Lions Bücherbasar Lions-Büchermarkt - Wir sammeln Ihre Bücher für den Guten Zweck! Wir sammeln Ihre ausgelesenen Bücher oder Vinyl-Schallplatten. Sie können Ihre ausgelesenen Bücher und auch Vinyl-Schallplatten (LPs) jed...",
+    "quelleUrl": "https://remscheid.lions.de/aktuell",
+    "rawDateText": "jeden vierten Samstag",
+    "matchedKeywords": [
+      "Buecherbasar",
+      "Buechermarkt",
+      "Basar",
+      "Termine"
+    ],
+    "confidenceScore": 1.0,
+    "extractionMethod": "html_keyword_date_scan_v1",
+    "lastChecked": "2026-11-02T15:09:06"
   },
   {
     "id": "be1e8cab144d",
@@ -1429,7 +1278,7 @@
     ],
     "confidenceScore": 1.0,
     "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-10-26T12:35:14"
+    "lastChecked": "2026-11-02T15:17:10"
   },
   {
     "id": "166cc8eea9d9",
@@ -1455,7 +1304,7 @@
     ],
     "confidenceScore": 1.0,
     "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-10-26T12:09:12"
+    "lastChecked": "2026-11-02T14:46:19"
   },
   {
     "id": "1e3e4d07da5a",
@@ -1481,7 +1330,7 @@
     ],
     "confidenceScore": 1.0,
     "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-10-26T12:16:26"
+    "lastChecked": "2026-11-02T14:54:56"
   },
   {
     "id": "748675709846",
@@ -1507,7 +1356,7 @@
     ],
     "confidenceScore": 1.0,
     "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-10-26T12:09:12"
+    "lastChecked": "2026-11-02T14:46:19"
   },
   {
     "id": "a53da81866b0",

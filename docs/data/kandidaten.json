@@ -312,19 +312,6 @@
     "id": "dc08d4fd3449"
   },
   {
-    "clubName": "Lions Club Solitude Leonberg Ditzingen Gerlingen",
-    "ort": "Solitude Leonberg Ditzingen Gerlingen",
-    "districtName": "Süd-Mitte",
-    "eventType": "buecherbasar",
-    "datumStart": "",
-    "titel": "Buecherbasar in Solitude Leonberg Ditzingen Gerlingen",
-    "beschreibung": "Der Büchermarkt 2026 kommt!...",
-    "quelleUrl": "https://www.lions-club-solitude.de/buchermarkt-2026",
-    "confidenceScore": 0.65,
-    "reviewGrund": "kein Datum erkannt",
-    "id": "f61ef9a543f7"
-  },
-  {
     "clubName": "Lions Club Wiesloch",
     "ort": "Wiesloch",
     "districtName": "Süd-Nord",
@@ -479,6 +466,19 @@
     "confidenceScore": 0.65,
     "reviewGrund": "kein Datum erkannt",
     "id": "92e4509b97c8"
+  },
+  {
+    "clubName": "Lions Club Ravensburg",
+    "ort": "Ravensburg",
+    "districtName": "Süd-Mitte",
+    "eventType": "flohmarkt",
+    "datumStart": "",
+    "titel": "Flohmarkt in Ravensburg",
+    "beschreibung": "Die Öffnungszeiten für 2026 stehen fest. Das Team der Alten Schmiede (Zogenfeldstraße 1, 88214 Ravensburg) heißt Sie auch in 2026 beim Trödelmarkt willkommen. An den folgenden Tagen wird geöffnet sein:",
+    "quelleUrl": "https://www.lions-ravensburg.de/",
+    "confidenceScore": 0.6,
+    "reviewGrund": "kein Datum erkannt",
+    "id": "c297cf13bd8d"
   },
   {
     "clubName": "Lions Club Tauberbischofsheim",
@@ -752,44 +752,5 @@
     "confidenceScore": 0.5,
     "reviewGrund": "kein Datum erkannt; Konfidenz 0.5 < 0.6",
     "id": "6c9fc18b4279"
-  },
-  {
-    "clubName": "Lions Club Waginger See",
-    "ort": "Waginger See",
-    "districtName": "Bayern-Süd",
-    "eventType": "basar",
-    "datumStart": "",
-    "titel": "Basar in Waginger See",
-    "beschreibung": "Oktober 2026 MI 14.10. Clubsitzung im Landhaus Tanner Vortrag: Roland Grassl - Piratenbande - St. Josefsheim Traunstein November 2026 MI 11.11. Clubsitzung im Landhaus Tanner SO 22.11. Sri Lanka Hilfe Adventsbasar Verkau...",
-    "quelleUrl": "https://www.lions-wagingersee.de/jahresprogramm.html",
-    "confidenceScore": 0.5,
-    "reviewGrund": "kein Datum erkannt; Konfidenz 0.5 < 0.6",
-    "id": "fdd5982e3a23"
-  },
-  {
-    "clubName": "Lions Club Waginger See",
-    "ort": "Waginger See",
-    "districtName": "Bayern-Süd",
-    "eventType": "basar",
-    "datumStart": "",
-    "titel": "Basar in Waginger See",
-    "beschreibung": "MI 14.10. Clubsitzung im Landhaus Tanner Vortrag: Roland Grassl - Piratenbande - St. Josefsheim Traunstein November 2026 MI 11.11. Clubsitzung im Landhaus Tanner SO 22.11. Sri Lanka Hilfe Adventsbasar Verkauf der Advents...",
-    "quelleUrl": "https://www.lions-wagingersee.de/jahresprogramm.html",
-    "confidenceScore": 0.5,
-    "reviewGrund": "kein Datum erkannt; Konfidenz 0.5 < 0.6",
-    "id": "fdd5982e3a23"
-  },
-  {
-    "clubName": "Lions Club Waginger See",
-    "ort": "Waginger See",
-    "districtName": "Bayern-Süd",
-    "eventType": "basar",
-    "datumStart": "",
-    "titel": "Basar in Waginger See",
-    "beschreibung": "November 2026 MI 11.11. Clubsitzung im Landhaus Tanner SO 22.11. Sri Lanka Hilfe Adventsbasar Verkauf der Adventskalender Dezember 2026 MI 09.12. Weihnachtsfeier mit Partner im Landhaus Tanner Januar 2027 MI 13.01. Clubs...",
-    "quelleUrl": "https://www.lions-wagingersee.de/jahresprogramm.html",
-    "confidenceScore": 0.5,
-    "reviewGrund": "kein Datum erkannt; Konfidenz 0.5 < 0.6",
-    "id": "fdd5982e3a23"
   }
 ]

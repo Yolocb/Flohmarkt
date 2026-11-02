@@ -1240,7 +1240,10 @@
       "confidenceBase": 0.4,
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
-      "notesInternal": "Aus Clubfinder ermittelt (clubId Süd-Nord)."
+      "notesInternal": "Aus Clubfinder ermittelt (clubId Süd-Nord).",
+      "pfad404Count": {
+        "/projekte": 1
+      }
     },
     {
       "slug": "bruchsal",
@@ -5125,7 +5128,10 @@
       "confidenceBase": 0.4,
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
-      "notesInternal": "Aus Clubfinder ermittelt (clubId Süd-Nord). | URL migriert 2026-09-21 auf lions.de (alt: https://www.lions-neckargemuend.de, tot; via Health-Check bestaetigt)."
+      "notesInternal": "Aus Clubfinder ermittelt (clubId Süd-Nord). | URL migriert 2026-09-21 auf lions.de (alt: https://www.lions-neckargemuend.de, tot; via Health-Check bestaetigt).",
+      "pfad404Count": {
+        "/projekte": 1
+      }
     },
     {
       "slug": "neckarsulm",
@@ -5292,10 +5298,7 @@
       ],
       "enabledPaths": [
         "/",
-        "/veranstaltungen",
-        "/termine",
-        "/aktivitaeten",
-        "/projekte"
+        "/termine"
       ],
       "excludePaths": [
         "/impressum",
@@ -5317,12 +5320,7 @@
       "confidenceBase": 0.4,
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
-      "notesInternal": "Aus Clubfinder ermittelt (clubId Süd-West).",
-      "pfad404Count": {
-        "/veranstaltungen": 1,
-        "/aktivitaeten": 1,
-        "/projekte": 1
-      }
+      "notesInternal": "Aus Clubfinder ermittelt (clubId Süd-West)."
     },
     {
       "slug": "offenburg-simplicius",
@@ -5441,10 +5439,7 @@
       ],
       "enabledPaths": [
         "/",
-        "/veranstaltungen",
-        "/termine",
-        "/aktivitaeten",
-        "/projekte"
+        "/veranstaltungen"
       ],
       "excludePaths": [
         "/impressum",
@@ -5467,12 +5462,7 @@
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
       "notesInternal": "Aus Clubfinder ermittelt (clubId Süd-Nord).",
-      "totLaeufe": 0,
-      "pfad404Count": {
-        "/termine": 1,
-        "/aktivitaeten": 1,
-        "/projekte": 1
-      }
+      "totLaeufe": 0
     },
     {
       "slug": "ravensburg",
@@ -5497,7 +5487,6 @@
       ],
       "enabledPaths": [
         "/",
-        "/termine",
         "/aktivitaeten"
       ],
       "excludePaths": [
@@ -5520,10 +5509,7 @@
       "confidenceBase": 0.4,
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
-      "notesInternal": "Aus Clubfinder ermittelt (clubId Süd-Mitte).",
-      "pfad404Count": {
-        "/termine": 1
-      }
+      "notesInternal": "Aus Clubfinder ermittelt (clubId Süd-Mitte)."
     },
     {
       "slug": "remstal",
@@ -43234,7 +43220,6 @@
       ],
       "enabledPaths": [
         "/",
-        "/veranstaltungen",
         "/aktivitaeten"
       ],
       "excludePaths": [
@@ -43257,10 +43242,7 @@
       "confidenceBase": 0.4,
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
-      "notesInternal": "Aus Clubfinder ermittelt (Distrikt Niedersachsen-West).",
-      "pfad404Count": {
-        "/veranstaltungen": 1
-      }
+      "notesInternal": "Aus Clubfinder ermittelt (Distrikt Niedersachsen-West)."
     },
     {
       "slug": "oberharz",
@@ -43916,11 +43898,7 @@
         "/termine"
       ],
       "enabledPaths": [
-        "/",
-        "/veranstaltungen",
-        "/termine",
-        "/aktivitaeten",
-        "/projekte"
+        "/"
       ],
       "excludePaths": [
         "/impressum",
@@ -43942,13 +43920,7 @@
       "confidenceBase": 0.4,
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
-      "notesInternal": "Aus Clubfinder ermittelt (Distrikt Niedersachsen-West).",
-      "pfad404Count": {
-        "/veranstaltungen": 1,
-        "/termine": 1,
-        "/aktivitaeten": 1,
-        "/projekte": 1
-      }
+      "notesInternal": "Aus Clubfinder ermittelt (Distrikt Niedersachsen-West)."
     },
     {
       "slug": "oldenburg-lappan",
@@ -49302,7 +49274,10 @@
       "confidenceBase": 0.4,
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
-      "notesInternal": "Aus Clubfinder ermittelt (Distrikt Nord)."
+      "notesInternal": "Aus Clubfinder ermittelt (Distrikt Nord).",
+      "pfad404Count": {
+        "/projekte": 1
+      }
     },
     {
       "slug": "suedharz",
