@@ -1217,8 +1217,7 @@
       ],
       "enabledPaths": [
         "/",
-        "/aktivitaeten",
-        "/projekte"
+        "/aktivitaeten"
       ],
       "excludePaths": [
         "/impressum",
@@ -1240,10 +1239,7 @@
       "confidenceBase": 0.4,
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
-      "notesInternal": "Aus Clubfinder ermittelt (clubId Süd-Nord).",
-      "pfad404Count": {
-        "/projekte": 1
-      }
+      "notesInternal": "Aus Clubfinder ermittelt (clubId Süd-Nord)."
     },
     {
       "slug": "bruchsal",
@@ -5128,10 +5124,7 @@
       "confidenceBase": 0.4,
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
-      "notesInternal": "Aus Clubfinder ermittelt (clubId Süd-Nord). | URL migriert 2026-09-21 auf lions.de (alt: https://www.lions-neckargemuend.de, tot; via Health-Check bestaetigt).",
-      "pfad404Count": {
-        "/projekte": 1
-      }
+      "notesInternal": "Aus Clubfinder ermittelt (clubId Süd-Nord). | URL migriert 2026-09-21 auf lions.de (alt: https://www.lions-neckargemuend.de, tot; via Health-Check bestaetigt)."
     },
     {
       "slug": "neckarsulm",
@@ -5320,7 +5313,10 @@
       "confidenceBase": 0.4,
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
-      "notesInternal": "Aus Clubfinder ermittelt (clubId Süd-West)."
+      "notesInternal": "Aus Clubfinder ermittelt (clubId Süd-West).",
+      "pfad404Count": {
+        "/termine": 1
+      }
     },
     {
       "slug": "offenburg-simplicius",
@@ -27534,7 +27530,10 @@
       "confidenceBase": 0.4,
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
-      "notesInternal": "Aus Clubfinder ermittelt (Distrikt Nord)."
+      "notesInternal": "Aus Clubfinder ermittelt (Distrikt Nord).",
+      "pfad404Count": {
+        "/projekte": 1
+      }
     },
     {
       "slug": "finsterwalde-niederlausitz",
@@ -49251,8 +49250,7 @@
       ],
       "enabledPaths": [
         "/",
-        "/termine",
-        "/projekte"
+        "/termine"
       ],
       "excludePaths": [
         "/impressum",
@@ -49274,10 +49272,7 @@
       "confidenceBase": 0.4,
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
-      "notesInternal": "Aus Clubfinder ermittelt (Distrikt Nord).",
-      "pfad404Count": {
-        "/projekte": 1
-      }
+      "notesInternal": "Aus Clubfinder ermittelt (Distrikt Nord)."
     },
     {
       "slug": "suedharz",

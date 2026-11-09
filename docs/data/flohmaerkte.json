@@ -329,58 +329,6 @@
     "manuellGeprueft": true
   },
   {
-    "id": "3bbe711fd9a0",
-    "clubName": "Lions Club Magdeburg-Kaiser Otto I.",
-    "clubUrl": "https://www.lions-magdeburg.de",
-    "ort": "Magdeburg-Kaiser Otto I.",
-    "bundesland": "",
-    "districtName": "Ost-Mitte",
-    "titel": "Buecherbasar in Magdeburg-Kaiser Otto I.",
-    "eventType": "buecherbasar",
-    "datumStart": "2026-11-02",
-    "datumEnd": "2026-11-02",
-    "uhrzeit": "19:00",
-    "status": "kommend",
-    "veranstaltungsort": "",
-    "adresse": "",
-    "beschreibung": "Wann wir uns treffen Termine Aktuelle und vergangene Clubtermine des Lions Club Magdeburg - Kaiser Otto I. Aktuelle Clubtermine 01. Juli 2026 laufend Activity Activity Adventskalender (01.07.2026 - 30.06.2027) Überall 02...",
-    "quelleUrl": "https://www.lions-magdeburg.de/termine",
-    "rawDateText": "02.11.2026",
-    "matchedKeywords": [
-      "Buechermarkt",
-      "Termine"
-    ],
-    "confidenceScore": 1.0,
-    "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-11-02T14:54:56"
-  },
-  {
-    "id": "6fe0e29d5190",
-    "clubName": "Lions Club Olpe am Biggesee",
-    "clubUrl": "https://www.lionsclub-olpe-am-biggesee.de",
-    "ort": "Olpe am Biggesee",
-    "bundesland": "",
-    "districtName": "Westfalen-Lippe",
-    "titel": "Buecherbasar in Olpe am Biggesee",
-    "eventType": "buecherbasar",
-    "datumStart": "2026-11-02",
-    "datumEnd": "2026-11-02",
-    "uhrzeit": "",
-    "status": "kommend",
-    "veranstaltungsort": "",
-    "adresse": "",
-    "beschreibung": "Home - Olpe am Biggesee Header Club Beispiel Kurhaus Lions Club Olpe am Biggesee Willkommen im Lions Club Olpe am Biggesee Asset-Herausgeber Olpe am Biggesee Mit Adventskalendern des Lions Club Olpe am Biggesee gewinnen ...",
-    "quelleUrl": "https://www.lionsclub-olpe-am-biggesee.de/",
-    "rawDateText": "2. November 2026",
-    "matchedKeywords": [
-      "Buecherbasar",
-      "Basar"
-    ],
-    "confidenceScore": 1.0,
-    "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-11-02T15:05:24"
-  },
-  {
     "id": "a599080dc692",
     "clubName": "Lions Club Sulinger Land",
     "clubUrl": "https://www.lcsl.de",
@@ -409,32 +357,6 @@
     "manuellGeprueft": true
   },
   {
-    "id": "027e4b351d77",
-    "clubName": "Lions Club Magdeburg-Kaiser Otto I.",
-    "clubUrl": "https://www.lions-magdeburg.de",
-    "ort": "Magdeburg-Kaiser Otto I.",
-    "bundesland": "",
-    "districtName": "Ost-Mitte",
-    "titel": "Buecherbasar in Magdeburg-Kaiser Otto I.",
-    "eventType": "buecherbasar",
-    "datumStart": "2026-11-07",
-    "datumEnd": "2026-11-07",
-    "uhrzeit": "19:00",
-    "status": "kommend",
-    "veranstaltungsort": "",
-    "adresse": "",
-    "beschreibung": "Wann wir uns treffen Termine Aktuelle und vergangene Clubtermine des Lions Club Magdeburg - Kaiser Otto I. Aktuelle Clubtermine 01. Juli 2026 laufend Activity Activity Adventskalender (01.07.2026 - 30.06.2027) Überall 02...",
-    "quelleUrl": "https://www.lions-magdeburg.de/termine",
-    "rawDateText": "07.11.2026",
-    "matchedKeywords": [
-      "Buechermarkt",
-      "Termine"
-    ],
-    "confidenceScore": 1.0,
-    "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-11-02T14:54:56"
-  },
-  {
     "id": "04465bb7c127",
     "clubName": "Lions Club Kamen-Westfalen",
     "clubUrl": "https://www.lions-kamen.de",
@@ -461,30 +383,29 @@
     "manuellGeprueft": true
   },
   {
-    "id": "b4224c6b6b68",
-    "clubName": "Lions Club Magdeburg-Kaiser Otto I.",
-    "clubUrl": "https://www.lions-magdeburg.de",
-    "ort": "Magdeburg-Kaiser Otto I.",
-    "bundesland": "",
-    "districtName": "Ost-Mitte",
-    "titel": "Buecherbasar in Magdeburg-Kaiser Otto I.",
-    "eventType": "buecherbasar",
-    "datumStart": "2026-11-09",
-    "datumEnd": "2026-11-09",
-    "uhrzeit": "19:00",
+    "id": "df2d2a59b38c",
+    "clubName": "Lions Club Waginger See",
+    "clubUrl": "https://www.lions-wagingersee.de",
+    "ort": "Waginger See",
+    "bundesland": "Bayern",
+    "districtName": "Bayern-Süd",
+    "titel": "Basar in Waginger See",
+    "eventType": "basar",
+    "datumStart": "2026-11-11",
+    "datumEnd": "2026-11-11",
+    "uhrzeit": "16:00",
     "status": "kommend",
     "veranstaltungsort": "",
     "adresse": "",
-    "beschreibung": "Wann wir uns treffen Termine Aktuelle und vergangene Clubtermine des Lions Club Magdeburg - Kaiser Otto I. Aktuelle Clubtermine 01. Juli 2026 laufend Activity Activity Adventskalender (01.07.2026 - 30.06.2027) Überall 02...",
-    "quelleUrl": "https://www.lions-magdeburg.de/termine",
-    "rawDateText": "09. November 2026",
+    "beschreibung": "Sonntag 22. November 2026 SRI LANKA HILFE ADVENTSBASAR 11 - 16 Uhr in der Aula der Mittelschule Waging Mehr zum Sri Lanka Projekt erfahren ... ADVENTSKALENDER 2026 222 tolle Gewinne Verkauf ab Ende Oktober bei den bekann...",
+    "quelleUrl": "https://www.lions-wagingersee.de/",
+    "rawDateText": "jeden zweiten Mittwoch",
     "matchedKeywords": [
-      "Buechermarkt",
-      "Termine"
+      "Basar"
     ],
-    "confidenceScore": 1.0,
+    "confidenceScore": 0.95,
     "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-11-02T14:54:56"
+    "lastChecked": "2026-11-09T14:22:50"
   },
   {
     "id": "54119f7fb414",
@@ -509,7 +430,7 @@
     ],
     "confidenceScore": 0.95,
     "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-11-02T13:46:17"
+    "lastChecked": "2026-11-09T14:08:10"
   },
   {
     "id": "a55f68e94117",
@@ -534,7 +455,7 @@
     ],
     "confidenceScore": 1.0,
     "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-11-02T14:43:10"
+    "lastChecked": "2026-11-09T14:57:39"
   },
   {
     "id": "a01039f6affd",
@@ -559,33 +480,7 @@
     ],
     "confidenceScore": 1.0,
     "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-11-02T14:30:42"
-  },
-  {
-    "id": "34dd636f5d39",
-    "clubName": "Lions Club Magdeburg-Kaiser Otto I.",
-    "clubUrl": "https://www.lions-magdeburg.de",
-    "ort": "Magdeburg-Kaiser Otto I.",
-    "bundesland": "",
-    "districtName": "Ost-Mitte",
-    "titel": "Buecherbasar in Magdeburg-Kaiser Otto I.",
-    "eventType": "buecherbasar",
-    "datumStart": "2026-11-19",
-    "datumEnd": "2026-11-19",
-    "uhrzeit": "19:00",
-    "status": "kommend",
-    "veranstaltungsort": "",
-    "adresse": "",
-    "beschreibung": "Wann wir uns treffen Termine Aktuelle und vergangene Clubtermine des Lions Club Magdeburg - Kaiser Otto I. Aktuelle Clubtermine 01. Juli 2026 laufend Activity Activity Adventskalender (01.07.2026 - 30.06.2027) Überall 02...",
-    "quelleUrl": "https://www.lions-magdeburg.de/termine",
-    "rawDateText": "19. November 2026",
-    "matchedKeywords": [
-      "Buechermarkt",
-      "Termine"
-    ],
-    "confidenceScore": 1.0,
-    "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-11-02T14:54:56"
+    "lastChecked": "2026-11-09T14:46:17"
   },
   {
     "id": "808e7e6aa0a2",
@@ -642,6 +537,31 @@
     "manuellGeprueft": true
   },
   {
+    "id": "1a0de7e1462b",
+    "clubName": "Lions Club Waginger See",
+    "clubUrl": "https://www.lions-wagingersee.de",
+    "ort": "Waginger See",
+    "bundesland": "Bayern",
+    "districtName": "Bayern-Süd",
+    "titel": "Basar in Waginger See",
+    "eventType": "basar",
+    "datumStart": "2026-11-22",
+    "datumEnd": "2026-11-22",
+    "uhrzeit": "16:00",
+    "status": "kommend",
+    "veranstaltungsort": "",
+    "adresse": "",
+    "beschreibung": "Sonntag 22. November 2026 SRI LANKA HILFE ADVENTSBASAR 11 - 16 Uhr in der Aula der Mittelschule Waging Mehr zum Sri Lanka Projekt erfahren ... ADVENTSKALENDER 2026 222 tolle Gewinne Verkauf ab Ende Oktober bei den bekann...",
+    "quelleUrl": "https://www.lions-wagingersee.de/",
+    "rawDateText": "22. November 2026",
+    "matchedKeywords": [
+      "Basar"
+    ],
+    "confidenceScore": 0.95,
+    "extractionMethod": "html_keyword_date_scan_v1",
+    "lastChecked": "2026-11-09T14:22:50"
+  },
+  {
     "id": "951714ba6a5a",
     "clubName": "Lions Club Travemünde",
     "clubUrl": "https://travemuende.lions.de",
@@ -665,7 +585,7 @@
     ],
     "confidenceScore": 1.0,
     "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-11-02T15:17:10"
+    "lastChecked": "2026-11-09T15:27:24"
   },
   {
     "id": "99169bcbb913",
@@ -725,6 +645,31 @@
     "manuellGeprueft": true
   },
   {
+    "id": "70a9d9443023",
+    "clubName": "Lions Club Waginger See",
+    "clubUrl": "https://www.lions-wagingersee.de",
+    "ort": "Waginger See",
+    "bundesland": "Bayern",
+    "districtName": "Bayern-Süd",
+    "titel": "Basar in Waginger See",
+    "eventType": "basar",
+    "datumStart": "2026-12-09",
+    "datumEnd": "2026-12-09",
+    "uhrzeit": "16:00",
+    "status": "kommend",
+    "veranstaltungsort": "",
+    "adresse": "",
+    "beschreibung": "Sonntag 22. November 2026 SRI LANKA HILFE ADVENTSBASAR 11 - 16 Uhr in der Aula der Mittelschule Waging Mehr zum Sri Lanka Projekt erfahren ... ADVENTSKALENDER 2026 222 tolle Gewinne Verkauf ab Ende Oktober bei den bekann...",
+    "quelleUrl": "https://www.lions-wagingersee.de/",
+    "rawDateText": "jeden zweiten Mittwoch",
+    "matchedKeywords": [
+      "Basar"
+    ],
+    "confidenceScore": 0.95,
+    "extractionMethod": "html_keyword_date_scan_v1",
+    "lastChecked": "2026-11-09T14:22:50"
+  },
+  {
     "id": "e71f75e2ad05",
     "clubName": "Lions Club Straubing",
     "clubUrl": "https://straubing.lions.de",
@@ -747,7 +692,7 @@
     ],
     "confidenceScore": 0.95,
     "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-11-02T14:03:27"
+    "lastChecked": "2026-11-09T14:22:30"
   },
   {
     "id": "72df022c8332",
@@ -803,7 +748,7 @@
     ],
     "confidenceScore": 1.0,
     "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-11-02T15:16:14"
+    "lastChecked": "2026-11-09T15:26:36"
   },
   {
     "id": "8270f623f079",
@@ -828,7 +773,7 @@
     ],
     "confidenceScore": 1.0,
     "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-11-02T15:17:28"
+    "lastChecked": "2026-11-09T15:27:39"
   },
   {
     "id": "b24080d58ee3",
@@ -858,6 +803,31 @@
     "manuellGeprueft": true
   },
   {
+    "id": "f1cc3a0a5f61",
+    "clubName": "Lions Club Waginger See",
+    "clubUrl": "https://www.lions-wagingersee.de",
+    "ort": "Waginger See",
+    "bundesland": "Bayern",
+    "districtName": "Bayern-Süd",
+    "titel": "Basar in Waginger See",
+    "eventType": "basar",
+    "datumStart": "2027-01-13",
+    "datumEnd": "2027-01-13",
+    "uhrzeit": "16:00",
+    "status": "kommend",
+    "veranstaltungsort": "",
+    "adresse": "",
+    "beschreibung": "Sonntag 22. November 2026 SRI LANKA HILFE ADVENTSBASAR 11 - 16 Uhr in der Aula der Mittelschule Waging Mehr zum Sri Lanka Projekt erfahren ... ADVENTSKALENDER 2026 222 tolle Gewinne Verkauf ab Ende Oktober bei den bekann...",
+    "quelleUrl": "https://www.lions-wagingersee.de/",
+    "rawDateText": "jeden zweiten Mittwoch",
+    "matchedKeywords": [
+      "Basar"
+    ],
+    "confidenceScore": 0.95,
+    "extractionMethod": "html_keyword_date_scan_v1",
+    "lastChecked": "2026-11-09T14:22:50"
+  },
+  {
     "id": "06c19e963939",
     "clubName": "Lions Club Remscheid",
     "clubUrl": "https://remscheid.lions.de",
@@ -883,7 +853,7 @@
     ],
     "confidenceScore": 1.0,
     "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-11-02T15:09:06"
+    "lastChecked": "2026-11-09T15:20:16"
   },
   {
     "id": "4cef38bdd4ff",
@@ -908,7 +878,7 @@
     ],
     "confidenceScore": 0.95,
     "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-11-02T14:03:27"
+    "lastChecked": "2026-11-09T14:22:30"
   },
   {
     "id": "de5df3a32e6f",
@@ -935,7 +905,7 @@
     ],
     "confidenceScore": 1.0,
     "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-11-02T15:16:14"
+    "lastChecked": "2026-11-09T15:26:36"
   },
   {
     "id": "76cc0af4f482",
@@ -961,7 +931,32 @@
     ],
     "confidenceScore": 1.0,
     "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-11-02T15:17:10"
+    "lastChecked": "2026-11-09T15:27:24"
+  },
+  {
+    "id": "25eab1a3c15c",
+    "clubName": "Lions Club Waginger See",
+    "clubUrl": "https://www.lions-wagingersee.de",
+    "ort": "Waginger See",
+    "bundesland": "Bayern",
+    "districtName": "Bayern-Süd",
+    "titel": "Basar in Waginger See",
+    "eventType": "basar",
+    "datumStart": "2027-02-10",
+    "datumEnd": "2027-02-10",
+    "uhrzeit": "16:00",
+    "status": "kommend",
+    "veranstaltungsort": "",
+    "adresse": "",
+    "beschreibung": "Sonntag 22. November 2026 SRI LANKA HILFE ADVENTSBASAR 11 - 16 Uhr in der Aula der Mittelschule Waging Mehr zum Sri Lanka Projekt erfahren ... ADVENTSKALENDER 2026 222 tolle Gewinne Verkauf ab Ende Oktober bei den bekann...",
+    "quelleUrl": "https://www.lions-wagingersee.de/",
+    "rawDateText": "jeden zweiten Mittwoch",
+    "matchedKeywords": [
+      "Basar"
+    ],
+    "confidenceScore": 0.95,
+    "extractionMethod": "html_keyword_date_scan_v1",
+    "lastChecked": "2026-11-09T14:22:50"
   },
   {
     "id": "5e9dc3099a62",
@@ -986,7 +981,7 @@
     ],
     "confidenceScore": 1.0,
     "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-11-02T14:30:42"
+    "lastChecked": "2026-11-09T14:46:17"
   },
   {
     "id": "4c3c9cac6659",
@@ -1014,7 +1009,7 @@
     ],
     "confidenceScore": 1.0,
     "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-11-02T15:09:06"
+    "lastChecked": "2026-11-09T15:20:16"
   },
   {
     "id": "be96df408bcc",
@@ -1031,7 +1026,7 @@
     "status": "kommend",
     "veranstaltungsort": "",
     "adresse": "",
-    "beschreibung": "Skip to content Search for: Spendenkonto: LIONS Förderverein Wörth-Kandel E.V. Sparkasse Südpfalz IBAN: DE89 5485 0010 0000 0270 78 Neueste Beiträge Adventskalender 2026 erhältlich Basar Sa. 27.02.2027 Uwe Burger vom Lio...",
+    "beschreibung": "Skip to content Search for: Spendenkonto: LIONS Förderverein Wörth-Kandel E.V. Sparkasse Südpfalz IBAN: DE89 5485 0010 0000 0270 78 Neueste Beiträge Festakt 50 Jahre Adventskalender 2026 erhältlich Basar Sa. 27.02.2027 A...",
     "quelleUrl": "https://www.lionsclub-woerth-kandel.de/",
     "rawDateText": "27.02.2027",
     "matchedKeywords": [
@@ -1039,7 +1034,7 @@
     ],
     "confidenceScore": 0.95,
     "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-11-02T15:25:45"
+    "lastChecked": "2026-11-09T15:34:45"
   },
   {
     "id": "addfffa4ec05",
@@ -1092,7 +1087,7 @@
     ],
     "confidenceScore": 1.0,
     "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-11-02T14:46:19"
+    "lastChecked": "2026-11-09T15:00:18"
   },
   {
     "id": "41829668ca33",
@@ -1119,7 +1114,32 @@
     ],
     "confidenceScore": 1.0,
     "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-11-02T15:16:14"
+    "lastChecked": "2026-11-09T15:26:36"
+  },
+  {
+    "id": "ad53a7515e29",
+    "clubName": "Lions Club Waginger See",
+    "clubUrl": "https://www.lions-wagingersee.de",
+    "ort": "Waginger See",
+    "bundesland": "Bayern",
+    "districtName": "Bayern-Süd",
+    "titel": "Basar in Waginger See",
+    "eventType": "basar",
+    "datumStart": "2027-03-10",
+    "datumEnd": "2027-03-10",
+    "uhrzeit": "16:00",
+    "status": "kommend",
+    "veranstaltungsort": "",
+    "adresse": "",
+    "beschreibung": "Sonntag 22. November 2026 SRI LANKA HILFE ADVENTSBASAR 11 - 16 Uhr in der Aula der Mittelschule Waging Mehr zum Sri Lanka Projekt erfahren ... ADVENTSKALENDER 2026 222 tolle Gewinne Verkauf ab Ende Oktober bei den bekann...",
+    "quelleUrl": "https://www.lions-wagingersee.de/",
+    "rawDateText": "jeden zweiten Mittwoch",
+    "matchedKeywords": [
+      "Basar"
+    ],
+    "confidenceScore": 0.95,
+    "extractionMethod": "html_keyword_date_scan_v1",
+    "lastChecked": "2026-11-09T14:22:50"
   },
   {
     "id": "3d80f0d9f172",
@@ -1144,7 +1164,7 @@
     ],
     "confidenceScore": 0.95,
     "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-11-02T14:03:27"
+    "lastChecked": "2026-11-09T14:22:30"
   },
   {
     "id": "03af7d66b6d9",
@@ -1172,7 +1192,7 @@
     ],
     "confidenceScore": 1.0,
     "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-11-02T15:09:06"
+    "lastChecked": "2026-11-09T15:20:16"
   },
   {
     "id": "de0c24dbf913",
@@ -1199,7 +1219,57 @@
     ],
     "confidenceScore": 1.0,
     "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-11-02T15:16:14"
+    "lastChecked": "2026-11-09T15:26:36"
+  },
+  {
+    "id": "6d6adcd11bc5",
+    "clubName": "Lions Club Tauberbischofsheim",
+    "clubUrl": "https://tauberbischofsheim.lions.de",
+    "ort": "Tauberbischofsheim",
+    "bundesland": "Baden-Wuerttemberg",
+    "districtName": "Süd-Mitte",
+    "titel": "Basar in Tauberbischofsheim",
+    "eventType": "basar",
+    "datumStart": "2027-04-10",
+    "datumEnd": "2027-04-10",
+    "uhrzeit": "09:30",
+    "status": "kommend",
+    "veranstaltungsort": "",
+    "adresse": "",
+    "beschreibung": "Lions Basar TBB - Tauberbischofsheim Menü-Anzeige Lions Basar Lauda Anmeldung für Aussteller in Lauda Allgemeine Hinweise Basarbesucher FAQ Galerie Soziale Projekte Lauda Lions Basar TBB Anmeldung für Aussteller in TBB A...",
+    "quelleUrl": "https://tauberbischofsheim.lions.de/lions-basar-tbb",
+    "rawDateText": "10. 04. 2027",
+    "matchedKeywords": [
+      "Basar"
+    ],
+    "confidenceScore": 0.95,
+    "extractionMethod": "html_keyword_date_scan_v1",
+    "lastChecked": "2026-11-09T14:08:08"
+  },
+  {
+    "id": "bbd3c6d682a3",
+    "clubName": "Lions Club Waginger See",
+    "clubUrl": "https://www.lions-wagingersee.de",
+    "ort": "Waginger See",
+    "bundesland": "Bayern",
+    "districtName": "Bayern-Süd",
+    "titel": "Basar in Waginger See",
+    "eventType": "basar",
+    "datumStart": "2027-04-14",
+    "datumEnd": "2027-04-14",
+    "uhrzeit": "16:00",
+    "status": "kommend",
+    "veranstaltungsort": "",
+    "adresse": "",
+    "beschreibung": "Sonntag 22. November 2026 SRI LANKA HILFE ADVENTSBASAR 11 - 16 Uhr in der Aula der Mittelschule Waging Mehr zum Sri Lanka Projekt erfahren ... ADVENTSKALENDER 2026 222 tolle Gewinne Verkauf ab Ende Oktober bei den bekann...",
+    "quelleUrl": "https://www.lions-wagingersee.de/",
+    "rawDateText": "jeden zweiten Mittwoch",
+    "matchedKeywords": [
+      "Basar"
+    ],
+    "confidenceScore": 0.95,
+    "extractionMethod": "html_keyword_date_scan_v1",
+    "lastChecked": "2026-11-09T14:22:50"
   },
   {
     "id": "5e5dc9d52af0",
@@ -1224,7 +1294,7 @@
     ],
     "confidenceScore": 0.95,
     "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-11-02T13:47:11"
+    "lastChecked": "2026-11-09T14:08:54"
   },
   {
     "id": "1a9e8c2a1cc2",
@@ -1252,7 +1322,7 @@
     ],
     "confidenceScore": 1.0,
     "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-11-02T15:09:06"
+    "lastChecked": "2026-11-09T15:20:16"
   },
   {
     "id": "be1e8cab144d",
@@ -1278,7 +1348,7 @@
     ],
     "confidenceScore": 1.0,
     "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-11-02T15:17:10"
+    "lastChecked": "2026-11-09T15:27:24"
   },
   {
     "id": "166cc8eea9d9",
@@ -1304,33 +1374,7 @@
     ],
     "confidenceScore": 1.0,
     "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-11-02T14:46:19"
-  },
-  {
-    "id": "1e3e4d07da5a",
-    "clubName": "Lions Club Magdeburg-Kaiser Otto I.",
-    "clubUrl": "https://www.lions-magdeburg.de",
-    "ort": "Magdeburg-Kaiser Otto I.",
-    "bundesland": "",
-    "districtName": "Ost-Mitte",
-    "titel": "Buecherbasar in Magdeburg-Kaiser Otto I.",
-    "eventType": "buecherbasar",
-    "datumStart": "2027-06-30",
-    "datumEnd": "2027-06-30",
-    "uhrzeit": "19:00",
-    "status": "kommend",
-    "veranstaltungsort": "",
-    "adresse": "",
-    "beschreibung": "Wann wir uns treffen Termine Aktuelle und vergangene Clubtermine des Lions Club Magdeburg - Kaiser Otto I. Aktuelle Clubtermine 01. Juli 2026 laufend Activity Activity Adventskalender (01.07.2026 - 30.06.2027) Überall 02...",
-    "quelleUrl": "https://www.lions-magdeburg.de/termine",
-    "rawDateText": "30.06.2027",
-    "matchedKeywords": [
-      "Buechermarkt",
-      "Termine"
-    ],
-    "confidenceScore": 1.0,
-    "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-11-02T14:54:56"
+    "lastChecked": "2026-11-09T15:00:18"
   },
   {
     "id": "748675709846",
@@ -1356,7 +1400,7 @@
     ],
     "confidenceScore": 1.0,
     "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-11-02T14:46:19"
+    "lastChecked": "2026-11-09T15:00:18"
   },
   {
     "id": "a53da81866b0",
