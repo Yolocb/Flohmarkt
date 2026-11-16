@@ -91,6 +91,19 @@
     "id": "e8f2851ae3e3"
   },
   {
+    "clubName": "Lions Club Dinkelsbühl",
+    "ort": "Dinkelsbühl",
+    "districtName": "Bayern-Nord",
+    "eventType": "buecherbasar",
+    "datumStart": "",
+    "titel": "Buecherbasar in Dinkelsbühl",
+    "beschreibung": ">> Lions Club Bücherbasar 2026 Plakat <<",
+    "quelleUrl": "https://www.lionsclub-dinkelsbuehl.de/pages/Activities/Buecherbasar2026/Buecherbasar2026.html",
+    "confidenceScore": 0.75,
+    "reviewGrund": "kein Datum erkannt",
+    "id": "e8f2851ae3e3"
+  },
+  {
     "clubName": "Lions Club Eichstätt",
     "ort": "Eichstätt",
     "districtName": "Bayern-Süd",
@@ -102,45 +115,6 @@
     "confidenceScore": 0.75,
     "reviewGrund": "kein Datum erkannt",
     "id": "bd631da2cec0"
-  },
-  {
-    "clubName": "Lions Club München-Pullach",
-    "ort": "München-Pullach",
-    "districtName": "Bayern-Süd",
-    "eventType": "flohmarkt",
-    "datumStart": "",
-    "titel": "Flohmarkt in München-Pullach",
-    "beschreibung": "Teaser Startseite Lernen Sie unseren Club kennen Adventskalender Unser Kalender 2026 wurde wieder von Peter Gaymann gestaltet. Wir sind für 2026 bereits ausverkauft, Restbestände bei den Apotheken in Pullach. Weiterlesen...",
-    "quelleUrl": "https://muenchen-pullach.lions.de/",
-    "confidenceScore": 0.75,
-    "reviewGrund": "kein Datum erkannt",
-    "id": "bcc8a79ccaaf"
-  },
-  {
-    "clubName": "Lions Club München-Pullach",
-    "ort": "München-Pullach",
-    "districtName": "Bayern-Süd",
-    "eventType": "flohmarkt",
-    "datumStart": "",
-    "titel": "Flohmarkt in München-Pullach",
-    "beschreibung": "Lernen Sie unseren Club kennen Adventskalender Unser Kalender 2026 wurde wieder von Peter Gaymann gestaltet. Wir sind für 2026 bereits ausverkauft, Restbestände bei den Apotheken in Pullach. Weiterlesen Ukraine Hilfe Der...",
-    "quelleUrl": "https://muenchen-pullach.lions.de/",
-    "confidenceScore": 0.75,
-    "reviewGrund": "kein Datum erkannt",
-    "id": "bcc8a79ccaaf"
-  },
-  {
-    "clubName": "Lions Club München-Pullach",
-    "ort": "München-Pullach",
-    "districtName": "Bayern-Süd",
-    "eventType": "flohmarkt",
-    "datumStart": "",
-    "titel": "Flohmarkt in München-Pullach",
-    "beschreibung": "Adventskalender Unser Kalender 2026 wurde wieder von Peter Gaymann gestaltet. Wir sind für 2026 bereits ausverkauft, Restbestände bei den Apotheken in Pullach. Weiterlesen Ukraine Hilfe Der Rotary Club Pullach-Isartal un...",
-    "quelleUrl": "https://muenchen-pullach.lions.de/",
-    "confidenceScore": 0.75,
-    "reviewGrund": "kein Datum erkannt",
-    "id": "bcc8a79ccaaf"
   },
   {
     "clubName": "Lions Club Nürnberg-Franken",
@@ -253,8 +227,21 @@
     "eventType": "buecherbasar",
     "datumStart": "",
     "titel": "Buecherbasar in Wittmund",
-    "beschreibung": "Büchermarkt des Lions Club Wittmund beim Bürgermarkt 2026",
+    "beschreibung": "Büchermarkt des Lions Club Wittmund beim Adventmarkt 2026",
     "quelleUrl": "https://wittmund.lions.de/",
+    "confidenceScore": 0.75,
+    "reviewGrund": "kein Datum erkannt",
+    "id": "92e4509b97c8"
+  },
+  {
+    "clubName": "Lions Club Wittmund",
+    "ort": "Wittmund",
+    "districtName": "Niedersachsen-West",
+    "eventType": "buecherbasar",
+    "datumStart": "",
+    "titel": "Buecherbasar in Wittmund",
+    "beschreibung": "Büchermarkt zum Adventmarkt 2026 Büchermarkt des Lions Club Wittmund beim Adventmarkt 2026 Die Tage werden kürzer und die Abende gemütlicher. Perfekt um sich wieder mit reichlich Lesestoff einzudecken. Unser Büchermarkt ...",
+    "quelleUrl": "https://wittmund.lions.de/aktuell",
     "confidenceScore": 0.75,
     "reviewGrund": "kein Datum erkannt",
     "id": "92e4509b97c8"
@@ -349,6 +336,19 @@
     "confidenceScore": 0.65,
     "reviewGrund": "kein Datum erkannt",
     "id": "a53da81866b0"
+  },
+  {
+    "clubName": "Lions Club Remscheid",
+    "ort": "Remscheid",
+    "districtName": "Westfalen-Ruhr",
+    "eventType": "buecherbasar",
+    "datumStart": "",
+    "titel": "Buecherbasar in Remscheid",
+    "beschreibung": "Büchermarkt 2026: Zwecke",
+    "quelleUrl": "https://remscheid.lions.de/",
+    "confidenceScore": 0.65,
+    "reviewGrund": "kein Datum erkannt",
+    "id": "afbad2120138"
   },
   {
     "clubName": "Lions Club Remscheid - Wilhelm Conrad Röntgen",
@@ -449,6 +449,19 @@
     "datumStart": "",
     "titel": "Buecherbasar in Wittmund",
     "beschreibung": "Büchermarkt 2026",
+    "quelleUrl": "https://wittmund.lions.de/aktuell",
+    "confidenceScore": 0.65,
+    "reviewGrund": "kein Datum erkannt",
+    "id": "92e4509b97c8"
+  },
+  {
+    "clubName": "Lions Club Wittmund",
+    "ort": "Wittmund",
+    "districtName": "Niedersachsen-West",
+    "eventType": "buecherbasar",
+    "datumStart": "",
+    "titel": "Buecherbasar in Wittmund",
+    "beschreibung": "Büchermarkt zum Adventmarkt 2026",
     "quelleUrl": "https://wittmund.lions.de/aktuell",
     "confidenceScore": 0.65,
     "reviewGrund": "kein Datum erkannt",

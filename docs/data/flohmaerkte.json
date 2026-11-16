@@ -383,79 +383,30 @@
     "manuellGeprueft": true
   },
   {
-    "id": "df2d2a59b38c",
-    "clubName": "Lions Club Waginger See",
-    "clubUrl": "https://www.lions-wagingersee.de",
-    "ort": "Waginger See",
+    "id": "2d57d5dcde4a",
+    "clubName": "Lions Club Bad Tölz",
+    "clubUrl": "https://www.lc-bad-toelz.de",
+    "ort": "Bad Tölz",
     "bundesland": "Bayern",
     "districtName": "Bayern-Süd",
-    "titel": "Basar in Waginger See",
-    "eventType": "basar",
-    "datumStart": "2026-11-11",
-    "datumEnd": "2026-11-11",
-    "uhrzeit": "16:00",
-    "status": "kommend",
-    "veranstaltungsort": "",
-    "adresse": "",
-    "beschreibung": "Sonntag 22. November 2026 SRI LANKA HILFE ADVENTSBASAR 11 - 16 Uhr in der Aula der Mittelschule Waging Mehr zum Sri Lanka Projekt erfahren ... ADVENTSKALENDER 2026 222 tolle Gewinne Verkauf ab Ende Oktober bei den bekann...",
-    "quelleUrl": "https://www.lions-wagingersee.de/",
-    "rawDateText": "jeden zweiten Mittwoch",
-    "matchedKeywords": [
-      "Basar"
-    ],
-    "confidenceScore": 0.95,
-    "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-11-09T14:22:50"
-  },
-  {
-    "id": "54119f7fb414",
-    "clubName": "Lions Club Tauberbischofsheim",
-    "clubUrl": "https://tauberbischofsheim.lions.de",
-    "ort": "Tauberbischofsheim",
-    "bundesland": "Baden-Wuerttemberg",
-    "districtName": "Süd-Mitte",
-    "titel": "Basar in Tauberbischofsheim",
-    "eventType": "basar",
-    "datumStart": "2026-11-14",
-    "datumEnd": "2026-11-14",
-    "uhrzeit": "09:30",
-    "status": "kommend",
-    "veranstaltungsort": "",
-    "adresse": "",
-    "beschreibung": "Lions Basar Lauda - Tauberbischofsheim Menü-Anzeige Lions Basar TBB Allgemeine Hinweise Anmeldung für Aussteller in TBB Basarbesucher FAQ Galerie Soziale Projekte TBB Lions Basar Lauda Allgemeine Hinweise Anmeldung für A...",
-    "quelleUrl": "https://tauberbischofsheim.lions.de/lions-basar-lauda",
-    "rawDateText": "14. November 2026",
-    "matchedKeywords": [
-      "Basar"
-    ],
-    "confidenceScore": 0.95,
-    "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-11-09T14:08:10"
-  },
-  {
-    "id": "a55f68e94117",
-    "clubName": "Lions Club Heusweiler",
-    "clubUrl": "https://lions-heusweiler.de",
-    "ort": "Heusweiler",
-    "bundesland": "",
-    "districtName": "Mitte-Süd",
-    "titel": "Buecherbasar in Heusweiler",
+    "titel": "Buecherbasar in Bad Tölz",
     "eventType": "buecherbasar",
-    "datumStart": "2026-11-15",
-    "datumEnd": "2026-11-15",
-    "uhrzeit": "18:00",
+    "datumStart": "2026-11-16",
+    "datumEnd": "2026-11-16",
+    "uhrzeit": "12:00",
     "status": "kommend",
     "veranstaltungsort": "",
     "adresse": "",
-    "beschreibung": "WE SERVE LIONS HEUSWEILER FIND OUT MORE Terminankündigung „Kulinarischer Büchermarkt“ Der nächste „Kulinarische Büchermarkt“ findet am Sonntag, dem 15. November 2026 von 11 bis 18 Uhr im Erdbeerland (Spargelhof) Heusweil...",
-    "quelleUrl": "https://lions-heusweiler.de/",
-    "rawDateText": "15. November 2026",
+    "beschreibung": "aktuelles 16. November 2026 Weiterlesen https://www.lc-bad-toelz.de/wp-content/uploads/2024/12/20241214_103816red_s.jpg 1200 1600 RWLCBT-admin https://www.lc-bad-toelz.de/wp-content/uploads/2021/04/logo_lc_200420-akt.jpg...",
+    "quelleUrl": "https://www.lc-bad-toelz.de/club/aktuell-uebersicht/",
+    "rawDateText": "16. November 2026",
     "matchedKeywords": [
-      "Buechermarkt"
+      "Buechermarkt",
+      "Termine"
     ],
     "confidenceScore": 1.0,
     "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-11-09T14:57:39"
+    "lastChecked": "2026-11-16T13:56:11"
   },
   {
     "id": "a01039f6affd",
@@ -480,7 +431,7 @@
     ],
     "confidenceScore": 1.0,
     "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-11-09T14:46:17"
+    "lastChecked": "2026-11-16T14:30:08"
   },
   {
     "id": "808e7e6aa0a2",
@@ -559,33 +510,33 @@
     ],
     "confidenceScore": 0.95,
     "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-11-09T14:22:50"
+    "lastChecked": "2026-11-16T14:07:19"
   },
   {
-    "id": "951714ba6a5a",
-    "clubName": "Lions Club Travemünde",
-    "clubUrl": "https://travemuende.lions.de",
-    "ort": "Travemünde",
+    "id": "e3378d36175a",
+    "clubName": "Lions Club Kassel-Kurhessen",
+    "clubUrl": "https://www.LC-Kassel-Kurhessen.de",
+    "ort": "Kassel-Kurhessen",
     "bundesland": "",
-    "districtName": "Nord",
-    "titel": "Flohmarkt in Travemünde",
+    "districtName": "Mitte-Nord",
+    "titel": "Flohmarkt in Kassel-Kurhessen",
     "eventType": "flohmarkt",
-    "datumStart": "2026-11-22",
-    "datumEnd": "2026-11-22",
-    "uhrzeit": "18:00",
+    "datumStart": "2026-11-26",
+    "datumEnd": "2026-11-26",
+    "uhrzeit": "10:00",
     "status": "kommend",
     "veranstaltungsort": "",
     "adresse": "",
-    "beschreibung": "Termine - Travemünde laufende Termine Termine 22.11.2026 Weihnachtsmarkt am Fährplatz in Travemünde - Feuerzangenbowle – 06.02.2027 Benefizkonzert mit „Pop Symphonics Lübeck“ Maritim Hotel Travemünde - 18:00 Uhr 1 5.05.2...",
-    "quelleUrl": "https://travemuende.lions.de/termine1",
-    "rawDateText": "22.11.2026",
+    "beschreibung": "Termine 22.11.2026 | 10:00 - 16:00 Uhr Beteiligung am „Charity Flohmarkt für den guten Zweck“ Emil Frey Autohaus Sandershäuser Straße 110, 34123 Kassel 26.11.2026 | 19:30 Uhr Vortrag Dr. Stefan Lender: \"Raketenartillerie...",
+    "quelleUrl": "https://www.LC-Kassel-Kurhessen.de/",
+    "rawDateText": "26.11.2026",
     "matchedKeywords": [
       "Flohmarkt",
       "Termine"
     ],
     "confidenceScore": 1.0,
     "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-11-09T15:27:24"
+    "lastChecked": "2026-11-16T14:44:28"
   },
   {
     "id": "99169bcbb913",
@@ -615,6 +566,32 @@
     "extractionMethod": "html_keyword_date_scan_v1",
     "lastChecked": "2026-07-25T20:15:13",
     "manuellGeprueft": true
+  },
+  {
+    "id": "4fb6d65b912f",
+    "clubName": "Lions Club Kassel-Kurhessen",
+    "clubUrl": "https://www.LC-Kassel-Kurhessen.de",
+    "ort": "Kassel-Kurhessen",
+    "bundesland": "",
+    "districtName": "Mitte-Nord",
+    "titel": "Flohmarkt in Kassel-Kurhessen",
+    "eventType": "flohmarkt",
+    "datumStart": "2026-11-28",
+    "datumEnd": "2026-11-28",
+    "uhrzeit": "10:00",
+    "status": "kommend",
+    "veranstaltungsort": "",
+    "adresse": "",
+    "beschreibung": "Termine 22.11.2026 | 10:00 - 16:00 Uhr Beteiligung am „Charity Flohmarkt für den guten Zweck“ Emil Frey Autohaus Sandershäuser Straße 110, 34123 Kassel 26.11.2026 | 19:30 Uhr Vortrag Dr. Stefan Lender: \"Raketenartillerie...",
+    "quelleUrl": "https://www.LC-Kassel-Kurhessen.de/",
+    "rawDateText": "28.11.2026",
+    "matchedKeywords": [
+      "Flohmarkt",
+      "Termine"
+    ],
+    "confidenceScore": 1.0,
+    "extractionMethod": "html_keyword_date_scan_v1",
+    "lastChecked": "2026-11-16T14:44:28"
   },
   {
     "id": "84397ef1cd2f",
@@ -667,7 +644,7 @@
     ],
     "confidenceScore": 0.95,
     "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-11-09T14:22:50"
+    "lastChecked": "2026-11-16T14:07:19"
   },
   {
     "id": "e71f75e2ad05",
@@ -692,7 +669,7 @@
     ],
     "confidenceScore": 0.95,
     "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-11-09T14:22:30"
+    "lastChecked": "2026-11-16T14:06:58"
   },
   {
     "id": "72df022c8332",
@@ -748,7 +725,33 @@
     ],
     "confidenceScore": 1.0,
     "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-11-09T15:26:36"
+    "lastChecked": "2026-11-16T15:10:02"
+  },
+  {
+    "id": "df161f71f1ef",
+    "clubName": "Lions Club Bad Tölz",
+    "clubUrl": "https://www.lc-bad-toelz.de",
+    "ort": "Bad Tölz",
+    "bundesland": "Bayern",
+    "districtName": "Bayern-Süd",
+    "titel": "Buecherbasar in Bad Tölz",
+    "eventType": "buecherbasar",
+    "datumStart": "2027-01-09",
+    "datumEnd": "2027-01-09",
+    "uhrzeit": "10:00",
+    "status": "kommend",
+    "veranstaltungsort": "",
+    "adresse": "",
+    "beschreibung": "Termine zur Annahme von Büchern Nach unserem Winterbüchermarkt sind Annahmetermine für neue Bücher geplant: Die Annahmestelle ist weiterhin Haus Rosenhof Ludwigstr. 37 – 39 83646 Bad Tölz Tel. 08041 7664400 und die Termi...",
+    "quelleUrl": "https://www.lc-bad-toelz.de/2026/11/16/termine-zur-annahme-von-buechern/",
+    "rawDateText": "9. Januar 2027",
+    "matchedKeywords": [
+      "Buechermarkt",
+      "Termine"
+    ],
+    "confidenceScore": 1.0,
+    "extractionMethod": "html_keyword_date_scan_v1",
+    "lastChecked": "2026-11-16T13:56:13"
   },
   {
     "id": "8270f623f079",
@@ -773,7 +776,7 @@
     ],
     "confidenceScore": 1.0,
     "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-11-09T15:27:39"
+    "lastChecked": "2026-11-16T15:11:03"
   },
   {
     "id": "b24080d58ee3",
@@ -825,7 +828,7 @@
     ],
     "confidenceScore": 0.95,
     "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-11-09T14:22:50"
+    "lastChecked": "2026-11-16T14:07:19"
   },
   {
     "id": "06c19e963939",
@@ -853,7 +856,7 @@
     ],
     "confidenceScore": 1.0,
     "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-11-09T15:20:16"
+    "lastChecked": "2026-11-16T15:03:58"
   },
   {
     "id": "4cef38bdd4ff",
@@ -878,7 +881,33 @@
     ],
     "confidenceScore": 0.95,
     "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-11-09T14:22:30"
+    "lastChecked": "2026-11-16T14:06:58"
+  },
+  {
+    "id": "e1243966a219",
+    "clubName": "Lions Club Bad Tölz",
+    "clubUrl": "https://www.lc-bad-toelz.de",
+    "ort": "Bad Tölz",
+    "bundesland": "Bayern",
+    "districtName": "Bayern-Süd",
+    "titel": "Buecherbasar in Bad Tölz",
+    "eventType": "buecherbasar",
+    "datumStart": "2027-02-06",
+    "datumEnd": "2027-02-06",
+    "uhrzeit": "10:00",
+    "status": "kommend",
+    "veranstaltungsort": "",
+    "adresse": "",
+    "beschreibung": "Termine zur Annahme von Büchern Nach unserem Winterbüchermarkt sind Annahmetermine für neue Bücher geplant: Die Annahmestelle ist weiterhin Haus Rosenhof Ludwigstr. 37 – 39 83646 Bad Tölz Tel. 08041 7664400 und die Termi...",
+    "quelleUrl": "https://www.lc-bad-toelz.de/2026/11/16/termine-zur-annahme-von-buechern/",
+    "rawDateText": "6. Februar 2027",
+    "matchedKeywords": [
+      "Buechermarkt",
+      "Termine"
+    ],
+    "confidenceScore": 1.0,
+    "extractionMethod": "html_keyword_date_scan_v1",
+    "lastChecked": "2026-11-16T13:56:13"
   },
   {
     "id": "de5df3a32e6f",
@@ -905,33 +934,7 @@
     ],
     "confidenceScore": 1.0,
     "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-11-09T15:26:36"
-  },
-  {
-    "id": "76cc0af4f482",
-    "clubName": "Lions Club Travemünde",
-    "clubUrl": "https://travemuende.lions.de",
-    "ort": "Travemünde",
-    "bundesland": "",
-    "districtName": "Nord",
-    "titel": "Flohmarkt in Travemünde",
-    "eventType": "flohmarkt",
-    "datumStart": "2027-02-06",
-    "datumEnd": "2027-02-06",
-    "uhrzeit": "18:00",
-    "status": "kommend",
-    "veranstaltungsort": "",
-    "adresse": "",
-    "beschreibung": "Termine - Travemünde laufende Termine Termine 22.11.2026 Weihnachtsmarkt am Fährplatz in Travemünde - Feuerzangenbowle – 06.02.2027 Benefizkonzert mit „Pop Symphonics Lübeck“ Maritim Hotel Travemünde - 18:00 Uhr 1 5.05.2...",
-    "quelleUrl": "https://travemuende.lions.de/termine1",
-    "rawDateText": "06.02.2027",
-    "matchedKeywords": [
-      "Flohmarkt",
-      "Termine"
-    ],
-    "confidenceScore": 1.0,
-    "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-11-09T15:27:24"
+    "lastChecked": "2026-11-16T15:10:02"
   },
   {
     "id": "25eab1a3c15c",
@@ -956,7 +959,7 @@
     ],
     "confidenceScore": 0.95,
     "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-11-09T14:22:50"
+    "lastChecked": "2026-11-16T14:07:19"
   },
   {
     "id": "5e9dc3099a62",
@@ -981,7 +984,7 @@
     ],
     "confidenceScore": 1.0,
     "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-11-09T14:46:17"
+    "lastChecked": "2026-11-16T14:30:08"
   },
   {
     "id": "4c3c9cac6659",
@@ -1009,7 +1012,7 @@
     ],
     "confidenceScore": 1.0,
     "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-11-09T15:20:16"
+    "lastChecked": "2026-11-16T15:03:58"
   },
   {
     "id": "be96df408bcc",
@@ -1034,7 +1037,7 @@
     ],
     "confidenceScore": 0.95,
     "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-11-09T15:34:45"
+    "lastChecked": "2026-11-16T15:17:52"
   },
   {
     "id": "addfffa4ec05",
@@ -1087,7 +1090,7 @@
     ],
     "confidenceScore": 1.0,
     "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-11-09T15:00:18"
+    "lastChecked": "2026-11-16T14:44:10"
   },
   {
     "id": "41829668ca33",
@@ -1114,7 +1117,7 @@
     ],
     "confidenceScore": 1.0,
     "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-11-09T15:26:36"
+    "lastChecked": "2026-11-16T15:10:02"
   },
   {
     "id": "ad53a7515e29",
@@ -1139,7 +1142,7 @@
     ],
     "confidenceScore": 0.95,
     "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-11-09T14:22:50"
+    "lastChecked": "2026-11-16T14:07:19"
   },
   {
     "id": "3d80f0d9f172",
@@ -1164,7 +1167,7 @@
     ],
     "confidenceScore": 0.95,
     "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-11-09T14:22:30"
+    "lastChecked": "2026-11-16T14:06:58"
   },
   {
     "id": "03af7d66b6d9",
@@ -1192,7 +1195,7 @@
     ],
     "confidenceScore": 1.0,
     "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-11-09T15:20:16"
+    "lastChecked": "2026-11-16T15:03:58"
   },
   {
     "id": "de0c24dbf913",
@@ -1219,7 +1222,7 @@
     ],
     "confidenceScore": 1.0,
     "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-11-09T15:26:36"
+    "lastChecked": "2026-11-16T15:10:02"
   },
   {
     "id": "6d6adcd11bc5",
@@ -1244,7 +1247,7 @@
     ],
     "confidenceScore": 0.95,
     "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-11-09T14:08:08"
+    "lastChecked": "2026-11-16T13:52:53"
   },
   {
     "id": "bbd3c6d682a3",
@@ -1269,7 +1272,7 @@
     ],
     "confidenceScore": 0.95,
     "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-11-09T14:22:50"
+    "lastChecked": "2026-11-16T14:07:19"
   },
   {
     "id": "5e5dc9d52af0",
@@ -1294,7 +1297,7 @@
     ],
     "confidenceScore": 0.95,
     "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-11-09T14:08:54"
+    "lastChecked": "2026-11-16T13:53:40"
   },
   {
     "id": "1a9e8c2a1cc2",
@@ -1322,33 +1325,7 @@
     ],
     "confidenceScore": 1.0,
     "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-11-09T15:20:16"
-  },
-  {
-    "id": "be1e8cab144d",
-    "clubName": "Lions Club Travemünde",
-    "clubUrl": "https://travemuende.lions.de",
-    "ort": "Travemünde",
-    "bundesland": "",
-    "districtName": "Nord",
-    "titel": "Flohmarkt in Travemünde",
-    "eventType": "flohmarkt",
-    "datumStart": "2027-05-05",
-    "datumEnd": "2027-05-05",
-    "uhrzeit": "18:00",
-    "status": "kommend",
-    "veranstaltungsort": "",
-    "adresse": "",
-    "beschreibung": "Termine - Travemünde laufende Termine Termine 22.11.2026 Weihnachtsmarkt am Fährplatz in Travemünde - Feuerzangenbowle – 06.02.2027 Benefizkonzert mit „Pop Symphonics Lübeck“ Maritim Hotel Travemünde - 18:00 Uhr 1 5.05.2...",
-    "quelleUrl": "https://travemuende.lions.de/termine1",
-    "rawDateText": "5.05.2027",
-    "matchedKeywords": [
-      "Flohmarkt",
-      "Termine"
-    ],
-    "confidenceScore": 1.0,
-    "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-11-09T15:27:24"
+    "lastChecked": "2026-11-16T15:03:58"
   },
   {
     "id": "166cc8eea9d9",
@@ -1374,7 +1351,7 @@
     ],
     "confidenceScore": 1.0,
     "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-11-09T15:00:18"
+    "lastChecked": "2026-11-16T14:44:10"
   },
   {
     "id": "748675709846",
@@ -1400,7 +1377,7 @@
     ],
     "confidenceScore": 1.0,
     "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-11-09T15:00:18"
+    "lastChecked": "2026-11-16T14:44:10"
   },
   {
     "id": "a53da81866b0",

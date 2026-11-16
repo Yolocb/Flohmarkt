@@ -5290,8 +5290,7 @@
         "/termine"
       ],
       "enabledPaths": [
-        "/",
-        "/termine"
+        "/"
       ],
       "excludePaths": [
         "/impressum",
@@ -5313,10 +5312,7 @@
       "confidenceBase": 0.4,
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
-      "notesInternal": "Aus Clubfinder ermittelt (clubId Süd-West).",
-      "pfad404Count": {
-        "/termine": 1
-      }
+      "notesInternal": "Aus Clubfinder ermittelt (clubId Süd-West)."
     },
     {
       "slug": "offenburg-simplicius",
@@ -15048,7 +15044,10 @@
       "confidenceBase": 0.4,
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
-      "notesInternal": "Aus Clubfinder ermittelt (clubId Bayern-Süd)."
+      "notesInternal": "Aus Clubfinder ermittelt (clubId Bayern-Süd).",
+      "pfad404Count": {
+        "/aktuell": 1
+      }
     },
     {
       "slug": "waginger-see",
@@ -22298,7 +22297,10 @@
       "confidenceBase": 0.4,
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
-      "notesInternal": "Aus Clubfinder ermittelt (Distrikt Niedersachsen-Hannover)."
+      "notesInternal": "Aus Clubfinder ermittelt (Distrikt Niedersachsen-Hannover).",
+      "pfad404Count": {
+        "/projekte": 1
+      }
     },
     {
       "slug": "celle-residenzstadt",
@@ -27507,8 +27509,7 @@
         "/termine"
       ],
       "enabledPaths": [
-        "/",
-        "/projekte"
+        "/"
       ],
       "excludePaths": [
         "/impressum",
@@ -27530,10 +27531,7 @@
       "confidenceBase": 0.4,
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
-      "notesInternal": "Aus Clubfinder ermittelt (Distrikt Nord).",
-      "pfad404Count": {
-        "/projekte": 1
-      }
+      "notesInternal": "Aus Clubfinder ermittelt (Distrikt Nord)."
     },
     {
       "slug": "finsterwalde-niederlausitz",
