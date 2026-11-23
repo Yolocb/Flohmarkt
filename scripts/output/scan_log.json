@@ -1,10 +1,10 @@
 {
-  "startzeit": "2026-11-16T13:40:58",
-  "endzeit": "2026-11-16T15:18:23",
+  "startzeit": "2026-11-23T16:00:43",
+  "endzeit": "2026-11-23T17:55:39",
   "clubsGescannt": 1112,
-  "clubsMitFehler": 125,
-  "eventsSicher": 54,
-  "eventsReview": 5131,
+  "clubsMitFehler": 148,
+  "eventsSicher": 48,
+  "eventsReview": 5025,
   "clubDetails": [
     {
       "slug": "heilbronn",
@@ -39,14 +39,14 @@
           "url": "https://lionsclub-nuernberg.de/veranstaltungen",
           "httpStatus": 200,
           "error": null,
-          "treffer": 14
+          "treffer": 12
         }
       ],
       "pfad404": {
         "/": false,
         "/veranstaltungen": false
       },
-      "eventsSicher": 8,
+      "eventsSicher": 6,
       "eventsReview": 8
     },
     {
@@ -213,14 +213,14 @@
           "url": "https://lions-freiburg.de/",
           "httpStatus": 200,
           "error": null,
-          "treffer": 0
+          "treffer": 8
         }
       ],
       "pfad404": {
         "/": false
       },
-      "eventsSicher": 0,
-      "eventsReview": 0
+      "eventsSicher": 7,
+      "eventsReview": 1
     },
     {
       "slug": "augsburg",
@@ -408,13 +408,13 @@
           "url": "https://lionsclub-ulm.de/index.php/lions-hilfswerk-e-v/veranstaltungen",
           "httpStatus": 200,
           "error": null,
-          "treffer": 36
+          "treffer": 31
         },
         {
           "url": "https://lionsclub-ulm.de/index.php/veranstaltungen",
           "httpStatus": 200,
           "error": null,
-          "treffer": 36
+          "treffer": 31
         },
         {
           "url": "https://lionsclub-ulm.de/index.php/clubtermine",
@@ -433,7 +433,7 @@
         "/": false,
         "/veranstaltungen": false
       },
-      "eventsSicher": 66,
+      "eventsSicher": 56,
       "eventsReview": 6
     },
     {
@@ -804,7 +804,7 @@
           "url": "https://www.lions-biberach.de/",
           "httpStatus": 200,
           "error": null,
-          "treffer": 4
+          "treffer": 3
         },
         {
           "url": "https://www.lions-biberach.de/aktuelles",
@@ -816,7 +816,7 @@
       "pfad404": {
         "/": false
       },
-      "eventsSicher": 3,
+      "eventsSicher": 2,
       "eventsReview": 1
     },
     {
@@ -1781,21 +1781,21 @@
           "url": "https://freiburg-aurora.lions.de/",
           "httpStatus": 200,
           "error": null,
-          "treffer": 0
+          "treffer": 8
         },
         {
           "url": "https://freiburg-aurora.lions.de/home",
           "httpStatus": 200,
           "error": null,
-          "treffer": 0
+          "treffer": 8
         }
       ],
       "pfad404": {
         "/": false,
         "/home": false
       },
-      "eventsSicher": 0,
-      "eventsReview": 0
+      "eventsSicher": 14,
+      "eventsReview": 2
     },
     {
       "slug": "freiburg-munzingen",
@@ -2604,14 +2604,8 @@
       "seiten": [
         {
           "url": "https://lionsclub-karlsruhe-faecher.de/",
-          "httpStatus": 200,
-          "error": null,
-          "treffer": 0
-        },
-        {
-          "url": "https://lionsclub-karlsruhe-faecher.de/wp-content/uploads/2026/08/LC-Karlsruhe-Faecher_Programm_2026_27.pdf",
-          "httpStatus": 200,
-          "error": null,
+          "httpStatus": null,
+          "error": "ReadTimeout: HTTPSConnectionPool(host='lionsclub-karlsruhe-faecher.de', port=443): Read timed out. (read timeout=8)",
           "treffer": 0
         }
       ],
@@ -3011,13 +3005,13 @@
           "url": "https://www.lions-leonberg.de/",
           "httpStatus": 200,
           "error": null,
-          "treffer": 9
+          "treffer": 10
         }
       ],
       "pfad404": {
         "/": false
       },
-      "eventsSicher": 8,
+      "eventsSicher": 9,
       "eventsReview": 1
     },
     {
@@ -3261,9 +3255,9 @@
         },
         {
           "url": "https://www.lions-mannheim-rn.de/aktuelles/termine.html",
-          "httpStatus": 200,
-          "error": null,
-          "treffer": 6
+          "httpStatus": null,
+          "error": "ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",
+          "treffer": 0
         },
         {
           "url": "https://www.lions-mannheim-rn.de/aktivitaeten/projektuebersicht/klasse-2000.html",
@@ -3276,7 +3270,7 @@
         "/": false
       },
       "eventsSicher": 3,
-      "eventsReview": 12
+      "eventsReview": 6
     },
     {
       "slug": "mannheim-schloss",
@@ -3719,17 +3713,10 @@
           "httpStatus": 200,
           "error": null,
           "treffer": 0
-        },
-        {
-          "url": "https://www.lionsclub-offenburg.de/termine",
-          "httpStatus": null,
-          "error": "HTTP 404",
-          "treffer": 0
         }
       ],
       "pfad404": {
-        "/": false,
-        "/termine": true
+        "/": false
       },
       "eventsSicher": 0,
       "eventsReview": 0
@@ -4149,29 +4136,16 @@
       "seiten": [
         {
           "url": "https://www.lions-sigmaringen.de/",
-          "httpStatus": 200,
-          "error": null,
-          "treffer": 2
-        },
-        {
-          "url": "https://www.lions-sigmaringen.de/projekte",
-          "httpStatus": 200,
-          "error": null,
+          "httpStatus": null,
+          "error": "HTTP 403",
           "treffer": 0
-        },
-        {
-          "url": "https://www.lions-sigmaringen.de/polizeipraesident-uwe-stuermer-referiert-zu-aktuellen-entwicklungen-und-herausforderungen-im-kriminalgeschehen",
-          "httpStatus": 200,
-          "error": null,
-          "treffer": 2
         }
       ],
       "pfad404": {
-        "/": false,
-        "/projekte": false
+        "/": false
       },
-      "eventsSicher": 1,
-      "eventsReview": 3
+      "eventsSicher": 0,
+      "eventsReview": 0
     },
     {
       "slug": "singen-hegau",
@@ -4239,12 +4213,12 @@
         {
           "url": "https://www.lions-club-solitude.de/",
           "httpStatus": null,
-          "error": "HTTP 404",
+          "error": "SSL-Fallback: SSLError",
           "treffer": 0
         }
       ],
       "pfad404": {
-        "/": true
+        "/": false
       },
       "eventsSicher": 0,
       "eventsReview": 0
@@ -4258,31 +4232,31 @@
           "url": "https://www.lions-club-stockach.de/",
           "httpStatus": 200,
           "error": null,
-          "treffer": 2
+          "treffer": 1
         },
         {
           "url": "https://www.lions-club-stockach.de/veranstaltungen",
           "httpStatus": 200,
           "error": null,
-          "treffer": 2
+          "treffer": 1
         },
         {
           "url": "https://www.lions-club-stockach.de/termine",
           "httpStatus": 200,
           "error": null,
-          "treffer": 2
+          "treffer": 1
         },
         {
           "url": "https://www.lions-club-stockach.de/aktivitaeten",
           "httpStatus": 200,
           "error": null,
-          "treffer": 2
+          "treffer": 1
         },
         {
           "url": "https://www.lions-club-stockach.de/projekte",
           "httpStatus": 200,
           "error": null,
-          "treffer": 2
+          "treffer": 1
         },
         {
           "url": "https://www.lions-club-stockach.de/jahresprogramm.html",
@@ -4298,7 +4272,7 @@
         "/aktivitaeten": false,
         "/projekte": false
       },
-      "eventsSicher": 10,
+      "eventsSicher": 5,
       "eventsReview": 5
     },
     {
@@ -5673,8 +5647,8 @@
         },
         {
           "url": "https://www.lions-club-aschaffenburg.de/termine",
-          "httpStatus": 200,
-          "error": null,
+          "httpStatus": null,
+          "error": "SSL-Fallback: ConnectionError",
           "treffer": 0
         },
         {
@@ -6380,16 +6354,16 @@
       "seiten": [
         {
           "url": "https://Lions-club-chiemsee.de/",
-          "httpStatus": 200,
-          "error": null,
-          "treffer": 2
+          "httpStatus": null,
+          "error": "SSL-Fallback: SSLError",
+          "treffer": 0
         }
       ],
       "pfad404": {
         "/": false
       },
       "eventsSicher": 0,
-      "eventsReview": 2
+      "eventsReview": 0
     },
     {
       "slug": "coburg",
@@ -6400,7 +6374,7 @@
           "url": "https://www.lions-coburg.de/",
           "httpStatus": 200,
           "error": null,
-          "treffer": 2
+          "treffer": 0
         },
         {
           "url": "https://www.lions-coburg.de/veranstaltungen",
@@ -6420,8 +6394,8 @@
         "/veranstaltungen": false,
         "/aktivitaeten": false
       },
-      "eventsSicher": 1,
-      "eventsReview": 1
+      "eventsSicher": 0,
+      "eventsReview": 0
     },
     {
       "slug": "coburg-veste",
@@ -6795,7 +6769,7 @@
           "url": "https://erlangen-hugenottenstadt.lions.de/",
           "httpStatus": 200,
           "error": null,
-          "treffer": 8
+          "treffer": 0
         },
         {
           "url": "https://erlangen-hugenottenstadt.lions.de/termine",
@@ -6813,7 +6787,7 @@
           "url": "https://erlangen-hugenottenstadt.lions.de/home",
           "httpStatus": 200,
           "error": null,
-          "treffer": 8
+          "treffer": 0
         },
         {
           "url": "https://erlangen-hugenottenstadt.lions.de/weihnachtsmarkt-2023",
@@ -6828,8 +6802,8 @@
         "/aktuell": false,
         "/home": false
       },
-      "eventsSicher": 14,
-      "eventsReview": 2
+      "eventsSicher": 0,
+      "eventsReview": 0
     },
     {
       "slug": "erlangen-orangerie",
@@ -6936,44 +6910,38 @@
         },
         {
           "url": "https://www.lionsclub-fsl.com/veranstaltungen",
-          "httpStatus": 200,
-          "error": null,
+          "httpStatus": null,
+          "error": "HTTP 404",
           "treffer": 0
         },
         {
           "url": "https://www.lionsclub-fsl.com/termine",
-          "httpStatus": 200,
-          "error": null,
+          "httpStatus": null,
+          "error": "HTTP 404",
           "treffer": 0
         },
         {
           "url": "https://www.lionsclub-fsl.com/aktivitaeten",
           "httpStatus": 200,
           "error": null,
-          "treffer": 5
-        },
-        {
-          "url": "https://www.lionsclub-fsl.com/projekte",
-          "httpStatus": 200,
-          "error": null,
           "treffer": 0
         },
         {
-          "url": "https://www.lionsclub-fsl.com/programm",
-          "httpStatus": 200,
-          "error": null,
+          "url": "https://www.lionsclub-fsl.com/projekte",
+          "httpStatus": null,
+          "error": "HTTP 404",
           "treffer": 0
         }
       ],
       "pfad404": {
         "/": false,
-        "/veranstaltungen": false,
-        "/termine": false,
+        "/veranstaltungen": true,
+        "/termine": true,
         "/aktivitaeten": false,
-        "/projekte": false
+        "/projekte": true
       },
       "eventsSicher": 0,
-      "eventsReview": 5
+      "eventsReview": 0
     },
     {
       "slug": "freyung-grafenau",
@@ -7775,20 +7743,13 @@
       "seiten": [
         {
           "url": "https://www.lions-hohe-schule.de/",
-          "httpStatus": 200,
-          "error": null,
-          "treffer": 0
-        },
-        {
-          "url": "https://www.lions-hohe-schule.de/aktivitaeten",
-          "httpStatus": 200,
-          "error": null,
+          "httpStatus": null,
+          "error": "ConnectionError: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
           "treffer": 0
         }
       ],
       "pfad404": {
-        "/": false,
-        "/aktivitaeten": false
+        "/": false
       },
       "eventsSicher": 0,
       "eventsReview": 0
@@ -8467,26 +8428,20 @@
           "url": "https://www.lions-marquartstein.de/",
           "httpStatus": 200,
           "error": null,
-          "treffer": 0
+          "treffer": 3
         },
         {
-          "url": "https://www.lions-marquartstein.de/aktuelles/",
+          "url": "https://www.lions-marquartstein.de/kommende-termine/",
           "httpStatus": 200,
           "error": null,
-          "treffer": 1
-        },
-        {
-          "url": "https://www.lions-marquartstein.de/programm/",
-          "httpStatus": 200,
-          "error": null,
-          "treffer": 0
+          "treffer": 3
         }
       ],
       "pfad404": {
         "/": false
       },
-      "eventsSicher": 1,
-      "eventsReview": 0
+      "eventsSicher": 0,
+      "eventsReview": 6
     },
     {
       "slug": "miesbach-holzkirchen",
@@ -8644,41 +8599,13 @@
       "seiten": [
         {
           "url": "https://www.instagram.com/lionsclubmuenchenbergblick?igsh=dDEzdWM3dnhzZmJ4/",
-          "httpStatus": 200,
-          "error": null,
-          "treffer": 0
-        },
-        {
-          "url": "https://www.instagram.com/veranstaltungen",
-          "httpStatus": 200,
-          "error": null,
-          "treffer": 0
-        },
-        {
-          "url": "https://www.instagram.com/termine",
-          "httpStatus": 200,
-          "error": null,
-          "treffer": 0
-        },
-        {
-          "url": "https://www.instagram.com/aktivitaeten",
-          "httpStatus": 200,
-          "error": null,
-          "treffer": 0
-        },
-        {
-          "url": "https://www.instagram.com/projekte",
-          "httpStatus": 200,
-          "error": null,
+          "httpStatus": null,
+          "error": "HTTP 429",
           "treffer": 0
         }
       ],
       "pfad404": {
-        "/": false,
-        "/veranstaltungen": false,
-        "/termine": false,
-        "/aktivitaeten": false,
-        "/projekte": false
+        "/": false
       },
       "eventsSicher": 0,
       "eventsReview": 0
@@ -9123,16 +9050,16 @@
       "seiten": [
         {
           "url": "https://www.lionsclub-metropolitan.de/",
-          "httpStatus": 200,
-          "error": null,
-          "treffer": 1
+          "httpStatus": null,
+          "error": "SSL-Fallback: SSLError",
+          "treffer": 0
         }
       ],
       "pfad404": {
         "/": false
       },
       "eventsSicher": 0,
-      "eventsReview": 1
+      "eventsReview": 0
     },
     {
       "slug": "muenchen-nymphenburg",
@@ -9873,8 +9800,8 @@
         },
         {
           "url": "https://oberallgaeu.lions.de/projekte",
-          "httpStatus": 200,
-          "error": null,
+          "httpStatus": null,
+          "error": "HTTP 404",
           "treffer": 0
         },
         {
@@ -9887,7 +9814,7 @@
       "pfad404": {
         "/": false,
         "/termine": false,
-        "/projekte": false
+        "/projekte": true
       },
       "eventsSicher": 4,
       "eventsReview": 6
@@ -10381,12 +10308,6 @@
           "treffer": 0
         },
         {
-          "url": "https://schwabmuenchen-lechfeld-buchloe.lions.de/termine1",
-          "httpStatus": 200,
-          "error": null,
-          "treffer": 2
-        },
-        {
           "url": "https://schwabmuenchen-lechfeld-buchloe.lions.de/buchloe",
           "httpStatus": 200,
           "error": null,
@@ -10407,7 +10328,7 @@
         "/home": false
       },
       "eventsSicher": 16,
-      "eventsReview": 11
+      "eventsReview": 9
     },
     {
       "slug": "selb-an-der-porzellanstrasse",
@@ -10700,7 +10621,7 @@
           "url": "https://www.lions-wagingersee.de/",
           "httpStatus": 200,
           "error": null,
-          "treffer": 6
+          "treffer": 1
         },
         {
           "url": "https://www.lions-wagingersee.de/aktivitaeten",
@@ -10732,8 +10653,8 @@
         "/aktivitaeten": false,
         "/projekte": false
       },
-      "eventsSicher": 30,
-      "eventsReview": 41
+      "eventsSicher": 24,
+      "eventsReview": 42
     },
     {
       "slug": "weiden",
@@ -10760,8 +10681,8 @@
       "seiten": [
         {
           "url": "https://www.lions-goldene-strasse.de/",
-          "httpStatus": 200,
-          "error": null,
+          "httpStatus": null,
+          "error": "ReadTimeout: HTTPSConnectionPool(host='www.lions-goldene-strasse.de', port=443): Read timed out. (read timeout=8)",
           "treffer": 0
         }
       ],
@@ -11282,41 +11203,13 @@
       "seiten": [
         {
           "url": "https://www.lions-aachen-kaiserpfalz.de/",
-          "httpStatus": 200,
-          "error": null,
-          "treffer": 0
-        },
-        {
-          "url": "https://www.lions-aachen-kaiserpfalz.de/veranstaltungen",
-          "httpStatus": 200,
-          "error": null,
-          "treffer": 0
-        },
-        {
-          "url": "https://www.lions-aachen-kaiserpfalz.de/termine",
-          "httpStatus": 200,
-          "error": null,
-          "treffer": 0
-        },
-        {
-          "url": "https://www.lions-aachen-kaiserpfalz.de/aktivitaeten",
-          "httpStatus": 200,
-          "error": null,
-          "treffer": 0
-        },
-        {
-          "url": "https://www.lions-aachen-kaiserpfalz.de/projekte",
-          "httpStatus": 200,
-          "error": null,
+          "httpStatus": null,
+          "error": "ConnectTimeout: HTTPSConnectionPool(host='www.lions-aachen-kaiserpfalz.de', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.lions-aachen-kaiserpfalz.de', port=443) at 0x7acd5bd01f10>, 'Connection to www.lions-aachen-kaiserpfalz.de timed out. (connect timeout=8)'))",
           "treffer": 0
         }
       ],
       "pfad404": {
-        "/": false,
-        "/veranstaltungen": false,
-        "/termine": false,
-        "/aktivitaeten": false,
-        "/projekte": false
+        "/": false
       },
       "eventsSicher": 0,
       "eventsReview": 0
@@ -11754,9 +11647,9 @@
         },
         {
           "url": "https://arnsberg-sundern.lions.de/aktuell",
-          "httpStatus": 200,
-          "error": null,
-          "treffer": 15
+          "httpStatus": null,
+          "error": "ReadTimeout: HTTPSConnectionPool(host='arnsberg-sundern.lions.de', port=443): Read timed out. (read timeout=8)",
+          "treffer": 0
         },
         {
           "url": "https://arnsberg-sundern.lions.de/home",
@@ -11770,8 +11663,8 @@
         "/aktuell": false,
         "/home": false
       },
-      "eventsSicher": 12,
-      "eventsReview": 7
+      "eventsSicher": 2,
+      "eventsReview": 2
     },
     {
       "slug": "arnstadt-ilmenau",
@@ -11906,13 +11799,13 @@
           "url": "https://lions-bad-driburg.org/aktuelles/",
           "httpStatus": 200,
           "error": null,
-          "treffer": 3
+          "treffer": 5
         }
       ],
       "pfad404": {
         "/": false
       },
-      "eventsSicher": 2,
+      "eventsSicher": 4,
       "eventsReview": 1
     },
     {
@@ -12226,7 +12119,7 @@
           "url": "https://www.lc-hgwt.de/projekte",
           "httpStatus": 200,
           "error": null,
-          "treffer": 4
+          "treffer": 5
         }
       ],
       "pfad404": {
@@ -12236,7 +12129,7 @@
         "/aktivitaeten": false,
         "/projekte": false
       },
-      "eventsSicher": 10,
+      "eventsSicher": 11,
       "eventsReview": 10
     },
     {
@@ -12264,16 +12157,44 @@
       "seiten": [
         {
           "url": "http://www.lc-badnauheim.de/",
-          "httpStatus": null,
-          "error": "ConnectionError: HTTPConnectionPool(host='www.lc-badnauheim.de', port=80): Max retries exceeded with url: / (Caused by NewConnectionError(\"HTTPConnection(host='www.lc-badnauheim.de', port=80): Failed to establish a new connection: [Errno 111] Connection refused\"))",
-          "treffer": 0
+          "httpStatus": 200,
+          "error": null,
+          "treffer": 6
+        },
+        {
+          "url": "http://www.lc-badnauheim.de/veranstaltungen",
+          "httpStatus": 200,
+          "error": null,
+          "treffer": 6
+        },
+        {
+          "url": "http://www.lc-badnauheim.de/termine",
+          "httpStatus": 200,
+          "error": null,
+          "treffer": 6
+        },
+        {
+          "url": "http://www.lc-badnauheim.de/aktivitaeten",
+          "httpStatus": 200,
+          "error": null,
+          "treffer": 6
+        },
+        {
+          "url": "http://www.lc-badnauheim.de/projekte",
+          "httpStatus": 200,
+          "error": null,
+          "treffer": 6
         }
       ],
       "pfad404": {
-        "/": false
+        "/": false,
+        "/veranstaltungen": false,
+        "/termine": false,
+        "/aktivitaeten": false,
+        "/projekte": false
       },
       "eventsSicher": 0,
-      "eventsReview": 0
+      "eventsReview": 30
     },
     {
       "slug": "bad-nauheim-hessischer-loewe",
@@ -12680,7 +12601,7 @@
         {
           "url": "https://www.lc-bensberg.de/",
           "httpStatus": null,
-          "error": "ConnectTimeout: HTTPSConnectionPool(host='www.lc-bensberg.de', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.lc-bensberg.de', port=443) at 0x75b0e6e9f950>, 'Connection to www.lc-bensberg.de timed out. (connect timeout=8)'))",
+          "error": "ConnectTimeout: HTTPSConnectionPool(host='www.lc-bensberg.de', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.lc-bensberg.de', port=443) at 0x7acd5c9c0710>, 'Connection to www.lc-bensberg.de timed out. (connect timeout=8)'))",
           "treffer": 0
         }
       ],
@@ -13248,14 +13169,14 @@
         },
         {
           "url": "http://www.lionsclub-berlin-leipziger-platz.de/mitgliederbereich/berichte-bilder/weihnachtsmarkt-2013/",
-          "httpStatus": 200,
-          "error": null,
+          "httpStatus": null,
+          "error": "ReadTimeout: HTTPSConnectionPool(host='www.lionsclub-berlin-leipziger-platz.de', port=443): Read timed out. (read timeout=8)",
           "treffer": 0
         },
         {
           "url": "http://www.lionsclub-berlin-leipziger-platz.de/mitgliederbereich/berichte-bilder/weihnachtsmarkt-2012/",
-          "httpStatus": 200,
-          "error": null,
+          "httpStatus": null,
+          "error": "ReadTimeout: HTTPSConnectionPool(host='www.lionsclub-berlin-leipziger-platz.de', port=443): Read timed out. (read timeout=8)",
           "treffer": 0
         },
         {
@@ -13266,8 +13187,8 @@
         },
         {
           "url": "http://www.lionsclub-berlin-leipziger-platz.de/mitgliederbereich/berichte-bilder/weihnachtsmarkt-2009/",
-          "httpStatus": 200,
-          "error": null,
+          "httpStatus": null,
+          "error": "ReadTimeout: HTTPSConnectionPool(host='www.lionsclub-berlin-leipziger-platz.de', port=443): Read timed out. (read timeout=8)",
           "treffer": 0
         }
       ],
@@ -13323,7 +13244,7 @@
         {
           "url": "https://www.lcbn.de/",
           "httpStatus": null,
-          "error": "ConnectTimeout: HTTPSConnectionPool(host='www.lcbn.de', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.lcbn.de', port=443) at 0x75b0e6287b00>, 'Connection to www.lcbn.de timed out. (connect timeout=8)'))",
+          "error": "ConnectTimeout: HTTPSConnectionPool(host='www.lcbn.de', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.lcbn.de', port=443) at 0x7acd5c551190>, 'Connection to www.lcbn.de timed out. (connect timeout=8)'))",
           "treffer": 0
         }
       ],
@@ -13401,8 +13322,8 @@
         },
         {
           "url": "https://www.lcberlin-pvh.de/termine",
-          "httpStatus": null,
-          "error": "SSL-Fallback: ConnectionError",
+          "httpStatus": 200,
+          "error": null,
           "treffer": 0
         },
         {
@@ -13604,7 +13525,7 @@
           "url": "https://www.Lions-Wannsee.de/",
           "httpStatus": 200,
           "error": null,
-          "treffer": 2
+          "treffer": 1
         },
         {
           "url": "https://www.Lions-Wannsee.de/termine",
@@ -13634,7 +13555,7 @@
           "url": "https://www.Lions-Wannsee.de/category/veranstaltungen/",
           "httpStatus": 200,
           "error": null,
-          "treffer": 2
+          "treffer": 1
         },
         {
           "url": "https://www.Lions-Wannsee.de/tag/weihnachtsmarkt/",
@@ -13655,7 +13576,7 @@
         "/projekte": false
       },
       "eventsSicher": 0,
-      "eventsReview": 10
+      "eventsReview": 8
     },
     {
       "slug": "berlin-wuhletal",
@@ -14091,14 +14012,14 @@
           "url": "https://www.lions-blomberg.de/",
           "httpStatus": 200,
           "error": null,
-          "treffer": 5
+          "treffer": 0
         }
       ],
       "pfad404": {
         "/": false
       },
-      "eventsSicher": 4,
-      "eventsReview": 1
+      "eventsSicher": 0,
+      "eventsReview": 0
     },
     {
       "slug": "bocholt",
@@ -15272,8 +15193,8 @@
       "seiten": [
         {
           "url": "http://lionsclub-bremerhaven.de/",
-          "httpStatus": 200,
-          "error": null,
+          "httpStatus": null,
+          "error": "HTTP 500",
           "treffer": 0
         }
       ],
@@ -15502,28 +15423,16 @@
       "seiten": [
         {
           "url": "https://www.Lions-butzbach.de/",
-          "httpStatus": 200,
-          "error": null,
+          "httpStatus": null,
+          "error": "HTTP 403",
           "treffer": 0
-        },
-        {
-          "url": "https://www.Lions-butzbach.de/kopie-mitmachen",
-          "httpStatus": 200,
-          "error": null,
-          "treffer": 2
-        },
-        {
-          "url": "https://www.Lions-butzbach.de/kopie-termine-und-veranstaltungen",
-          "httpStatus": 200,
-          "error": null,
-          "treffer": 2
         }
       ],
       "pfad404": {
         "/": false
       },
       "eventsSicher": 0,
-      "eventsReview": 4
+      "eventsReview": 0
     },
     {
       "slug": "buxtehude-franziska-von-oldershausen",
@@ -16787,8 +16696,8 @@
       "seiten": [
         {
           "url": "https://www.lionsclub-dinslaken-2012.de/",
-          "httpStatus": null,
-          "error": "HTTP 500",
+          "httpStatus": 200,
+          "error": null,
           "treffer": 0
         }
       ],
@@ -16895,13 +16804,13 @@
           "url": "https://www.lions-dorsten-hanse.de/termine.php",
           "httpStatus": 200,
           "error": null,
-          "treffer": 232
+          "treffer": 233
         }
       ],
       "pfad404": {
         "/": false
       },
-      "eventsSicher": 219,
+      "eventsSicher": 220,
       "eventsReview": 33
     },
     {
@@ -18825,28 +18734,16 @@
       "seiten": [
         {
           "url": "https://www.lions-club-eschborn-westerbach.de/",
-          "httpStatus": 200,
-          "error": null,
-          "treffer": 3
-        },
-        {
-          "url": "https://www.lions-club-eschborn-westerbach.de/ben-efiz-basar",
-          "httpStatus": 200,
-          "error": null,
-          "treffer": 4
-        },
-        {
-          "url": "https://www.lions-club-eschborn-westerbach.de/23-03-19-benefiz-basar",
-          "httpStatus": 200,
-          "error": null,
-          "treffer": 3
+          "httpStatus": null,
+          "error": "HTTP 403",
+          "treffer": 0
         }
       ],
       "pfad404": {
         "/": false
       },
-      "eventsSicher": 3,
-      "eventsReview": 7
+      "eventsSicher": 0,
+      "eventsReview": 0
     },
     {
       "slug": "eschwege",
@@ -19300,12 +19197,6 @@
           "treffer": 5
         },
         {
-          "url": "https://www.lionsclub-eutin.de/projekte",
-          "httpStatus": null,
-          "error": "HTTP 404",
-          "treffer": 0
-        },
-        {
           "url": "https://www.lionsclub-eutin.de/index.php/presse",
           "httpStatus": 200,
           "error": null,
@@ -19313,8 +19204,7 @@
         }
       ],
       "pfad404": {
-        "/": false,
-        "/projekte": true
+        "/": false
       },
       "eventsSicher": 3,
       "eventsReview": 13
@@ -19390,14 +19280,14 @@
           "url": "https://www.lions-club-flensburg.de/",
           "httpStatus": 200,
           "error": null,
-          "treffer": 5
+          "treffer": 2
         }
       ],
       "pfad404": {
         "/": false
       },
       "eventsSicher": 1,
-      "eventsReview": 4
+      "eventsReview": 1
     },
     {
       "slug": "flensburg-alexandra",
@@ -19577,41 +19467,16 @@
       "seiten": [
         {
           "url": "https://www.lcfrankfurtalteoper.com/",
-          "httpStatus": 200,
-          "error": null,
-          "treffer": 1
-        },
-        {
-          "url": "https://www.lcfrankfurtalteoper.com/veranstaltungen",
-          "httpStatus": 200,
-          "error": null,
-          "treffer": 7
-        },
-        {
-          "url": "https://www.lcfrankfurtalteoper.com/test-aktuelleveranstaltungen",
-          "httpStatus": 200,
-          "error": null,
-          "treffer": 18
-        },
-        {
-          "url": "https://www.lcfrankfurtalteoper.com/aktuelle-veranstaltungen",
-          "httpStatus": 200,
-          "error": null,
-          "treffer": 4
-        },
-        {
-          "url": "https://www.lcfrankfurtalteoper.com/das-europaeische-kochbuch-unseres-distrikts-ist-da",
-          "httpStatus": 200,
-          "error": null,
+          "httpStatus": null,
+          "error": "HTTP 403",
           "treffer": 0
         }
       ],
       "pfad404": {
-        "/": false,
-        "/veranstaltungen": false
+        "/": false
       },
-      "eventsSicher": 10,
-      "eventsReview": 20
+      "eventsSicher": 0,
+      "eventsReview": 0
     },
     {
       "slug": "frankfurt-cosmopolitan",
@@ -19626,14 +19491,14 @@
         },
         {
           "url": "https://lions-frankfurt-cosmopolitan.de/veranstaltungen",
-          "httpStatus": 200,
-          "error": null,
+          "httpStatus": null,
+          "error": "HTTP 404",
           "treffer": 0
         }
       ],
       "pfad404": {
         "/": false,
-        "/veranstaltungen": false
+        "/veranstaltungen": true
       },
       "eventsSicher": 0,
       "eventsReview": 0
@@ -20075,7 +19940,7 @@
           "treffer": 6
         },
         {
-          "url": "https://lions-gelnhausen.de/wp-content/uploads/2026/09/Programm_Lions_GN_2026-27-V3.pdf",
+          "url": "https://lions-gelnhausen.de/wp-content/uploads/2026/11/Programm_Lions_GN_2026-27-HJ2.pdf",
           "httpStatus": 200,
           "error": null,
           "treffer": 0
@@ -21226,15 +21091,27 @@
       "seiten": [
         {
           "url": "https://www.lions-hagen-asteria.de/",
-          "httpStatus": null,
-          "error": "ReadTimeout: HTTPSConnectionPool(host='www.lions-hagen-asteria.de', port=443): Read timed out. (read timeout=8)",
+          "httpStatus": 200,
+          "error": null,
           "treffer": 0
+        },
+        {
+          "url": "https://www.lions-hagen-asteria.de/category/Aktuelles/",
+          "httpStatus": 200,
+          "error": null,
+          "treffer": 0
+        },
+        {
+          "url": "https://www.lions-hagen-asteria.de/mitgliederbereich/jahresprogramm/",
+          "httpStatus": 200,
+          "error": null,
+          "treffer": 1
         }
       ],
       "pfad404": {
         "/": false
       },
-      "eventsSicher": 0,
+      "eventsSicher": 1,
       "eventsReview": 0
     },
     {
@@ -21269,20 +21146,13 @@
       "seiten": [
         {
           "url": "https://www.lions-club-hagen-mark.de/",
-          "httpStatus": 200,
-          "error": null,
-          "treffer": 0
-        },
-        {
-          "url": "https://www.lions-club-hagen-mark.de/projekte",
-          "httpStatus": 200,
-          "error": null,
+          "httpStatus": null,
+          "error": "ReadTimeout: HTTPSConnectionPool(host='lions-club-hagen-mark.de', port=443): Read timed out. (read timeout=8)",
           "treffer": 0
         }
       ],
       "pfad404": {
-        "/": false,
-        "/projekte": false
+        "/": false
       },
       "eventsSicher": 0,
       "eventsReview": 0
@@ -21500,16 +21370,43 @@
       "seiten": [
         {
           "url": "https://lions-hamburg-waterkant.blogspot.com/",
+          "httpStatus": 200,
+          "error": null,
+          "treffer": 1
+        },
+        {
+          "url": "https://lions-hamburg-waterkant.blogspot.com/termine",
+          "httpStatus": null,
+          "error": "HTTP 404",
+          "treffer": 0
+        },
+        {
+          "url": "https://lions-hamburg-waterkant.blogspot.com/aktivitaeten",
           "httpStatus": null,
           "error": "HTTP 429",
+          "treffer": 0
+        },
+        {
+          "url": "https://lions-hamburg-waterkant.blogspot.com/projekte",
+          "httpStatus": null,
+          "error": "HTTP 404",
+          "treffer": 0
+        },
+        {
+          "url": "https://lions-hamburg-waterkant.blogspot.com/2021/12/weihnachtslesung-und-buchspende.html",
+          "httpStatus": 200,
+          "error": null,
           "treffer": 0
         }
       ],
       "pfad404": {
-        "/": false
+        "/": false,
+        "/termine": true,
+        "/aktivitaeten": false,
+        "/projekte": true
       },
       "eventsSicher": 0,
-      "eventsReview": 0
+      "eventsReview": 1
     },
     {
       "slug": "hamburg-alster",
@@ -22358,16 +22255,10 @@
           "url": "https://lions-hmue.de/",
           "httpStatus": 200,
           "error": null,
-          "treffer": 2
+          "treffer": 0
         },
         {
           "url": "https://lions-hmue.de/aktivitaeten",
-          "httpStatus": 200,
-          "error": null,
-          "treffer": 3
-        },
-        {
-          "url": "https://lions-hmue.de/category/veranstaltungen/",
           "httpStatus": 200,
           "error": null,
           "treffer": 3
@@ -22378,7 +22269,7 @@
         "/aktivitaeten": false
       },
       "eventsSicher": 0,
-      "eventsReview": 8
+      "eventsReview": 3
     },
     {
       "slug": "hannover",
@@ -22790,6 +22681,12 @@
           "httpStatus": 200,
           "error": null,
           "treffer": 2
+        },
+        {
+          "url": "https://www.lions-hassloch.de/weihnachtsmarkt-der-1000-lichter.html",
+          "httpStatus": 200,
+          "error": null,
+          "treffer": 0
         },
         {
           "url": "https://www.lions-hassloch.de/weihnachtsmarkt-aufbau-2025.html",
@@ -23410,14 +23307,14 @@
           "url": "https://lions-heusweiler.de/",
           "httpStatus": 200,
           "error": null,
-          "treffer": 8
+          "treffer": 3
         }
       ],
       "pfad404": {
         "/": false
       },
-      "eventsSicher": 3,
-      "eventsReview": 5
+      "eventsSicher": 0,
+      "eventsReview": 3
     },
     {
       "slug": "hildesheim",
@@ -23845,16 +23742,16 @@
       "seiten": [
         {
           "url": "https://www.lc-hoexter-corvey.de/",
-          "httpStatus": 200,
-          "error": null,
-          "treffer": 7
+          "httpStatus": null,
+          "error": "TooManyRedirects: Exceeded 30 redirects.",
+          "treffer": 0
         }
       ],
       "pfad404": {
         "/": false
       },
       "eventsSicher": 0,
-      "eventsReview": 7
+      "eventsReview": 0
     },
     {
       "slug": "huenfeld",
@@ -24086,13 +23983,13 @@
           "url": "https://www.lions-club-iserlohn.de/",
           "httpStatus": 200,
           "error": null,
-          "treffer": 1
+          "treffer": 2
         }
       ],
       "pfad404": {
         "/": false
       },
-      "eventsSicher": 0,
+      "eventsSicher": 1,
       "eventsReview": 1
     },
     {
@@ -24498,7 +24395,7 @@
           "url": "https://kassel-herkules.lions.de/",
           "httpStatus": 200,
           "error": null,
-          "treffer": 0
+          "treffer": 2
         },
         {
           "url": "https://kassel-herkules.lions.de/termine",
@@ -24508,32 +24405,32 @@
         },
         {
           "url": "https://kassel-herkules.lions.de/projekte",
-          "httpStatus": 200,
-          "error": null,
-          "treffer": 5
+          "httpStatus": null,
+          "error": "HTTP 404",
+          "treffer": 0
         },
         {
           "url": "https://kassel-herkules.lions.de/aktuell",
           "httpStatus": 200,
           "error": null,
-          "treffer": 2
+          "treffer": 0
         },
         {
           "url": "https://kassel-herkules.lions.de/home",
           "httpStatus": 200,
           "error": null,
-          "treffer": 0
+          "treffer": 2
         }
       ],
       "pfad404": {
         "/": false,
         "/termine": false,
-        "/projekte": false,
+        "/projekte": true,
         "/aktuell": false,
         "/home": false
       },
-      "eventsSicher": 5,
-      "eventsReview": 2
+      "eventsSicher": 0,
+      "eventsReview": 4
     },
     {
       "slug": "kassel-kurhessen",
@@ -24544,13 +24441,13 @@
           "url": "https://www.LC-Kassel-Kurhessen.de/",
           "httpStatus": 200,
           "error": null,
-          "treffer": 6
+          "treffer": 3
         }
       ],
       "pfad404": {
         "/": false
       },
-      "eventsSicher": 6,
+      "eventsSicher": 3,
       "eventsReview": 0
     },
     {
@@ -24599,34 +24496,16 @@
       "seiten": [
         {
           "url": "https://www.lions-kehdingen.de/",
-          "httpStatus": 200,
-          "error": null,
-          "treffer": 5
-        },
-        {
-          "url": "https://www.lions-kehdingen.de/aktuelles",
-          "httpStatus": 200,
-          "error": null,
-          "treffer": 4
-        },
-        {
-          "url": "https://www.lions-kehdingen.de/programm",
-          "httpStatus": 200,
-          "error": null,
-          "treffer": 0
-        },
-        {
-          "url": "https://www.lions-kehdingen.de/aktuelles-und-projekte",
-          "httpStatus": 200,
-          "error": null,
+          "httpStatus": null,
+          "error": "HTTP 403",
           "treffer": 0
         }
       ],
       "pfad404": {
         "/": false
       },
-      "eventsSicher": 2,
-      "eventsReview": 7
+      "eventsSicher": 0,
+      "eventsReview": 0
     },
     {
       "slug": "kelkheim-ts",
@@ -24643,7 +24522,7 @@
           "url": "https://www.lions-kelkheim.de/veranstaltungen",
           "httpStatus": 200,
           "error": null,
-          "treffer": 8
+          "treffer": 7
         },
         {
           "url": "https://www.lions-kelkheim.de/aktuelles/",
@@ -24655,7 +24534,7 @@
           "url": "https://www.lions-kelkheim.de/veranstaltungen/",
           "httpStatus": 200,
           "error": null,
-          "treffer": 8
+          "treffer": 7
         },
         {
           "url": "https://www.lions-kelkheim.de/wir-über-uns/programm-2-hj-2026/",
@@ -24698,7 +24577,7 @@
         "/": false,
         "/veranstaltungen": false
       },
-      "eventsSicher": 12,
+      "eventsSicher": 10,
       "eventsReview": 21
     },
     {
@@ -25173,13 +25052,26 @@
       "seiten": [
         {
           "url": "https://www.lions-club-kreuztal.de/",
-          "httpStatus": null,
-          "error": "ReadTimeout: HTTPSConnectionPool(host='www.lions-club-kreuztal.de', port=443): Read timed out. (read timeout=8)",
+          "httpStatus": 200,
+          "error": null,
+          "treffer": 0
+        },
+        {
+          "url": "https://www.lions-club-kreuztal.de/aktivitaeten",
+          "httpStatus": 200,
+          "error": null,
+          "treffer": 0
+        },
+        {
+          "url": "https://www.lions-club-kreuztal.de/aktuelles/",
+          "httpStatus": 200,
+          "error": null,
           "treffer": 0
         }
       ],
       "pfad404": {
-        "/": false
+        "/": false,
+        "/aktivitaeten": false
       },
       "eventsSicher": 0,
       "eventsReview": 0
@@ -25233,28 +25125,16 @@
       "seiten": [
         {
           "url": "https://www.Lions-Caligula.de/",
-          "httpStatus": 200,
-          "error": null,
-          "treffer": 4
-        },
-        {
-          "url": "https://www.Lions-Caligula.de/aktueller-vorstand",
-          "httpStatus": 200,
-          "error": null,
+          "httpStatus": null,
+          "error": "HTTP 403",
           "treffer": 0
-        },
-        {
-          "url": "https://www.Lions-Caligula.de/aktuelle-jahrestermine",
-          "httpStatus": 200,
-          "error": null,
-          "treffer": 4
         }
       ],
       "pfad404": {
         "/": false
       },
       "eventsSicher": 0,
-      "eventsReview": 8
+      "eventsReview": 0
     },
     {
       "slug": "koeln-claudia-ara",
@@ -25264,7 +25144,7 @@
         {
           "url": "http://www.lc-claudia-ara.de/",
           "httpStatus": null,
-          "error": "ConnectTimeout: HTTPConnectionPool(host='www.lc-claudia-ara.de', port=80): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPConnection(host='www.lc-claudia-ara.de', port=80) at 0x75b0e6692780>, 'Connection to www.lc-claudia-ara.de timed out. (connect timeout=8)'))",
+          "error": "ConnectTimeout: HTTPConnectionPool(host='www.lc-claudia-ara.de', port=80): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPConnection(host='www.lc-claudia-ara.de', port=80) at 0x7acd5cade6c0>, 'Connection to www.lc-claudia-ara.de timed out. (connect timeout=8)'))",
           "treffer": 0
         }
       ],
@@ -25497,13 +25377,13 @@
           "url": "https://www.lionsclub-kw.de/",
           "httpStatus": 200,
           "error": null,
-          "treffer": 0
+          "treffer": 8
         }
       ],
       "pfad404": {
         "/": false
       },
-      "eventsSicher": 0,
+      "eventsSicher": 8,
       "eventsReview": 0
     },
     {
@@ -26815,20 +26695,20 @@
           "url": "https://www.lions-club-loehne.de/",
           "httpStatus": 200,
           "error": null,
-          "treffer": 3
+          "treffer": 0
         },
         {
-          "url": "https://www.lions-club-loehne.de/club-veranstaltungen/",
+          "url": "https://www.lions-club-loehne.de/veranstaltungen",
           "httpStatus": 200,
           "error": null,
-          "treffer": 7
+          "treffer": 3
         }
       ],
       "pfad404": {
         "/": false
       },
       "eventsSicher": 0,
-      "eventsReview": 10
+      "eventsReview": 3
     },
     {
       "slug": "luebben-spreewald",
@@ -26924,8 +26804,8 @@
         },
         {
           "url": "https://www.lions-luebeck-holstentor.de/veranstaltungen",
-          "httpStatus": 200,
-          "error": null,
+          "httpStatus": null,
+          "error": "HTTP 404",
           "treffer": 0
         },
         {
@@ -26937,7 +26817,7 @@
       ],
       "pfad404": {
         "/": false,
-        "/veranstaltungen": false,
+        "/veranstaltungen": true,
         "/aktivitaeten": false
       },
       "eventsSicher": 0,
@@ -27348,13 +27228,13 @@
           "url": "https://www.lions-magdeburg.de/termine/aktuell",
           "httpStatus": 200,
           "error": null,
-          "treffer": 10
+          "treffer": 9
         },
         {
           "url": "https://www.lions-magdeburg.de/termine/vergangen",
           "httpStatus": 200,
           "error": null,
-          "treffer": 14
+          "treffer": 15
         }
       ],
       "pfad404": {
@@ -27571,7 +27451,7 @@
         {
           "url": "https://http.//www.lc-mainz-schoenborn.de/",
           "httpStatus": null,
-          "error": "ConnectionError: HTTPSConnectionPool(host='http.', port=443): Max retries exceeded with url: //www.lc-mainz-schoenborn.de/ (Caused by NameResolutionError(\"HTTPSConnection(host='http', port=443): Failed to resolve 'http' ([Errno -3] Temporary failure in name resolution)\"))",
+          "error": "ConnectionError: HTTPSConnectionPool(host='http.', port=443): Max retries exceeded with url: //www.lc-mainz-schoenborn.de/ (Caused by NameResolutionError(\"HTTPSConnection(host='http', port=443): Failed to resolve 'http' ([Errno -2] Name or service not known)\"))",
           "treffer": 0
         }
       ],
@@ -27718,8 +27598,8 @@
       "seiten": [
         {
           "url": "https://www.lionsclub-marl.de/",
-          "httpStatus": null,
-          "error": "ReadTimeout: HTTPSConnectionPool(host='www.lionsclub-marl.de', port=443): Read timed out. (read timeout=8)",
+          "httpStatus": 200,
+          "error": null,
           "treffer": 0
         }
       ],
@@ -27738,7 +27618,7 @@
           "url": "http://www.lions-marl-im-revier.de/",
           "httpStatus": 200,
           "error": null,
-          "treffer": 15
+          "treffer": 14
         },
         {
           "url": "http://www.lions-marl-im-revier.de/projekte",
@@ -27750,7 +27630,7 @@
           "url": "http://www.lions-marl-im-revier.de/aktuelles/",
           "httpStatus": 200,
           "error": null,
-          "treffer": 67
+          "treffer": 68
         },
         {
           "url": "http://www.lions-marl-im-revier.de/aktuell/termine/",
@@ -27781,8 +27661,8 @@
         "/": false,
         "/projekte": false
       },
-      "eventsSicher": 72,
-      "eventsReview": 56
+      "eventsSicher": 70,
+      "eventsReview": 58
     },
     {
       "slug": "mayen",
@@ -28176,13 +28056,53 @@
       "seiten": [
         {
           "url": "https://www.lionsclub-merseburg.de/",
+          "httpStatus": 200,
+          "error": null,
+          "treffer": 0
+        },
+        {
+          "url": "https://www.lionsclub-merseburg.de/veranstaltungen",
           "httpStatus": null,
-          "error": "HTTP 502",
+          "error": "HTTP 404",
+          "treffer": 0
+        },
+        {
+          "url": "https://www.lionsclub-merseburg.de/termine",
+          "httpStatus": null,
+          "error": "HTTP 404",
+          "treffer": 0
+        },
+        {
+          "url": "https://www.lionsclub-merseburg.de/aktivitaeten",
+          "httpStatus": null,
+          "error": "HTTP 404",
+          "treffer": 0
+        },
+        {
+          "url": "https://www.lionsclub-merseburg.de/projekte",
+          "httpStatus": null,
+          "error": "HTTP 404",
+          "treffer": 0
+        },
+        {
+          "url": "https://www.lionsclub-merseburg.de/aktuelles/neuigkeiten",
+          "httpStatus": 200,
+          "error": null,
+          "treffer": 0
+        },
+        {
+          "url": "https://www.lionsclub-merseburg.de/aktuelles/veranstaltungen",
+          "httpStatus": 200,
+          "error": null,
           "treffer": 0
         }
       ],
       "pfad404": {
-        "/": false
+        "/": false,
+        "/veranstaltungen": true,
+        "/termine": true,
+        "/aktivitaeten": true,
+        "/projekte": true
       },
       "eventsSicher": 0,
       "eventsReview": 0
@@ -28709,71 +28629,16 @@
       "seiten": [
         {
           "url": "https://www.lionsclub-muelheim.de/",
-          "httpStatus": 200,
-          "error": null,
-          "treffer": 0
-        },
-        {
-          "url": "https://www.lionsclub-muelheim.de/veranstaltungen",
-          "httpStatus": 200,
-          "error": null,
-          "treffer": 0
-        },
-        {
-          "url": "https://www.lionsclub-muelheim.de/öffentliche-clubtermine",
-          "httpStatus": 200,
-          "error": null,
-          "treffer": 5
-        },
-        {
-          "url": "https://www.lionsclub-muelheim.de/jahresprogramm-2025-2026",
-          "httpStatus": 200,
-          "error": null,
-          "treffer": 0
-        },
-        {
-          "url": "https://www.lionsclub-muelheim.de/jahresprogramm-2024-2025",
-          "httpStatus": 200,
-          "error": null,
-          "treffer": 0
-        },
-        {
-          "url": "https://www.lionsclub-muelheim.de/jahresprogramm-2022-23",
-          "httpStatus": 200,
-          "error": null,
-          "treffer": 0
-        },
-        {
-          "url": "https://www.lionsclub-muelheim.de/jahresprogramm-2021-22",
-          "httpStatus": 200,
-          "error": null,
-          "treffer": 0
-        },
-        {
-          "url": "https://www.lionsclub-muelheim.de/jahresprogramm-2020",
-          "httpStatus": 200,
-          "error": null,
-          "treffer": 0
-        },
-        {
-          "url": "https://www.lionsclub-muelheim.de/dokumente-bis-2019",
-          "httpStatus": 200,
-          "error": null,
-          "treffer": 0
-        },
-        {
-          "url": "https://www.lionsclub-muelheim.de/kopie-jahresprogramm-2022-23",
-          "httpStatus": 200,
-          "error": null,
+          "httpStatus": null,
+          "error": "HTTP 403",
           "treffer": 0
         }
       ],
       "pfad404": {
-        "/": false,
-        "/veranstaltungen": false
+        "/": false
       },
       "eventsSicher": 0,
-      "eventsReview": 5
+      "eventsReview": 0
     },
     {
       "slug": "muelheim-ruhr-hellweg",
@@ -30165,13 +30030,41 @@
       "seiten": [
         {
           "url": "https://www.lions-club-oberharz.de/",
-          "httpStatus": null,
-          "error": "HTTP 503",
+          "httpStatus": 200,
+          "error": null,
+          "treffer": 0
+        },
+        {
+          "url": "https://www.lions-club-oberharz.de/veranstaltungen",
+          "httpStatus": 200,
+          "error": null,
+          "treffer": 0
+        },
+        {
+          "url": "https://www.lions-club-oberharz.de/termine",
+          "httpStatus": 200,
+          "error": null,
+          "treffer": 0
+        },
+        {
+          "url": "https://www.lions-club-oberharz.de/aktivitaeten",
+          "httpStatus": 200,
+          "error": null,
+          "treffer": 0
+        },
+        {
+          "url": "https://www.lions-club-oberharz.de/projekte",
+          "httpStatus": 200,
+          "error": null,
           "treffer": 0
         }
       ],
       "pfad404": {
-        "/": false
+        "/": false,
+        "/veranstaltungen": false,
+        "/termine": false,
+        "/aktivitaeten": false,
+        "/projekte": false
       },
       "eventsSicher": 0,
       "eventsReview": 0
@@ -31808,7 +31701,7 @@
           "url": "https://remscheid.lions.de/aktuell",
           "httpStatus": 200,
           "error": null,
-          "treffer": 56
+          "treffer": 57
         },
         {
           "url": "https://remscheid.lions.de/home",
@@ -31843,7 +31736,7 @@
         "/home": false
       },
       "eventsSicher": 133,
-      "eventsReview": 74
+      "eventsReview": 75
     },
     {
       "slug": "remscheid-wilhelm-conrad-roentgen",
@@ -32308,19 +32201,13 @@
           "httpStatus": 200,
           "error": null,
           "treffer": 0
-        },
-        {
-          "url": "https://www.lions-rotenburg.de/aktuelles.php",
-          "httpStatus": 200,
-          "error": null,
-          "treffer": 3
         }
       ],
       "pfad404": {
         "/": false
       },
-      "eventsSicher": 1,
-      "eventsReview": 2
+      "eventsSicher": 0,
+      "eventsReview": 0
     },
     {
       "slug": "ruesselsheim",
@@ -32629,8 +32516,8 @@
       "seiten": [
         {
           "url": "https://www.lions-salzwedel.de/",
-          "httpStatus": 200,
-          "error": null,
+          "httpStatus": null,
+          "error": "HTTP 503",
           "treffer": 0
         }
       ],
@@ -32647,16 +32534,16 @@
       "seiten": [
         {
           "url": "https://www.lions-sangerhausen.de/",
-          "httpStatus": 200,
-          "error": null,
-          "treffer": 3
+          "httpStatus": null,
+          "error": "ReadTimeout: HTTPSConnectionPool(host='www.lions-sangerhausen.de', port=443): Read timed out. (read timeout=8)",
+          "treffer": 0
         }
       ],
       "pfad404": {
         "/": false
       },
       "eventsSicher": 0,
-      "eventsReview": 3
+      "eventsReview": 0
     },
     {
       "slug": "scheessel",
@@ -32977,20 +32864,13 @@
       "seiten": [
         {
           "url": "https://www.lions-schoenebeck.de/",
-          "httpStatus": 200,
-          "error": null,
-          "treffer": 0
-        },
-        {
-          "url": "https://www.lions-schoenebeck.de/projekte",
-          "httpStatus": 200,
-          "error": null,
+          "httpStatus": null,
+          "error": "HTTP 500",
           "treffer": 0
         }
       ],
       "pfad404": {
-        "/": false,
-        "/projekte": false
+        "/": false
       },
       "eventsSicher": 0,
       "eventsReview": 0
@@ -33623,30 +33503,16 @@
       "seiten": [
         {
           "url": "https://www.lc-speyer-palatina.de/",
-          "httpStatus": 200,
-          "error": null,
-          "treffer": 9
-        },
-        {
-          "url": "https://www.lc-speyer-palatina.de/termine",
-          "httpStatus": 200,
-          "error": null,
-          "treffer": 4
-        },
-        {
-          "url": "https://www.lc-speyer-palatina.de/projekte",
-          "httpStatus": 200,
-          "error": null,
-          "treffer": 9
+          "httpStatus": null,
+          "error": "ReadTimeout: HTTPSConnectionPool(host='www.lc-speyer-palatina.de', port=443): Read timed out. (read timeout=8)",
+          "treffer": 0
         }
       ],
       "pfad404": {
-        "/": false,
-        "/termine": false,
-        "/projekte": false
+        "/": false
       },
-      "eventsSicher": 15,
-      "eventsReview": 7
+      "eventsSicher": 0,
+      "eventsReview": 0
     },
     {
       "slug": "springe",
@@ -33679,9 +33545,9 @@
         },
         {
           "url": "https://www.lions-springe.de/projekte",
-          "httpStatus": 200,
-          "error": null,
-          "treffer": 6
+          "httpStatus": null,
+          "error": "SSL-Fallback: ConnectionError",
+          "treffer": 0
         },
         {
           "url": "https://www.lions-springe.de/documents/2363269/74112271/F%C3%B6rderprogramm.pdf/9337a57c-b4b7-4cb1-0721-bd498d1921b2",
@@ -33698,7 +33564,7 @@
         "/projekte": false
       },
       "eventsSicher": 0,
-      "eventsReview": 36
+      "eventsReview": 30
     },
     {
       "slug": "sprockhoevel",
@@ -33773,7 +33639,7 @@
           "url": "https://lions-stade.de/",
           "httpStatus": 200,
           "error": null,
-          "treffer": 14
+          "treffer": 6
         },
         {
           "url": "https://lions-stade.de/veranstaltungen",
@@ -33785,13 +33651,13 @@
           "url": "https://lions-stade.de/termine",
           "httpStatus": 200,
           "error": null,
-          "treffer": 14
+          "treffer": 6
         },
         {
           "url": "https://lions-stade.de/aktivitaeten",
           "httpStatus": 200,
           "error": null,
-          "treffer": 14
+          "treffer": 6
         },
         {
           "url": "https://lions-stade.de/projekte",
@@ -33800,16 +33666,16 @@
           "treffer": 3
         },
         {
-          "url": "https://lions-stade.de/events/categories/oeffentliche-termine/",
-          "httpStatus": 200,
-          "error": null,
-          "treffer": 9
-        },
-        {
           "url": "https://lions-stade.de/locations/pferdemarkt-stade/",
           "httpStatus": 200,
           "error": null,
           "treffer": 17
+        },
+        {
+          "url": "https://lions-stade.de/events/categories/oeffentliche-termine/",
+          "httpStatus": 200,
+          "error": null,
+          "treffer": 6
         }
       ],
       "pfad404": {
@@ -33819,7 +33685,7 @@
         "/aktivitaeten": false,
         "/projekte": false
       },
-      "eventsSicher": 56,
+      "eventsSicher": 29,
       "eventsReview": 18
     },
     {
@@ -34371,7 +34237,7 @@
           "url": "https://travemuende.lions.de/termine1",
           "httpStatus": 200,
           "error": null,
-          "treffer": 2
+          "treffer": 9
         }
       ],
       "pfad404": {
@@ -34379,8 +34245,8 @@
         "/termine": false,
         "/home": false
       },
-      "eventsSicher": 0,
-      "eventsReview": 11
+      "eventsSicher": 1,
+      "eventsReview": 17
     },
     {
       "slug": "trier",
@@ -34659,7 +34525,7 @@
           "url": "https://www.lions-uplengen.de/termine",
           "httpStatus": 200,
           "error": null,
-          "treffer": 3
+          "treffer": 1
         },
         {
           "url": "https://www.lions-uplengen.de/aktuelles/",
@@ -34671,7 +34537,7 @@
           "url": "https://www.lions-uplengen.de/termine/",
           "httpStatus": 200,
           "error": null,
-          "treffer": 3
+          "treffer": 1
         }
       ],
       "pfad404": {
@@ -34679,7 +34545,7 @@
         "/termine": false
       },
       "eventsSicher": 3,
-      "eventsReview": 17
+      "eventsReview": 13
     },
     {
       "slug": "uslar",
@@ -34894,42 +34760,16 @@
       "seiten": [
         {
           "url": "https://www.vissel-lions.de/",
-          "httpStatus": 200,
-          "error": null,
+          "httpStatus": null,
+          "error": "HTTP 403",
           "treffer": 0
-        },
-        {
-          "url": "https://www.vissel-lions.de/termine",
-          "httpStatus": 200,
-          "error": null,
-          "treffer": 0
-        },
-        {
-          "url": "https://www.vissel-lions.de/projekte",
-          "httpStatus": 200,
-          "error": null,
-          "treffer": 0
-        },
-        {
-          "url": "https://www.vissel-lions.de/flohmarkt-2022",
-          "httpStatus": 200,
-          "error": null,
-          "treffer": 4
-        },
-        {
-          "url": "https://www.vissel-lions.de/flohmarkt-2023",
-          "httpStatus": 200,
-          "error": null,
-          "treffer": 2
         }
       ],
       "pfad404": {
-        "/": false,
-        "/termine": false,
-        "/projekte": false
+        "/": false
       },
       "eventsSicher": 0,
-      "eventsReview": 6
+      "eventsReview": 0
     },
     {
       "slug": "voerde-niederrhein",
@@ -35541,8 +35381,8 @@
       "pfad404": {
         "/": false
       },
-      "eventsSicher": 3,
-      "eventsReview": 3
+      "eventsSicher": 5,
+      "eventsReview": 1
     },
     {
       "slug": "weissenfels",
@@ -35880,7 +35720,7 @@
           "url": "http://www.lc-wetzlar-charlotte-buff.de/",
           "httpStatus": 200,
           "error": null,
-          "treffer": 10
+          "treffer": 9
         },
         {
           "url": "http://www.lc-wetzlar-charlotte-buff.de/projekte",
@@ -35905,7 +35745,7 @@
         "/": false,
         "/projekte": false
       },
-      "eventsSicher": 10,
+      "eventsSicher": 9,
       "eventsReview": 9
     },
     {

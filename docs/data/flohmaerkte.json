@@ -1,34 +1,5 @@
 [
   {
-    "id": "4a1918449b3a",
-    "clubName": "Lions Club Remscheid",
-    "clubUrl": "https://remscheid.lions.de",
-    "ort": "Remscheid",
-    "bundesland": "",
-    "districtName": "Westfalen-Ruhr",
-    "titel": "Bücherbasar Remscheid",
-    "eventType": "buecherbasar",
-    "datumStart": "2026-08-22",
-    "datumEnd": "2026-08-22",
-    "uhrzeit": "10:00",
-    "status": "kommend",
-    "veranstaltungsort": "",
-    "adresse": "",
-    "beschreibung": "Verkauf ausgelesener Bücher und Vinyl-Schallplatten, jeden vierten Samstag von 10 bis 12 Uhr an der Sammelstelle.",
-    "quelleUrl": "https://remscheid.lions.de/aktuell",
-    "rawDateText": "jeden vierten Samstag",
-    "matchedKeywords": [
-      "Buecherbasar",
-      "Buechermarkt",
-      "Basar",
-      "Termine"
-    ],
-    "confidenceScore": 1.0,
-    "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-07-25T20:15:13",
-    "manuellGeprueft": true
-  },
-  {
     "id": "578a42a749f3",
     "clubName": "Lions Club Unna Via Regis",
     "clubUrl": "https://www.viaregis.de",
@@ -383,57 +354,6 @@
     "manuellGeprueft": true
   },
   {
-    "id": "2d57d5dcde4a",
-    "clubName": "Lions Club Bad Tölz",
-    "clubUrl": "https://www.lc-bad-toelz.de",
-    "ort": "Bad Tölz",
-    "bundesland": "Bayern",
-    "districtName": "Bayern-Süd",
-    "titel": "Buecherbasar in Bad Tölz",
-    "eventType": "buecherbasar",
-    "datumStart": "2026-11-16",
-    "datumEnd": "2026-11-16",
-    "uhrzeit": "12:00",
-    "status": "kommend",
-    "veranstaltungsort": "",
-    "adresse": "",
-    "beschreibung": "aktuelles 16. November 2026 Weiterlesen https://www.lc-bad-toelz.de/wp-content/uploads/2024/12/20241214_103816red_s.jpg 1200 1600 RWLCBT-admin https://www.lc-bad-toelz.de/wp-content/uploads/2021/04/logo_lc_200420-akt.jpg...",
-    "quelleUrl": "https://www.lc-bad-toelz.de/club/aktuell-uebersicht/",
-    "rawDateText": "16. November 2026",
-    "matchedKeywords": [
-      "Buechermarkt",
-      "Termine"
-    ],
-    "confidenceScore": 1.0,
-    "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-11-16T13:56:11"
-  },
-  {
-    "id": "a01039f6affd",
-    "clubName": "Lions Club Flensburg-Alexandra",
-    "clubUrl": "https://flensburg-alexandra.lions.de",
-    "ort": "Flensburg-Alexandra",
-    "bundesland": "",
-    "districtName": "Nord",
-    "titel": "Buecherbasar in Flensburg-Alexandra",
-    "eventType": "buecherbasar",
-    "datumStart": "2026-11-19",
-    "datumEnd": "2026-11-19",
-    "uhrzeit": "22:00",
-    "status": "kommend",
-    "veranstaltungsort": "",
-    "adresse": "",
-    "beschreibung": "Asset-Herausgeber Flensburg-Alexandra 5. Alexandra After-Work-Party Anja Holtgreve Cocktails und Musik am 19. November 2026 von 18.00 bis 22.00 Uhr in der C.ulturgutBAR in Flensburg-Weiche. Weiterlesen Veröffentlicht am ...",
-    "quelleUrl": "https://flensburg-alexandra.lions.de/",
-    "rawDateText": "19. November 2026",
-    "matchedKeywords": [
-      "Buechermarkt"
-    ],
-    "confidenceScore": 1.0,
-    "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-11-16T14:30:08"
-  },
-  {
     "id": "808e7e6aa0a2",
     "clubName": "Lions Club Sulinger Land",
     "clubUrl": "https://www.lcsl.de",
@@ -488,57 +408,6 @@
     "manuellGeprueft": true
   },
   {
-    "id": "1a0de7e1462b",
-    "clubName": "Lions Club Waginger See",
-    "clubUrl": "https://www.lions-wagingersee.de",
-    "ort": "Waginger See",
-    "bundesland": "Bayern",
-    "districtName": "Bayern-Süd",
-    "titel": "Basar in Waginger See",
-    "eventType": "basar",
-    "datumStart": "2026-11-22",
-    "datumEnd": "2026-11-22",
-    "uhrzeit": "16:00",
-    "status": "kommend",
-    "veranstaltungsort": "",
-    "adresse": "",
-    "beschreibung": "Sonntag 22. November 2026 SRI LANKA HILFE ADVENTSBASAR 11 - 16 Uhr in der Aula der Mittelschule Waging Mehr zum Sri Lanka Projekt erfahren ... ADVENTSKALENDER 2026 222 tolle Gewinne Verkauf ab Ende Oktober bei den bekann...",
-    "quelleUrl": "https://www.lions-wagingersee.de/",
-    "rawDateText": "22. November 2026",
-    "matchedKeywords": [
-      "Basar"
-    ],
-    "confidenceScore": 0.95,
-    "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-11-16T14:07:19"
-  },
-  {
-    "id": "e3378d36175a",
-    "clubName": "Lions Club Kassel-Kurhessen",
-    "clubUrl": "https://www.LC-Kassel-Kurhessen.de",
-    "ort": "Kassel-Kurhessen",
-    "bundesland": "",
-    "districtName": "Mitte-Nord",
-    "titel": "Flohmarkt in Kassel-Kurhessen",
-    "eventType": "flohmarkt",
-    "datumStart": "2026-11-26",
-    "datumEnd": "2026-11-26",
-    "uhrzeit": "10:00",
-    "status": "kommend",
-    "veranstaltungsort": "",
-    "adresse": "",
-    "beschreibung": "Termine 22.11.2026 | 10:00 - 16:00 Uhr Beteiligung am „Charity Flohmarkt für den guten Zweck“ Emil Frey Autohaus Sandershäuser Straße 110, 34123 Kassel 26.11.2026 | 19:30 Uhr Vortrag Dr. Stefan Lender: \"Raketenartillerie...",
-    "quelleUrl": "https://www.LC-Kassel-Kurhessen.de/",
-    "rawDateText": "26.11.2026",
-    "matchedKeywords": [
-      "Flohmarkt",
-      "Termine"
-    ],
-    "confidenceScore": 1.0,
-    "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-11-16T14:44:28"
-  },
-  {
     "id": "99169bcbb913",
     "clubName": "Lions Club Remscheid",
     "clubUrl": "https://remscheid.lions.de",
@@ -568,30 +437,54 @@
     "manuellGeprueft": true
   },
   {
-    "id": "4fb6d65b912f",
-    "clubName": "Lions Club Kassel-Kurhessen",
-    "clubUrl": "https://www.LC-Kassel-Kurhessen.de",
-    "ort": "Kassel-Kurhessen",
-    "bundesland": "",
-    "districtName": "Mitte-Nord",
-    "titel": "Flohmarkt in Kassel-Kurhessen",
+    "id": "94983e1f365d",
+    "clubName": "Lions Club Freiburg-Aurora",
+    "clubUrl": "https://lions-freiburg.de",
+    "ort": "Freiburg",
+    "bundesland": "Baden-Wuerttemberg",
+    "districtName": "Süd-West",
+    "titel": "Flohmarkt in Freiburg",
     "eventType": "flohmarkt",
-    "datumStart": "2026-11-28",
-    "datumEnd": "2026-11-28",
-    "uhrzeit": "10:00",
+    "datumStart": "2026-12-04",
+    "datumEnd": "2026-12-04",
+    "uhrzeit": "19:00",
     "status": "kommend",
     "veranstaltungsort": "",
     "adresse": "",
-    "beschreibung": "Termine 22.11.2026 | 10:00 - 16:00 Uhr Beteiligung am „Charity Flohmarkt für den guten Zweck“ Emil Frey Autohaus Sandershäuser Straße 110, 34123 Kassel 26.11.2026 | 19:30 Uhr Vortrag Dr. Stefan Lender: \"Raketenartillerie...",
-    "quelleUrl": "https://www.LC-Kassel-Kurhessen.de/",
-    "rawDateText": "28.11.2026",
+    "beschreibung": "Großer Benefizmarkt des Lions Förderverein Freiburg-Aurora e. V. am 04.+05.12.2026 Freiburg-Aurora | 10. August 2026 Bücher, Spiele, Puzzles, jede Menge Weihnachtsdeko, uvm. für den guten Zweck am Freitag, den 04.12. und...",
+    "quelleUrl": "https://lions-freiburg.de/",
+    "rawDateText": "04. Dezember 2026",
     "matchedKeywords": [
-      "Flohmarkt",
-      "Termine"
+      "Flohmarkt"
     ],
     "confidenceScore": 1.0,
     "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-11-16T14:44:28"
+    "lastChecked": "2026-11-23T16:01:23"
+  },
+  {
+    "id": "deb22e21a70a",
+    "clubName": "Lions Club Freiburg-Aurora",
+    "clubUrl": "https://freiburg-aurora.lions.de",
+    "ort": "Freiburg-Aurora",
+    "bundesland": "Baden-Wuerttemberg",
+    "districtName": "Süd-West",
+    "titel": "Flohmarkt in Freiburg-Aurora",
+    "eventType": "flohmarkt",
+    "datumStart": "2026-12-04",
+    "datumEnd": "2026-12-04",
+    "uhrzeit": "19:00",
+    "status": "kommend",
+    "veranstaltungsort": "",
+    "adresse": "",
+    "beschreibung": "Großer Benefizmarkt des Lions Förderverein Freiburg-Aurora e. V. am 04.+05.12.2026 Freiburg-Aurora | 10. August 2026 Bücher, Spiele, Puzzles, jede Menge Weihnachtsdeko, uvm. für den guten Zweck am Freitag, den 04.12. und...",
+    "quelleUrl": "https://freiburg-aurora.lions.de/",
+    "rawDateText": "04. Dezember 2026",
+    "matchedKeywords": [
+      "Flohmarkt"
+    ],
+    "confidenceScore": 1.0,
+    "extractionMethod": "html_keyword_date_scan_v1",
+    "lastChecked": "2026-11-23T16:06:27"
   },
   {
     "id": "84397ef1cd2f",
@@ -622,29 +515,54 @@
     "manuellGeprueft": true
   },
   {
-    "id": "70a9d9443023",
-    "clubName": "Lions Club Waginger See",
-    "clubUrl": "https://www.lions-wagingersee.de",
-    "ort": "Waginger See",
-    "bundesland": "Bayern",
-    "districtName": "Bayern-Süd",
-    "titel": "Basar in Waginger See",
-    "eventType": "basar",
-    "datumStart": "2026-12-09",
-    "datumEnd": "2026-12-09",
-    "uhrzeit": "16:00",
+    "id": "4370fecc2413",
+    "clubName": "Lions Club Freiburg-Aurora",
+    "clubUrl": "https://lions-freiburg.de",
+    "ort": "Freiburg",
+    "bundesland": "Baden-Wuerttemberg",
+    "districtName": "Süd-West",
+    "titel": "Flohmarkt in Freiburg",
+    "eventType": "flohmarkt",
+    "datumStart": "2026-12-05",
+    "datumEnd": "2026-12-05",
+    "uhrzeit": "19:00",
     "status": "kommend",
     "veranstaltungsort": "",
     "adresse": "",
-    "beschreibung": "Sonntag 22. November 2026 SRI LANKA HILFE ADVENTSBASAR 11 - 16 Uhr in der Aula der Mittelschule Waging Mehr zum Sri Lanka Projekt erfahren ... ADVENTSKALENDER 2026 222 tolle Gewinne Verkauf ab Ende Oktober bei den bekann...",
-    "quelleUrl": "https://www.lions-wagingersee.de/",
-    "rawDateText": "jeden zweiten Mittwoch",
+    "beschreibung": "Großer Benefizmarkt des Lions Förderverein Freiburg-Aurora e. V. am 04.+05.12.2026 Freiburg-Aurora | 10. August 2026 Bücher, Spiele, Puzzles, jede Menge Weihnachtsdeko, uvm. für den guten Zweck am Freitag, den 04.12. und...",
+    "quelleUrl": "https://lions-freiburg.de/",
+    "rawDateText": "05.12.2026",
     "matchedKeywords": [
-      "Basar"
+      "Flohmarkt"
     ],
-    "confidenceScore": 0.95,
+    "confidenceScore": 1.0,
     "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-11-16T14:07:19"
+    "lastChecked": "2026-11-23T16:01:23"
+  },
+  {
+    "id": "988c6f9550ec",
+    "clubName": "Lions Club Freiburg-Aurora",
+    "clubUrl": "https://freiburg-aurora.lions.de",
+    "ort": "Freiburg-Aurora",
+    "bundesland": "Baden-Wuerttemberg",
+    "districtName": "Süd-West",
+    "titel": "Flohmarkt in Freiburg-Aurora",
+    "eventType": "flohmarkt",
+    "datumStart": "2026-12-05",
+    "datumEnd": "2026-12-05",
+    "uhrzeit": "19:00",
+    "status": "kommend",
+    "veranstaltungsort": "",
+    "adresse": "",
+    "beschreibung": "Großer Benefizmarkt des Lions Förderverein Freiburg-Aurora e. V. am 04.+05.12.2026 Freiburg-Aurora | 10. August 2026 Bücher, Spiele, Puzzles, jede Menge Weihnachtsdeko, uvm. für den guten Zweck am Freitag, den 04.12. und...",
+    "quelleUrl": "https://freiburg-aurora.lions.de/",
+    "rawDateText": "05.12.2026",
+    "matchedKeywords": [
+      "Flohmarkt"
+    ],
+    "confidenceScore": 1.0,
+    "extractionMethod": "html_keyword_date_scan_v1",
+    "lastChecked": "2026-11-23T16:06:27"
   },
   {
     "id": "e71f75e2ad05",
@@ -669,7 +587,7 @@
     ],
     "confidenceScore": 0.95,
     "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-11-16T14:06:58"
+    "lastChecked": "2026-11-23T16:32:00"
   },
   {
     "id": "72df022c8332",
@@ -725,7 +643,7 @@
     ],
     "confidenceScore": 1.0,
     "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-11-16T15:10:02"
+    "lastChecked": "2026-11-23T17:46:05"
   },
   {
     "id": "df161f71f1ef",
@@ -751,7 +669,7 @@
     ],
     "confidenceScore": 1.0,
     "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-11-16T13:56:13"
+    "lastChecked": "2026-11-23T16:18:56"
   },
   {
     "id": "8270f623f079",
@@ -776,7 +694,7 @@
     ],
     "confidenceScore": 1.0,
     "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-11-16T15:11:03"
+    "lastChecked": "2026-11-23T17:47:12"
   },
   {
     "id": "b24080d58ee3",
@@ -806,31 +724,6 @@
     "manuellGeprueft": true
   },
   {
-    "id": "f1cc3a0a5f61",
-    "clubName": "Lions Club Waginger See",
-    "clubUrl": "https://www.lions-wagingersee.de",
-    "ort": "Waginger See",
-    "bundesland": "Bayern",
-    "districtName": "Bayern-Süd",
-    "titel": "Basar in Waginger See",
-    "eventType": "basar",
-    "datumStart": "2027-01-13",
-    "datumEnd": "2027-01-13",
-    "uhrzeit": "16:00",
-    "status": "kommend",
-    "veranstaltungsort": "",
-    "adresse": "",
-    "beschreibung": "Sonntag 22. November 2026 SRI LANKA HILFE ADVENTSBASAR 11 - 16 Uhr in der Aula der Mittelschule Waging Mehr zum Sri Lanka Projekt erfahren ... ADVENTSKALENDER 2026 222 tolle Gewinne Verkauf ab Ende Oktober bei den bekann...",
-    "quelleUrl": "https://www.lions-wagingersee.de/",
-    "rawDateText": "jeden zweiten Mittwoch",
-    "matchedKeywords": [
-      "Basar"
-    ],
-    "confidenceScore": 0.95,
-    "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-11-16T14:07:19"
-  },
-  {
     "id": "06c19e963939",
     "clubName": "Lions Club Remscheid",
     "clubUrl": "https://remscheid.lions.de",
@@ -856,7 +749,7 @@
     ],
     "confidenceScore": 1.0,
     "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-11-16T15:03:58"
+    "lastChecked": "2026-11-23T17:38:42"
   },
   {
     "id": "4cef38bdd4ff",
@@ -881,7 +774,7 @@
     ],
     "confidenceScore": 0.95,
     "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-11-16T14:06:58"
+    "lastChecked": "2026-11-23T16:32:00"
   },
   {
     "id": "e1243966a219",
@@ -907,7 +800,7 @@
     ],
     "confidenceScore": 1.0,
     "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-11-16T13:56:13"
+    "lastChecked": "2026-11-23T16:18:56"
   },
   {
     "id": "de5df3a32e6f",
@@ -934,32 +827,33 @@
     ],
     "confidenceScore": 1.0,
     "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-11-16T15:10:02"
+    "lastChecked": "2026-11-23T17:46:05"
   },
   {
-    "id": "25eab1a3c15c",
-    "clubName": "Lions Club Waginger See",
-    "clubUrl": "https://www.lions-wagingersee.de",
-    "ort": "Waginger See",
-    "bundesland": "Bayern",
-    "districtName": "Bayern-Süd",
-    "titel": "Basar in Waginger See",
-    "eventType": "basar",
-    "datumStart": "2027-02-10",
-    "datumEnd": "2027-02-10",
-    "uhrzeit": "16:00",
+    "id": "76cc0af4f482",
+    "clubName": "Lions Club Travemünde",
+    "clubUrl": "https://travemuende.lions.de",
+    "ort": "Travemünde",
+    "bundesland": "",
+    "districtName": "Nord",
+    "titel": "Flohmarkt in Travemünde",
+    "eventType": "flohmarkt",
+    "datumStart": "2027-02-06",
+    "datumEnd": "2027-02-06",
+    "uhrzeit": "18:00",
     "status": "kommend",
     "veranstaltungsort": "",
     "adresse": "",
-    "beschreibung": "Sonntag 22. November 2026 SRI LANKA HILFE ADVENTSBASAR 11 - 16 Uhr in der Aula der Mittelschule Waging Mehr zum Sri Lanka Projekt erfahren ... ADVENTSKALENDER 2026 222 tolle Gewinne Verkauf ab Ende Oktober bei den bekann...",
-    "quelleUrl": "https://www.lions-wagingersee.de/",
-    "rawDateText": "jeden zweiten Mittwoch",
+    "beschreibung": "Benefizkonzert „Lübeck Pop Symphonics“ Benefizkonzert „Lübeck Pop Symphonics“ Auch für das Jahr 2027 konnten wir wieder die „Lübeck Pop Symphonics“ für ein Konzert In Travemünde gewinnen. Datum Samstag, 06. Februar 2027 ...",
+    "quelleUrl": "https://travemuende.lions.de/termine1",
+    "rawDateText": "06. Februar 2027",
     "matchedKeywords": [
-      "Basar"
+      "Flohmarkt",
+      "Termine"
     ],
-    "confidenceScore": 0.95,
+    "confidenceScore": 1.0,
     "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-11-16T14:07:19"
+    "lastChecked": "2026-11-23T17:46:55"
   },
   {
     "id": "5e9dc3099a62",
@@ -984,7 +878,7 @@
     ],
     "confidenceScore": 1.0,
     "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-11-16T14:30:08"
+    "lastChecked": "2026-11-23T17:00:15"
   },
   {
     "id": "4c3c9cac6659",
@@ -1012,7 +906,7 @@
     ],
     "confidenceScore": 1.0,
     "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-11-16T15:03:58"
+    "lastChecked": "2026-11-23T17:38:42"
   },
   {
     "id": "be96df408bcc",
@@ -1037,7 +931,7 @@
     ],
     "confidenceScore": 0.95,
     "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-11-16T15:17:52"
+    "lastChecked": "2026-11-23T17:55:05"
   },
   {
     "id": "addfffa4ec05",
@@ -1090,7 +984,7 @@
     ],
     "confidenceScore": 1.0,
     "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-11-16T14:44:10"
+    "lastChecked": "2026-11-23T17:16:29"
   },
   {
     "id": "41829668ca33",
@@ -1117,32 +1011,7 @@
     ],
     "confidenceScore": 1.0,
     "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-11-16T15:10:02"
-  },
-  {
-    "id": "ad53a7515e29",
-    "clubName": "Lions Club Waginger See",
-    "clubUrl": "https://www.lions-wagingersee.de",
-    "ort": "Waginger See",
-    "bundesland": "Bayern",
-    "districtName": "Bayern-Süd",
-    "titel": "Basar in Waginger See",
-    "eventType": "basar",
-    "datumStart": "2027-03-10",
-    "datumEnd": "2027-03-10",
-    "uhrzeit": "16:00",
-    "status": "kommend",
-    "veranstaltungsort": "",
-    "adresse": "",
-    "beschreibung": "Sonntag 22. November 2026 SRI LANKA HILFE ADVENTSBASAR 11 - 16 Uhr in der Aula der Mittelschule Waging Mehr zum Sri Lanka Projekt erfahren ... ADVENTSKALENDER 2026 222 tolle Gewinne Verkauf ab Ende Oktober bei den bekann...",
-    "quelleUrl": "https://www.lions-wagingersee.de/",
-    "rawDateText": "jeden zweiten Mittwoch",
-    "matchedKeywords": [
-      "Basar"
-    ],
-    "confidenceScore": 0.95,
-    "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-11-16T14:07:19"
+    "lastChecked": "2026-11-23T17:46:05"
   },
   {
     "id": "3d80f0d9f172",
@@ -1167,7 +1036,7 @@
     ],
     "confidenceScore": 0.95,
     "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-11-16T14:06:58"
+    "lastChecked": "2026-11-23T16:32:00"
   },
   {
     "id": "03af7d66b6d9",
@@ -1195,7 +1064,7 @@
     ],
     "confidenceScore": 1.0,
     "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-11-16T15:03:58"
+    "lastChecked": "2026-11-23T17:38:42"
   },
   {
     "id": "de0c24dbf913",
@@ -1222,7 +1091,7 @@
     ],
     "confidenceScore": 1.0,
     "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-11-16T15:10:02"
+    "lastChecked": "2026-11-23T17:46:05"
   },
   {
     "id": "6d6adcd11bc5",
@@ -1247,32 +1116,7 @@
     ],
     "confidenceScore": 0.95,
     "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-11-16T13:52:53"
-  },
-  {
-    "id": "bbd3c6d682a3",
-    "clubName": "Lions Club Waginger See",
-    "clubUrl": "https://www.lions-wagingersee.de",
-    "ort": "Waginger See",
-    "bundesland": "Bayern",
-    "districtName": "Bayern-Süd",
-    "titel": "Basar in Waginger See",
-    "eventType": "basar",
-    "datumStart": "2027-04-14",
-    "datumEnd": "2027-04-14",
-    "uhrzeit": "16:00",
-    "status": "kommend",
-    "veranstaltungsort": "",
-    "adresse": "",
-    "beschreibung": "Sonntag 22. November 2026 SRI LANKA HILFE ADVENTSBASAR 11 - 16 Uhr in der Aula der Mittelschule Waging Mehr zum Sri Lanka Projekt erfahren ... ADVENTSKALENDER 2026 222 tolle Gewinne Verkauf ab Ende Oktober bei den bekann...",
-    "quelleUrl": "https://www.lions-wagingersee.de/",
-    "rawDateText": "jeden zweiten Mittwoch",
-    "matchedKeywords": [
-      "Basar"
-    ],
-    "confidenceScore": 0.95,
-    "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-11-16T14:07:19"
+    "lastChecked": "2026-11-23T16:14:55"
   },
   {
     "id": "5e5dc9d52af0",
@@ -1297,7 +1141,7 @@
     ],
     "confidenceScore": 0.95,
     "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-11-16T13:53:40"
+    "lastChecked": "2026-11-23T16:15:50"
   },
   {
     "id": "1a9e8c2a1cc2",
@@ -1325,7 +1169,7 @@
     ],
     "confidenceScore": 1.0,
     "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-11-16T15:03:58"
+    "lastChecked": "2026-11-23T17:38:42"
   },
   {
     "id": "166cc8eea9d9",
@@ -1351,7 +1195,7 @@
     ],
     "confidenceScore": 1.0,
     "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-11-16T14:44:10"
+    "lastChecked": "2026-11-23T17:16:29"
   },
   {
     "id": "748675709846",
@@ -1377,7 +1221,7 @@
     ],
     "confidenceScore": 1.0,
     "extractionMethod": "html_keyword_date_scan_v1",
-    "lastChecked": "2026-11-16T14:44:10"
+    "lastChecked": "2026-11-23T17:16:29"
   },
   {
     "id": "a53da81866b0",

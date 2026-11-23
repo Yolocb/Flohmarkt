@@ -52,6 +52,19 @@
     "id": "190a8d599ffa"
   },
   {
+    "clubName": "Lions Club Travemünde",
+    "ort": "Travemünde",
+    "districtName": "Nord",
+    "eventType": "flohmarkt",
+    "datumStart": "",
+    "titel": "Flohmarkt in Travemünde",
+    "beschreibung": "Flohmarkt 2027 Termine Lions Flohmarkt Travemünde 2027 Nach dem Erfolg in 2026 wollen wir den Lions Flohmarkt auch in 2027 wieder durchführen. Termin Samstag, 15.Mai 2027 (Pfingst-Samstag) Wir werden die Eckdaten und die...",
+    "quelleUrl": "https://travemuende.lions.de/termine1",
+    "confidenceScore": 0.85,
+    "reviewGrund": "kein Datum erkannt",
+    "id": "2150225cfe1e"
+  },
+  {
     "clubName": "Lions Club Herrenberg",
     "ort": "Herrenberg",
     "districtName": "Süd-Mitte",
@@ -76,6 +89,32 @@
     "confidenceScore": 0.75,
     "reviewGrund": "kein Datum erkannt",
     "id": "dc08d4fd3449"
+  },
+  {
+    "clubName": "Lions Club Bad Tölz",
+    "ort": "Bad Tölz",
+    "districtName": "Bayern-Süd",
+    "eventType": "buecherbasar",
+    "datumStart": "",
+    "titel": "Buecherbasar in Bad Tölz",
+    "beschreibung": "Aktuelles Nach unserem Winterbüchermarkt sind Annahmetermine für neue Bücher geplant: Weiterlesen https://www.lc-bad-toelz.de/wp-content/uploads/2026/11/20241214_103816red_sl.jpg 884 1592 RWLCBT-admin https://www.lc-bad-...",
+    "quelleUrl": "https://www.lc-bad-toelz.de/",
+    "confidenceScore": 0.75,
+    "reviewGrund": "kein Datum erkannt",
+    "id": "5d86f17c95ad"
+  },
+  {
+    "clubName": "Lions Club Bad Tölz",
+    "ort": "Bad Tölz",
+    "districtName": "Bayern-Süd",
+    "eventType": "buecherbasar",
+    "datumStart": "",
+    "titel": "Buecherbasar in Bad Tölz",
+    "beschreibung": "Nach unserem Winterbüchermarkt sind Annahmetermine für neue Bücher geplant: Weiterlesen https://www.lc-bad-toelz.de/wp-content/uploads/2026/11/20241214_103816red_sl.jpg 884 1592 RWLCBT-admin https://www.lc-bad-toelz.de/w...",
+    "quelleUrl": "https://www.lc-bad-toelz.de/",
+    "confidenceScore": 0.75,
+    "reviewGrund": "kein Datum erkannt",
+    "id": "5d86f17c95ad"
   },
   {
     "clubName": "Lions Club Dinkelsbühl",
@@ -203,6 +242,45 @@
     "titel": "Flohmarkt in Travemünde",
     "beschreibung": "Save the Date - Lions Flohmarkt Travemünde 2027 Save the Date - Lions Flohmarkt Travemünde 2027 Nach dem Erfolg in 2026 wollen wir den Lions Flohmarkt auch in 2027 wieder durchführen. Termin Samstag, 15.Mai 2027 (Pfingst...",
     "quelleUrl": "https://travemuende.lions.de/lions-flohmarkt-2027",
+    "confidenceScore": 0.75,
+    "reviewGrund": "kein Datum erkannt",
+    "id": "2150225cfe1e"
+  },
+  {
+    "clubName": "Lions Club Travemünde",
+    "ort": "Travemünde",
+    "districtName": "Nord",
+    "eventType": "flohmarkt",
+    "datumStart": "",
+    "titel": "Flohmarkt in Travemünde",
+    "beschreibung": "Flohmarkt 2027 Termine",
+    "quelleUrl": "https://travemuende.lions.de/termine1",
+    "confidenceScore": 0.75,
+    "reviewGrund": "kein Datum erkannt",
+    "id": "2150225cfe1e"
+  },
+  {
+    "clubName": "Lions Club Travemünde",
+    "ort": "Travemünde",
+    "districtName": "Nord",
+    "eventType": "flohmarkt",
+    "datumStart": "",
+    "titel": "Flohmarkt in Travemünde",
+    "beschreibung": "Lions Flohmarkt Travemünde 2027 Nach dem Erfolg in 2026 wollen wir den Lions Flohmarkt auch in 2027 wieder durchführen. Termin Samstag, 15.Mai 2027 (Pfingst-Samstag) Wir werden die Eckdaten und die Anmeldung wieder recht...",
+    "quelleUrl": "https://travemuende.lions.de/termine1",
+    "confidenceScore": 0.75,
+    "reviewGrund": "kein Datum erkannt",
+    "id": "2150225cfe1e"
+  },
+  {
+    "clubName": "Lions Club Travemünde",
+    "ort": "Travemünde",
+    "districtName": "Nord",
+    "eventType": "flohmarkt",
+    "datumStart": "",
+    "titel": "Flohmarkt in Travemünde",
+    "beschreibung": "Lions Flohmarkt Travemünde 2027",
+    "quelleUrl": "https://travemuende.lions.de/termine1",
     "confidenceScore": 0.75,
     "reviewGrund": "kein Datum erkannt",
     "id": "2150225cfe1e"

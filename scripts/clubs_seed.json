@@ -9662,7 +9662,12 @@
       "confidenceBase": 0.4,
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
-      "notesInternal": "Aus Clubfinder ermittelt (clubId Bayern-Süd)."
+      "notesInternal": "Aus Clubfinder ermittelt (clubId Bayern-Süd).",
+      "pfad404Count": {
+        "/veranstaltungen": 1,
+        "/termine": 1,
+        "/projekte": 1
+      }
     },
     {
       "slug": "freyung-grafenau",
@@ -13804,7 +13809,10 @@
       "confidenceBase": 0.4,
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
-      "notesInternal": "Aus Clubfinder ermittelt (clubId Bayern-Süd). | URL migriert 2026-09-21 auf lions.de (alt: https://www.lions-oberallgaeu.de, tot; via Health-Check bestaetigt)."
+      "notesInternal": "Aus Clubfinder ermittelt (clubId Bayern-Süd). | URL migriert 2026-09-21 auf lions.de (alt: https://www.lions-oberallgaeu.de, tot; via Health-Check bestaetigt).",
+      "pfad404Count": {
+        "/projekte": 1
+      }
     },
     {
       "slug": "obernburg-am-main",
@@ -15021,7 +15029,6 @@
         "/",
         "/termine",
         "/projekte",
-        "/aktuell",
         "/home"
       ],
       "excludePaths": [
@@ -15044,10 +15051,7 @@
       "confidenceBase": 0.4,
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
-      "notesInternal": "Aus Clubfinder ermittelt (clubId Bayern-Süd).",
-      "pfad404Count": {
-        "/aktuell": 1
-      }
+      "notesInternal": "Aus Clubfinder ermittelt (clubId Bayern-Süd)."
     },
     {
       "slug": "waginger-see",
@@ -22273,7 +22277,6 @@
       "enabledPaths": [
         "/",
         "/termine",
-        "/projekte",
         "/aktuell",
         "/home"
       ],
@@ -22297,10 +22300,7 @@
       "confidenceBase": 0.4,
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
-      "notesInternal": "Aus Clubfinder ermittelt (Distrikt Niedersachsen-Hannover).",
-      "pfad404Count": {
-        "/projekte": 1
-      }
+      "notesInternal": "Aus Clubfinder ermittelt (Distrikt Niedersachsen-Hannover)."
     },
     {
       "slug": "celle-residenzstadt",
@@ -28051,7 +28051,10 @@
       "confidenceBase": 0.4,
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
-      "notesInternal": "Aus Clubfinder ermittelt (Distrikt Mitte-Nord)."
+      "notesInternal": "Aus Clubfinder ermittelt (Distrikt Mitte-Nord).",
+      "pfad404Count": {
+        "/veranstaltungen": 1
+      }
     },
     {
       "slug": "frankfurt-eschenheimer-turm",
@@ -30997,9 +31000,7 @@
       ],
       "enabledPaths": [
         "/",
-        "/termine",
-        "/aktivitaeten",
-        "/projekte"
+        "/aktivitaeten"
       ],
       "excludePaths": [
         "/impressum",
@@ -31021,12 +31022,7 @@
       "confidenceBase": 0.4,
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
-      "notesInternal": "Aus Clubfinder ermittelt (Distrikt Nord).",
-      "pfad404Count": {
-        "/termine": 1,
-        "/aktivitaeten": 1,
-        "/projekte": 1
-      }
+      "notesInternal": "Aus Clubfinder ermittelt (Distrikt Nord)."
     },
     {
       "slug": "hamburg-alster",
@@ -35256,7 +35252,10 @@
       "confidenceBase": 0.4,
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
-      "notesInternal": "Aus Clubfinder ermittelt (Distrikt Mitte-Nord)."
+      "notesInternal": "Aus Clubfinder ermittelt (Distrikt Mitte-Nord).",
+      "pfad404Count": {
+        "/projekte": 1
+      }
     },
     {
       "slug": "kassel-kurhessen",
@@ -38983,7 +38982,10 @@
       "confidenceBase": 0.4,
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
-      "notesInternal": "Aus Clubfinder ermittelt (Distrikt Nord)."
+      "notesInternal": "Aus Clubfinder ermittelt (Distrikt Nord).",
+      "pfad404Count": {
+        "/veranstaltungen": 1
+      }
     },
     {
       "slug": "luebeck-trave",
@@ -40686,7 +40688,13 @@
       "reviewStatus": "auto_discovered",
       "lastSeedReview": "2026-07-24",
       "notesInternal": "Aus Clubfinder ermittelt (Distrikt Ost-Mitte).",
-      "totLaeufe": 2
+      "totLaeufe": 2,
+      "pfad404Count": {
+        "/veranstaltungen": 1,
+        "/termine": 1,
+        "/aktivitaeten": 1,
+        "/projekte": 1
+      }
     },
     {
       "slug": "merzig-saar",
